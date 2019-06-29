@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openness on Tom Slee</title>
+    <link>https://tomslee.github.io/tags/openness/</link>
+    <description>Recent content in openness on Tom Slee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2006--{year}</copyright>
+    <lastBuildDate>Sun, 27 Sep 2015 16:39:53 +0000</lastBuildDate>
+    
+	    <atom:link href="https://tomslee.github.io/tags/openness/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>
+				Volkswagen, IoT, the NSA and open source software: a quick note		</title>
+      <link>https://tomslee.github.io/post/volkswagen-iot-the-nsa-and-open-source-software-a-quick-note/</link>
+      <pubDate>Sun, 27 Sep 2015 16:39:53 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/volkswagen-iot-the-nsa-and-open-source-software-a-quick-note/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            (Attention conservation notice: the most interesting paragraph is the one about project NiFi, starting &amp;quot;Finley also writes...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;According to &lt;a href=&#34;http://www.wired.com/2015/09/volkswagen-open-iot?utm_content=bufferae822&#34; target=&#34;_blank&#34;&gt;Klint Finley in Wired&lt;/a&gt;, the lesson from the Volkswagen testing scandal is to use more open source software in more places. In particular, that Internet of Things (IoT) devices should be driven by open source software (even though the VW was not an IoT case). Here is Finley:&lt;/p&gt;
+
+&lt;blockquote&gt;To protect consumers and realize its true promise, the Internet of Things must go the direction of the software and hardware that supports the Internet itself: it must open up...
+
+Today, the vast majority of smart home gadgets, connected cars, wearable devices, and other Internet of Things inhabitants are profoundly closed... Ostensibly, this is for your own protection. If you can’t load your own software, you’re less likely to infect your car, burglar alarm, or heart monitor with a virus. But this opacity is also what helped Volkswagen get away with hiding the software it used to subvert emissions tests.&lt;/blockquote&gt;
+
+&lt;p&gt;This seems wrong on two counts.&lt;/p&gt;
+
+&lt;p&gt;Finley writes about initiatives like the &lt;a href=&#34;https://en.wikipedia.org/wiki/OpenWrt&#34; target=&#34;_blank&#34;&gt;OpenWrt&lt;/a&gt; operating system for embedded devices as an alternative, but a lot of IoT devices already run on Linux. What stops individuals from being able to exert control over their gadgets is the use of Linux permissions structures, not the openness of the OS code. IoT security frameworks will be much like security frameworks on Android and other mobile operating systems: sandboxed applications running in their own user space, using the security features of the operating system. The open source/closed source distinction is essentially irrelevant to the problem.&lt;/p&gt;
+
+&lt;p&gt;Finley also writes that the closed nature of some IoT devices &amp;ldquo;makes it harder to trust that your thermostat isn’t selling your personal info to door-to-door salesmen or handing it out to the National Security Agency.&amp;rdquo; Which is ironic, because the software that might be handing out your personal info to the NSA &lt;em&gt;is already open source&lt;/em&gt;. The NSA NiagaraFiles  project &lt;a href=&#34;http://www.zdnet.com/article/nsa-partners-with-apache-to-release-open-source-data-traffic-program/&#34; target=&#34;_blank&#34;&gt;provides&lt;/a&gt; routes data among different computer networks and protocols. The NSA recently released this software as open source, and it is now hosted as an Apache project called &lt;a href=&#34;https://nifi.apache.org/&#34; target=&#34;_blank&#34;&gt;NiFi.&lt;/a&gt; So that is the open source community (in the form of Apache) actively assisting the NSA in its data collection activities. The core developers on the project are all from the NSA and defense contractors (&lt;a href=&#34;https://wiki.apache.org/incubator/NiFiProposal&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;). And NiFi is being &lt;a href=&#34;http://www.zdnet.com/article/hortonworks-cto-on-apache-nifi-what-is-it-and-why-does-it-matter-to-iot/&#34; target=&#34;_blank&#34;&gt;touted &lt;/a&gt;as a big thing for IoT applications, so that your personal info can be more effectively routed to more destinations. The NiFi project is one more step in the active collaboration of Apache with the NSA, which I discussed back &lt;a href=&#34;http://tomslee.net/2013/06/should-the-apache-foundation-stop-hosting-accumulo.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://tomslee.net/2013/06/587.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, and tangentially in my &lt;a href=&#34;http://www.orbooks.com/catalog/whats-yours-is-mine-by-tom-slee/&#34; target=&#34;_blank&#34;&gt;FORTHCOMING BOOK&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The VW case is important and raises some big questions, but open-source vs closed source software is not  one of them. For a better take, see Zeynep Tufekci &lt;a href=&#34;http://www.nytimes.com/2015/09/24/opinion/volkswagen-and-the-era-of-cheating-software.html?_r=0&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;(Full disclosure and openness: in my day job I have some involvement in IoT projects. My employer &amp;ndash; FOR WHOM I DO NOT SPEAK &amp;ndash;uses a mixture of open source and proprietary code in its work.)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

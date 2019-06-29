@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other Books on Tom Slee</title>
+    <link>https://tomslee.github.io/categories/other-books/</link>
+    <description>Recent content in Other Books on Tom Slee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2006--{year}</copyright>
+    <lastBuildDate>Sat, 04 Jun 2011 14:07:42 +0000</lastBuildDate>
+    
+	    <atom:link href="https://tomslee.github.io/categories/other-books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>
+				An Uncertain World II: Adapt, by Tim Harford		</title>
+      <link>https://tomslee.github.io/post/an-uncertain-world-ii-adapt-by-tim-harford/</link>
+      <pubDate>Sat, 04 Jun 2011 14:07:42 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/an-uncertain-world-ii-adapt-by-tim-harford/</guid>
+      <description>
+
+&lt;p&gt;Another long post: PDF &lt;a href=&#34;http://whimsley.typepad.com/files/adapt.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; (but lacking some last minute changes) for anyone who prefers it.&lt;/p&gt;
+
+&lt;p&gt;There is a contradiction at the heart of &lt;em&gt;Adapt&lt;/em&gt;, the new book by the Financial Times&amp;rsquo; &lt;a href=&#34;http://blogs.ft.com/undercover/&#34; target=&#34;_blank&#34;&gt;Undercover Economist&lt;/a&gt;, &lt;a href=&#34;http://timharford.com/&#34; target=&#34;_blank&#34;&gt;Tim Harford&lt;/a&gt;, and once the contradiction is unpicked, the rest of the book unfortunately unravels. Apparently &lt;em&gt;Nature&lt;/em&gt;, the Sunday Times, and the Financial Times loved the book, and his &lt;a href=&#34;http://timharford.com/books/adapt/&#34; target=&#34;_blank&#34;&gt;review page&lt;/a&gt; has nice comments from lots of smart people, but here goes anyway.&lt;/p&gt;
+
+&lt;p&gt;Table of Contents&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The thesis&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The contradiction&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Consequences&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Capecchi and Tharp&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Whole Foods, Timpson, Chile, and Wal-Mart&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Centralized experimentation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The Financial Crisis&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Foxes and Hedgehogs&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If not trial-and-error, then what?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;the-thesis&#34;&gt;The thesis&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Adapt&lt;/em&gt; argues that, to deal with the complexity and unpredictability of the modern world, we should take our inspiration from the market, and apply its methods to other parts of our world. It opens with a quotation from Hayek, and Harford is inspired by the market&amp;rsquo;s evolutionary, decentralized, trial-and-error nature. Individual firms may fail in large numbers, but that is not a problem for the whole: &amp;ldquo;The difference between market-based economies and centrally-planned disasters, such as Mao Zedong&amp;rsquo;s Great Leap Forward, is not that markets avoid failure. It&amp;rsquo;s that large-scale failures do not seem to have the same dire consequences for the market as they do for planned economies.&amp;rdquo; (11)&lt;/p&gt;
+
+&lt;p&gt;The year 2011 is an odd time to make such an argument, even though he does follow the above sentence with &amp;ldquo;The most obvious exception to this claim is also the most interesting: the financial crisis that began in 2007. We&amp;rsquo;ll find out why it was such a catastrophic anomaly in chapter six&amp;rdquo;. (11)&lt;/p&gt;
+
+&lt;p&gt;Harford continues: &amp;ldquo;trial and error is a tremendously powerful process for solving problems in a complex world, while expert leadership is not. Markets harness this process of trial and error, but that does not mean that we should leave everything to the market. It does mean - in the face of seemingly intractable problems, such as civil war, climate change and financial instability - that we must find a way to use the secret of trial and error beyond the familiar context of the market.&amp;rdquo; (20)&lt;/p&gt;
+
+&lt;p&gt;And Harford prescribes his remedy liberally: &amp;ldquo;The adaptive, experimental approach [trial and error] can work almost anywhere&amp;rdquo; (35) he says, and he applies it to climate change (chapter five), to business strategy (chapter seven), to individuals (chapter eight), and to financial collapses (chapter six).&lt;/p&gt;
+
+&lt;p&gt;The contradiction&lt;/p&gt;
+
+&lt;p&gt;Theorem: &lt;em&gt;In systems with multiple levels, trial-and-error cannot be an optimal strategy at each level.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Proof (by contradiction, and a bit like the &lt;a href=&#34;http://en.wikipedia.org/wiki/Unexpected_hanging_paradox&#34; target=&#34;_blank&#34;&gt;Unexpected Hanging Paradox&lt;/a&gt;):&lt;/p&gt;
+
+&lt;p&gt;Consider an economy consisting of a government, firms, and employees. There are two sets of decision-maker in this economy: the government must decide on a strategy for the economy as a whole and firms must decide how they will instruct their employees to work.&lt;/p&gt;
+
+&lt;p&gt;To keep things really simple, limit the available strategy space for each decision-maker to only two options:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;trial-and-error&lt;/em&gt; delegates decisions to the level below (government to firms, firms to employees)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;_eggs-in-one-basket _mandates to the lower level what they must do.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If trial-and-error is the optimal strategy at the level of the economy, the government will adopt it, allowing each firm to identify and pursue a strategy of its own. Some firms will choose trial-and-error, while others adopt eggs-in-one-basket. Which firms will succeed? There are two cases.&lt;/p&gt;
+
+&lt;p&gt;Case A: some trial-and-error firms succeed, and some eggs-in-one-basket firms succeed. In this case, trial-and-error is not the optimal choice at the level of the firm, it is simply one strategy among others (the others in this case being eggs-in-one-basket) that may be worth pursuing.&lt;/p&gt;
+
+&lt;p&gt;Case B: only trial-and-error firms succeed. In this case, trial-and-error is the optimal strategy for firms. But (here&amp;rsquo;s the catch) if trial-and-error is the best strategy at the level of the firm, then the optimal strategy for the government is eggs-in-one-basket, mandating that all firms must operate in a specific (trial-and-error) fashion.&lt;/p&gt;
+
+&lt;p&gt;In short, if trial-and-error is the best strategy at the level of government, then we cannot say it is the best strategy at the level of the individual firm. And if it is the best strategy at the level of the firm, it cannot be the best strategy at the level of the economy.&lt;/p&gt;
+
+&lt;h3 id=&#34;consequences&#34;&gt;Consequences&lt;/h3&gt;
+
+&lt;p&gt;The contradiction appears in stories throughout the book. Here are two examples.&lt;/p&gt;
+
+&lt;h4 id=&#34;capecchi-and-tharp&#34;&gt;&lt;strong&gt;Capecchi and Tharp&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Adapt&lt;/em&gt; tells us the stories of Mario Capecchi (pp 97–100) and of Twyla Tharp (pp 247–256).&lt;/p&gt;
+
+&lt;p&gt;Tharp is a brilliant and determined choreographer whose ambitious production &lt;em&gt;Movin&amp;rsquo; Out&lt;/em&gt; was panned when it premiered in Chicago. According to &lt;em&gt;Adapt&lt;/em&gt;, Tharp is a believer in the process of experimentation, filming hours of improvised dance in the search for just a few interesting moves. She treated the Chicago experience as a failed experiment and &amp;ldquo;made peace with her losses and immediately set about the hard work of winning back both the critics and the audiences.&amp;rdquo; (254) She reworked the show, and the result was a piece of groundbreaking dance that won her rave reviews when it moved to Broadway. An inspiring story.&lt;/p&gt;
+
+&lt;p&gt;Capecchi is a brilliant and determined biologist whose ambitious proposal to &amp;ldquo;make a specific, targeted change to a gene in a mouse&amp;rsquo;s DNA&amp;rdquo; (99) was panned when he submitted it to the NIH funding agency. According to &lt;em&gt;Adapt&lt;/em&gt;, Capecchi is a &amp;ldquo;stubborn genius&amp;rdquo; who survived a remarkable childhood as a street urchin. He refused to treat the NIH proposal as a failed experiment, refused to make peace with his losses, and instead treated the NIH experience as an obstacle to be worked around. He got grants for two other less-ambitious projects and used that money to carry out his panned mouse-gene project anyway. The result was a piece of groundbreaking research that won him the 2007 Nobel Prize in medicine. An inspiring story.&lt;/p&gt;
+
+&lt;p&gt;Harford uses the story of Twyla Tharp to promote the virtues of trial-and-error at the level of individual, and the story of Mario Capecchi to promote the virtues of trial-and-error at the level of the organization. But trial-and-error at the organization level means accommodating people like Capecchi, who is clearly not a trial-and-error individual and who exhibits precisely those traits (rejecting critics views, refusal to change) that Harford warns us against in the Tharp story.&lt;/p&gt;
+
+&lt;h4 id=&#34;whole-foods-timpson-chile-and-wal-mart&#34;&gt;&lt;strong&gt;Whole Foods, Timpson, Chile, and Wal-Mart&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Adapt&lt;/em&gt; tells us the story of American high-end grocery chain Whole Foods and UK bric-a-brac retailer Timpson (pp 224–230). These two companies promote decentralization and experimentation, giving teams (in the case of Whole Foods) or stores (in the case of Timpson) independence from the company so that they can find their own successful strategies. Both exemplify Hayek&amp;rsquo;s &amp;lsquo;now familiar words &amp;ldquo;knowledge of the particular circumstance of time and place&amp;rdquo;&amp;rsquo; (227). Harford uses their stories to show that &amp;ldquo;the world is increasingly rewarding those who can quickly adapt to local circumstances&amp;rdquo; and to promote strategies such as delegation of power to the front lines of the organization. Peer monitoring &amp;ldquo;offers a subtlety and sensitivity that monitoring from corporate HQ simply cannot match&amp;rdquo; (229).&lt;/p&gt;
+
+&lt;p&gt;He contrasts the decentralized efforts of Whole Foods and Timpson with the failure of centralized planning, exemplified by &amp;ldquo;one of the most surreal examples of the planner&amp;rsquo;s dream&amp;rdquo; (69), Salvador Allende&amp;rsquo;s Project CyberSyn which looked to use a supercomputer to collect centralized reports of economic activity throughout Chile in the early 1970&amp;rsquo;s and to tune the economy. The project was &amp;ldquo;not a success&amp;rdquo;, and shows us &amp;ldquo;the way in which our critical faculties switch off when faced with the latest technology.&amp;rdquo; (70) The dream of &amp;ldquo;information delivered in detail, real-time, to a command centre from which computer-aided decisions could be sent back to the front line&amp;rdquo; persisted in the form of Donald Rumsfeld and his failed conduct of the Iraq invasion (chapter 2). The lesson is that &amp;ldquo;such [centralized] systems always deliver less than they promise, because they remain incapable of capturing the tacit knowledge that really matters.&amp;rdquo; (71)&lt;/p&gt;
+
+&lt;p&gt;Wal-Mart is mentioned only briefly in &lt;em&gt;Adapt&lt;/em&gt;, on p 226. &amp;ldquo;Of course, this kind of business model [Whole Foods] is not the only way to succeed in the supermarket trade. Far more centralised supermarkets such as Wal-Mart in the US and Tesco in the UK are clearly very profitable&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Wal-Mart owes its success to massive centralization of a kind that makes Project CyberSyn look unambitious. Famously, the Wall Street Journal &lt;a href=&#34;http://www3.babson.edu/Centers/retail_intelligence/upload/Wal_mart_Energy.pdf&#34; target=&#34;_blank&#34;&gt;reported in 2007&lt;/a&gt; that &amp;ldquo;Wal-Mart&amp;rsquo;s centralized thermostat system in Bentonville, Arkansas, its corporate headquarters, actually uses a monitoring team to control the temperature for every store from this centralized location.&amp;rdquo; Centralization and scale permit remorseless cost-cutting precisely by minimizing local experimentation even in such minute decisions as store temperature.&lt;/p&gt;
+
+&lt;p&gt;Again, the contradiction plays out. Harford wants to argue that at the level of the economy as a whole and at the level of the individual firm, trial-and-error triumphs over misguided centralization. Yet trial-and-error at the level of the economy permits individual firms like Wal-Mart to pursue centralized, eggs-in-one-basket strategies, some of which turn out to be better than experimentation. You can&amp;rsquo;t eat your cake and have it too.&lt;/p&gt;
+
+&lt;h3 id=&#34;centralized-experimentation&#34;&gt;Centralized experimentation&lt;/h3&gt;
+
+&lt;p&gt;Harford does note that Wal-Mart and Tesco &amp;ldquo;still experiment but have managed to centralise and automate that experimentation&amp;rdquo; (226), but gives no further details. This sentence shows another failure of the book: a blurring of the line between experimentation (trial-and-error) and decentralization. Throughout most of the book he uses experimentation as a synonym for decentralization (tacit knowledge and all that) and is in favour of both, but sometimes - as here - he separates the two to make his argument fit.&lt;/p&gt;
+
+&lt;p&gt;The most dramatic case where he separates experimentation from decentralization is in the chapter on development aid (chapter 4). Part of the issue in pursuing a trial-and-error strategy is to identify successes – to design a &amp;ldquo;feedback loop&amp;rdquo; that permits successful ideas to evolve further – and chapter 4 looks at the use of randomized trials in development projects to provide that feedback.&lt;/p&gt;
+
+&lt;p&gt;Harford argues throughout chapter 4 that development aid projects can easily go wrong despite, or because of, the best intentions of those involved. To identify successful strategies he argues for rigorous experimentation based on clinical trial methodologies, and randomized trials. Why, I wondered throughout this chapter, does the use of randomized trials come up particularly in the area of development aid? I believe (and here I may be atributing ideas to Harford that are not his) that it comes from the usual economist&amp;rsquo;s idea that in development aid we must avoid woolly, sentimental thinking and adopt a hard-headed approach if we are really to Do the Right Thing.&lt;/p&gt;
+
+&lt;p&gt;The problem is, randomized trials are often not incentive compatible for the participants. In one example, Harford describes an experiment in Kenya to deliver a new set of textbooks to schools. The charity funding the programme &amp;ldquo;chose twenty-five schools at random&amp;rdquo; and distributed the books. The experimenters found, surprisingly, &amp;ldquo;little evidence that textbooks were helpful&amp;rdquo;. Chalk one up for randomized trials.&lt;/p&gt;
+
+&lt;p&gt;(I&amp;rsquo;m going a bit out on a limb for the next few paragraphs: if others with more knowledge of the subject can correct me, go for it).&lt;/p&gt;
+
+&lt;p&gt;What are the incentives at work at the level of the individual school? Given a choice between a set of new textbooks and no set of new textbooks, most schools would choose the books because the expectation was that they would improve the education experience. To succeed, randomized trials demand either a setup where there is no expectation of likely outcomes (as in another example he gives, an 18th century sea doctor treating scurvy with &amp;ldquo;oranges and lemons&amp;rdquo; or &amp;ldquo;cider, acid, or brine&amp;rdquo;), or where the subjects of the experiment are deprived of the right to choose. If there is an expectation, going in to the experiment, that one option or the other is more likely to be beneficial, then it is in the interests of the experimental subjects to go with that option rather than participate in a randomized trial.&lt;/p&gt;
+
+&lt;p&gt;It is not surprising that Harford can find stories of randomized trials in the case of medicine and of development aid. Both scenarios rely on a powerless, voiceless set of experimental subjects. In scenarios where the subjects have a voice, randomized trials are rare despite their system-wide benefits because the incentives don&amp;rsquo;t line up. Are there cases of trials in North American or British school systems where a random selection of schools get access to a new, potentially beneficial teaching aid? If there are, Harford has apparently not found them.&lt;/p&gt;
+
+&lt;p&gt;So here again the contradiction is at work. Trial-and-error at the level of the development project demands centralized control. The school textbook project demands that trial-and-error not be an option at the level of the individual school.&lt;/p&gt;
+
+&lt;p&gt;Such contradictions occur throughout the book. I don&amp;rsquo;t know much about development aid or randomized testing, but I do know a bit about technology. Harford gives Google a positive write-up for its famous &amp;ldquo;20% time&amp;rdquo; program for employees (pp 231–234), showing that it succeeds by casting aside those projects that fail. But in demonstrating why failures need to be rigorously abandoned (a &amp;ldquo;tight feedback loop&amp;rdquo;) he writes &amp;ldquo;According to the TechRepublic website, two of the five worst technology products of 2009 came from Google - and they were major Google products at that, Google Wave and the Android 1.0 operating system for mobile phones. Yet most internet users know and rely on Google&amp;rsquo;s search, Google Maps and Image search, while many others swear by Gmail, Google Reader, and Blogger.&amp;rdquo; (234). By his own logic, Google should have abandoned the duds, and it did throw Wave overboard, but of course in the case of Android it persisted and now Android is the most widely-used smartphone operating system in the world. And Google Maps and Blogger, at least, are not products of the innovation program but were developed outside Google and then purchased.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Adapt&lt;/em&gt; also uses business professor Clayton Christensen&amp;rsquo;s &lt;em&gt;Innovator&amp;rsquo;s Dilemma&lt;/em&gt; to bolster its case, in which Christensen shows how surprisingly primitive but cheap and &amp;ldquo;good-enough&amp;rdquo; technologies tend to displace advanced, high-end technologies in a process called &amp;ldquo;disruptive innovation&amp;rdquo;. For the record, I found that to be an excellent book. But I first heard Christensen talk on the subject at a BlackBerry conference where he explained that the threat to BlackBerry was that its end-to-end design was vulnerable to a horizontal model that would not give the same highly-tuned experience, but which would do a good-enough job at lower prices. It sounded convincing, but within a year (I think) the real competitor turned out to be Apple&amp;rsquo;s iPhone - an even more high-end, even more end-to-end design, and quite the opposite of the prediction. Apple, of course, is a hugely centralized company that puts all its eggs in one basket when it releases new technologies.&lt;/p&gt;
+
+&lt;p&gt;The Financial Crisis&lt;/p&gt;
+
+&lt;p&gt;By this time, you can see that I think &lt;em&gt;Adapt&lt;/em&gt; suffers from the very cognitive dissonance that its author warns against in his final chapter. In the face of contrary evidence, the author finds ways to accommodate the facts within his framework by stretching the argument in ways that are ultimately unconvincing. It&amp;rsquo;s exactly this kind of flaw that Tetlock identified among his worst-performing experts (the hedgehogs). Nowhere is it more obvious than in &lt;em&gt;Adapt&lt;/em&gt;&amp;rsquo;s chapter on the financial crisis.&lt;/p&gt;
+
+&lt;p&gt;To identify successful strategies, Harford argues that &amp;ldquo;we should not try to design a better world. We should make better feedback loops&amp;rdquo; (140) so that failures can be identified and successes capitalized on. Harford just asserts that &amp;ldquo;a market provides a short, strong feedback loop&amp;rdquo; (141), because &amp;ldquo;If one cafe is ordering a better combination of service, range of food, prices, decor, coffee blend, and so on, then more customers will congregate there than at the cafe next door&amp;rdquo;, but everyday small-scale examples like this have little to do with markets for credit default swaps or with any other large-scale operation.&lt;/p&gt;
+
+&lt;p&gt;The chapter on the financial crisis misses the boat completely.&lt;/p&gt;
+
+&lt;p&gt;One part of the chapter deals with arranging incentives to encourage whistleblowers. There is only one problem with this, which is that a lack of whistleblowers was not the problem with the mortgage market. There were people who saw the market coming, said so, and put money behind their words, and their stories have been chronicled in books like Michael Lewis&amp;rsquo;s &lt;em&gt;The Big Short&lt;/em&gt;. But such people were written off as Chicken Littles. The problem was that the &amp;ldquo;short, strong feedback loop&amp;rdquo; of the market was neither short nor strong: it sent fundamentally misleading messages, because that&amp;rsquo;s what a bubble is.&lt;/p&gt;
+
+&lt;p&gt;The second idea &lt;em&gt;Adapt&lt;/em&gt; has about financial crises is to provide greater visibility for regulators into problems and stresses in a system, and it is illustrated by a story about the final weekend in September 2008, as Lehmann Brothers collapsed. But again, that weekend was simply the final bursting of the pimple and, while replaying that weekend may have led to different outcomes, the time was long past when the crisis could have been averted.&lt;/p&gt;
+
+&lt;p&gt;The final idea is borrowed from engineering systems, and has been floated again by others recently (Justin Fox &lt;a href=&#34;http://blogs.hbr.org/fox/2011/06/why-bankers-need-to-be-put-int.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;), and is to decouple various parts of the financial system so that failures in one area cannot spill over to failures in other areas. This may or may not work - I&amp;rsquo;m no expert - but I can say this: the proposal has nothing to do with the thesis of the book. The coupling between different parts of the financial system came about precisely because of an unwarranted belief in the virtues of the innovative, market-driven processes that Harford is promoting, and were governed by exactly the kind of feedback that he relies on (price, profits) elsewhere.&lt;/p&gt;
+
+&lt;h3 id=&#34;foxes-and-hedgehogs&#34;&gt;Foxes and Hedgehogs&lt;/h3&gt;
+
+&lt;p&gt;Like Future Babble (see &lt;a href=&#34;http://whimsley.typepad.com/whimsley/2011/05/an-uncertain-world-1-future-babble-by-dan-gardner.html&#34; target=&#34;_blank&#34;&gt;previous post&lt;/a&gt;), Harford includes the work of Philip Tetlock early in the book, to show us not to trust experts. And that&amp;rsquo;s fine. But he fails to see the depth of the paradox of expert failure: it applies to those who would replace experts as much as it applies to experts themselves.&lt;/p&gt;
+
+&lt;p&gt;Tetlock divided his experts into foxes (good at many things) and hedgehogs (good at one thing) and argued that hedgehogs are over-confident because they &amp;ldquo;reduce the problem to some core theoretical scheme&amp;rsquo;… and they used that theme over and over, like a template, to stamp out predictions&amp;rdquo;. And that&amp;rsquo;s exactly what Harford does here. He sees evolution as a fox-like strategy (trying many things and selecting a few) but doesn&amp;rsquo;t notice that at the level of individual species, evolution gives us both foxes and hedgehogs, and both do perfectly fine.&lt;/p&gt;
+
+&lt;p&gt;Once the contradiction at the heart of the book is clear, it is not surprising that the book itself cherry picks examples where trial-and-error has succeeded, or where eggs-in-one-basket has failed. But such stories, while entertaining, make a notoriously shaky foundation for any kind of general structure, and so it proves here.&lt;/p&gt;
+
+&lt;h3 id=&#34;if-not-trial-and-error-then-what&#34;&gt;If not trial-and-error, then what?&lt;/h3&gt;
+
+&lt;p&gt;So in the end, Harford fails in his attempt to sell trial-and-error as a panacea. It&amp;rsquo;s easy to knock, I can hear you say, but do you have anything better to offer? Well probably not, but let me at least sketch some preliminary thoughts very briefly.&lt;/p&gt;
+
+&lt;p&gt;Both Gardner and (especially) Harford place great emphasis on the usefulness of particular knowledge, and the need to recognize our limitations when it comes to seeing the future and to planning. &amp;ldquo;Allow room to experiment, to revise, and to adapt&amp;rdquo; is not bad advice so far as it goes. But Harford pushes this argument too far, and so tumbles into contradiction. He seeks to use this lesson as a general, all-purpose lesson, which means that he is again failing to acknowledge our limitations when it comes to seeing the future and to planning.&lt;/p&gt;
+
+&lt;p&gt;We need to accept that there is no algorithm for success. In fact, any such recipe would be self-defeating. The process of achieving success is irreducibly specific, irreducibly individual, and irreducibly paradoxical. It is not the realm of science, logic and analysis - it is the realm of art, precisely because art is comfortable with paradox and self-contradiction in a way that science and logic is not.&lt;/p&gt;
+
+&lt;p&gt;Or: &amp;ldquo;If I knew the jazz of the future, I&amp;rsquo;d play it&amp;rdquo; as someone said.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				The Myth of Digital Democracy, by Matthew Hindman - reviewing the reviews		</title>
+      <link>https://tomslee.github.io/post/the-myth-of-digital-democracymatthew-hindman-princeton-university-press-2009matthew-hindmansthe-myth-of-digital-democracyfi/</link>
+      <pubDate>Sat, 09 Jan 2010 00:33:51 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/the-myth-of-digital-democracymatthew-hindman-princeton-university-press-2009matthew-hindmansthe-myth-of-digital-democracyfi/</guid>
+      <description>&lt;p&gt;&lt;em&gt;The Myth of Digital Democracy,&lt;/em&gt; Matthew Hindman, Princeton University Press  2009&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The last sentence of Matthew Hindman&amp;rsquo;s &lt;em&gt;The Myth of Digital Democracy&lt;/em&gt; is &amp;ldquo;It may be easier to speak in cyberspace, but it remains difficult to be heard&amp;rdquo;. The book is about collecting and analyzing the following large data sets on the way to this conclusion:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The links among 3 million American political web pages together with data showing how Google leads its users to political sites. Hindman concludes that &amp;ldquo;link structure is an effective proxy for audience share&amp;rdquo; and that &amp;ldquo;communities of Web sites on different political topics are each dominated by a small set of highly successful sites&amp;rdquo;. The scale of online concentration is so profound, he argues, that claims the Internet &amp;ldquo;democratizes&amp;rdquo; politics are misleading. For example, when it comes to blogs, &amp;ldquo;the top blogs are now the most widely read sources of political commentary in the United States&amp;rdquo;, but these widely-read bloggers are very few in number (a few dozen) and they are &amp;ldquo;overwhelmingly.. well-educated white male professionals&amp;rdquo;. The kind of voices that get heard in political discussion are the same kind that were heard through offline media, only perhaps more so. &amp;ldquo;The vigorous online debate that blogs provide may be, on balance, a good thing for US democracy. But as many continue to celebrate the democratic nature of blogs, it is important to acknowledge that many voices are left out.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Data from &lt;a href=&#34;http://www.hitwise.com&#34; target=&#34;_blank&#34;&gt;Hitwise&lt;/a&gt; of search-engine-directed traffic show that online politics is a tiny sliver of Internet traffic, and that &amp;ldquo;Scholars, public officials, and journalists have paid a great deal of attention to online politics. Citizens themselves, though, have directed their attention elsewhere.&amp;rdquo; Not too surprising perhaps.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Data from Hitwise and other sources, of patterns of concentration in [American] online and traditional news media. He concludes that online media is much more concentrated (a few outlets get a larger share of the traffic) than many offline industries, particularly radio. The biggest story is what he calls &amp;ldquo;the missing middle&amp;rdquo;:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From the beginning, the Internet has been portrayed as a media Robin Hood - robbing audience from the big print and broadcast outlets and giving it to the little guys. But the data in this chapter suggest that audiences are moving in both directions. On the one hand, the news market in cyberspace seems even more concentrated on the top ten or twenty outlets than print media is. On the other, the tiniest outlets have indeed earned a substantial portion of the total eyeballs&amp;hellip; It is the middle-class outlets that have seen relative decline in the online world. Moreover, it is overwhelmingly smaller, local media organizations that have lost out to national sources. [p100]&lt;/p&gt;
+
+&lt;p&gt;It is a refreshing change to read a book about the cultural and political impact of the Internet that actually looks closely at Internet traffic (what people read) rather than at the number of sites (what people write), and it&amp;rsquo;s this perspective that leads Hindman to his myth-busting conclusions. The main flaw of the book is that it falls between two stools: it&amp;rsquo;s clearly an academic work that started as a set of papers or a thesis, but it is looking for a wider, popular audience. To reach that audience, Hindman should have got rid of many technical details and written a book with more narrative, but if you don&amp;rsquo;t mind reading technical studies, this is a good one, and I recommend it.&lt;/p&gt;
+
+&lt;p&gt;_The Myth of Digital Democracy _has been out for a year or so now, so after I finished it, I looked at some reviews, and got a surprise. The books detractors argue that no one claimed the Internet democratizes politics, and if they ever did then they don&amp;rsquo;t any more, and if they still do then they mean something different.&lt;/p&gt;
+
+&lt;p&gt;So here are links to some critiques of Hindman&amp;rsquo;s book, and some words in defence of &lt;em&gt;The Myth of Digital Democracy&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Charlie Beckett of the LSE&amp;rsquo;s think tank POLIS &lt;a href=&#34;http://www.charliebeckett.org/?p=1672&#34; target=&#34;_blank&#34;&gt;writes&lt;/a&gt; that the idea &amp;ldquo;that the Internet is innately democratic and that it will have revolutionary political consequences&amp;rdquo; is &amp;ldquo;a straw man&amp;rdquo;. He goes on: &amp;ldquo;I always struggle in lectures or talks when I have to find quotes from these digital utopians. I can always cite lots of people (like me) who argue that the Internet has given us great tools and that it offers huge potential for civic engagement and public self-expression. I can even find examples, from Mysociety to Iran and Twitter that show concrete cases. But I don’t know many serious people talking about a revolution.&amp;rdquo;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is a little cheeky from someone whose own book is called SuperMedia, and which is &lt;a href=&#34;http://www.polismedia.org/publications/savingjournalism.aspx&#34; target=&#34;_blank&#34;&gt;publicised&lt;/a&gt; as a &amp;ldquo;manifesto&amp;rdquo; for a &amp;ldquo;radical new relationship between the media and the public&amp;rdquo;, and which apparently &amp;ldquo;explores the potential for an entirely new type of journalism&amp;hellip; and makes the case that journalism could be the catalyst for change needed to solve many of the world&amp;rsquo;s problems.&amp;rdquo; All sounds pretty revolutionary to me. Beckett is getting hung up on the title, which was probably the publisher&amp;rsquo;s idea anyway, and needs to read the book more closely.&lt;/p&gt;
+
+&lt;p&gt;As for actually finding quotes about the Internet&amp;rsquo;s innately democratic and revolutionary (or at least radically disruptive) nature, well there&amp;rsquo;s always Google&amp;rsquo;s description of its own PageRank search algorithm as &amp;ldquo;drawing on the uniquely democratic nature of the Internet&amp;rdquo; and its recent &lt;a href=&#34;http://googleblog.blogspot.com/2009/12/ordinary-citizens-extraordinary-videos.html&#34; target=&#34;_blank&#34;&gt;claims&lt;/a&gt; that in Iran, citizen video reporting via YouTube &amp;ldquo;appears to have become an essential part of their struggle&amp;rdquo;. Or there&amp;rsquo;s Lawrence Lessig in &lt;em&gt;Remixed&lt;/em&gt;: &amp;ldquo;The neutral platform of the Internet democratized technical and commercial innovation. Power was thus radically shifted.&amp;rdquo; Or Yochai Benkler at the very beginning of his influential &lt;em&gt;The Wealth of Networks:&lt;/em&gt; &amp;ldquo;Enabled by technological change, we are beginning to see a series of economic, social, and cultural adaptations that make possible a radical transformation of how we make the information environment we occupy as autonomous individuals, citizens, and members of cultural and social groups. It seems passe today to speak of &amp;lsquo;The Internet revolution.&amp;rsquo; In some academic circles, it is positively naive. But it should not be.&amp;rdquo; And that&amp;rsquo;s ignoring all the &lt;a href=&#34;http://www.google.ca/search?q=&#34; title=&#34;twitter+revolution&#34; target=&#34;_blank&#34;&gt;talk of Twitter Revolutions&lt;/a&gt; in Moldova and Iran, and &lt;a href=&#34;http://www.nytimes.com/2009/01/25/magazine/25bloggers-t.html?_r=3&#34; target=&#34;_blank&#34;&gt;Egypt&amp;rsquo;s Facebook Revolution&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Discussion of the Internet&amp;rsquo;s impact on all aspects of our society is routinely cast in a revolutionary light, with a strong dose of &amp;ldquo;power to the people&amp;rdquo;, and if such language is usually kept out of academic journals, that&amp;rsquo;s no reason to ignore it.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For Mark Bahnisch of &lt;a href=&#34;http://inside.org.au/the-stuff-that-myths-are-made-of/&#34; target=&#34;_blank&#34;&gt;Inside Story&lt;/a&gt;, Hindman &amp;ldquo;narrows down the possible targets for his myth-busting to the claim that the internet will bring about &amp;lsquo;democratisation.&amp;rsquo; But it&amp;rsquo;s unclear who&amp;rsquo;s actually making this claim, and Hindman ignores most of the more nuanced and specialised scholarship on the topic. If what he has to say when he gets down and dirty with the blogs later on is any indication, the real target is a nuch of journos and op-edders writing in the New York Times circa 2004.&amp;rdquo;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bahnisch is saying Hindman should ignore &amp;ldquo;journos and op-edders&amp;rdquo; with audiences of millions and focus instead on &amp;ldquo;nuanced and specialised&amp;rdquo; scholarship that general readers like me will never read. Rubbish. The real debate about the role of the Internet is a public one, and Hindman has done exactly the right thing to tackle this perception that&amp;rsquo;s out there among the unwashed masses like myself. If the nuanced and specialized among us have good things to say, they should get out there in public and say them.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;When it comes to the concept of democratization, Bahnisch and &lt;a href=&#34;http://gatewatching.org/2008/05/18/long-tails-all-the-way-down-rethinking-a-lists/&#34; target=&#34;_blank&#34;&gt;others&lt;/a&gt; people bring up &amp;ldquo;Michel Bauwens&amp;rsquo; concept of equipotentiality&amp;rdquo; as an alternative meaning interpretation of &amp;ldquo;democratization&amp;rdquo;. &lt;a href=&#34;http://p2pfoundation.net/Equipotentiality&#34; target=&#34;_blank&#34;&gt;Equipotentiality&lt;/a&gt; is a fancy word for speculations about how peer-to-peer networks function: no one said that democratization means a wider set of voices are heard, simply that anyone can &lt;em&gt;potentially&lt;/em&gt; reach an audience of millions, and if only a few do, well good for them.&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The whole point Hindman&amp;rsquo;s approach makes is that concepts, whether they coin new words or not, need to be grounded in reality. Is the loose world of blogs equipotential? Who knows, given the vagueness of the concept? But that potential is certainly not equirealized and that&amp;rsquo;s a point worth making.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Allison Hayward &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1491737&#34; target=&#34;_blank&#34;&gt;writes&lt;/a&gt; that &amp;ldquo;to observe that &amp;lsquo;digital democracy isn&amp;rsquo;t always and everywhere the rule is not the same thing as saying that the Internet hasn&amp;rsquo;t &amp;lsquo;democratized&amp;rsquo; politics&amp;hellip; For the Internet to be &amp;lsquo;democratizing&amp;rsquo; we shouldn&amp;rsquo;t require that it be &lt;em&gt;revolutionary&lt;/em&gt;, only that at the margins it provide a broader population with more opportunities to contribute, volunteer, engage, and advocate, and make changes that are sustainable over time.&amp;rdquo;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sigh. Hindman has demonstrated that many of these functions are not accessible to a broader population in any meaningful way. The book challenges those who believe the Internet is &amp;ldquo;democratizing&amp;rdquo; in whatever way to show there is some substance to these claims, and the rebuttals are wishful thinking based in, well, nothing much really.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Matt Bai &lt;a href=&#34;http://www.democracyjournal.org/article.php?ID=6671&#34; target=&#34;_blank&#34;&gt;argues&lt;/a&gt; that Hindman&amp;rsquo;s data is old, and &amp;ldquo;the political impact of the Internet is spreading so quickly that it&amp;rsquo;s almost impossible to capture and quantify&amp;rdquo;: he disparages Hindmans&amp;rsquo;s graphs and equations and prefers anecdotes about internet activists from modest backgrounds.&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By the time I&amp;rsquo;d read this review I was feeling pretty sorry for Matthew Hindman, because it is clear that he just can&amp;rsquo;t win. Bai has a belief in the power of the Internet that borders on the mystical (&amp;ldquo;spreading so quickly that it&amp;rsquo;s almost impossible to capture and quantify&amp;rdquo;), so what would it take to persuade him otherwise? Nothing short of careful, detailed data I&amp;rsquo;m sure. But when someone does the work, well it takes time, and so it is dismissed as &amp;ldquo;old&amp;rdquo; and full of obscure graphs and equations. There is little point entering such an argument.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Along these lines Henry Farrell, in the Times Higher Education Supplement, &lt;a href=&#34;http://www.timeshighereducation.co.uk/story.asp?storyCode=407101&amp;amp;sectioncode=26&#34; target=&#34;_blank&#34;&gt;suggests&lt;/a&gt; that Hindman should just not engage with these claims, that he spends too much time &amp;ldquo;refuting bad ideas&amp;rdquo; and tackling &amp;ldquo;stupid claims for the democratic benefits of technological pixie dust&amp;rdquo; and goes on to say that &amp;ldquo;To really understand how the internet affects democratic politics, we need to forget about the internet evangelists. Not only were they badly wrong, but their notions of democracy were sloppy and unhelpful.&amp;rdquo;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I sympathize with Henry Farrell: it would be nice if we could forget about bad ideas and move ahead on more constructive paths, and I hope people do. But sloppy or not, those notions of democracy are out there, and are still influential, and Hindman has made a valuable contribution towards refuting them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				The Pirate’s Dilemma by Matt Mason: A Review		</title>
+      <link>https://tomslee.github.io/post/the-pirates-dilemma-by-matt-mason-a-review/</link>
+      <pubDate>Sat, 14 Nov 2009 17:45:53 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/the-pirates-dilemma-by-matt-mason-a-review/</guid>
+      <description>&lt;p&gt;[Shinier and better version &lt;a href=&#34;http://whimsley.typepad.com/whimsley/2009/11/pirates-dilemma-review-remixed.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.]&lt;/p&gt;
+
+&lt;p&gt;In &lt;em&gt;The Pirate&amp;rsquo;s Dilemma&lt;/em&gt; Matt Mason claims to speak from the perspective of rebellious and subversive youth culture while he promotes the worst kind of corporate astroturfing which is too bad because his message that many new ideas emerge from outside the mainstream and from outside the market is important and his message that pirates who skirt the edges of the law to bring culture to new audiences have done much to improve our society also matters, but when an author wants us to believe he is anti-establishment while he praises the vitamin water company Glacéau for &amp;ldquo;keeping it real&amp;rdquo; in its advertising campaigns with 50 Cent while telling us that it was sold to Coca Cola for $4.1 billion in 2007, praises Procter &amp;amp; Gamble for its viral video campaign, is entranced by the way that Nike&amp;rsquo;s Air Force One sneaker owes its success to the &amp;ldquo;remix&amp;rdquo; well where do you start? Mason loves the idea that youth culture, existing in spaces outside the mainstream and outside the commercial world, has had a huge impact on our modern world and I am with him 100% but the lives of many idealistic, left-wing youth become enmeshed in compromise as we get older and we stoke the fires of capitalism during the day while trying to throw a little water on those same fires in the evening and I understand how this happens because like many middle-aged people I wrestle with the contradictions and compromises involved, and I admire those few who have stuck to their principles, often at a real cost to their careers and personal lives, which is why the few people who really piss me off, whom I actively scorn and who get my blood boiling, are those like Matt Mason who don the mantle of rebellion and anti-corporate politics while consulting for Disney, Pepsi, and P&amp;amp;G and who claim that selling YouTube to Google for $1.65 billion is a form of rebellion and who babble about the benefits of sharing because &amp;ldquo;it&amp;rsquo;s not all about the money any more&amp;rdquo; while giving presentations to the people who brought you McDonald&amp;rsquo;s &amp;ldquo;I&amp;rsquo;m Loving It&amp;rdquo; campaign and who place themselves on the romantic side of the battle between graffiti and advertising in &amp;ldquo;a turf war that has raged for centuries between the establishment and a secretive, loose-knit network that doesn&amp;rsquo;t like the top-down, one-way flow of information in public spaces&amp;rdquo; [103] only to step slickly into approvingly quoting advertising agency Droga5 on creating &amp;ldquo;a dialogue between advertising and graffiti&amp;rdquo; which really means using graffiti for commercial ends and making a buck and if that&amp;rsquo;s not selling out to the man then what the fuck is really? because the punk spirit Mason loves so much has nothing to do with business models or change agents or entrepreneurial spirit or building a brand or even combining altruism with self-interest because the spirit he writes of was defiantly and nihilistically anti-corporate and Matt Mason lives in a corporate world however much he&amp;rsquo;d like to think otherwise and when he claims that pirates are those who are &amp;ldquo;pushing back against authority, decentralizing monopolies, and promoting the rule of the people: the very nature of democracy itself&amp;rdquo; well I see what he means but then when he goes on to claim that the anti-authoritarian ideals of youth culture are becoming &amp;hellip; a new more extreme, invigorated, and equitable strain of the free market&amp;ndash;the decentralized future of capitalism [171] then I just want to shake him by the neck and shout at him that you&amp;rsquo;re obviously not stupid Matt Mason so why don&amp;rsquo;t you do what you know you should do and follow the fucking money before making pronouncements about sharing and decentralization when it&amp;rsquo;s still the case that money is not shared and money is not decentralized because sharing is one thing but if I share and you get the money then I&amp;rsquo;m not being altruistic I&amp;rsquo;m just being a sucker and you&amp;rsquo;re not promoting community you&amp;rsquo;re exploiting the good intentions of those who are spending their time and talent on your venture and if you want to impress me with the subversive role of DVD bootlegging don&amp;rsquo;t quote billionaire Mark Cuban and Disney co-chair Anne Sweeney and billionaire Steve Jobs at me because if they have found a way to co-exist with piracy it doesn&amp;rsquo;t mean that these companies stand for a more democratic and equitable form of capitalism it just means they&amp;rsquo;ve found ways of using or co-existing with piracy in a way that promotes their own interests over those of their rivals and I end up not taking him seriously at all which is unfortunate because he has many entertaining stories of hip-hop, pirate, and punk culture although I end up not knowing whether to trust them because where the book overlaps with things that I know anything about he is often ludicrously wrong like when he repeatedly refers to Linux as a company [148, 150, 238] or when he quotes Courtney Love saying that record companies &amp;ldquo;figured out that it&amp;rsquo;s a lot more profitable to control the distribution system than it is to nurture artists&amp;hellip; They own the plantation&amp;rdquo; while completely failing to notice that big chunks of the Web 2.0 world he loves work on exactly the same model, that owning the platform gives control of the distribution system and that&amp;rsquo;s where the money is or when he gives us a canned history of Wikipedia [149-150] which is derived from one interview with Jimmy Wales so it&amp;rsquo;s no surprise that it gets several key facts wrong or when he identifies Steve Jobs with openness and sharing [145] and claims that the notoriously secretive and proprietary Apple won the music wars because it &amp;ldquo;truly understood sharing&amp;rdquo; [158] when the fact is that the only thing Apple really wants to share is the music they don&amp;rsquo;t own and not the technology that they do own you can ask Palm about that who can&amp;rsquo;t sync their own phones with iTunes or you can ask the developers who have left the iPhone App Store over Apple&amp;rsquo;s arbitrary and opaque approval process, so Matt Mason in the end sits for me with people from an earlier generation like Kevin Kelly who claims to be a maverick while working for Conde Nast or Chris Anderson who claims to be on the side of small and scrappy businesses against big companies while promoting Amazon or Stewart Brand or John Perry Barlow who strive to combine activities like consulting for senior management at large corporations with statements like &amp;ldquo;I&amp;rsquo;m an anti-company man&amp;rdquo; if you can believe it I mean do you have any self-awareness at all? I want to ask them I think it&amp;rsquo;s the ego that gets to me and the fact that they have been successful in leading people and particularly young idealistic people with good intentions into activities that they think are progressive and politically anti-establishment but which end up just feeding money into the pockets of Silicon Valley venture capitalists and the lucky guys who get to sell their startups to Google for a nice billion or so as if that&amp;rsquo;s a triumph of the little guy give me a break.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Review: Market Rebels, by Hayagreeva Rao		</title>
+      <link>https://tomslee.github.io/post/raos-market-rebels-a-review-1/</link>
+      <pubDate>Sun, 21 Jun 2009 13:37:46 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/raos-market-rebels-a-review-1/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Market Rebels: How Activists Make or Break Radical Innovations&lt;/em&gt;, Hayagreeva Rao, Princeton University Press 2009&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;For decades, economists have extended their intellectual reach beyond mere money in an attempt to encompass all the social sciences in their analytical framework. But now the boot is on the other foot and it looks like even core economic observations may be better explained by other social sciences. Robert Solow apparently said that attempts to explain differences in economic growth across countries typically end in &amp;ldquo;a blaze of amateur sociology&amp;rdquo;. The focus on psychology in explanations of the banking crash shows that growth is not the only area of economics where the discipline runs out of steam before reaching its destination. The rise of behavioural economics, surely a last-gasp attempt by economists to match their models to the real world without changing departments, suggests that the condition goes deep.&lt;/p&gt;
+
+&lt;p&gt;Despite its title, Hayagreeva Rao&amp;rsquo;s &lt;em&gt;Market Rebels&lt;/em&gt; (&lt;a href=&#34;http://openlibrary.org/b/OL21097110M/Market-rebels&#34; target=&#34;_blank&#34;&gt;Open Library link&lt;/a&gt;, &lt;a href=&#34;http://press.princeton.edu/titles/8732.html&#34; target=&#34;_blank&#34;&gt;publisher&amp;rsquo;s page&lt;/a&gt;) challenges the economic analysis of innovations. At 180 pages and full of case studies it&amp;rsquo;s easy to read quickly, but I was so taken by it that I went through it a second time and found much that I had missed. Rao does not hammer the reader over the head with the implications of his case studies, but for me as a non-sociologist and non-economist the implications are huge and I&amp;rsquo;ll be thinking about the book for a long time.&lt;/p&gt;
+
+&lt;p&gt;The case studies are diverse, but are centered around a single claim: the &amp;ldquo;joined hands of activists&amp;rdquo; play an important part in the creation, diffusion, and blocking of innovations. Collective action matters. Rao describes how hobbyists were key to the cultural acceptance of the car and the development of the personal computer; how microbrewers brought diversity back to beer; how nouvelle cuisine grew from the rebellious student movements of Paris 1968; how shareholder activism has pushed large companies to change behaviours; how community activists attempted to stall the spread of chain stores and then of big-box stores; how the green movement blocked the development of biotechnology in Europe. These studies, many based on his own research, help to bring activist groups and their campaigns out from the wings and into the spotlight as we think about innovation and social change, and by doing so Rao is performing a valuable service.&lt;/p&gt;
+
+&lt;p&gt;The book is not strong on systematic analysis. The closest he gets to describing what determines whether movements succeed or fail is that successful movements must create &amp;ldquo;hot causes&amp;rdquo; and &amp;ldquo;cool mobilizations&amp;rdquo;. Both concepts are tied in to the concept of &amp;ldquo;identity&amp;rdquo;, which for Rao is the underlying motive that causes people to join with or against social movements. A &amp;ldquo;hot cause&amp;rdquo; is the spark that successful activists use to light a fire. It&amp;rsquo;s a lightning-rod incident or issue that arouses strong emotions such as pride or anger. Examples include the frustrated demonization of &amp;ldquo;big beer&amp;rdquo; by real ale enthusiasts; the outrageous bonus paid to Home Depot CEO Robert Nardelli which crystallized the shareholder rights movement. But &amp;ldquo;hot causes&amp;rdquo; by themselves are not enough for a prolonged campaign. &amp;ldquo;Cool mobilizations&amp;rdquo; are actions that keep a movement going forward by &amp;ldquo;engaging audiences in new behaviors and new experiences that are improvisational and insurgent&amp;rdquo;. Examples include setting up a microbrewery or formulating shareholder resolutions. The concepts are useful, but it&amp;rsquo;s a shame Rao doesn&amp;rsquo;t have a stronger turn of phrase. Naming concepts can be key to owning them, and &amp;ldquo;hot cause&amp;rdquo; and &amp;ldquo;cool mobilization&amp;rdquo; are too literal and clumsy to take on the weight they need. But this is a detail (and I don&amp;rsquo;t have better ideas).&lt;/p&gt;
+
+&lt;p&gt;For someone who has spent most of their non-fiction reading time reading economics and economics-inspired books in recent years, Rao&amp;rsquo;s is a welcome and refreshing change. Economic analysis too-often reduces the political left-right split to the false dichotomy of market vs state, but this reduction maps badly on to the real experience of political activism. Those who protest Monsanto&amp;rsquo;s private-sector use of genetic engineering are often the same as those who protest state-driven wars. Many of those who oppose new Wal-Mart stores also oppose the extension of surveillance powers by the state. Where do such activists see themselves in a market vs state debate? For many, they don&amp;rsquo;t: market vs state is not what it&amp;rsquo;s about. So it&amp;rsquo;s not surprising that economists have a blind spot when it comes to social movements, and that the discipline systematically minimizes their impact. By putting social movements at the centre of his stories, Rao shows that they can and do have an influence, and that they deserve a place in any serious look at institutions that shape social change.&lt;/p&gt;
+
+&lt;p&gt;Although he says almost nothing about the Internet and digital collaboration, &lt;em&gt;Market Rebels&lt;/em&gt;&amp;rsquo; focus on innovations makes the book obviously relevant. Rao&amp;rsquo;s analysis is a welcome alternative to the usual focus of widely-read writers like Yochai Benkler and Clay Shirky. These writers take the economics point of view and focus on issues such information as a public good, lowering transaction costs for online exchanges, and the vanishingly small marginal cost of reproduction of digital information. Rao&amp;rsquo;s unspoken counterargument, which convinces me, is that group formation is not a problem of information, it&amp;rsquo;s a problem of identity. If he is right then although we can expect to see many examples of successful groups in the online world, we won&amp;rsquo;t see not a huge flowering of groupiness compared to the information-starved analogue world.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s more, if Rao is right and initiatives such as Wikipedia, blogging and the Open Source movement really are social movements, then they may have a limited lifespan. Digital activist identity is a rebellious and anti-establishement stance, but such a stance can only be maintained while the movement is oppositional. Open Source, with a longer history behind it than Wikipedia or blogging, has changed its identity to being more professionalized, more establishment. Its participants are less likely to be the radicals of yesteryear. Once Wikipedia is established as a success for a few years, rebellion becomes irrelevant as a motive and one may wonder whether the activists will find the &amp;ldquo;cool mobilizations&amp;rdquo; to maintain involvement and participation.&lt;/p&gt;
+
+&lt;p&gt;If there is an economics tie-in with Rao&amp;rsquo;s analysis, it&amp;rsquo;s with the analysis of identity pioneered by Rachel Kranton and Robert Akerlof (and which I sketched in the final chapter of &lt;em&gt;&lt;a href=&#34;http://www.tomslee.net/&#34; target=&#34;_blank&#34;&gt;No One Makes You Shop at Wal-Mart&lt;/a&gt;&lt;/em&gt;). Rao does little to pick apart the concept of identity and it looks to me like the K&amp;amp;A analysis would have been helpful to him. For Kranton and Akerlof, identity is a set of social categories (car enthusiast, green activist), a set of prescriptions that go along with those categories, and a set of costs and benefits associated with following or not following these prescriptions. We each choose an identity from the range that society provides (&amp;ldquo;environmentalist&amp;rdquo;, &amp;ldquo;conservative&amp;rdquo;, etc). Forcing this choice is the object behind Rao&amp;rsquo;s &amp;ldquo;hot cause&amp;rdquo;: the lightning-rod issue that polarizes participants into supporters and opponents (&amp;ldquo;which side are you on, boys, which side are you on?&amp;rdquo;, as the greatest living American sings). Once you have chosen an identity, you must affirm it by following the prescriptions associated with that identity (shopping at independent stores, eating nouvelle cuisine, etc) or you pay the price of dissonance if you take actions that go against those prescriptions (shopping at W
+al-Mart, eating classical cuisine). Creating a strong set of such prescriptions is the essence of Rao&amp;rsquo;s &amp;ldquo;cool mobilizations&amp;rdquo;, which serve to maintain a sense of solidarity and identity among movement members.&lt;/p&gt;
+
+&lt;p&gt;One of the more common criticisms of &lt;em&gt;No One Makes You Shop at Wal-Mart&lt;/em&gt; was that, although I argued in favour of collective action as a corrective force to free markets, I had little to say about what forms that action should take. It&amp;rsquo;s a fair knock, and I&amp;rsquo;m happy that I can now point such readers to Rao&amp;rsquo;s book. Not only does he take on several of the issues that I cover (Wal-Mart and big-box stores, biotechnology, real ale) but he takes them much further than I could ever had done, and in a wonderfully specific and constructive way that provides concrete guidance to activists. I take my hat off to him.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Review: The Future of the Internet and How To Stop It by Jonathan Zittrain		</title>
+      <link>https://tomslee.github.io/post/review-the-future-of-the-internet-and-how-to-stop-it-by-jonathan-zittrain/</link>
+      <pubDate>Sat, 28 Feb 2009 20:40:43 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/review-the-future-of-the-internet-and-how-to-stop-it-by-jonathan-zittrain/</guid>
+      <description>&lt;p&gt;The &lt;em&gt;New York Times&lt;/em&gt; recently asked: &lt;a href=&#34;http://www.nytimes.com/2009/02/15/weekinreview/15markoff.html&#34; target=&#34;_blank&#34;&gt;Do We Need a New Internet?&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;At Stanford, where the software protocols for original Internet were designed, researchers are creating a system to make it possible to slide a more advanced network quietly underneath today’s Internet. By the end of the summer it will be running on eight campus networks around the country.&lt;/p&gt;
+
+&lt;p&gt;The idea is to build a new Internet with improved security and the capabilities to support a new generation of not-yet-invented Internet applications, as well as to do some things the current Internet does poorly — such as supporting mobile users.&lt;/p&gt;
+
+&lt;p&gt;The Stanford Clean Slate project won’t by itself solve all the main security issues of the Internet, but it will equip software and hardware designers with a toolkit to make security features a more integral part of the network and ultimately give law enforcement officials more effective ways of tracking criminals through cyberspace.&lt;/p&gt;
+
+&lt;p&gt;Ed Felten of Princeton University responds with an &lt;a href=&#34;http://www.freedom-to-tinker.com/blog/felten/new-internet-no-thanks&#34; target=&#34;_blank&#34;&gt;orthodox hacker-purist line&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;[The first misconception] is the notion that today&amp;rsquo;s security problems are caused by weaknesses in the network itself. In fact, the vast majority of our problems occur on, and are caused by weaknesses in, the endpoint devices: computers, mobile phones, and other widgets that connect to the Net. The problem is not that the Net is broken or malfunctioning, it&amp;rsquo;s that the endpoint devices are misbehaving &amp;ndash; so the best solution is to secure the endpoint devices&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s an appeal to ye-olde Internet mythologie, complete with deferential references to &amp;ldquo;the founders&amp;rdquo; and their foresight, as if the Internet were some real-world Seldonian Foundation.&lt;/p&gt;
+
+&lt;p&gt;Neither position is good enough, and Jonathan Zittrain&amp;rsquo;s wise book &lt;em&gt;The Future of the Internet And How to Stop It&lt;/em&gt; [&lt;a href=&#34;http://futureoftheinternet.org/&#34; target=&#34;_blank&#34;&gt;home page&lt;/a&gt;, &lt;a href=&#34;http://openlibrary.org/b/OL10319529M&#34; target=&#34;_blank&#34;&gt;Open Library entry&lt;/a&gt;] does a great job of explaining why and of providing some better ways of thinking about the problem. Yes, designing security into the Internet will inevitably cripple the very flexibility and permissiveness that has made the Internet a continuing source of unpredictable and surprising innovations. But sentimental idealization of the Original Internet and its &amp;ldquo;end-to-end&amp;rdquo; design won&amp;rsquo;t do either [p165].&lt;/p&gt;
+
+&lt;p&gt;[U]sers are not well-positioned to painstakingly maintain their machines against attack, leading them to prefer locked down PCs [as Felten appears to advocate, ed], which carry far worse, if different, problems. Those who favor end-to-end principles &amp;hellip; should realize that intentional inaction at the network level may be self-defeating, because consumers may demand locked-down endpoint environments that promise security and stability with minimum user upkeep. This is a problem for the power user and consumer alike.&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;When endpoints are locked down, and producers are unable to deliver innovative products directly to users, openness in the middle of the network becomes meaningless. Open highways do not mean freedom when they are so dangerous that one never ventures from the house.&lt;/p&gt;
+
+&lt;p&gt;The passage shows the strengths and weaknesses of the book. Zittrain takes an unusually and refreshingly pragmatic, realistic view of the Internet, rejecting old approaches as and when needed. On the other hand, you can see from the first two sentences that his prose can be repetitious and dry. You have to work your way through some dense thickets to get to through this forest - but if you are ready to make the effort, it&amp;rsquo;s a worthwhile journey: one of the best Internet books I&amp;rsquo;ve read.&lt;/p&gt;
+
+&lt;p&gt;Zittrain&amp;rsquo;s central concern is a dialectical contradiction at the heart the Internet:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The Internet&amp;rsquo;s success comes from its remarkable ability to repeatedly generate new and unexpected uses.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This &amp;ldquo;generativity&amp;rdquo; (yuck, what a clumsy word), comes in turn from the deliberate dumbness of the Internet protocols themselves; they were deliberately designed to permit any kind of traffic, for any purpose, to pass between end points of the network.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;But the more the Internet becomes &amp;ldquo;prime time&amp;rdquo;, the more it attracts spammers, virus writers and information thieves to prey on the online population, and the Internet&amp;rsquo;s dumbness is free for them to use as well.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The more these highway predators threaten our online experience, the more we seek to retreat to the safety of a closed and protected world.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A closed and protected world may give us safety, but will spell the end of the Internet as a fount of innovation.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The Internet, like capitalism, contains the seeds of its own destruction. But Zittrain is a digital reformer, not a revolutionary. Inspired by the continuing success of Wikipedia in the face of similar problems, he favours a combination of light regulation (like health and safety standards for the Net) and popular community action (neighbourhood watch). He believes that these, combined, can preserve the creative spirit that has led to so many innovations, while staving off the worst of the security and other problems. And he makes a solid case, buttressed by broad research (50 pages of notes and references) and a careful, undogmatic and pragmatic attitude.&lt;/p&gt;
+
+&lt;p&gt;The book is in three parts. Part I is a history of the Internet, told to highlight two design principles that were present right in the original TCP/IP architecture. The first is the &amp;ldquo;procrastination principle&amp;rdquo;, which says the &amp;ldquo;the network itself should not be designed to do anything that can be taken care of by its users&amp;rdquo; [p31]. Most features of a network should be implemented at its computer endpoints (the end-to-end principle) rather than &amp;ldquo;in the middle&amp;rdquo;. The second principle is trust; the Internet is &amp;ldquo;a bucket-brigade partnership in which network neighbors pass along each other&amp;rsquo;s packets&amp;rdquo;, and the assumption of co-operation and fair dealing is present in its design. So the Internet has no built-in security or identification mechanism; anyone can join the network; and there is no quality of service guarantee for packets it delivers. These two principles have led to what Zittrain calls the &amp;ldquo;generative dilemma&amp;rdquo; [36]. &amp;ldquo;The idea of a Net-wide set of ethics has evaporated as the network has become so ubiquitous&amp;rdquo; [45]. So how do we regain security while maintaining the ability to be creative?&lt;/p&gt;
+
+&lt;p&gt;Part II outlines what Zittrain sees as some of the dangers facing the Internet. One danger is the rise of Internet appliances, such as many of today&amp;rsquo;s mobile phones, X-boxes, and Kindles. These devices promise a secure environment, but at the cost of restricting the ability of programmers to be creative. The second is at the other end of the network, where &amp;ldquo;Web 2.0&amp;rdquo; platforms such as Google Maps, Facebook, Salesforce and other hosted environments offer &amp;ldquo;contingent&amp;rdquo; environments for programming, where the prospect of unilateral changes to terms of service or agreements inhibits creativity.&lt;/p&gt;
+
+&lt;p&gt;Zittrain is enthusiastic about much of what the Internet has wrought, but he parts company from current digital orthodoxy on these issues. When it comes to Web 2.0, influential commentators from Shirky to Lessig to Tapscott and even to Benkler gloss over the differences between commercial web sites and non-profits, in an attempt to highlight a unified Internet culture. Lessig, for example, talks optimistically of a hybrid economy in which these motivations muddle along next to each other, and while Benkler does see an opposition of interests between the market economy and the collaborative network economy, he never makes much of it. I haven&amp;rsquo;t seen as clear-minded an analysis of why commercial Web 2.0 platforms threaten creativity as Zittrain provides and I agree with him wholeheartedly.&lt;/p&gt;
+
+&lt;p&gt;The mobile Internet is only beginning to get the kind of attention that Web 2.0 has received. Today&amp;rsquo;s smartphones and yesterday&amp;rsquo;s desktop computers are similar in terms of computational power (see &lt;a href=&#34;http://www.engadget.com/2009/02/24/windows-3-1-running-on-nokia-n95-is-both-awesome-and-depressing/&#34; target=&#34;_blank&#34;&gt;this claim&lt;/a&gt; of Windows 3.1 running on a Nokia N95 if you don&amp;rsquo;t believe me). But whereas Microsoft got hauled in front of the courts to keep the desktop computing environment open for non-Microsoft applications and opposing the bundling of Internet Explorer, there are no such worries for mobile phone vendors as they keep their proprietary app stores and their managed devices in the name of security. There are layers of the iPhone, the BlackBerry - yes, and Android devices too - that are open only to the operating system, and which third-party applications cannot access.&lt;/p&gt;
+
+&lt;p&gt;A natural response to Zittrain&amp;rsquo;s worry that we face an Internet of closed appliances (or, as &lt;a href=&#34;http://74.125.95.132/search?q=cache:FfLvdxlIKVkJ:www.usenix.org/events/usenix99/invited_talks/seltzer.ppt+margo+seltzer+gizmo&amp;amp;hl=en&amp;amp;ct=clnk&amp;amp;cd=1&amp;amp;gl=ca&amp;amp;client=firefox-a&#34; target=&#34;_blank&#34;&gt;Margo Seltzer calls them&lt;/a&gt;, &amp;ldquo;gizmos&amp;rdquo;) and closed services is that these can exist in parallel with open, &amp;ldquo;generative&amp;rdquo; devices and communications. But Zittrain rejects this particular compromise:&lt;/p&gt;
+
+&lt;p&gt;even in a world of locked-down PCs there will remain old-fashioned generative PCs for professional technical audiences to use. But this view is too narrow. We ought to see the possibilities and benefits of PC generativity made available to everyone, including the millions of people who give no thought to future uses when they obtain PCs, and end up delighted at the new uses to which they can put their machines. And without this ready market, those professional developers would have far more obstacles to reaching critical mass with their creations.[165]&lt;/p&gt;
+
+&lt;p&gt;The end-to-end principle, argues Zittrain, has had its day, as &amp;ldquo;&amp;lsquo;middle&amp;rsquo; and &amp;lsquo;endpoint&amp;rsquo; are no longer subtle enough to capture the important emerging features of the Internet/PC landscape&amp;rdquo; [167]. In its stead he advocates a more general principle that seeks explicitly to maintain &amp;ldquo;generativity&amp;rdquo;, so that ISP filtering of viruses may be worth considering, for example.&lt;/p&gt;
+
+&lt;p&gt;Zittrain sees an inspiration in Wikipedia, whose shambolic, after-the-fact, bits-and-pieces way of fixing problems has been one of its strengths. Zittrain gives two initiatives he has been involved with, that could drive a similar approach for security while maintaining generativity. One is &lt;a href=&#34;http://www.herdict.org/&#34; target=&#34;_blank&#34;&gt;herdict&lt;/a&gt;, a browser plugin that collects the input of people from around the world to assess web site accessibility. Another is &lt;a href=&#34;http://www.stopbadware.org/&#34; target=&#34;_blank&#34;&gt;stopbadware.org&lt;/a&gt; , which helps to maintain a list of web sites that may host viruses and other badware. These initiatives extend the now commonplace collection of user experience by commercial software providers and service providers by making the collected data universally available. The distinction between, on the one hand, Google&amp;rsquo;s use of our searches and Microsoft&amp;rsquo;s collection of Windows crash reports and, on the other hand, herdict&amp;rsquo;s goal of making the collected data public is a big one. It shines a light both on the closed nature of the major corporate collectors (no matter how unevil they may claim to be) and on the possibilities of open data. Public access to current databases of virus reports, spam outbreaks, and so on provides a basis for innovative solutions to the worst damages inflicted by malware.&lt;/p&gt;
+
+&lt;p&gt;Maintaining a healthy digital environment - both security and generative - is a commons problem, and while dictatorship is an appealing route to take to solve the security half of the issue, real transparency provides a second possibility that has more chance of solving both. But it needs to be real transparency, not just the half-hearted efforts of Web 2.0 companies as they dance along the line between community and profit.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a lot more in the book. On the technological front Zittrain sees virtualization technologies as reason for optimism and I agree; I&amp;rsquo;m getting a new computer at work next week and I anticipate running everything in virtual machines. If I get a virus or my registry gets screwed up, I&amp;rsquo;ll roll back to yesterday&amp;rsquo;s state and it will be gone. Well, that&amp;rsquo;s the plan. Let&amp;rsquo;s see how it works. On the social and political side, the book&amp;rsquo;s final pages tend to wander aroun
+d issues of privacy, reputation, and behavioural norms without saying a whole lot that&amp;rsquo;s new. It&amp;rsquo;s a shame the book finishes on this topic, because it fizzles out a bit. But don&amp;rsquo;t let that deter you - there is a lot of subtle insight and a real breadth of knowledge in these pages that you rarely see in books about the cutting edge of technology, and Zittrain&amp;rsquo;s efforts deserve to generate a big discussion.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.zemanta.com/pixy.gif?x-id=d5402169-ac99-4a32-abf8-e9cbb5c2a382&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Lawrence Lessig&#39;s Remix: a rambling review		</title>
+      <link>https://tomslee.github.io/post/lawrence-lessigs-remix-a-rambling-review/</link>
+      <pubDate>Wed, 14 Jan 2009 21:24:35 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/lawrence-lessigs-remix-a-rambling-review/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            _Remix: Making Art and Commerce Thrive in the Hybrid Economy,_  Lawrence Lessig, Penguin 2008.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lawrence Lessig&amp;rsquo;s latest book is about how &amp;ldquo;a regime of copyright built for a radically different technological age&amp;rdquo;  xvi: numbers in square brackets are page numbers] is inhibiting art, culture, and individual expression in a digital world. His inspiration, as a parent of two youngsters, is the &amp;ldquo;copyright wars&amp;rdquo; and the effect they are having on a generation of children and young adults. Copyright does have an important role to play, he argues, but Criminalizing an entire generation is too high a price to pay for a copyright system created more than a generation ago&amp;rdquo; [xviii].&lt;/p&gt;
+
+&lt;p&gt;Surprisingly, given the author, the legal portion of the book is a relatively short final section, in which he outlines some common sense and practical suggestions for change in the regulatory environment of the USA. Instead, most of &lt;em&gt;Remix&lt;/em&gt; is a description of what Lessig sees as the nascent and booming digital R/W culture that is under threat; of what kind of new activities are appearing and how they work economically. Lessig is mainly concerned with amateur activities like playing, hobbies, and gossip, and with how digital technology has changed them. Unfortunately, the picture he paints is less full of insight than his legal views. He paints a familiar heavily-photoshopped picture of reality that has now become almost orthodoxy in business and technological circles. &lt;!-- more --&gt;
+Lessig&amp;rsquo;s views on culture and how it works include no references to the many writers who have thought long and hard about the subject. No Marshall McLuhan or Raymond Williams or their successors here. Instead, in what is an unfortunate Silicon Valley tendency, he simply ignores the history of the subject and decides to concoct his own ideas about cultures past and future, using &amp;ldquo;the language of today&amp;rsquo;s computer geeks&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;He divides culture, in an appropriately binary approach, into two forms. There is RO (read-only) culture: professionally produced, hierarchical, and characterized by control. In RO culture the role of amateurs is to consume &amp;ldquo;tokens of culture&amp;rdquo; (recordings, broadcasts and so on). Then there is RW culture (Read/Write), in which the consumers are also creators. RW culture is the domain of both professional and amateur, it is participatory.&lt;/p&gt;
+
+&lt;p&gt;The 20th Century, _Remix _says, saw the RO/RW pendulum swing sharply towards hierarchical and professional RO culture: &amp;ldquo;Never before in the history of human culture had the production of culture been as professionalized. Never before had its production been as concentrated&amp;rdquo; [29]. The 21st Century, driven by digital technologies, promises a revival of RW culture, a swing of the pendulum back to a more healthy balance. Healthy because the Internet &amp;ldquo;enables a wider range of people to speak&amp;rdquo; [132] and gives a new literacy to amateurs, who can &amp;ldquo;create in contexts that before only professionals ever knew&amp;rdquo; [108]. In short, the Internet promises to &amp;rdquo;democratize&amp;rdquo; culture by reviving RW forms.&lt;/p&gt;
+
+&lt;p&gt;In painting this picture _Remix _unfortunately airbrushes out all the RW culture happening in the 20th century and magnifies the new forms of RW culture emerging in the 21st. As a result it portrays what is actually a shift of activity, from some forms of RW culture to others, as a revival of RW culture.&lt;/p&gt;
+
+&lt;p&gt;We can imagine R/W culture as a pyramid of creative activities. Billions of people (including children) take part in creative activities casually, for fun, and we call that &amp;ldquo;play&amp;rdquo;. A small fraction of those people also take part more intensively and with more skill as a means of self-expression and we call those activities &amp;rdquo;hobbies&amp;rdquo; or &amp;ldquo;interests&amp;rdquo;. A very few skilled people become semi-amateur or professional and even fewer still become rich and famous. A healthy, &amp;ldquo;democratized&amp;rdquo; culture supports all the levels of this pyramid.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s think about the broad base: play. When my teenage self painted a model airplane, or when my children modify a computer game, we are engaging in exactly the amateur creative activity Lessig labels &lt;em&gt;W&lt;/em&gt;: we are manipulating &amp;ldquo;tokens of culture&amp;rdquo;. The big difference between my children&amp;rsquo;s creative pastimes and mine is that theirs, being digital, can be distributed by and monitored by other computers. Three things follow from this.&lt;/p&gt;
+
+&lt;p&gt;First, their activities can be counted, and this gives the appearance of a huge growth of new cultural activity (millions of videos on YouTube! millions of photos on Flickr!) But such numbers are largely illusory. Most songs and videos are only ever seen or heard by a handful of friends and family, and this kind of small-scale sharing is really no more dramatic than me painting my airplane and showing it to my family and friends. It&amp;rsquo;s just easier to count.&lt;/p&gt;
+
+&lt;p&gt;Second, and this is Lessig&amp;rsquo;s main concern: the law can monitor and control digital play. Many creative activities, like creating music, require us to copy the works, either digitally on a computer or recreating songs on our own instruments. All such activity potentially triggers copyright concerns. Even consuming digital works, as Lessig points out, involves a form of copying the material from one place (a disk) to another (RAM) and processing it. DRM technology embedded in the files themselves, limit the ways in which a work can be copied and processed, even the number of times it can be processed. For material shared in public places, software can search and locate instances of songs, videos, and report back to the copyright owner. The intrusion of law and regulation further into our pastimes and hobbies than ever before is a development full of foreboding, and &lt;em&gt;Remix&lt;/em&gt; is at its strongest when drawing attention to the intrusion and the dangers it brings with it. There is, to paraphrase Pierre Trudeau, no place for the state in the playrooms of the nation, and &lt;em&gt;Remix&lt;/em&gt; is a strong argument for keeping it out.&lt;/p&gt;
+
+&lt;p&gt;There is a third change brought about by digital technology. It makes it possible for a few people to make unprecedented amounts of money from other people playing. As with the law, it is now possible to make money not just by selling us a toy to play with, but each and every time we play with it. Facebook, Youtube and other sites are, as &lt;em&gt;Remix&lt;/em&gt; admits, increasingly driven by advertising. While Lessig is incensed at the raising of a generation of criminals, he is unfazed at the thought of raising a generation of commodities, whose attention and interest is a source of revenue for some venture capitalist. At a time when advertising directly to children is under increasing scrutiny, and for good reason, the commodification of friendship and of home videos should make a parent of young children concerned. But it does not.&lt;/p&gt;
+
+&lt;p&gt;The serious amateur and the part-time professional occupy a layer just above play in the cultural pyramid. In the non-digital world such a person may play in a band at local bars, or sing in local choirs. They may take singing or guitar lessons, or photography classes. They may even write a rarely-read book. These activities are valuable to the performers themselves and to their audience. Lessig is correct and articulate in arguing that the most dramatic benefit of cultural activity is not in the production of great works, but in large numbers of people finding their voice. These marginal but serious activities also generate income for the heavily-populated lower-income rungs of the professional ladder, as choirmasters, guitar teachers, book editors, sound technicians. In short, these small-scale public activities create the market for the &amp;ldquo;institutions of literacy&amp;rdquo; that Lessig correctly points out [108] are so important to the development of a healthy culture.&lt;/p&gt;
+
+&lt;p&gt;In the digital world, there is little place for these small-scale activities. Small-scale publishers and bookshops are derided by the digitocracy as &amp;ldquo;gatekeepers&amp;rdquo;, a purely negative function, while Netflix and Amazon are hailed as promoters of democratization. Nothing could be further from the truth: Netflix will never organize zombie walks in October as my local independent video store does; Amazon will never organize author tours for both eminent and marginal authors, as my local indepedent bookstore does. These stores are not &amp;ldquo;gatekeepers&amp;rdquo;; they are a central part of a healthy &amp;ldquo;democratized&amp;rdquo; culture. There is a whole rich ecosystem of activities, some paid, some not, around the production of small-scale culture, that Internet evangelists repeatedly ignore as they contrast the blandness of 20th century mainstream TV with the quirkiness of some favourite marginal Internet production. But the mainstream is still here in 2009, helped along by Netflix and Google and Amazon. And marginal, countercultural and avant-garde culture has a long history before Tim-Berners Lee.&lt;/p&gt;
+
+&lt;p&gt;Amazon and Netflix&amp;rsquo;s economic efficiency derives from the automation of cultural work: carrying out the functions of distribution and promotion without having to pay people to do it. It may be inevitable, but that doesn&amp;rsquo;t make it welcome. You&amp;rsquo;re a student and want to talk to someone at Netflix? Too bad, because their contact page says &amp;ldquo;If you are a student, we are unable at this time to grant requests for interviews.&amp;rdquo; In the 21st century the money that would have kept enthusiasts involved and employed in promoting culture is going, as our culture moves more online, to a few very wealthy people in Seattle and Silicon Valley. Democratization? I don&amp;rsquo;t think so.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s another trope that has become received wisdom in the world of the Internet: it is surprising that people take part in creative activity for free. As if joining in a game of football or painting a picture is surprising. Tied to economics as many are - the discipline that has the least insight into human motivations of all social sciences - they ask what the incentives are to build RW culture [116]? But, as Grant and Wood explain in their excellent book &amp;ldquo;Blockbusters and Trade Wars&amp;rdquo;, supply has never been the bottleneck for a healthy culture. Mississipi John Hurt had nothing but a harmonica - not even sight - yet he produced music, along with other talented musicians from all kinds of backgrounds and traditions. People find ways to create culture.&lt;/p&gt;
+
+&lt;p&gt;The bottleneck, instead, is in finding an audience. Promotion, seen in Remix as a technical matching problem to be solved by automated recommender systems, is the key to the cultural puzzle. And it is not yet proven that the Amazon&amp;rsquo;s and Netflixes of the world are better ways of promoting a diverse culture than the messy mix of older, smaller-scale institutions.&lt;/p&gt;
+
+&lt;p&gt;Lessig&amp;rsquo;s optimism regarding the future of serious amateurs and part-time professionals comes from his conviction that the worlds of the amateur and the professional can be reconciled on the Internet in the form of &amp;ldquo;hybrid economies&amp;rdquo;, where sharing and selling coexist side by side. Such mixtures are vulnerable, as he recognizes. Those who would contribute happily to non-profit Wikipedia do not contribute so happily if the fruits of their efforts are being pocketed by others.&lt;/p&gt;
+
+&lt;p&gt;A key chapter of the book is devoted to classifying these sharing and commercial economies; labelling them as communities and community spaces and collaboration spaces. Unfortunately the result is a smattering of examples of attempts to mix money and non-commercial motivations, with varying degrees of success, and little to back up his conviction that the future will see a happy and democratic creation of hybrid models in which creators and platform owners each benefit.&lt;/p&gt;
+
+&lt;p&gt;Lessig describes himself as a Lefty, but it is a leftyness of a peculiar Silicon Valley type in these pages. If we take leftyness as being on the side of the underdog, then his attitude to copyright law and regulation makes sense: copyright law can be a way for big companies to limit little people.&lt;/p&gt;
+
+&lt;p&gt;But while Lessig doesn&amp;rsquo;t like &amp;ldquo;professionalism&amp;rdquo;, he has no problem with free markets, or with the commodification of increasing swaths of our lives. His vision of the future of hybrid economies is uncritical. He adopts a Silicon Valley anti-establishment stance by saying that, given a choice between the successful dinosaurs or the hungry upstarts &amp;ldquo;my taste is for the hungry upstarts&amp;rdquo; [142]. But given a choice between independent bookstores and Amazon, he&amp;rsquo;s on the side of Amazon and sees the small publisher as &amp;ldquo;professional&amp;rdquo; and part of the old, RO culture.&lt;/p&gt;
+
+&lt;p&gt;For many cultural and artistic movements there is a &amp;ldquo;counter-cultural moment&amp;rdquo; when a previously obscure and out-of-the-way tendency suddenly gains prominence. It may be the surrealists in the &amp;lsquo;30s, Bauhaus in the &amp;lsquo;20s, the hippy movement in the late &amp;lsquo;60s, punk in the late &amp;lsquo;70s - each had a few years in which it was both important and
+yet still opposed to the mainstream. But that counter-cultural moment is short, often just a handful of years, and once it is over, the movement either becomes the mainstream or fades away. Only nine years after the summer of &amp;lsquo;67 the hippies were a thing of the past and punk set itself up in direct opposition to the pompous and irrelevant dinosaurs that &amp;ldquo;progressive rock&amp;rdquo; bands had become.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Geek culture&amp;rdquo; has had its counter-cultural moment. It&amp;rsquo;s over.&lt;/p&gt;
+
+&lt;p&gt;It is now several years since Wikipedia started, four years since blogging, ten years of Google. When it talks of &amp;ldquo;hungry upstarts&amp;rdquo; _Remix _lists Google, Yahoo! and other companies formed by Stanford dropouts, but a few years on, these upstarts (to the extent that Stanford vs Harvard [142] was ever a battle of underdog vs establishment) are now the establishment. Netflix partners with Wal-Mart, Google partners with CBS, Amazon is bigger than any of those &amp;rdquo;establishment&amp;rdquo; bookstores it challenged and pushes around publishers with impunity. Geek culture is now mainstream. Google, Amazon, Netflix have passed their counterculture sell-by date.&lt;/p&gt;
+
+&lt;p&gt;Lessig is recognized as a leader of admirable efforts to introduce copyright reform issue. The legal reforms which he briefly sketches in the final part of the book are well thought out and practical: deregulating amateur creativity, establishing clear title, simplifying copyright, decriminalizing the copy, and decriminalizing file sharing. His suggestions for changes we need to our norms are also fine so far as they go: extending the norms that govern text (the right to quote small parts of text for example) [275] to other areas of culture where there is no such leeway [104]; making copyright &amp;ldquo;opt-in&amp;rdquo; rather than &amp;rdquo;opt-out&amp;rdquo;, and &amp;ldquo;rediscovering the limits of regulation&amp;rdquo;. But that last one is a marker of the failings of the book. Ironically timed, given the current financial mess, &lt;em&gt;Remix&lt;/em&gt; misses the point that we need also to learn the limits of markets, and the dangers of commodification.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Here Comes Everybody		</title>
+      <link>https://tomslee.github.io/post/here-comes-ever/</link>
+      <pubDate>Sun, 06 Apr 2008 20:30:14 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/here-comes-ever/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Here Comes Everybody: The Power of Organizing Without Organizations&lt;/em&gt;, Clay Shirky, Penguin, 2008.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&amp;ldquo;We are living&amp;rdquo;, says Clay Shirky, &amp;ldquo;in the middle of a remarkable increase in our ability to share, to cooperate with one another, and to take collective action, all outside the framework of traditional institutions and organizations&amp;rdquo; [p. 20]. Digital technologies are now part of our social fabric, and all &amp;ldquo;the phones and computers, the e-mail and instant messages, and the webpages are manifestations of a more fundamental shift. We now have communications tools that are flexible enough to match our social capabilities and we are witnessing the rise of new ways of coordinating action that take advantage of the change&amp;rdquo; [20].&lt;/p&gt;
+
+&lt;p&gt;_Here Comes Everybody _is an accessible and challenging introduction to these changes - to the many ways every Shem, Shaun and Issy can now share, collaborate, and act together. It combines some great stories with non-technical introductions to some of the key ideas (a little game theory, a little network theory, a few power laws) and is well worth reading &amp;ndash; but it should be read with caution.&lt;/p&gt;
+
+&lt;p&gt;The reason for this mixed verdict is the dual nature of the book itself. _Here Comes Everybody _has two voices. One (let&amp;rsquo;s call him &amp;lsquo;Shirky&amp;rsquo;) is a perceptive and creative interpreter of the ways that digital technology is changing society. I like and respect Shirky. He is blunt and provocative enough to cut through the mess of questions that come up when tackling something as far-reaching as the Internet, while being even-handed and reserved enough to respect the complexity of his subject. Here is Shirky on the erosion of journalism and photography:&lt;/p&gt;
+
+&lt;blockquote&gt;There is never going to be a moment when we as a society ask ourselves, &#34;Do we want this? Do we want the changes that the new flood of production and access and spread of information is going to bring about?&#34; It has already happened; in many ways, the rise of group-forming networks is best viewed not as an invention but as an event, a thing that has happened in the world that can&#39;t be undone. As with the printing press, the loss of professional control will be bad for many of society&#39;s core institutions, but it&#39;s happening anyway. [p73]
+&gt; 
+&gt; &lt;/blockquote&gt;
+
+&lt;p&gt;I&amp;rsquo;ve struggled with this message for a few days because I don&amp;rsquo;t like its determinism, but he has convinced me. Shirky separates what is happening from what is desirable (not that everything digital is undesirable) and that&amp;rsquo;s an important separation to make if we are to be at all clear-headed.&lt;/p&gt;
+
+&lt;p&gt;Shirky is not a techno-inevitabilist in a broad sense. Nuclear power, for example, &amp;ldquo;is a technology that society can, for the moment, make a decision about&amp;rdquo; [299]. As with driving a car, we &amp;ldquo;have a good deal of control over both the route and the speed with which nuclear power progresses, including the option to simply pull over&amp;rdquo; [299]. But when it comes to digital technologies we are steering a kayak: &amp;ldquo;We are being pushed rapidly down a route largely determined by the technological environment&amp;hellip; Our principal challenge is not to decide where we want to go but rather to stay upright as we go there.&amp;rdquo; [300]&lt;/p&gt;
+
+&lt;p&gt;The other voice (let&amp;rsquo;s call him &amp;lsquo;Clay&amp;rsquo;) is a techno-enthusiast and an inveterate story-teller. When Clay looks at the Internet he sees no reason for worry - he sees freedom and unlimited potential. It&amp;rsquo;s &amp;ldquo;the largest increase in expressive capability in the history of the human race&amp;rdquo; [106], bringing with it a world in which, when &amp;ldquo;people care enough, they can come together and accomplish things of a scope and longevity that were previously impossible; they can do big things for love.&amp;rdquo; [142] Shirky may warn that there are losses from social changes, but Clay is breezily dismissive: &amp;ldquo;The spread of cheap and widely available creative tools is sad for people in the advertising business in the same way that movable type was sad for scribes &amp;ndash; the loss from this kind of change is real but limited and is accompanied by a generally beneficial social change.&amp;rdquo; [209] This is the logic of The Lottery - the short story in which one person is stoned so that others can be better off.&lt;/p&gt;
+
+&lt;p&gt;I blame Clay and his enthusiasms for the two major flaws of this book.&lt;/p&gt;
+
+&lt;p&gt;The first is a fallacy of composition. Clay looks at the Internet and sees lots of groups forming (and things are easy to see on the Internet because even our most casual utterances get stored on someone&amp;rsquo;s servers for posterity to investigate) and he concludes that the world is alight with a new groupiness, the likes of which we have never seen. From time to time Shirky pipes up to remind his alter ego that this is not enough, that &amp;ldquo;treating the internet as some sort of separate space&amp;hellip; was part of the problem&amp;rdquo; [194]. &amp;ldquo;The internet augments real-world social life rather than providing an alternative to it&amp;rdquo; [196]. One implication of Shirky&amp;rsquo;s caution is that, to evaluate the state of groups in our world, we also have to look at how our use of the Internet may have displaced other forms of group building. But while Shirky knows all about &lt;em&gt;Bowling Alone&lt;/em&gt;, Clay is too busy running off to tell us a story about Meetup.com to take a really close look at how those positives and negatives are adding up.&lt;/p&gt;
+
+&lt;p&gt;While Clay is telling us all about the use of digital technology to spark innovative forms of protest in Belarus, which is a fascinating story, we really need Shirky to ask why, with all these group-forming tools at our disposal and despite the documented disillusionment with the war in Iraq, there is so little coherent protest happening compared to previous wars? Is it really the case that society now is becoming, thanks to the internet, more democratic, more collaborative, and more cooperative than before? I am not convinced. Clay is in danger of making the same mistakes that William Greider made in &lt;em&gt;One World, Ready or Not&lt;/em&gt;, and which &lt;a href=&#34;http://web.mit.edu/krugman/www/hotdog.html&#34; target=&#34;_blank&#34;&gt;Paul Krugman demolishes&lt;/a&gt; - of finding lots of examples of groups and inferring that the world must have more groups in it than it used to - but that logic is flawed.&lt;/p&gt;
+
+&lt;p&gt;Now Shirky is far too well-informed to fall into this kind of trap. Shirky recognizes that, just as removal of a bottleneck at one point in a highway may prompt a new bottleneck to form a few miles down the road, so the &amp;ldquo;removal of technological limits has exposed a second set of social ones&amp;rdquo; [91]. But Clay&amp;rsquo;s enthusiasms mean that the book is unbalanced, and this second set of limits never really gets investigated closely. Clay the enthusiast wins out over Shirky the dispassionate observer. If you are going to argue that groups are forming as never before, and if you are going to use minor events like angry airline passengers protesting about being trapped on runways to claim that &amp;ldquo;Consumers now talk back to businesses and speak out to the general public, and they can do so en masse and in coordinate ways&amp;rdquo; [179] then you really have to think about consumer activity before digital technology. Here is &amp;ldquo;talking back to business&amp;rdquo; with a vengeance:&lt;/p&gt;
+
+&lt;blockquote&gt;August [1800] - Notwithstanding that the last day of this month was a Sunday, it was marked as the commencement of a serious riot. A great increase in the price of provisions, more especially of bread, had roused the vindictive spirit of the poorer classes to an almost ungovernable pitch. They began late in the evening, by breaking the windows of a baker in Millstone Lane, and in the morning proceeded, with an increase of numbers and renewed impetuosity, to treat others of the same trade in the same unwelcome manner. Granaries were broken into at the canal wharfs, and it was really distressing to see with what famine-impelled eagerness many a mother bore away corn in her apron to feed her offspring. [[link](http://www.nottinghamcity.gov.uk/greensmill/shhist.htm)] 
+&gt; 
+&gt; &lt;/blockquote&gt;
+
+&lt;p&gt;Do consumers have a stronger voice now than in the past? I don&amp;rsquo;t know, but I do know that a story or two about American Airlines passengers is not going to convince me. If Clay wants to tell us about a student group using Facebook to protest about British Bank HSBC&amp;rsquo;s cancellation of interest-free loans then perhaps he should think about the longstanding student boycott of Barclays Bank during the 1970&amp;rsquo;s and 1980&amp;rsquo;s that contributed to the end of apartheid. But he doesn&amp;rsquo;t, and that&amp;rsquo;s disappointing.&lt;/p&gt;
+
+&lt;p&gt;The second flaw - also a common one - is a reluctance to follow the money. Between them, Clay and Shirky convince me that the Internet marks a change; that a society with an Internet is different from a society without one. Also, they convince me that the Internet is not a single model of sharing/collaboration/collective action; it&amp;rsquo;s many models. So let&amp;rsquo;s talk about these models, about which ones have legitimacy and longevity and which don&amp;rsquo;t. To do so requires Shirky to take the broad brush that Clay is using and to start to make smaller, more detailed points.&lt;/p&gt;
+
+&lt;p&gt;Perhaps we no longer need books telling us that the Internet is a big thing. It is time to treat that fact, as Shirky sometimes does, as the starting point for a discussion rather than the conclusion. The questions then become ones of what kind of structures will form and persist in the online world, and if you are going to talk about these questions then you have to address the economics of the problem.&lt;/p&gt;
+
+&lt;p&gt;Money matters.&lt;/p&gt;
+
+&lt;p&gt;People&amp;rsquo;s willingness to contribute to Wikipedia, Shirky points out, is tied to the non-profit status of Wikipedia. A threat from Spanish participants to start an alternative version convinced founder Jimmy Wales to &amp;ldquo;formally forgo any future commerical plans for Wikipedia, and to move the site from Wikipedia.com to Wikipedia.org, in keeping with its nonprofit status. Similarly, he decided to adopt the GNU Free Documentation License for Wikipedia&amp;rsquo;s content [which] assured contributors that their contributions would remain frerely available&amp;rdquo; [274]. There is an ongoing tension between contributors to sites and the &amp;ldquo;owners&amp;rdquo; of those sites that is visible on MySpace (see Billy Bragg&amp;rsquo;s efforts to gain musicians rights over their content), on Facebook (the failed &amp;ldquo;Beacon&amp;rdquo; program as one example) and even Google and the line it walks with advertising content on its search results. Contributor-driven movie database IMDB was taken over by Amazon, but Amazon does not put its name on the pages of the site - does it fear that people would not contribute so freely if they realized they were just making Jeff Bezos even richer? The book ends with a story by Clay about a successful revolt by participants at digg.com - but once again, a story is not enough to support the thesis he is trying to make.&lt;/p&gt;
+
+&lt;p&gt;There are many issues of democracy, ownership, privacy and control that, depending on how they are resolved, will influence our chances of staying upright as we get carried along by this technological flood. Clay Shirky shows in this book that he has many insights that we can use, but to really help steer this kayak we need more Shirky and less Clay.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				The Anarchist in the Library		</title>
+      <link>https://tomslee.github.io/post/the-anarchist-i/</link>
+      <pubDate>Mon, 24 Mar 2008 21:30:25 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/the-anarchist-i/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.perseusbooksgroup.com/basic/book_detail.jsp?isbn=0465089852&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;The Anarchist in the Library&lt;/em&gt;&lt;/a&gt;, Siva Vaidhyanathan, Basic Books 2004.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Siva Vaidhyanathan (see &lt;a href=&#34;http://www.googlizationofeverything.com/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://www.sivacracy.net/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;) sees the central problem of the Internet and of society as a whole, as the tension between decentralization/freedom/anarchy and centralization/control/oligarchy.&lt;/p&gt;
+
+&lt;blockquote&gt;The great challenge in the new century is to mediate between two divergent trends -- anarchy and oligarchy. In the war between distribution and concentration of information, the issues and conflicts seem intractable. [xvii]
+&gt; 
+&gt; &lt;/blockquote&gt;
+
+&lt;p&gt;In the world of the Internet, at least in the years leading up to 2004 when the book was published, these poles of anarchy and oligarchy manifest themselves technologically. Anarchy is the &amp;ldquo;ideology of peer-to-peer systems&amp;rdquo; such as the file-sharing and media-sharing networks that have followed Napster; it is characterized by a fluid, decentralized architecture in which &amp;ldquo;all the &amp;lsquo;thinking&amp;rsquo;.. happens at the end point&amp;rdquo; and in which there is &amp;ldquo;no discernible command-and-control system&amp;rdquo; [17]. On the other side, digital rights management is the technology of oligarchy, imposing controls on what you can and cannot do with the software and media that you buy (or, increasingly, license). I don&amp;rsquo;t usually buy the technology-determines-behaviour line, but his discussion of what it means for a technology to &amp;ldquo;have an ideology&amp;rdquo; is the best I&amp;rsquo;ve read, and is well illustrated by the distinction between technologies that operate on the basis of protocols (handshakes, conventions) and those that work on the basis of controls.&lt;/p&gt;
+
+&lt;p&gt;When I first picked up this book (from my library) I assumed that the author was another techno-utopian and that he is firmly on the side of freedom and anarchy over control and oligarchy (as who but the most unromantic of us could not be)? Not unreasonable, given chapter titles like_ Hacking the Currency_ and &lt;em&gt;The Peer-to-Peer Revolution and the Future of Music&lt;/em&gt;, but wrong. In fact, although his heart is with the anarchists, Siva Vaidhyanathan is best described as a librarian. Not as in somebody who works in a library, but as in someone who is a fan of libraries:&lt;/p&gt;
+
+&lt;blockquote&gt;Librarians should be our heroes. The library is not just functionally important to communities all over the world; it embodies Enlightenment values in the best sense. A library is a temple devoted to the antielitist notion that knowledge should be cheap if not free -- doors should be open. Supporting libraries -- monetarily, spiritually, intellectually, and legally -- is one of the best things we can do for the life we hope to build for the rest of the century. [Page 119]
+&gt; 
+&gt; &lt;/blockquote&gt;
+
+&lt;p&gt;Libraries seem anachronistic &amp;ndash; if they did not already exist, they could not be created now (in North America anyway) &amp;ndash; and yet they are among the most popular of institutions. People make jokes (deserved or not) about the service of the post office, the inflexibility of government, and the so on, but no one (well, apart from &lt;a href=&#34;http://www.imdb.com/title/tt0697721/&#34; target=&#34;_blank&#34;&gt;Seinfeld&lt;/a&gt;) pokes fun at libraries. Even &lt;a href=&#34;http://www.marginalrevolution.com/marginalrevolution/2007/09/library-appreci.html&#34; target=&#34;_blank&#34;&gt;some libertarians&lt;/a&gt;, who see any path laid by the state as a road to serfdom, love libraries. Our &lt;a href=&#34;http://www.kpl.org/&#34; target=&#34;_blank&#34;&gt;local&lt;/a&gt; &lt;a href=&#34;http://www.wpl.ca/&#34; target=&#34;_blank&#34;&gt;libraries&lt;/a&gt; are always busy, and after a bad patch some time ago appear to be thriving with their mix of Internet access, DVD and CD rentals and, of course, loads of books. The popularity of the library surely comes from its nature as patron-focused but not commercial (no &amp;ldquo;consumers&amp;rdquo; here) and state sponsored but not monopolistic. It is populist and yet highbrow.&lt;/p&gt;
+
+&lt;p&gt;In the end Vaidhyanathan takes a dialectical stance and rejects both anarchy and oligarchy in favour of the library - a civic, noncommercial, open and public model. I didn&amp;rsquo;t see this coming until well into the book, which after the first couple of chapters is more a set of essays around a common topic than a sequential argument. I thought he was heading towards one more simplistic agenda (&amp;ldquo;information wants to be free&amp;rdquo; anyone?) but he pulls himself back from the brink and ends up writing [185] &amp;ldquo;The heart of my argument in this book is a call for modesty and patience&amp;rdquo; and this:&lt;/p&gt;
+
+&lt;blockquote&gt;The urge to break heads, to do the bidding of oligarchy by any means necessary is intimately linked to specters of anarchy. The urge towards anarchy depends on oligarchic abuses. Each creates the conditions that allow the other to thrive. The question for us in the twenty--first century should not be choosing anarchy or oligarchy by constructing and maintaining systems that discourage both. Anarchy is a reaction, not a vision or solution that can produce the best society and the best human future. [187]
+&gt; 
+&gt; &lt;/blockquote&gt;
+
+&lt;p&gt;One of the reasons he pulls back is a debate with Randy Cohen of the &lt;em&gt;New York Times&lt;/em&gt;, which he describes with admirable honesty [63].&lt;/p&gt;
+
+&lt;blockquote&gt;&#34;The history of popular culture is a continuous struggle on the artists&#39; part not to get robbed... it seems to me that what MP3 [digital music] does is democratize the ability to rip off an artist,&#34; Cohen wrote to me. &#34;And what&#39;s particularly galling is that you not only want to do it, you want to be praised as a social progressive when you do.&#34;  
+He got me. That&#39;s my schtick. By the guiding principles Cohen deployed in our peer-to-peer debate, I had no escape. He considered copyright to be an artists&#39; right and concern; I consider the chief player in the copyright system to be the corporation.
+&gt; 
+&gt; &lt;/blockquote&gt;
+
+&lt;p&gt;The artists&amp;rsquo; struggle continues. The commercial oligarchs do whatever they can to avoid paying artists, as the Hollywood writers&amp;rsquo; strike showed and as &lt;a href=&#34;http://www.nypost.com/seven/02272008/business/infringement__99428.htm&#34; target=&#34;_blank&#34;&gt;recent press&lt;/a&gt; about royalty awards not being passed on to artists makes clear. But the free-use techno-anarchists exploit artists too. Greatest Living Englishman Billy Bragg &lt;a href=&#34;http://www.nytimes.com/2008/03/22/opinion/22bragg.html&#34; target=&#34;_blank&#34;&gt;writes&lt;/a&gt; in the New York Times about how he advised Michael Birch, the founder of social networking site Bebo.com, on how to handle artistic content on the site (via &lt;a href=&#34;http://www.roughtype.com/archives/2008/03/meanwhile_back.php&#34; target=&#34;_blank&#34;&gt;Nicholas Carr&lt;/a&gt;). Bragg was angry that while artists contributed to the site, Michael Birch sold it to AOL for $850million and the artists got nothing. Here is part of his op-ed:&lt;/p&gt;
+
+&lt;blockquote&gt;He was hoping to expand his business by hosting music and wanted my advice on how to construct an artist-centered environment where musicians could post original songs without fear of losing control over their work. Following our talks, Mr. Birch told the press that he wanted Bebo to be a site that worked for artists and held their interests first and foremost.
+&gt; 
+&gt; 
+
+&gt; 
+&gt; In our discussions, we largely ignored the elephant in the room: the issue of whether he ought to consider paying some kind of royalties to the artists. After all, wasn’t he using their music to draw members — and advertising — to his business? Social-networking sites like Bebo argue that they have no money to distribute — their value is their membership. Well, last week Michael Birch realized the value of his membership. I’m sure he’ll be rewarding those technicians and accountants who helped him achieve this success. Perhaps he should also consider the contribution of his artists. 
+&gt; 
+&gt; 
+
+&gt; 
+&gt; The musicians who posted their work on Bebo.com are no different from investors in a start-up enterprise. Their investment is the content provided for free while the site has no liquid assets. Now that the business has reaped huge benefits, surely they deserve a dividend...
+&gt; 
+&gt; 
+
+&gt; 
+&gt; If young musicians are to have a chance of enjoying a fruitful career, then we need to establish the principle of artists’ rights throughout the Internet — and we need to do it now. 
+&gt; 
+&gt; &lt;/blockquote&gt;
+
+&lt;p&gt;Instead of cheering for one side or the other, Vidhyanathan&amp;rsquo;s book foresees and acknowledges both these problems. And problems they are. He does not offer clear or simple solutions, but he points us thoughtfully in the right direction, and that&amp;rsquo;s a very valuable contribution. So I definitely recommend the book, even though I wish it were a bit less scattered than it is (and that it had a better index). It&amp;rsquo;s an exploration, not a recipe for the future, and has the rough edges that come with that territory, but there is a lot of food for thought in the pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Anarchist in the Library&lt;/em&gt;, written in 2004, is already a bit outdated. Not the author&amp;rsquo;s fault of course, but it is already odd to read a book about the Internet that has no mention of Wikipedia and no index entry for Google. These recent developments have changed the nature of the Internet. Peer to peer networks are still around, but I don&amp;rsquo;t think they are the defining feature of the Internet. If we think of music we think of iTunes, not Napster; if we think of books we think of Amazon; if we think of social networks we think of Facebook and MySpace. None of these are peer-to-peer: they are centralized technologies built on the basis of controls, not protocols. Software architecture is often described as a stack, and while the low-level plumbing of the Internet remains a peer to peer protocol, the higher levels of the stack are &amp;ldquo;platforms&amp;rdquo; or client-server models of request and response. The techno-capitalist digirati have moved happily onto such platforms, and the centralization of ownership that they carry with them. In the era of &lt;a href=&#34;http://www.nicholasgcarr.com/bigswitch/&#34; target=&#34;_blank&#34;&gt;utility computing&lt;/a&gt;, peer-to-peer networks appear to be on the wane.&lt;/p&gt;
+
+&lt;p&gt;There is one other place in which I think Vaidhyanathan gets it wrong. He underestimates the role of information asymmetries and transaction costs. He says that &amp;ldquo;Major record labels perform four basic tasks: production, distribution, price fixing, and gatekeeping&amp;rdquo; [48]. But there is a fifth, which is promotion. Simply putting a record on the Internet is hardly more effective than playing your music on your front lawn - the problems of finding something no one knows exists are far greater than he credits. One major function of libraries, after all, is to match readers and books (&amp;ldquo;Every reader his/her book&amp;rdquo; in one of Ranganathan&amp;rsquo;s &lt;a href=&#34;http://www.slais.ubc.ca/COURSES/libr517/03-04-wt2/projects/ranganathan/contri.htm&#34; target=&#34;_blank&#34;&gt;five laws of library science&lt;/a&gt; &amp;ndash; thanks John). When Vaidhyanathan tells a journalist that African musicians don&amp;rsquo;t need record companies because &amp;ldquo;The artists can do it all themselves for less than $10,000&amp;rdquo; he is naive. Billy Bragg&amp;rsquo;s friends on Bebo did the same, and it got them nowhere. Others have proclaimed this line before - for example Chris Anderson in &lt;a href=&#34;http://whimsley.typepad.com/whimsley/2007/03/the_long_tail_l.html&#34; target=&#34;_blank&#34;&gt;my least favourite book&lt;/a&gt; talks about the band Birdmonster who eschewed labels&lt;/p&gt;
+
+&lt;blockquote&gt;Label were calling with deals, but Birdmonster turned the offers down. As [lead singer Peter] Arcuni put it, “We’re not anti-label in principle, but the numbers (risk vs. reward) didn’t add up.”
+&gt; 
+&gt; A music label exists primarily to fulfill four functions: 1) talent scouting; 2) financing (the advances bands get to pay for their studio time is like seed capital invested by a venture capitalist); 3) distribution; 4) marketing. 
+&gt; 
+&gt; 
+
+&gt; 
+&gt; From Birdmonster’s perspective, they didn’t need that.
+&gt; 
+&gt; &lt;/blockquote&gt;
+
+&lt;p&gt;Well, apparently &lt;a href=&#34;http://www.longtail.com/the_long_tail/2008/03/follow-up-a-lon.html&#34; target=&#34;_blank&#34;&gt;they do now&lt;/a&gt;. The problem is that so much of culture is governed by asymmetric information, information cascades, and network effects. You don&amp;rsquo;t know what a book is going to be like until you buy it, so simply knowledge of the existence of a book is insufficient - you need recommendations and reliable ones at that. I&amp;rsquo;ve gone on about this in various ways &lt;a href=&#34;http://whimsley.typepad.com/whimsley/2008/03/long-tail-of-ne.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://whimsley.typepad.com/whimsley/2007/04/predicting_hits.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://whimsley.typepad.com/whimsley/2006/07/movies_nobody_k.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. His neglect of these forces is one of the reasons I thought he was heading down the techno-utopian path, but as I say he ends up, thankfully, rejecting the &amp;ldquo;California Ideology&amp;rdquo; [155] in favour of something less catchy, less simple, but more hopeful.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				The Big Switch		</title>
+      <link>https://tomslee.github.io/post/the-big-switcht/</link>
+      <pubDate>Mon, 21 Jan 2008 00:04:04 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/the-big-switcht/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.nicholasgcarr.com/bigswitch/&#34; target=&#34;_blank&#34;&gt;The Big Switch&lt;/a&gt;, by Nicholas Carr, is published by W.W.Norton, January 2008. Quotes and page numbers are from an advance copy.&lt;/p&gt;
+
+&lt;p&gt;Unlike most technology commentators Nicholas Carr knows that if you want to predict what&amp;rsquo;s happening next, you&amp;rsquo;ve got to follow the money. And he does so very well, which makes this book (and his &lt;a href=&#34;http://www.roughtype.com&#34; target=&#34;_blank&#34;&gt;weblog&lt;/a&gt;) recommended reading for anyone interested in where technology is taking us.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Google is everywhere in &lt;em&gt;The Big Switch&lt;/em&gt; and the reason is simple: cost.&lt;/p&gt;
+
+&lt;blockquote&gt;No corporate computing system, not even the ones operated by very large businesses, can match the efficiency, speed and flexibility of Google&#39;s system. One analyst [Martin Reynolds of the Gartner Group: see [here](http://www.nytimes.com/2006/07/03/technology/03google.html) ] estimates that Google can carry out a computing task for one tenth of what it would cost a typical company. 
+&gt; 
+&gt; &lt;/blockquote&gt;
+
+&lt;p&gt;That means, if you are a company and you have a computing task to be done that Google already does, you can save a bunch of money and you can now start outsource your CPU cycles just as you previously outsourced other tasks. And that means that the computing landscape will get shaken up. Not in a matter of months, but over the next decade or so. It&amp;rsquo;s amazing how quickly we get used to a landscape and many of us are now so accustomed to PC&amp;rsquo;s and the basic layout of corporate computing systems that they seem almost natural. But Carr warns us that this is going to change and, as if to confirm his claims, last week Sun Microsystems, supplier of many of the computers that make up corporate data centres, &lt;a href=&#34;http://blogs.sun.com/brianc/entry/sunit_data_center_consolidation&#34; target=&#34;_blank&#34;&gt;announced&lt;/a&gt; that by 2015 it won&amp;rsquo;t have a single data centre. Information Technology is not sacrosanct.&lt;/p&gt;
+
+&lt;p&gt;Google&amp;rsquo;s cost advantage comes partly from a built-in inefficiency of corporate computing: capacity underutilization. Many applications demand their own servers, and those servers must be able to handle the peak load that the application will experience even if that peak load happens only rarely. As a result most corporate computers, most of the time, do nothing except consume electricity and produce heat. This inefficiency was unavoidable until recently, but now high-speed Internet availability makes it possible for companies that have the resources (Google and a few others) to build warehouses full of servers that look like power stations (see Google&amp;rsquo;s The Dalles centre in Oregon, below, with two football-stadium-sized buildings full of &lt;a href=&#34;http://gotads.blogspot.com/2006/06/how-many-servers-does-google-have.html&#34; target=&#34;_blank&#34;&gt;perhaps&lt;/a&gt; 60,000 servers). And then they can supply CPU cycles over the Internet just like electrical utilities supply electricity. The demand on Google&amp;rsquo;s CPU cycles is smoothed out, being balanced among many consumers in different timezones with different needs, and that only helps their efficiency. It&amp;rsquo;s what Carr calls utility computing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://docs.google.com/File?id=dfx7r5rf_105fhpv3rfw&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first half of The Big Switch is given over to convincing us that utility computing is the wave of the future, and the second half of the book explores the implications - many of them disturbing - of this switch. The good news is that both are thought-provoking and open up a lot of questions. The less good news is that to cover all this ground Carr has to skim and, at 250 pages, this short book can&amp;rsquo;t delve very deeply into any of the questions.&lt;/p&gt;
+
+&lt;p&gt;The argument for the switch to utility computing is made by drawing an analogy between the history of electricity supply and the history of computing. A century ago factories generated their own electricity and many of the fears that people have of outsourcing computing were faced by the nascent electrical industry. Would companies trust their lifeblood to an external source? Can they the get guarantees they need to go over to this new model? History shows that they did, and quickly. Will computing go the same way? Carr says yes.&lt;/p&gt;
+
+&lt;p&gt;I broadly agree (in the long run) but there are reasons to think the Big Switch may be less than complete. First, there is an intermediate solutuion that companies are already adopting, which is &amp;ldquo;virtualization software&amp;rdquo; that allows them to run many &amp;ldquo;virtual computers&amp;rdquo; on a smaller number of real computers, so making better use of the real CPU cycles. The technology is booming and the savings are huge. And while this may still be more expensive than the full-fledged utility model, to the extent that many software packages are customized for individual companies (not so much word processors and so on as the ERP systems that many companies run their business on) a utility model may not be applicable. Whether the benefits of custom applications will win out over the cheapness of commodity software is open to debate. Second, while electricity is a relatively simple thing, computing is complex. Carr only scratches the surface of what forms utility computing will take. Will companies and consumers pay bills for complete applications (the salesforce.com model), for storage (Amazon&amp;rsquo;s S3, for example), for virtual computers on which they can install their own applications (now also starting to be offered by Amazon), or what? And third, from the consumer side, the flip side of the unused CPU cycles efficiency argument is that we may be prepared to pay for a computer to run the latest games and then, well, the marginal cost of using those CPU cycles is very low. In fact, they are starting to be used (Seti @home and others) by central applications - rented back (or donated back) to others. It is clear that the utility model is making ground in the consumer space (how much of our time do we spend in the browser) but the reasons are, I think, different from the electricity analogy Carr pursues.&lt;/p&gt;
+
+&lt;p&gt;But this is splitting hairs, because the broad trend Carr identifies is surely largely correct, even if it takes a decade or two for the switch to be made. We&amp;rsquo;ll still have a lot of computing cycles happening everywhere, but perhaps it may turn out to be true that the world really does need only &lt;a href=&#34;http://blogs.sun.com/Gregp/entry/the_world_needs_only_five&#34; target=&#34;_blank&#34;&gt;five computers&lt;/a&gt;. And if there are limitations to the expansion of the megacomputers because of the complexity of computing as a utility, well there are other limits to growth (national ones, legislative ones) that electrical utilities have always faced that don&amp;rsquo;t constrain Google, Amazon and our other suppliers.&lt;/p&gt;
+
+&lt;p&gt;So that&amp;rsquo;s part one. Part two is a welcome counterweight to the techno-utopian fluff put out by some &lt;a href=&#34;http://www.longtail.com/about.html&#34; target=&#34;_blank&#34;&gt;prominent&lt;/a&gt; &lt;a href=&#34;http://www.shirky.com/&#34; target=&#34;_blank&#34;&gt;commentators&lt;/a&gt;. Carr covers the centralization of control (how mass participation ends up with just a few people getting loads o&amp;rsquo; cash), what he calls &amp;ldquo;the great unbundling&amp;rdquo; - the change from buying whole albums/newspapers to viewing individual stories and how that may affect production - and the darker side of the web: spam, identity theft, loss of privacy, and so on. Of these, the best chapter is on unbundling because it&amp;rsquo;s just not clear to me how or why that phenomenon will work itself out. The argument is that (to take newspapers as an example) when advertizers sell by the click and when content cannot be sold for its own sake, newspapers lose the ability to fund such expensive endeavours as investigative reporting and foreign news desks. Cross-subsidization of different parts of a newspaper, Carr argues, is the only way that quality content has managed to keep being produced, and once that model goes then so does the quality.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a lot of possibile futures here, and I wish Carr&amp;rsquo;s book was twice as long so he could explore some of them more seriously. In the end, the book is a survey more than a deep investigation, but it is a survey that asks the right questions and we could use more books like this to chart, and perhaps help alter the course, of technological change and its many social impacts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Independent Bookstores in the UK		</title>
+      <link>https://tomslee.github.io/post/independent_boo/</link>
+      <pubDate>Mon, 16 Apr 2007 21:26:30 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/independent_boo/</guid>
+      <description>&lt;p&gt;I didn&amp;rsquo;t mean to write about things like book sales and so on, but one thing leads to another, so here I am.&lt;/p&gt;
+
+&lt;p&gt;The Guardian has an &lt;a href=&#34;http://business.guardian.co.uk/story/0,,2056703,00.html&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt; about the shape of the UK book market and the surprising health of independent bookstores. Here is a graph based on numbers taken from the article (and taken, in turn, from the consumer research group Books Marketing). Click it to see it bigger.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://whimsley.typepad.com/.shared/image.html?/photos/uncategorized/2007/04/16/ukbookmarket.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://whimsley.typepad.com/whimsley/images/2007/04/16/ukbookmarket.jpg&#34; alt=&#34;Ukbookmarket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It shows that from 2003 to 2006 the big winners are the supermarkets and the online retailers - the twin jaws of the digital vice. No surprises there.&lt;/p&gt;
+
+&lt;p&gt;It also shows that the big losers are the chain bookstores (Waterstones in particular) and the direct mail book clubs. Again, no surprises.&lt;/p&gt;
+
+&lt;p&gt;The green line is the independent bookstores. They are still bigger (for a few years anyway) than online retailers and have actually improved their share from 15.6 to 15.9% of the market.&lt;/p&gt;
+
+&lt;p&gt;There are some other statistical nuggets in the article. See if you can make sense of these:&lt;/p&gt;
+
+&lt;blockquote&gt;Figures vary for the growth of book sales in Britain, but each source
+points to at least small but steady growth. The Publishers Association
+says that 459m books were sold in the UK in 2005, slightly fewer than
+in 2004, but ahead of the three previous years. Nielsen Bookscan, which
+only counts books sold at retail level (not including sales to schools
+for example), says that 225m books were sold last year in Britain with
+a value of £1.7bn. Nielsen draws a straight line of gains from 2001
+when its records show 163m books sold with a value of £1.2bn.
+Waterstone&#39;s reckons the market is growing at a more sedate 2% a year...  
+If not exactly thriving, the independent book store is not in as dire
+straits as many fear. According to the Booksellers Association, a trade
+group for retailers, the number of independents has fallen from 1,700
+in 2000 to 1,400 today. But that figure now appears to have stabilised.
+There are an increasing number of small publishers targeting the
+independents...  
+&#34;Publishers are falling over backwards to sell to supermarkets at very
+large discounts,&#34; he says. &#34;The focus on celebrity memoirs and
+potential bestsellers is relentless and the proportion of book sales by
+authors in the top 50 is going up and up. The middle band of authors is
+finding life increasingly tough. The spread has diminished and that
+trend will continue in the short term at least as competition gets more
+intense. It is having a substantial impact on what is published.&#34;
+&gt; 
+&gt; &lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Infotopia		</title>
+      <link>https://tomslee.github.io/post/infotopiacass_s/</link>
+      <pubDate>Sun, 15 Apr 2007 22:56:44 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/infotopiacass_s/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Cass_Sunstein&#34; target=&#34;_blank&#34;&gt;Cass Sunstein&lt;/a&gt; is a University of Chicago Law Professor whose book, &lt;a href=&#34;http://www.oup.com/us/catalog/general/subject/Law/TechnologyandTelecomsLaw/?view=usa&amp;amp;ci=9780195189285&#34; target=&#34;_blank&#34;&gt;Infotopia&lt;/a&gt;, I got to read on a recent trip. The subtitle is How Many Minds Produce Knowledge and it&amp;rsquo;s all about mechanisms - particularly Internet-driven mechanisms - for combining the insights of many people to produce, as he says, knowledge. It&amp;rsquo;s a good, thought-provoking book and I recommend it.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s something I had to struggle with: Sunstein is a big proponent of using prediction markets to make some kinds of decision, and he is very doubtful about the merits of deliberation: sticking people in a room and talking things out to come to a decision.&lt;/p&gt;
+
+&lt;p&gt;My first reaction is that I feel deliberation should be workable, and my first reaction to markets is suspicion - enhanced by the fact that Sunstein comes from the University of Chicago, where the very right-wing Economics and Law movement came from. I don&amp;rsquo;t know Sunstein&amp;rsquo;s politics, but it&amp;rsquo;s clear from the book that his heart is in the right place. He believes in the importance of marginalized people whose opinions and knowledge are too often overlooked, and in the contributions they can make. So is there a case for markets in the situations he&amp;rsquo;s talking about, in the aggregation of knowledge?&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s think about my hostility to markets.&lt;/p&gt;
+
+&lt;p&gt;Those of a libertarian right-wing outlook see the source of social problems as hierarchy, centralization, planning, bureaucracy, socialism, and the state. Socialists see the source of social problems as the concentration of wealth, privilege, and ownership in the hands of the few.&lt;/p&gt;
+
+&lt;p&gt;The dispute spills over into the realm of the mechanisms we look to as bulwarks against oppression.&lt;br /&gt;
+Those of us on the left, believing in the ability of wealth to divide and conquer, look to collective action as protection against private ownership of property. It&amp;rsquo;s the old story - hang together or hang separately. Co-operatives, co-operation, unions, solidarity.&lt;/p&gt;
+
+&lt;p&gt;Those on the right see collective institutions as bearing the seeds of oppression and coercive suppression of individual liberty. They look to individualistic mechanisms such as property rights and markets as protection. Free exchange respects individual autonomy and liberty - but those of us on the left see the potential for exploitation, the rule of money, and marginalization of those without the price of entrance into the market.&lt;/p&gt;
+
+&lt;p&gt;An economic way of phrasing this is that both sides see &lt;a href=&#34;http://en.wikipedia.org/wiki/Principal-Agent_problem&#34; target=&#34;_blank&#34;&gt;principal-agent&lt;/a&gt; problems as a root cause of oppression. The potential for &lt;a href=&#34;http://en.wikipedia.org/wiki/Moral_hazard&#34; target=&#34;_blank&#34;&gt;moral hazard&lt;/a&gt; is there in both collective organizations and in any organization with market power: the temptation to oppress, to deceive, to lie, to mislead are all present. Failures of information (&lt;a href=&#34;http://en.wikipedia.org/wiki/Information_asymmetry&#34; target=&#34;_blank&#34;&gt;asymmetric information&lt;/a&gt; among others) and problems of &lt;a href=&#34;http://en.wikipedia.org/wiki/Transaction_costs&#34; target=&#34;_blank&#34;&gt;transaction costs&lt;/a&gt; are ubiquitous.&lt;/p&gt;
+
+&lt;p&gt;In all this, it&amp;rsquo;s worth reflecting on what is central and what is secondary. What matters, after all, is liberty, equality, fraternity (and sorority as well). The questions of markets, voting, democracy, deliberation, are instrumental questions. To some extent we can separate them from the primary problem. My suspicion of and distrust of markets comes from a belief in the alienating effect and excluding effects of turning things that matter into commodities to be bought and sold - particularly in highly unequal societies.&lt;/p&gt;
+
+&lt;p&gt;So when it comes to using markets as a deliberation mechanism - including markets using virtual money - then my suspicions may not be relevant. Yes, the proponents of these instruments hark back to Hayek - whose politics I shy from - and his &lt;a href=&#34;http://www.econlib.org/Library/Essays/hykKnw1.html&#34; target=&#34;_blank&#34;&gt;The Use of Knowledge in Society&lt;/a&gt;. Does this mean I must object to the use of, say, prediction markets to gain information? A clear-sighted view must say no.&lt;/p&gt;
+
+&lt;p&gt;Perhaps, at the same time, it would do me good to question the use of deliberation as a means of making decisions and pooling information. Feminists have long maintained, after all, that marginal groups get excluded from such discussions in a statistical manner, if not an absolute one.&lt;/p&gt;
+
+&lt;p&gt;Reading Infotopia was a great way for me to address these unasked questions because Sunstein himself presents the strengths and weaknesses of both sides of his argument. He may be a lawyer, but he&amp;rsquo;s not in court here, arguing for his client at all costs. The book has a balanced, open-minded approach that is a refreshing change from Some Other Book I&amp;rsquo;ve been reading lately. (Or maybe he knows that readers respond to indications of open-mindedness, and he&amp;rsquo;s just a more skilled proponent of his own point of view? Whatever, it works). His equivocation and insistence on making distinctions is welcome. It prompts questions in the reader, rather than diverting the reader past the problems.&lt;/p&gt;
+
+&lt;p&gt;So I recommend this book. It&amp;rsquo;ll make you wonder what&amp;rsquo;s happening when you are next with a group of people trying to talk your way to a decision. And it makes me want to look at some prediction market software for use at the workplace.&lt;/p&gt;
+
+&lt;p&gt;It does have limitations. The big one is that it&amp;rsquo;s really just a starter. It could do with going a lot further in addressing the uses and limits of the tools he investigates. Markets, for example, seem suited only to questions that have numerical answers (price) or binary answers - but he doesn&amp;rsquo;t mention this limitation or what follows from it. He doesn&amp;rsquo;t distinguish cases where membership in a group is open from where it is closed, or compulsory participation versus voluntary. He briefly mentions a hybrid technique called Delphi, with a mixture of deliberation and voting, but only briefly. There is little about referenda, demand-revealing or otherwise, and little about other forms of voting or methods for achieving consensus in an inclusive fashion. Finally, he does not address the question of learning. Discussion, after all, is not just about decision-making but is also about learning, while markets separate the two. So the reader is left with a lot of open questions at the end of the book. But these would have turned it into a much bigger book too, and right now it&amp;rsquo;s good and short and thought provoking, which is plenty.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Sea Squirt		</title>
+      <link>https://tomslee.github.io/post/sea_squirt/</link>
+      <pubDate>Sun, 12 Mar 2006 12:01:31 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/sea_squirt/</guid>
+      <description>&lt;p&gt;Best sentences of the day:&lt;/p&gt;
+
+&lt;blockquote&gt;The juvenile sea squirt wanders through the sea searching for a suitable rock or hunk of coral to cling to and make its home for life. For this task, it has a rudimentary nervous system. When it finds its spot and takes root, it doesn&#39;t need its brain anymore, so it eats it! (It&#39;s rather like getting tenure.)
+&gt; 
+&gt; &lt;/blockquote&gt;
+
+&lt;p&gt;Daniel C. Dennett, &lt;em&gt;Consciousness Explained&lt;/em&gt;, p. 177.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Why Globalization Works: Notes Part II		</title>
+      <link>https://tomslee.github.io/post/why_globalizati/</link>
+      <pubDate>Tue, 21 Feb 2006 22:44:45 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/why_globalizati/</guid>
+      <description>&lt;p&gt;Finally finishing my notes on Martin Wolf’s book. I was &lt;a href=&#34;http://whimsley.typepad.com/whimsley/2006/01/why_globalizati.html&#34; target=&#34;_blank&#34;&gt;not
+very impressed&lt;/a&gt; by the first third of the book, but the remainder is much
+better, although it does have some big flaws. In fact, the book would be
+a better one if Wolf had limited it to Part III (chapters 9 to 13) in which he
+tackles the arguments of what used to be called the anti-globalization
+movement. These chapters deal with the economic issues as Wolf sees them:
+inequality, trade, the role of corporations, the role of the state and the WTO,
+and finance.&lt;/p&gt;
+
+&lt;p&gt;So let’s deal with the good things first.&lt;/p&gt;
+
+&lt;p&gt;Wolf’s book is an argument against the “critics of
+globalization”, or “new millennium collectivists” (henceforth the Cs of G). And
+Wolf is, to be fair, faced with a problem because the movement (which hardly
+seems to be one any more, unfortunately never having recovered from the massive
+kick in the gut it received on &lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;, but that’s another story) is just that – a
+movement. As a result it is, like most political movements, a mish-mash of
+people with conflicting ideas and beliefs, united only in their opposition to
+corporate-led globalization, and this makes it difficult to argue against. (Strangely,
+Wolf seems to think this lack of analytic rigour is indicative of woolly
+thinking on the part of everyone in that movement, rather than the unavoidable
+messiness of active coalition politics.)&lt;/p&gt;
+
+&lt;p&gt;Wolf tackles the problem by reducing the concerns of the Cs
+of G to a set of economic issues (see chapter list above) and splits each of
+those into a set of separate arguments, and then tackles each one in turn. This
+structure in itself is useful no matter what side you are on, as it brings some
+organization to the muddle of overlapping issues that are gathered under the heading of
+globalization. The end result is worth reading even if you disagree, especially
+because some books on the economic end of the Cs of G have been so sloppy
+(hello there Jerry Mander and Edward Goldsmith, whose “The Case Against the
+Global Economy” is a prime example).&lt;/p&gt;
+
+&lt;p&gt;Wolf makes a strong case on some issues (eg, he makes a good
+case that nation states still have a lot of power, despite what some claim), on
+other issues he puts out some arguments and facts that make you think (about
+inequality, for example) and highlights shoddy arguments (such as comparing the
+sales figures of the biggest multinationals to the GNP of nations). On other issues
+he is open minded enough to conclude that the picture is muddy, so for example
+he acknowledges that Naomi Klein has a point about export processing zones (p
+241), that Dani Rodrik has some good things to say about the process of
+economic growth (p 204) and that Oxfam has some good things to say also about
+the traps that export-oriented countries have fond themselves in (p 204). He
+does have his prejudices though: for example, when it comes to so-called infant
+industry protection you can see his distaste at such an anti-free-trade
+strategy in his writing, and he is more damning of them than many
+others are, without really making the case. About the
+only prominent economic issue the book misses is the privatization of knowledge
+happening by the extension of intellectual property under the WTO TRIPS
+agreement, even though this is a major issue for many Cs of G. It&amp;rsquo;s an odd omission.&lt;/p&gt;
+
+&lt;p&gt;On the down side, Wolf really fails to see beyond the
+strictly economic side of many concerns. He dismisses Klein’s &lt;em&gt;No Logo&lt;/em&gt;, saying that “analytically, &lt;em&gt;No Logo&lt;/em&gt; adds nothing to the debate about
+globalization”. I disagree with him actually, but regardless, books can be
+important for reasons other than analytical contributions. Upton Sinclair’s
+&lt;em&gt;The Jungle&lt;/em&gt; added nothing analytically to the debate over
+working conditions in Chicago meat-packing plants, but it was the most
+important and influential statement about the scandal anyway. Similarly, &lt;em&gt;No Logo&lt;/em&gt; was important because Klein
+identified and distilled into a single, thorough book, the concerns of a
+heterogenous and disparate movement, and did so with brilliant timing. The book
+came out a month or two after the Seattle protests, which was the first time most people realized anything was happening,
+but Klein had been working on &lt;em&gt;No Logo&lt;/em&gt;
+for four years by then. She was ahead of the game, and by being so she defined
+the terms of the debate. A counter-argument four years
+on is beside the point. And with an economist’s blinkers, Wolf completely
+ignores or dismisses as unimportant the cultural portions of Klein’s book:
+the intrusion of advertising and commercialism into all aspects of life, the
+erosion of public spaces (physical and otherwise), and so on.&lt;/p&gt;
+
+&lt;p&gt;Child labour and sweatshop labour are other issues where
+Wolf does not see a problem. Wolf can see only one question of importance: is
+the wage paid by MNCs higher than that people would receive in their absence?
+If it is higher, then MNCs are to be applauded rather than derided. But there
+is another side to the story and it is to do with responsibility, proximity and
+culpability. If oppression is taking place on the other side of the world and
+has nothing to do with us, then there is little point to being angry. But if
+our neighbours become involved in oppression, then there is a chance that we can do something
+about it. The fact we can influence them makes action worthwhile even in the case that our neighbours’ oppression
+is slightly milder than the original. This seems an elementary ethical
+point, but Wolf and other economists (Paul Krugman for one) just don&amp;rsquo;t get it, instead dismissing this as
+some kind of moral queasiness rather than the practical concern that it is. Is this a result of his trade as a commentator or a cause of it? I don&amp;rsquo;t know, but Wolf seems to have little idea of how social movements work or why they arise.&lt;/p&gt;
+
+&lt;p&gt;But despite that, most of us could usefully read more books that we disagree
+with, and this is a useful book for the anti-globalizer to read. It is not what
+its fans claim (“a devastating intellectual critique”) but it is a thorough and
+well-informed (comments on Naomi Klein and other occasional lapses aside) look at the economic issues. Just skip Chapters 1 to 8.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Online bookstores		</title>
+      <link>https://tomslee.github.io/post/online_bookstor/</link>
+      <pubDate>Thu, 02 Feb 2006 07:55:35 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/online_bookstor/</guid>
+      <description>&lt;p&gt;I see &lt;a href=&#34;http://www.tomslee.net&#34; target=&#34;_blank&#34;&gt;the book&lt;/a&gt; is now getting listed on some online book stores. A most unprofessional &amp;ldquo;yayy!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Link: &lt;a href=&#34;http://www.amazon.com/gp/product/189707106X/sr=1-1/qid=1138884612/ref=pd_bbs_1/102-7407025-2996947?%5Fencoding=UTF8&#34; target=&#34;_blank&#34;&gt;Amazon.com: No-one Makes You Shop at Wal-mart: The Deception of Individual Choice&lt;/a&gt;.&lt;br /&gt;
+Link: &lt;a href=&#34;http://www.amazon.co.uk/exec/obidos/ASIN/189707106X/qid%3D1138884712/026-3287398-2798822&#34; target=&#34;_blank&#34;&gt;Amazon.co.uk: No-One Makes You Shop at Wal-Mart: The Deception of Individual Choice: Books&lt;/a&gt;.&lt;br /&gt;
+Link: &lt;a href=&#34;http://www.chapters.indigo.ca/item.asp?Item=978189707106&amp;amp;Catalog=Books&amp;amp;Ntt=tom%20slee&amp;amp;N=35&amp;amp;Lang=en&amp;amp;Section=books&amp;amp;zxac=1&#34; target=&#34;_blank&#34;&gt;chapters.indigo.ca: No-one Makes You Shop At Wal-mart: The Deception Of Individual Choice&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Why Globalization Works: Notes Part 1		</title>
+      <link>https://tomslee.github.io/post/why_globalizati-2/</link>
+      <pubDate>Tue, 31 Jan 2006 16:11:45 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/why_globalizati-2/</guid>
+      <description>&lt;p&gt;This is part one of some notes taken while reading _Why
+Globalization Works _by Martin Wolf, and it covers parts I and II of the book.
+I’m reading it because it is a well-respected book putting the case in
+favour of globalization, a project I am in general opposed to (at least the way
+globalization is usually defined). It is a “brilliant book” (Lawrence
+Summers, President, Harvard University), a “devastating intellectual critique
+of the opponents of globalization” (Mervyn King, Governor of the Bank of
+England), and “a definitive analysis” (Kenneth Rogoff, Harvard University).
+Whether I’ll get around to part two of these notes is open to question.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Every academic discipline has its own way of putting itself
+at the centre of the world. Chemists point out that everything around us and
+inside us is made of chemicals. Physicists say that cosmology asks the only
+questions worth answering. Literary theorists say that there is nothing outside
+the text, and the interpreters of texts (ie themselves) are therefore the ones
+who bring meaning to the world. The economists’ version of this conceit is to
+claim that markets are responsible for all the good in the world. It is a
+conceit that Martin Wolf indulges in the early chapters of &lt;em&gt;Why Globalization
+Works&lt;/em&gt;, and it shapes his argument in the rest of the book, so it is worth
+inspecting.&lt;/p&gt;
+
+&lt;p&gt;Wolf overreaches when setting out his claims, both in terms
+of what a market is and in terms of its centrality in the story of human
+progress.&lt;/p&gt;
+
+&lt;p&gt;For most of us, the market is that part of the capitalist
+system that involves commercial exchange. Such a definition involves two
+limitations. First, it defines “the market” in the sense that we usually use
+it, as part of capitalism: people have had markets for thousands of years, and
+yet when Adam Smith wrote about the wealth of nations it was not these markets
+that he was writing about. Second, it emphasizes that modern capitalist
+societies are many faceted, and some of these facets &amp;mdash; political democracy,
+the modern state, scientific research, and portions of culture, are
+nevertheless largely outside “the market”.&lt;/p&gt;
+
+&lt;p&gt;Wolf traces the origins of market-based wealth production
+back before the industrial revolution and the founding of capitalism, to a
+thousand years ago. He claims that we are living in “the millennium of the
+market” (p. 43) and as evidence of this points to the fact that population and
+economic growth started well before 1800. Yet correlation is not causation, and
+the existence (p 41) of commercial activity in China during the Sung dynasty
+(960 – 1279) does not demonstrate that markets have driven progress. Perhaps
+this is splitting hairs – the book is about the modern age after all – but I
+don’t think so. Wolf is setting the stage for an argument that an expansion of
+global markets is what we need, and if the stage is built on rickety
+foundations that argument cannot hold. There is little in his argument about
+“the millennium of the market” that is convincing.&lt;/p&gt;
+
+&lt;p&gt;The second way in which Wolf overreaches is of more
+immediately obvious importance. In talking about the role of the state in
+liberal democracies, Wolf conflates several meanings of “markets”. As I said
+above, to observer that we live in a capitalist society does not mean that all
+elements of our society are capitalist. We also live in a scientific society, a
+technological society, a cultural society, a welfare-state society and a
+hierarchical society – do these aspects of the world have a part to play too?
+What Wolf does in his discussion of market economies is to move back and
+forward between a narrow meaning of markets (capitalist exchange) and a broader
+meaning (the entire society of which it is a part), and the result is
+confusion.&lt;/p&gt;
+
+&lt;p&gt;This confusion is most obvious when Wolf discusses
+opposition to the market (pages 54 to 55). Wolf claims that “The market economy
+does not merely support its critics, it embraces them”. Here he is defining the
+market economy broadly enough to include those who oppose the actions of
+markets, and goes on to assert that markets breed freedom. Yet to look at the
+history of freedom in western Europe is to see a continual struggle to broaden
+franchises to include non-property owners, women, people of colour, and so on
+that was carried out by opponents of the property-owning classes, who would
+have been quite happy to keep things as they were. The growth of freedoms and
+rights within the workplace are also the result of countless years of
+cumulative struggle and pressure from workers. To simply say that “market
+economies” provide freedoms is insufficient, because Wolf is about to argue
+that we need to enlarge the scope of private industry, restrict the role of
+government, and (between the lines) remove bargaining levers that workers and
+the disenfranchised may have. The modern liberal democracy is the result of a
+continual pulling and pushing of many forces, of which the market is only one.
+Its future shape will be determined by the balance of power between all parts
+of society, not by the market alone. By presenting liberal democracies as
+“market economies”, as many economists do, Wolf underplays importance of those
+other forces.&lt;/p&gt;
+
+&lt;p&gt;Wolf’s portrayal of history has other lacunae. Repeatedly he
+defines one of the important roles of the state as providing security of
+property rights, so that long-term contracts can be made with assurance. Yet
+historically the role of the state at some crucial points in history has been
+to redistribute property. The enclosure movement in the early 19th
+century was an example of property rules being redefined, people being expelled
+from what was previously thought of as their property, in order for the
+land-owning classes to gain more land. This is not “security of property”. The
+same is apparently happening in modern-day China.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, his view of the market portion of the economy is
+rose-tinted. He is casual about many market failures (pervasive asymmetric
+information problems are noted, but “Happily, there are solutions” – p 47). He
+sees innovation as a function located entirely within the private sphere: “innovation
+rather than price competition is the central feature of the market process” (p
+51), “Innovation then does not come from outside the market. it is hard-wired
+into capitalism” . In considering these claims it is worth reflecting that some
+of the biggest innovations of recent years have come from national and
+international government actions taking place outside the market. The
+development of the Internet, surely one of the major technological innovations
+of the last 50 years, is one such: the networking mechanisms, the programming
+languages, and the web browsers on which it is built were developed largely in
+the labs of DARPA and the NCSA in the US, CERN in Europe, and AT&amp;amp;T (during
+the years in which it was a monopoly) in the US. The market may have helped to
+bring the fruits of the developments to consumers, but it did not make the big
+innovations. Yet such activities took place within market economies, and so
+Wolf attributes them to the market.&lt;/p&gt;
+
+&lt;p&gt;It is hardly surprising that he concludes that governments
+need only provide some assurances that business as usual can take place, and
+the entrepreneurs will innovate. Looking at the post-Soviet economies, one
+could also argue that if entrepreneurs are to innovate rather than to plunder
+the resources of their society, they must be prompted, cajoled, bribed, and
+funded by the state in order to do so.&lt;/p&gt;
+
+&lt;p&gt;One final gripe. In these early chapters Wolf lets his lack
+of respect for anti-globalization arguments come to the fore, and it doesn’t
+help his case. He dismisses the protestors as “spoiled children” (p 10). He
+quotes (p55) a passage from Naomi Klein’s _No Logo _(one that was also
+quoted in The Economist’s review of the book) as evidence that she indulges in
+“paranoid fantasies”. The quote in question starts in mid sentence, and the
+implied meaning is directly opposed to the actual meaning in Klein’s book, as
+she pointed out to _The Economist _when it first published the quotation.
+Elsewhere (p 11) he quotes a banner from a protest march “replace capitalism
+with something nicer” as an example of something that is not “the route to a
+tolerable future” &amp;mdash; as if a banner ever captures deep or subtle thoughts.
+Banners may be simple, but arguing against banners in a 400 page book is also.
+This is not honest argument.&lt;/p&gt;
+
+&lt;p&gt;In short, while setting up his argument for the remainder of
+the book, Martin Wolf paints a picture of the world that is undeniably
+broad-ranging and widely read, but which remains shallow and distorted. The
+positive qualities of innovation and freedom that he associates with markets
+are mainly qualities of modern liberal democracies as a whole, and are
+qualities with many diverse sources. The early chapters of his book are a
+statement of his point of view, and interesting as such, but they are not even
+handed and they are not convincing.&lt;/p&gt;
+
+&lt;p&gt;**Update: **&lt;a href=&#34;http://whimsley.typepad.com/whimsley/2006/02/why_globalizati.html&#34; target=&#34;_blank&#34;&gt;Part II&lt;/a&gt; is now posted.&lt;a href=&#34;http://whimsley.typepad.com/whimsley/2006/02/why_globalizati.html&#34; target=&#34;_blank&#34;&gt; &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

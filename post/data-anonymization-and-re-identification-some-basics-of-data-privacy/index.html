@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Tom Slee">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="_Why Personally Identifiable Information is irrelevant. __An introduction to information entropy, open data, and the possible end of crowdsourcing. _
+Tim O&rsquo;Reilly and ZIP Codes From his Strata Conference on Data Science, Tim O&rsquo;Reilly tweeted with dismay the recent California court decision that the zipcode is now to be classified as &ldquo;personally identifiable information&rdquo;. &ldquo;No more demographics&rdquo; he lamented. A little later he retweeted a response that &ldquo;apparently 87% of US residents can be uniquely identified by zip&#43;DOB&#43;gender: bit.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://tomslee.github.io/post/data-anonymization-and-re-identification-some-basics-of-data-privacy/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.a9a796b4dba28c78fc94d2550173437e.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://tomslee.github.io/post/data-anonymization-and-re-identification-some-basics-of-data-privacy/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@whimsley">
+  <meta property="twitter:creator" content="@whimsley">
+  
+  <meta property="og:site_name" content="Tom Slee">
+  <meta property="og:url" content="https://tomslee.github.io/post/data-anonymization-and-re-identification-some-basics-of-data-privacy/">
+  <meta property="og:title" content="
+				Data Anonymization and Re-identification: Some Basics Of Data Privacy		 | Tom Slee">
+  <meta property="og:description" content="_Why Personally Identifiable Information is irrelevant. __An introduction to information entropy, open data, and the possible end of crowdsourcing. _
+Tim O&rsquo;Reilly and ZIP Codes From his Strata Conference on Data Science, Tim O&rsquo;Reilly tweeted with dismay the recent California court decision that the zipcode is now to be classified as &ldquo;personally identifiable information&rdquo;. &ldquo;No more demographics&rdquo; he lamented. A little later he retweeted a response that &ldquo;apparently 87% of US residents can be uniquely identified by zip&#43;DOB&#43;gender: bit."><meta property="og:image" content="https://tomslee.github.io/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2011-09-26T23:49:24&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-06-29T15:58:15-04:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>
+				Data Anonymization and Re-identification: Some Basics Of Data Privacy		 | Tom Slee</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Tom Slee</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Essays</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">
+				Data Anonymization and Re-identification: Some Basics Of Data Privacy		</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2011-09-26 23:49:24 &#43;0000 &#43;0000" itemprop="datePublished">
+<meta content="2019-06-29 15:58:15 -0400 EDT" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    <time>Jun 29, 2019</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    16 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://tomslee.github.io/post/data-anonymization-and-re-identification-some-basics-of-data-privacy/&amp;text=%0a%09%09%09%09Data%20Anonymization%20and%20Re-identification:%20Some%20Basics%20Of%20Data%20Privacy%09%09" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://tomslee.github.io/post/data-anonymization-and-re-identification-some-basics-of-data-privacy/&amp;t=%0a%09%09%09%09Data%20Anonymization%20and%20Re-identification:%20Some%20Basics%20Of%20Data%20Privacy%09%09" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%0a%09%09%09%09Data%20Anonymization%20and%20Re-identification:%20Some%20Basics%20Of%20Data%20Privacy%09%09&amp;body=https://tomslee.github.io/post/data-anonymization-and-re-identification-some-basics-of-data-privacy/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://tomslee.github.io/post/data-anonymization-and-re-identification-some-basics-of-data-privacy/&amp;title=%0a%09%09%09%09Data%20Anonymization%20and%20Re-identification:%20Some%20Basics%20Of%20Data%20Privacy%09%09" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%0a%09%09%09%09Data%20Anonymization%20and%20Re-identification:%20Some%20Basics%20Of%20Data%20Privacy%09%09%20https://tomslee.github.io/post/data-anonymization-and-re-identification-some-basics-of-data-privacy/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://tomslee.github.io/post/data-anonymization-and-re-identification-some-basics-of-data-privacy/&amp;title=%0a%09%09%09%09Data%20Anonymization%20and%20Re-identification:%20Some%20Basics%20Of%20Data%20Privacy%09%09" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>_Why Personally Identifiable Information is irrelevant. __An introduction to information entropy, open data, and the possible  end of crowdsourcing. _</p>
+
+<h3 id="tim-o-reilly-and-zip-codes">Tim O&rsquo;Reilly and ZIP Codes</h3>
+
+<p>From his <a href="http://strataconf.com/strata2012" target="_blank">Strata Conference on Data Science</a>, Tim O&rsquo;Reilly <a href="https://twitter.com/#!/timoreilly/status/115772828120383489" target="_blank">tweeted</a> with  dismay the recent California court decision that the zipcode is now to  be classified as &ldquo;personally identifiable information&rdquo;. &ldquo;No more  demographics&rdquo; he lamented. A little later he <a href="https://twitter.com/#!/timoreilly/status/115776752017620992" target="_blank">retweeted</a> a response that  &ldquo;apparently 87% of US residents can be uniquely identified by  zip+DOB+gender: bit.ly/qysMqs&rdquo; and later <a href="https://twitter.com/#!/timoreilly/status/117592754439192576" target="_blank">followed up</a> with &ldquo;Here&rsquo;s a  reference for the claim that zip code, gender and DOB uniquely  identify 87% of individuals:  <a href="http://www.citeulike.org/user/burd/article/5822736" target="_blank">http://www.citeulike.org/user/burd/article/5822736</a> via @crdant&rdquo;.</p>
+
+<p>These tweets are odd and disturbing. The zip/DOB/gender finding is a  basic one in studies of privacy, published years ago by Latanya  Sweeney of Carnegie Mellon University. I gave a talk at work on  privacy a year ago, and this was one of the first references I came  across. Tim O&rsquo;Reilly has been pushing an agenda of Open Data,  particularly Open Government Data, for the last couple of years, and  yet it looks as if he isn&rsquo;t aware of the basic privacy issues around  such data. Can that really be the case?</p>
+
+<p>If it is, then here, to help Tim along, are some notes from my talk as  a kind of introduction to data privacy, or at least to  data-anonymization and re-identification. A great resource on some of  these issues from a legal perspective is Paul Ohm&rsquo;s 2009 paper &ldquo;Broken  Promises of Privacy: Responding to the Surprising Failures of  Anonymization&rdquo; (<a href="http://epic.org/privacy/reidentification/ohm_article.pdf" target="_blank">PDF</a>), University of Colorado Law Legal Studies  Research Paper No. 09-12. It&rsquo;s long, but it&rsquo;s so well written it&rsquo;s an  easy read. Much of these notes originated with this paper, in one form  or another.</p>
+
+<h3 id="how-privacy-broke-crowdsourcing">How Privacy Broke Crowdsourcing</h3>
+
+<p>A few years ago Netflix ran its highly successful and widely  publicised crowdsourced prize competition, in which it released a data  set of users and their movie ratings and let competitors download them  and search for patterns. The data consisted of a customer ID (faked),  a movie, the customer&rsquo;s rating of the movie, and the date of the  rating.</p>
+
+<p>In the FAQ for the competition, Netflix said this:</p>
+
+<p>Q. Is there any customer information in the dataset that should be  kept private?</p>
+
+<p>A. No, all customer identifying information has been removed; all that  remains are ratings and dates. This follows our privacy policy… Even  if, for example, you knew all your own ratings and their dates you  probably couldn&rsquo;t identify them reliably in the data because only a  small sample was included (less than one tenth of our complete  dataset) and that data was subject to perturbation.</p>
+
+<p>This certainly looked reasonable enough, but Arvind Narayanan and  Vitaly Shmatikov of the University of Texas had other ideas.1 First,  they looked at the claim that the data was perturbed by asking  acquaintances for their rankings. They found that only a small number  of the ratings were perturbed at all, which makes sense because  perturbing the data gets in the way of its usefulness.</p>
+
+<p>In the Netflix data set, different users have distinct sets of movies  that they have watched. The data set is sparse (most people have not  seen most movies), and there are many different movies available, so  individual tastes and viewing histories leave a clear  fingerprint. That is, if you knew what movies someone watched, you  could pick them out of the data set because no one else would have  seen the same combination.</p>
+
+<p>A closer look showed that with 8 ratings (of which 2 may be completely  wrong) and dates that may have a 14-day error, 99% of the records in  the Netflix data set uniquely identify an individual.  For 68% of  records, two ratings and dates are sufficient. Various combinations of  information are sufficient to identify users, eg 84% by 6 of 8 movies  outside the top 500.</p>
+
+<p>But of course there is no personally identifiable information in the  data set. So is this a privacy issue? It is when you have another data  set to look at. The researchers took a sample of 50 IMDB users. The  IMDB data is noisy - there is no ranking, for example. Still, they  identified two users whose Netflix records were 28 and 15 standard  deviations away from the next best. One from ratings, another from  dates.</p>
+
+<p>So despite Netflix&rsquo;s best efforts, the data set included enough  information to identify some individuals. Partly because of this, a  planned follow-up competition was scrapped, and the whole enterprise  of crowdsourcing recommender algorithms was given a possibly terminal  blow.</p>
+
+<h3 id="what-s-this-all-about">What&rsquo;s this all about?</h3>
+
+<p>Just to be clear, this set of notes is not about the following things:</p>
+
+<ul>
+<li><p>Encryption</p></li>
+
+<li><p>Restricting access to data</p></li>
+
+<li><p>Lost USB keys and CDs</p></li>
+</ul>
+
+<p>It is about these:</p>
+
+<ul>
+<li><p>Deliberately released data that turns out to infringe on privacy</p></li>
+
+<li><p>HIPAA, EU Data Directive, corporate rules for handling customer data</p></li>
+
+<li><p>Advertising and ISPs</p></li>
+
+<li><p>Gov 2.0, data.gov, and &ldquo;openness&rdquo;</p></li>
+</ul>
+
+<p>It&rsquo;s about claims such as: &ldquo;Attorneys on Monday accused Google of  intentionally divulging millions of users&rsquo; search queries to third  parties in violation of federal law and its own terms of service&rdquo;  (October 26 2010)</p>
+
+<p>&ldquo;MySpace and some popular applications on the social-networking site  have been transmitting data to outside advertising companies that  could be used to identify users, a Wall Street Journal investigation  has found&rdquo; (October 23, 2010)</p>
+
+<p>&ldquo;Facebook users may inadvertently reveal their sexual preference to  advertisers in an apparent wrinkle in the social-networking site&rsquo;s  advertising system, researchers have found&rdquo; (October 22, 2010)</p>
+
+<p>(These claims are a year old, found in the week before I gave the  talk. I&rsquo;m sure there are many more.) The Facebook case was one in  which advertisers (for a nursing program I believe) asked to target  their ads specifically at females and at men interested in other  men. But unlike, for example, an ad about a gay bar where the target  demographic is blatantly obvious, a male user reading the ad text would  have no idea that it had been targeted solely at a very specific  demographic, and that by clicking it he would reveal to the advertiser  both his sexual preference and a unique identifier (cookie, IP  address, or e-mail address if he signs up on the advertiser&rsquo;s site).  &ldquo;Furthermore (the researchers <a href="http://www.pcworld.com/article/208583/facebook_ads_could_out_gay_users_researchers_say.html" target="_blank">wrote</a>) such deceptive ads are not  uncommon; indeed exactly half of the 66 ads shown exclusively to gay  men (more than 50 times) during our experiment did not mention &lsquo;gay&rsquo;  anywhere in the ad text.&rdquo;</p>
+
+<h3 id="don-t-we-have-laws-to-deal-with-this">Don&rsquo;t we have laws to deal with this?</h3>
+
+<p>Indeed we do. Europe and the USA adopt different approaches to  balancing privacy and utility, with the US adopting industry-specific  rules (HIPAA for health, FERPA for education, Driver&rsquo;s Privacy  Protection Act, FDA regulations, Video Privacy Protection Act etc),  while the EU has taken a global approach with the Data Protection  Directive. But both approaches are based on a common set of concepts  and assumptions.</p>
+
+<p>The big thing is that there is an assumption that data can be  anonymized, and once it is then you can share it, because where&rsquo;s the  harm? Both sets of rules are built on the idea that there is such a  thing as personally identifiable information (PII) and that you can  hide it, while still releasing data that is useful. The release  process is &ldquo;release and forget&rdquo; because if data is properly anonymized  why do you have to track what&rsquo;s done with it? There is a faith in the  anonymization process, and that faith was broken by the Netflix study  and a couple of other related studies.</p>
+
+<h3 id="latanya-sweeney-and-the-massachusetts-governor">Latanya Sweeney and the Massachusetts Governor</h3>
+
+<p>Let&rsquo;s go back to a time before HIPAA, when the debate was focused in  terms of <em>how much</em> anonymization you needed to do. Here are some  quotations from Latanya Sweeney&rsquo;s paper (<a href="http://epic.org/privacy/reidentification/Sweeney_Article.pdf" target="_blank">PDF</a>), that Tim O&rsquo;Reilly appeared  unaware of.</p>
+
+<p>&ldquo;Figure 1&rdquo; below is a simple Venn diagram with two intersecting  circles. The left circle holds medical data: Ethnicity, Visit Date,  Diagnosis, Procedure, Medication, Total Charge. The right circle holds  a voter list: Name, Address, Date Registered, Party Affiliation, Date  Last Voted. And in the intersection is ZIP, Date of Birth, Sex.</p>
+
+<blockquote>
+
+> 
+> The National Association of Health Data Organizations (NAHDO) reported  that 37 states in the USA have legislative mandates to collect  hospital level data and that 17 states have started collecting  ambulatory care data from hospitals, physicians offices, clinics, and  so forth. The leftmost circle in Figure 1 contains a subset of the  fields of information, or attributes, that NAHDO recommends these  states collect; these attributes include the patient's ZIP code, birth  date, gender, and ethnicity.
+> 
+> 
+
+> 
+> In Massachusetts, the Group Insurance Commission (GIC) is responsible  for purchasing health insurance for state employees. GIC collected  patient-specific data with nearly one hundred attributes per encounter  along the lines of the those shown in the leftmost circle of Figure 1  for approximately 135,000 state employees and their families. Because  the data were believed to be anonymous, GIC gave a copy of the data to  researchers and sold a copy to industry.
+> 
+> 
+
+> 
+> For twenty dollars I purchased the voter registration list for  Cambridge Massachusetts and received the information on two  diskettes. The rightmost circle in Figure 1 shows that these data  included the name, address, ZIP code, birth date, and gender of each  voter. This information can be linked using ZIP code, birth date and  gender to the medical information, thereby linking diagnosis,  procedures and medications to particularly named individuals.
+> 
+> 
+
+> 
+> For example, William Weld was governor of Massachusetts at that time  and his medical records were in the GIC data. Governor Weld lived in  Cambridge Massachusetts. According to the Cambridge Voter list, six  people had his particular birth date; only three of them were men;  and, he was the only one in his 5-digit ZIP code. [Editor's note: a  5-digit zip code may have several thousand people in it.]
+> 
+> 
+
+> 
+> The example above provides a demonstration of re-identification by  directly linking (or "matching") on shared attributes. The work  presented in this paper shows that altering the released information  to map to many possible people, thereby making the linking ambiguous,  can thwart this kind of attack. The greater the number of candidates  provided, the more ambiguous the linking, and therefore, the more  anonymous the data.
+> 
+> 
+</blockquote>
+
+<p>In a theatrical flourish, Dr. Sweeney sent the Governor&rsquo;s health  records (which included diagnoses and prescriptions) to his office.</p>
+
+<p>Now, of course, health information in the US is governed by HIPAA, but  according to HIPAA, &ldquo;de-identified&rdquo; health information is unregulated.  <em>De-identified</em> means either: a statistician says it is de-identified,  or the 18 Personally Identifying Information (PII) identifiers are  suppressed or generalized. These PIIs are things like Name, e-mail  address, social security numbers, computer IP addresses, and so on.</p>
+
+<p>The EU doesn&rsquo;t list specifics. Instead it says that PII is &ldquo;anything  that can be used to identify you&rdquo;. But what does that cover? IP  addresses perhaps? Here is Google in their argument to the EU:</p>
+
+<ul>
+<li><p>we &ldquo;are strong supporters of the idea that data protection laws  should apply to any data that could identify you. The reality is  though that in most cases, an IP address without additional  information cannot.&rdquo;</p></li>
+
+<li><p>&ldquo;We believe anonymizing IP addresses after 9 months and cookies in  our search engine logs after 18 months strikes the right balance.&rdquo;</p></li>
+
+<li><p>&ldquo;we delete the last octet after nine months (170.123.456.XXX)&rdquo;</p></li>
+</ul>
+
+<p>The Latanya Sweeney result was the first to show that once you can mix  and match data sets, PII is just not enough to provide privacy. And  nowadays, of course, data mining multiple data sets is big business.</p>
+
+<h3 id="how-do-you-anonymize-data-k-anonymity">How Do You Anonymize Data? k-anonymity</h3>
+
+<p>Let&rsquo;s step back a little and look at the technical side of  anonymization. There are four basic methods for anonymizing data:</p>
+
+<p>Replacement - substitute identifying numbers
+Suppression - omit from the released data
+Generalization - for example, replace birth date with something  less specific, like year of birth
+Perturbation - make random changes to the data</p>
+
+<p>Then you have to measure how private a data set. Latanya Sweeney came  up with the notion of k-anonymity to define this. Here&rsquo;s how it works.</p>
+
+<p>Think about a table, with rows and attributes. Each attributes is  either part of a quasi-identifier (like a name or address), or is  sensitive information (like the fact you had an operation on a  particular afternoon).  A quasi-identifier is a set of attributes  that, perhaps in combination, can uniquely identify individuals.  Sensitive information includes the attributes that we want to keep  private.  Your driving license number is an identifier; our driving  record is sensitive information.  The table satisfies <em>k-anonymity</em> iff  each sequence of values in any quasi-identifier appears with at least  k occurrences.  Bigger k is better.</p>
+
+<p>So here is a table with 11 rows.</p>
+
+<table cellpadding="6" cellspacing="0" frame="hsides" border="2" rules="groups" >
+
+<tr >
+NameRaceBirthGenderZipProblem
+</tr>
+
+<tbody >
+<tr >
+
+<td class="left" >Sean
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1965-09-20
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="right" >02141
+</td>
+
+<td class="left" >Short breath
+</td>
+</tr>
+<tr >
+
+<td class="left" >Daniel
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1965-02-14
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="right" >02141
+</td>
+
+<td class="left" >Chest pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >Kate
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1965-10-23
+</td>
+
+<td class="left" >F
+</td>
+
+<td class="right" >02138
+</td>
+
+<td class="left" >Hypertension
+</td>
+</tr>
+<tr >
+
+<td class="left" >Marion
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1965-08-24
+</td>
+
+<td class="left" >F
+</td>
+
+<td class="right" >02138
+</td>
+
+<td class="left" >Hypertension
+</td>
+</tr>
+<tr >
+
+<td class="left" >Helen
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1964-07-11
+</td>
+
+<td class="left" >F
+</td>
+
+<td class="right" >02138
+</td>
+
+<td class="left" >Obesity
+</td>
+</tr>
+<tr >
+
+<td class="left" >Reese
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1964-01-12
+</td>
+
+<td class="left" >F
+</td>
+
+<td class="right" >02138
+</td>
+
+<td class="left" >Chest Pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >Forest
+</td>
+
+<td class="left" >White
+</td>
+
+<td class="right" >1964-10-23
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="right" >02138
+</td>
+
+<td class="left" >Chest Pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >Hilary
+</td>
+
+<td class="left" >White
+</td>
+
+<td class="right" >1964-03-15
+</td>
+
+<td class="left" >F
+</td>
+
+<td class="right" >02139
+</td>
+
+<td class="left" >Obesity
+</td>
+</tr>
+<tr >
+
+<td class="left" >Philip
+</td>
+
+<td class="left" >White
+</td>
+
+<td class="right" >1964-08-13
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="right" >02139
+</td>
+
+<td class="left" >Short breath
+</td>
+</tr>
+<tr >
+
+<td class="left" >Jamie
+</td>
+
+<td class="left" >White
+</td>
+
+<td class="right" >1967-05-05
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="right" >02139
+</td>
+
+<td class="left" >Chest pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >Sean
+</td>
+
+<td class="left" >White
+</td>
+
+<td class="right" >1967-03-21
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="right" >02138
+</td>
+
+<td class="left" >Chest pain
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>If we remove all the attributes except for the problem we have a very  anonymized data set (k = 11):</p>
+
+<table cellpadding="6" cellspacing="0" frame="hsides" border="2" rules="groups" >
+
+<tr >
+NameRaceBirthGenderZipProblem
+</tr>
+
+<tbody >
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >Short breath
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >Chest pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >Hypertension
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >Hypertension
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >Obesity
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >Chest Pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >Chest Pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >Obesity
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >Short breath
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >Chest pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >
+</td>
+
+<td class="left" >Chest pain
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>On the other hand, if we just remove the name and generalize the zip  code and date of birth we have a less anonymized set. Exercise: convince yourself that  k=2 for this set.</p>
+
+<table cellpadding="6" cellspacing="0" frame="hsides" border="2" rules="groups" >
+
+<tr >
+NameRaceBirthGenderZipProblem
+</tr>
+
+<tbody >
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1965
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="left" >0214*
+</td>
+
+<td class="left" >Short breath
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1965
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="left" >0214*
+</td>
+
+<td class="left" >Chest pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1965
+</td>
+
+<td class="left" >F
+</td>
+
+<td class="left" >0213*
+</td>
+
+<td class="left" >Hypertension
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1965
+</td>
+
+<td class="left" >F
+</td>
+
+<td class="left" >0213*
+</td>
+
+<td class="left" >Hypertension
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1964
+</td>
+
+<td class="left" >F
+</td>
+
+<td class="left" >0213*
+</td>
+
+<td class="left" >Obesity
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >Black
+</td>
+
+<td class="right" >1964
+</td>
+
+<td class="left" >F
+</td>
+
+<td class="left" >0213*
+</td>
+
+<td class="left" >Chest Pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >White
+</td>
+
+<td class="right" >1964
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="left" >0213*
+</td>
+
+<td class="left" >Chest Pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >White
+</td>
+
+<td class="right" >1964
+</td>
+
+<td class="left" >F
+</td>
+
+<td class="left" >0213*
+</td>
+
+<td class="left" >Obesity
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >White
+</td>
+
+<td class="right" >1964
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="left" >0213*
+</td>
+
+<td class="left" >Short breath
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >White
+</td>
+
+<td class="right" >1967
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="left" >0213*
+</td>
+
+<td class="left" >Chest pain
+</td>
+</tr>
+<tr >
+
+<td class="left" >
+</td>
+
+<td class="left" >White
+</td>
+
+<td class="right" >1967
+</td>
+
+<td class="left" >M
+</td>
+
+<td class="left" >0213*
+</td>
+
+<td class="left" >Chest pain
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>Of course, the issue is utility. There is a tradeoff between keeping  the data useful for research and maintaining privacy. Researchers and  attackers are doing the same thing after all: looking for useful  patterns in the data.  With the k=2 data set you can ask questions  about correlation of problems with gender, or with geography to some  extent (although not very specific geographical factors, like toxic  leaks).</p>
+
+<p>It would be nice if you could make the data set anonymous for the  purposes of attackers, but still useful for researchers. But it turns  out you can&rsquo;t. In a paper called <em>The Cost of Privacy: Destruction of Data-Mining Utility in Anonymized Data Publishing</em>, Justin Brickell and  Vitaly Shmatikov investigated the problem. They took a set of  different sanitization methods and compared it to a data set with  trivial sanitization (removal of identifiers). Here are the results.</p>
+
+<p><a href="http://whimsley.typepad.com/.a/6a00d83451d3b369e2015391e4feb4970b-popup" target="_blank"><img src="http://whimsley.typepad.com/.a/6a00d83451d3b369e2015391e4feb4970b-320wi" alt="Privacy_utility" /></a></p>
+
+<p>The left bar of each pair is the privacy (smaller = more private), The  right represent the utility to the researcher (bigger = more  useful). Anonymization seeks to shorten left without shortening the  right, but the results show, depressingly, that small increases in  privacy cause large decreases in utility.</p>
+
+<h3 id="please-could-you-tell-me-about-the-database-of-ruin">Please could you tell me about the Database of Ruin?</h3>
+
+<p>OK, if you insist.</p>
+
+<p>If we are going to take a new look, we need to recognize that privacy  is not a binary issue, and <em>it is not a property of a single data set</em>. We need to worry about reidentification attacks that do not reveal  sensitive information. As Paul Ohm writes: &ldquo;For every person on earth,  there is at least one fact about them stored in a computer database  that an adversary could use to blackmail, discriminate against,  harass, or steal the identity of him or her… the &lsquo;database of ruin&rsquo;  containing this fact but now splintered across dozens of databases on  computers around the world.&rdquo;</p>
+
+<p>Privacy is erased incrementally as successive queries reduce  uncertainty and narrow in on an individual. The way to quantify this  reduction in uncertainty is to use the idea of <em>information entropy</em>,  adopted from the thermodynamic concept, and usually identified by  H. The information gained in a query is</p>
+
+<p>H(before) - H(after)</p>
+
+<p>as you  increase your knowledge of a system, the entropy (loosely, disorder)  decreases.</p>
+
+<p>So what is the formula for H?</p>
+
+<p>For a set of outcomes {i,…}, each with probability pi, the  information entropy is:</p>
+
+<p>H = - SUM pi log2(pi)</p>
+
+<p>(excuse the lack of greek sigma), and is measured in bits. The  logarithm appears because the probability of two independent events  occurring is the product of the probabilities of each event, but the  information we gain from observing two independent events is the sum  of the information we gain from each event</p>
+
+<p>Take a simple example: a coin toss. Before the toss, there are two  outcomes with equal probabilities, so</p>
+
+<p>H =  -(<sup>1</sup>&frasl;<sub>2</sub>) log2(<sup>1</sup>&frasl;<sub>2</sub>) - (<sup>1</sup>&frasl;<sub>2</sub>)log2(<sup>1</sup>&frasl;<sub>2</sub>)</p>
+
+<p>= - log2(<sup>1</sup>&frasl;<sub>2</sub>)</p>
+
+<p>= log2(2)</p>
+
+<p>= 1 bits</p>
+
+<p>which makes sense if you think about it, because the coin could be heads  (1) or tails (0).</p>
+
+<p>After the toss, H = log2(1) = 0 : there is no uncertainty left and we  have complete information about the system.</p>
+
+<p>In the same way, a dice roll has (before rolling it) an entropy of</p>
+
+<p>H = log2(6) ~ 2.6 bits</p>
+
+<p>So if the challenge is to identify one person in the population of the  world, how much information entropy is there?  The identity of a  random, unknown person is just under 33 bits (233 ~ 8 billion). Hence  the web site 33bits.org.</p>
+
+<p>Learning a fact about the individual reduces the uncertainty (reduces  information entropy). So if you learn that the star sign is Capricorn  then that&rsquo;s -log2(<sup>1</sup>&frasl;<sub>12</sub>) = log2(12) = 3.58 bits of information.</p>
+
+<p>If you find out other independent pieces of information you add up the  contributions to find out how much the the entropy has been  reduced. So a ZIP code may provide 23.81 bits of information, a  birthday 8.51, and gender 1 bit for a total of 33.32 bits: it probably  identifies one individual.</p>
+
+<p>The Netflix de-anonymization paper used these ideas a bit.  The a  priori entropy of the data set (additional information required for  complete de-anonymization) is 19 bits (219 = 524288, which is about  the number of individuals in the data set).  Individual movies give  from 1 to 18 bits of information, depending on what you know about  them (dates within 14 days, rankings +/- 1).  Very popular movies gave  little information, but niche movies viewed by few individuals yielded  many bits of information. So little auxiliary information is needed to  re-identify records in the database.  In a theoretical excursion, the  researchers showed that de-anonymization is going to be robust against  noise, and does not need much additional information, so long as the  data set is large and sparse enough.</p>
+
+<h3 id="so-what-now">So what now?</h3>
+
+<p>I can do nothing better than quote from Paul Ohm to summarize the  privacy dilemma we find ourselves in.</p>
+
+<p>&ldquo;Abandoning PII is a disruptive and necessary first step, but it is  not enough alone to restore the balance between privacy and utility  that we once enjoyed. How do we fix the dozens, perhaps hundreds, of  laws and regulations that we once believed reflected a finely  calibrated balance but in reality rested on a fundamental  misunderstanding of science?</p>
+
+<p>Techniques that eschew release-and-forget may improve over time, but  because of inherent limitations like those described above, they will  never supply a silver bullet alternative.  Technology cannot save the  day, and regulation must play a role.</p>
+
+<p>Ohm notes that the US sectoral approach to regulation sets the privacy  bar too low, by focusing on explicitly listed PII. Meanwhile the EU, by  saying &ldquo;anything that can be used to identify you&rdquo; would, if  interpreted in the light of modern de-anonymization techniques, be too  high.</p>
+
+<p>The direction to take, says Ohm, is to focus on the people, not the  anonymization, and to distinguish private from public release. We need  to codify notions of trust and practices and apply strong sanctions  against re-identification. This will put more administrative and  procedural burdens in our future, but is needed to preserve privacy.</p>
+
+<p>And, to return to Tim O&rsquo;Reilly&rsquo;s tweet, open data advocates and big  data enthusiasts need to pay more attention to these issues rather  than relying, as some do, on personally identifying information as a  sufficient solution.</p>
+
+<h2 id="footnotes">Footnotes:</h2>
+
+<p>1 Arvind Narayanan and Vitaly Shmatikov, <em>Robust De-anonymization of Large Sparse Datasets</em>, IEEE Symposiom on Security and  Privacy, 2008. (<a href="http://dl.acm.org/citation.cfm?id=1398064" target="_blank">gated link</a>)</p>
+
+    </div>
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hub378f18ec57be63e91148374089d19f9_9524045_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://tomslee.github.io/">Tom Slee</a></h5>
+      <h6 class="card-subtitle">This and that</h6>
+      <p class="card-text" itemprop="description">Mainly technology and politics</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/whimsley" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?hl=en&amp;user=-QdBcPCiO1sJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/tomslee" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+    <div class="article-widget">
+      
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/post/my-favourite-post/" rel="next">
+				My favourite post...		</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/post/earlier-today-i-thought-i-was-doomed-to-fail-that-part-3-of-this-prematurely-announced-trilogy-was-just-not-going-to-get-wr/" rel="prev">
+				Internet-Centrism 3 (of 3): Tweeting the Revolution (and Conflict of Interest)		</a>
+  </div>
+  
+</div>
+
+    </div>
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyBrCa_lLBoxGFUhQMUn2gpb8H5_cioqe74"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.9ef1b53ee2bde6c7f33b150c6ba4d452.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    Copyright &copy; 2006&ndash;2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

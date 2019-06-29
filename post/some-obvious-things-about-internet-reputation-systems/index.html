@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Tom Slee">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Update 2: This essay is the starting point for Chapter 7: &ldquo;Strangers Trusting Strangers&rdquo;, in my book &ldquo;What&rsquo;s Yours is Mine&rdquo; (2015 in the US and the UK; 2016 in Canada and elsewhere).
+Update: now with added footnotes.
+Debates around the “sharing economy” have been driven by personal stories and broad claims. In contrast, this is a dense and not-easy-to-read step-by-step look at the internet reputation systems on which the sharing economy claims are based, with some predictions about the neoliberal future of the sharing economy.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://tomslee.github.io/post/some-obvious-things-about-internet-reputation-systems/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.a9a796b4dba28c78fc94d2550173437e.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://tomslee.github.io/post/some-obvious-things-about-internet-reputation-systems/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@whimsley">
+  <meta property="twitter:creator" content="@whimsley">
+  
+  <meta property="og:site_name" content="Tom Slee">
+  <meta property="og:url" content="https://tomslee.github.io/post/some-obvious-things-about-internet-reputation-systems/">
+  <meta property="og:title" content="
+				Some Obvious Things About Internet Reputation Systems		 | Tom Slee">
+  <meta property="og:description" content="Update 2: This essay is the starting point for Chapter 7: &ldquo;Strangers Trusting Strangers&rdquo;, in my book &ldquo;What&rsquo;s Yours is Mine&rdquo; (2015 in the US and the UK; 2016 in Canada and elsewhere).
+Update: now with added footnotes.
+Debates around the “sharing economy” have been driven by personal stories and broad claims. In contrast, this is a dense and not-easy-to-read step-by-step look at the internet reputation systems on which the sharing economy claims are based, with some predictions about the neoliberal future of the sharing economy."><meta property="og:image" content="https://tomslee.github.io/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2013-09-30T02:40:42&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-06-29T15:58:15-04:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>
+				Some Obvious Things About Internet Reputation Systems		 | Tom Slee</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Tom Slee</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Essays</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">
+				Some Obvious Things About Internet Reputation Systems		</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2013-09-30 02:40:42 &#43;0000 &#43;0000" itemprop="datePublished">
+<meta content="2019-06-29 15:58:15 -0400 EDT" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    <time>Jun 29, 2019</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    24 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    <a href="/categories/sharing-economy/">sharing economy</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://tomslee.github.io/post/some-obvious-things-about-internet-reputation-systems/&amp;text=%0a%09%09%09%09Some%20Obvious%20Things%20About%20Internet%20Reputation%20Systems%09%09" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://tomslee.github.io/post/some-obvious-things-about-internet-reputation-systems/&amp;t=%0a%09%09%09%09Some%20Obvious%20Things%20About%20Internet%20Reputation%20Systems%09%09" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%0a%09%09%09%09Some%20Obvious%20Things%20About%20Internet%20Reputation%20Systems%09%09&amp;body=https://tomslee.github.io/post/some-obvious-things-about-internet-reputation-systems/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://tomslee.github.io/post/some-obvious-things-about-internet-reputation-systems/&amp;title=%0a%09%09%09%09Some%20Obvious%20Things%20About%20Internet%20Reputation%20Systems%09%09" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%0a%09%09%09%09Some%20Obvious%20Things%20About%20Internet%20Reputation%20Systems%09%09%20https://tomslee.github.io/post/some-obvious-things-about-internet-reputation-systems/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://tomslee.github.io/post/some-obvious-things-about-internet-reputation-systems/&amp;title=%0a%09%09%09%09Some%20Obvious%20Things%20About%20Internet%20Reputation%20Systems%09%09" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p><strong>Update 2:</strong> This essay is the starting point for Chapter 7: &ldquo;Strangers Trusting Strangers&rdquo;, in my book &ldquo;What&rsquo;s Yours is Mine&rdquo; (<a href="http://www.orbooks.com/catalog/whats-yours-is-mine-by-tom-slee/" target="_blank">2015 in the US</a> and the UK; <a href="https://btlbooks.com/book/whats-yours-is-mine" target="_blank">2016 in Canada</a> and elsewhere).</p>
+
+<p><strong>Update:</strong> now with added footnotes.</p>
+
+<p>Debates around the “sharing economy” have been driven by personal stories and broad claims. In contrast, this is a dense and not-easy-to-read step-by-step look at the internet reputation systems on which the sharing economy claims are based, with some predictions about the neoliberal future of the sharing economy. References, statistics, and, yes, some personal stories are relegated to footnotes. If you&rsquo;re really interested you can download a <a href="http://tomslee.net/wordpress/wp-content/uploads/2013/09/2013-09-23_reputation_systems.pdf" target="_blank">PDF</a>.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>_Internet reputation systems_ let individuals rate other individuals over the internet and provide recommendations based on those ratings. A new class of enterprise claims to use internet reputation systems to enable sharing of personal goods and services at unprecedented scale. Its rise has been announced by both <a href="http://www.forbes.com/sites/tomiogeron/2013/01/23/ airbnb-and-the-unstoppable-rise-of-the-share-economy" target="_blank"><em>Forbes</em></a>, and by <a href="http:// www.economist.com/news/leaders/21573104-internet-everything-hire-risesharing- economy" target="_blank"><em>The Economist</em></a>, according to which accommodation rental service Airbnb…</p>
+
+<blockquote>…is the most prominent example of a huge new “sharing economy”, in which people rent beds, cars, boats and other assets directly from each other, co-ordinated via the internet. …[T]echnology has reduced transaction costs, making sharing assets cheaper and easier than ever—and therefore possible on a much larger scale… social networks provide a way to check up on people and build trust; and online payment systems handle the billing.</blockquote>
+
+<p>The claim is that internet reputation systems solve two problems. One is _coordination_ (can I find someone who has what I want, or wants what I have?) and the other is _trust_ (can you trust the person on the other side of the exchange to keep their end of the bargain?).1 Sharing economy advocates claim, and I will return to this at the end of the essay, that it is both necessary and sufficient to solve these problems to unlock a large new economy of resource sharing.</p>
+
+<h2 id="trust-and-coordination">Trust and Coordination</h2>
+
+<p>To understand the sharing economy it is necessary to understand trust.2</p>
+
+<p>A _truster_ must decide whether or not to make a loan to a potential <em>trustee</em>; if the truster does make the loan, then the trustee must decide whether or not to repay it. We say the truster _trusts_ the trustee if she expects him to repay, and the trustee is _trustworthy_ if he would repay a loan, should the truster make it.</p>
+
+<p>Trust is a problem of asymmetric information: a truster cannot divine the trustee’s trustworthiness directly but must look instead for _signs_ of trustworthiness.</p>
+
+<p>An _opportunist_ is someone who is _not_ trustworthy but who seeks to _mimic_ signs of trustworthiness in order to deceive potential trusters. Opportunists create what Bacharach and Gambetta call a “problem of secondary trust” which, they argue, “almost always accompanies, and is often the key to solving, problems of primary trust” (p158). Instead of just looking for signs of trustworthiness, the truster must decide whether she can trust those signs; instead of just displaying signs of trustworthiness, the trustee must convince the truster that he is not mimicking them.</p>
+
+<p>Secondary trust is a _signalling problem_ in the sense <a href="http://www.econ.yale.edu/~dirkb/teach/ pdf/spence/1973%20job%20market%20signalling.pdf" target="_blank">first spelled out</a> by economist Michael Spence. An effective signal is an action or sign that is easy for a trustworthy person to display but costly for an untrustworthy person to display. If it’s not worth the effort for an opportunist to mimic the signal, we say that the signal _separates _trustworthy people from untrustworthy people or _discriminates_ between them. If no discriminating signal is available, then there is no way to distinguish trustworthy people from opportunists—an outcome that is called _pooling_—and trust cannot be established between truster and trustee. In real life, of course, we deal with probabilities rather than certainties, but there is a spectrum from separating to pooling outcomes in problems of trust.</p>
+
+<p>_The Economist_ observed, above, that the internet has reduced the transaction costs of collaboration, enabling what Yochai Benkler calls a “new modality of organizing production: radically decentralized, collaborative, and non-proprietary… ‘commons-based peer production’” (The Wealth of Networks, p60). But the problem of secondary trust emphasizes that <em>low transaction costs do not necessarily improve collaboration</em>.</p>
+
+<p>Other things being equal, and in the absence of opportunists, lower transaction costs (discovery and communication) should increase the amount of collaboration, but in the presence of opportunists—in what Bacharach and Gambetta <a href="http://www.nuffield.ox. ac.uk/People/sites/Gambetta/Publication%20Files/Trust%20in%20signs.pdf" target="_blank">call</a> “mimic-beset trust games&rdquo;—collaboration is possible only in the presence of an effective signalling mechanism, and lowering transaction costs can destroy trust-dependent collaboration by making it easier for opportunists to mimic trustworthiness.3</p>
+
+<h2 id="reputation">Reputation</h2>
+
+<p>In the sense used here, reputation is a sign of trustworthiness manifested as testimony by other people. When my neighbour says “Don’t hire John the Plumber: he came to fix my sink but it’s still blocked”, she is providing information that lets me decide whether to trust John to fix my drains.</p>
+
+<p>When it works well, reputation is an effective discriminating signal that promotes trust and collaboration based on trust. In a community with strong word of mouth, it is easy for a good plumber to establish a reputation as reliable, punctual, and skilled simply by being reliable, punctual, and skilled; it is difficult for an incompetent or lazy plumber to do the same.</p>
+
+<p>Reputation is not a perfect discriminating signal. Much of what is communicated in testimonies may be private and informal (“he fixed my sink and came on time, but there was something about him… I just didn’t like having him in my house”) and this privacy and informality can have both good and bad effects. It can transmit justified but nebulous suspicions, but it makes it difficult for John to gain a good reputation—no matter how trustworthy he is—if he is a black man trying to find work in a white community with a history of racism, or difficult for Jane the Plumber’s skills to be taken seriously if the community has traditional norms about women’s roles. “Old boys’ clubs” and other insider groups provide members with an inbuilt advantage when it comes to establishing a reputation.</p>
+
+<p>Reputation is only one mechanism for solving the problem of trust. Others include reciprocity in long-term relationships, regulations (you can trust this restaurant because it has passed a food safety inspection), professional qualifications (you can trust this person to fix your leg because she is a doctor), voluntary industry certifications (you can trust this coffee to be fair trade because there is a fair trade label on the package), independent rating agencies, individual firm commitments (you can trust this retailer because they have invested heavily in their brand, and so must act accordingly), the common property regimes explored by <a href="https://en.wikipedia.org/wiki/Elinor_Ostrom" target="_blank">Elinor Ostrom</a>, and many others.</p>
+
+<p>Reputation, in the sense used here, is peer-to-peer, informal, decentralized, community-driven, and non-commercial, and it is those alternative qualities that sharing economy advocates claim can be scaled up by using internet reputation systems. <a href="https://www.airbnb.ca/about/about-us" target="_blank">Airbnb</a> and <a href="http://www.blablacar.com" target="_blank">BlaBlaCar</a> both describe themselves as “a trusted community marketplace”; <a href="http://blog.lyft.com/post/57730672346/lyft-celebrates-one-million-rides" target="_blank">Lyft</a>’s one-million rides show “the power of community”.</p>
+
+<p>The effectiveness of reputation depends on the motivations of those giving testimonies as well as on the actions of the trustee: the problem of secondary trust described above. Reputation is effective only if the testimonies are independent and free from the taint of collusion or retaliation. Testimony from John’s brother does not carry the same weight as that of someone who has no stake in John’s success or failure, and while John may not want my neighbour to tell me about his failure to fix their sink, there’s not a lot he can do about private conversations over a garden fence.</p>
+
+<p>Market-based incentives erode the effectiveness of reputation, and in this respect reputation is a _cultural commons_ (see <a href="http://www.lawschool.cornell.edu/research/cornell-law-review/upload/madison-frischmann-strandburg-final.pdf" target="_blank">here</a>, and see also me <a href="http://thenewinquiry. com/essays/open-wide/" target="_blank">here</a>). In her <a href="http://www.ted.com/talks/rachel_botsman_the_currency_of_the_new_economy_is_trust.html" target="_blank">TED talk</a>, influential author Rachel Botsman says that in the new economy “reputation will be your most valuable asset”, but as reputation becomes an important asset, markets will grow around it and intermediaries will claim to help you boost your reputation, but these market-based incentives destroy the value of reputation as a mechanism for establishing trust. Mechanisms for buying and selling testimonies, for example, cause testimonies to lose their ability to discriminate between trustworthiness and opportunism because an opportunist with money could buy themselves a good reputation.</p>
+
+<h2 id="internet-reputation-systems">Internet Reputation Systems</h2>
+
+<p>Internet reputation systems promise to create a global village by scaling up informal word-of-mouth reputation mechanisms for sharing and for creating trust, and so solve both the coordination and the trust problem for a variety of services which could not previously be exchanged. For sharing economy advocates, reputation is an alternative to regulation: in the recent book _The Reputation Economy,_ law professor Lior Strahilevitz asks us to “imagine if every plumber, manufactured product, cell phone provider, home builder, professor, hair stylist, accountant, attorney, golf pro, and taxi driver were rated… In such a world, there would be diminished need for regulatory oversight and legal remedies because consumers would police misconduct themselves.”</p>
+
+<p>Do internet reputation systems act as an effective signal of trustworthiness?</p>
+
+<p>Figure 1 is the distribution of ratings for the Netflix Prize data set. Netflix ratings are not a reputation system in the sense used here, in that they are not testimonials about people: the data set consists of ratings of movies and TV shows by Netflix customers. There is every reason to believe that the ratings are independent and honest: the rater can offer an opinion freely, having no reason to expect expect reward or punishment for any particular rating. The rater also has an incentive to give a rating that matches their actual opinion, as it enables Netflix to recommend movies that better match their tastes. So Figure 1 can take this as a reasonable distribution of independent ratings.</p>
+
+<p><a href="http://tomslee.net/wordpress/wp-content/uploads/2013/09/netflixratings.jpg" target="_blank"><img src="http://tomslee.net/wordpress/wp-content/uploads/2013/09/netflixratings.jpg" alt="Figure 1." /></a>
+    Figure 1.</p>
+
+<p><a href="http://www.blablacar.com" target="_blank">BlaBlaCar</a>, a French sharing economy company that connects “drivers with people travelling the same way” throughout Europe, has over a million registered drivers, transports over half a million passengers every month, and is expanding rapidly. Also, it makes testimonial-based ratings available on its web site. Figure 2 is the distribution of a set of 190,000 ratings from the blablacar.com site.4</p>
+
+<p><a href="http://tomslee.net/wordpress/wp-content/uploads/2013/09/blablacarratings.jpg" target="_blank"><img src="http://tomslee.net/wordpress/wp-content/uploads/2013/09/blablacarratings.jpg" alt="Figure 2." /></a>
+    Figure 2.</p>
+
+<p>Of 190129 distinct ratings, 2152 were one-star, there was not a single two-star rating, there was one three-star rating, five four-star ratings, and 187971 five-star ratings. A BlaBlaCar rating means something different from a Netflix movie rating.</p>
+
+<p>With over 98% of ratings being five stars, the reputation system does not meaningfully discriminate among drivers or riders. A reputation system that does not discriminate fails as a reputation system: it fails to solve the problem of trust.5</p>
+
+<p>Collusion and fear of retaliation are the reasons why there are essentially no reviews less than five stars for rides that take place. If you give a less-than-five star review then, unlike in the case of offline community-based testimonials, it is visible to the reviewee, who can give you a harsh review in return and so affect your chance of getting future rides. Do you want to defend your opinion that the driver was a bit close to the car in front, or that the car was a bit dirty, or do you just want to give a five-star review and make a note to yourself not to ride with them again? Collusion is the other side of the retaliation coin: I know I turned up late and was eating smelly food in your car and you didn’t like it, but so long as you give me five stars I’ll give you a good positive rating and we’re both better off. Neither of these factors need to be explicit or even to be very important to produce large effects, because it makes no difference to me how I rate you. One seemingly tiny difference between word-of-mouth and the internet rating system makes all the difference, that testimonials are visible to everyone _including_ the reviewee instead of everyone _except_ the reviewee.</p>
+
+<p>The problem is not unique to BlaBlaCar. Reciprocity and collusion in the eBay reputation system has been studied <a href="http://ben.orsee.org/papers/engineering_trust.pdf" target="_blank">here</a> and the authors also provide an estimate of how many dissatisfied people are not rating their trustee:</p>
+
+<blockquote>The fact that from 742,829 eBay users… who received at least one feedback, 67% have a percentage positive of 100%, and 80.5% have a percentage positive of greater than 99%, provides suggestive support for the bias. The observation is in line with Dellarocas and Wood (2008) who examine the information hidden in the cases where feedback is not given. They estimate, under some auxiliary assumptions, that buyers are at least mildly dissatisfied in about 21% of all eBay transactions, far higher than the levels suggested by the reported feedback. They argue that many buyers do not submit feedback at all because of the potential risk of retaliation.</blockquote>
+
+<p>Finally, on Airbnb, reviewing of hosts by guests and guests by hosts also happens in public and is reciprocal. The Airbnb web site does not display individual numerical reviews, although it does display individual text reviews; instead it displays the average rating that a room has received in each of several categories (cleanliness, location, communication,…) together with an overall average, rounded off to the nearest 0.5 out of five. The web site is less easy to traverse programmatically, but out of well over a hundred offerings in New York, Sydney, Berlin and Paris I have yet to see a single one that is not rated 4.5 or 5.6</p>
+
+<p>So even in the absence of explicit gaming, <strong>peer-to-peer internet reputation systems do not solve the problem of trust.</strong> The BlaBlaCar site fails the basic test of discriminating among almost any of the 190,000 drives that took place—it fails to deliver any useful information beyond giving the occasional sign that a driver or rider may not turn up.</p>
+
+<h2 id="the-growth-of-the-sharing-economy">The “Growth” of the “Sharing Economy”</h2>
+
+<p>Rachel Botsman claims that “Even four years ago, letting strangers stay in your home seemed like a crazy idea”, and she describes the meteoric growth of the sharing economy. The picture she paints would seem to be incompatible with the idea that internet reputation systems fail to solve the problem of trust. What’s going on?</p>
+
+<p>Some perspective is in order. The rapid growth of individual sharing economy companies does not represent the appearance of new social practices of sharing. The growth of sharing economy companies is, at least in part, a movement of already-existing social practices to online forums.</p>
+
+<p>“Letting strangers stay in your home” has long been a common practice. Millions of people let strangers stay in their homes without the benefit of internet reputation systems: the overall vacation rental market, which includes cottages, apartments, second homes and other personal rentals, is much larger than Airbnb.7 , 8</p>
+
+<p>Similarly, BlaBlaCar is a small fraction of the overall carpooling practice, which precedes internet reputation systems. Carpooling has been a widespread practice in many urban centres for decades, encouraged by local governments and transit authorities with “Park-and-Ride” facilities, especially in Europe where fuel costs are higher than North America. Student union noticeboards have long been a way to coordinate rides home for the weekend.9 , 10</p>
+
+<p>The dispersed nature of tourism boards, local travel authorities, booking agencies, university notice boards, and so on make counting trips and visits difficult, while the centralized nature of sharing economy sites makes data collection trivial for those with the infrastructure, so it is easy to underestimate—or entirely neglect—the pre-existing economy.</p>
+
+<p>Also, not all the activity on sharing economy websites is of the personal, informal kind that the site owners portray, so the growth of these companies overstates the growth of sharing. Multiple rentals are common, suggesting rentals of properties other than the host’s primary residence, such as investment properties.11 , 12</p>
+
+<h2 id="the-problem-of-trust-in-the-sharing-economy">The Problem of Trust in the Sharing Economy</h2>
+
+<p>Still, sharing economy web sites are growing fast. How are they succeeding if the peer-to-peer reputation systems fail to solve the problem of trust?</p>
+
+<p>One reason is that coordination is useful in itself. Classified ads, whether local newspapers or sites like Craigslist and Kijiji, solve coordination problems but do not even try to solve problems of trust beyond the most basic verification. It’s left to individuals to contact each other, make arrangements, decide on the terms of a sale, and complete the deal. In trading second-hand lawnmowers for cheap prices, the worst that can happen to a purchaser is that they overpay by a few dollars, and that’s a risk that many are prepared to take. One option for sharing economy companies would be to accept that they are solving only the simpler coordination problem, and adopt a business model that has no involvement in the transaction itself and which charges small listing fees.13 But such a business model will not provide the returns that venture capital is expecting from this industry. Sharing economy companies funded by venture capital have no option but to solve the problem of trust.</p>
+
+<p>In some cases, community membership itself has provided an adequate signal of trustworthiness, particularly in communities that are prepared to accept some level of risk. Opportunists are screened out, to the extent that they need to be, by an implicit community selection process, so that matching _within_ the community is reduced to a coordination problem. For example, travel site <a href="http:couchsurfing.org" target="_blank">Couchsurfing</a> built itself largely by word-of-mouth among young travellers. Couchsurfing members pre-selected themselves to be adventurous (so not looking for a high degree of assurance from the organization) and community-minded individuals with a common interest in travel. Simply being part of the Couchsurfing community was a sign that correlated with trustworthiness, and community members voluntarily undertook the additional risk that came with the program.</p>
+
+<p>Unfortunately, community membership as a sign of trustworthiness does not survive large scale growth, for two reasons.</p>
+
+<p>As a community grows, it attracts opportunists. In a small community, the benefit to an opportunist of mimicking a sign of trustworthiness is small, but as the community scales, the potential benefits for opportunists are larger, and the incentive to mimic trustworthiness is greater. In evolutionary terms, Bacharach and Gambetta <a href="http://www.nuffield.ox. ac.uk/People/sites/Gambetta/Publication%20Files/Trust%20in%20signs.pdf" target="_blank">describe</a> the phenomenon as “model precedes mimic”. Sharing economy sites have benefited from community membership as a screening process, but as they become larger they will need new solutions.</p>
+
+<p>Second, people who have a commitment to a community may be prepared to take on additional personal risk, either because of the nature of the community itself (a community of adventurers is not looking for a high level of security) or because they are prepared to overlook lapses to support the community. There is a reciprocity, not just between individuals, but between the members and the community-as-a-whole. However, the revenue and growth models of venture-capital funded companies are based on providing a service that can scale to people with no particular commitment to the community itself. As _AllThingsD_ reporter Liz Gannes <a href="http://allthingsd.com/20130716/after-home-trashing-incident-airbnb-builds-an-in-house-enforcer-team/" target="_blank">writes</a>: “maintaining customer trust is paramount because, at any given moment, they are all one bad incident away from users turning back to more traditional arrangements”</p>
+
+<h2 id="the-future-of-the-sharing-economy">The Future of the Sharing Economy</h2>
+
+<p>Venture capital demands for scale will produce changes in the nature of the sharing economy sites, changes that erode any community focus they have, and which turn them into far more traditional models. Such changes are already underway at the largest, most heavily funded sites.</p>
+
+<p>As Gannes reports, a single bad incident has forced Airbnb to hire a 50-person “trust and safety team” headed by a former US Army intelligence office and a former government investigator. The use of a human team clearly doesn’t scale, so Airbnb is now turning to centralized analysis to solve its problems, <a href="http://gigaom.com/2013/07/29/airbnb-is-engineering-itself-into-a-data-driven-company/" target="_blank">saying</a> “We want to apply data to every decision. We want to be a very data-driven company.” On April 30 2013, asserting that “Trust is the key to our community”, Airbnb <a href="http://blog.airbnb.com/introducing-airbnb-verified-id/" target="_blank">i</a>ntroduced a “Verified ID program” which <a href="http://www.forbes.com/sites/tomiogeron/2013/04/30/airbnb-adds-identity-verification-in-big-step-for-sharing-economy/" target="_blank">demands</a> that you provide government-verified identification and permit the company to analyze your social networking presence or provide it with a video profile.</p>
+
+<p>There is also a drive for more professionalism among hosts. Airbnb now <a href="http://www.tnooz.com/article/seismic-shift-airbnb-will-let-hosts-sell-tours-and-activities/" target="_blank">lets hosts sell tours and activities</a>, and here is Chip Conley, the new “Head of Global Hospitality” for Airbnb, hired from the hotel industry, in a <a href="http://www.cntraveler.com/daily-traveler/2013/09/my-travel-routine-chip-conley-airbnb-s-head-of-global-hospitality" target="_blank">September 2013 interview</a>:</p>
+
+<blockquote>We’ll be introducing nine minimum standards around what we expect an Airbnb experience to be, whether it’s related to cleanliness or the basic amenities you expect, which is not currently the case. The idea that we create some amenities that you should expect—clean towels, clean sheets—that’s important.</blockquote>
+
+<p>In short, Airbnb is abandoning the idea that peer-to-peer reputation systems can solve the problem of trust, is moving away from the casual “air bed” mentality that gave it its name, and is resorting to traditional centralized systems of enforced minimum standards, documentary verification, and so on.</p>
+
+<p>There is, however, one remaining difference between Airbnb and a traditional hospitality business. To go back to the beginning of this essay, sharing economy companies claim that it is both necessary _and sufficient_ to solve problems of trust and coordination to unlock a large new economy of resource sharing. The “sufficient” part of this is valid only if there are no spill-over effects from the operations of the sharing economy, so sharing economies will campaign for freedom from those constraints that prevent them maximizing their returns: health and safety standards, employment standards, licensing laws, and so on.14</p>
+
+<p>To be successful, the venture-capital-funded “sharing economy” will be forced to lose all those aspects of informal sharing that makes “sharing” attractive, and to keep those aspects that erode neighbourhoods, erode employment rights, and remove basic standards. And if they succeed, they will have used the language of sharing to bring about an unregulated, free-market, neoliberal economy.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+
+<p>1 For example, economist Arun Sundararajan <a href="http://blogs.hbr.org/2013/01/from-zipcarto- the-sharing-eco/" target="_blank">says</a> that in peer-to-peer marketplaces “Reputation systems and active supplier screening maintain quality” and <a href="http://www.wired.com/opinion/2012/ 10/from- airbnb- to- coursera-why- the- government- shouldnt- regulate- thesharing- economy/" target="_blank">that</a> “These reputation systems take community enforcement up a few notches from the time of the Maghribis, combining numerical scores and textual feedback with reviews, pictures, and peer references that are instantly visible to any potential market participant. By making both product and trader quality instantly transparent, this approach reduces the risks that often lead to market failure”; PBS Newshour <a href="http: //www.pbs.org/newshour/mt4/mt-tb.cgi/18502" target="_blank">says</a> that “Users trust each other according to a person’s accumulated social credit; user ratings thus form a currency to increase the odds of finding a willing driver”; and in a January 2013 interview Airbnb CEO Brian Chesky <a href="http://skift.com/2013/01/11/airbnb-responds-to-illegal-rentals-storyfirst- of-all-its-not-illegal-everywhere/" target="_blank">said</a> “Well it turns out that cities can’t screen as well as technologies can screen. Companies have these magical things called reputation systems”; Forbes <a href="http://www.forbes.com/sites/tomiogeron/2013/01/23/ airbnb-and-the-unstoppable-rise-of-the-share-economy/" target="_blank">writes</a> that “Ebay’s much-duplicated rating system bestows commercial credibility on individuals”.</p>
+
+<p>2 The description draws from the work of sociologist Diego Gambetta, who has spent years writing about trust, and in particular from a 2001 <a href="http://www.nuffield.ox. ac.uk/People/sites/Gambetta/Publication%20Files/Trust%20in%20signs.pdf" target="_blank">article</a> written with Michael Bacharach.</p>
+
+<p>3 The need for trust in collaboration is essential to opposition movements in authoritarian states, which is one reason I don’t believe that the “low transaction costs” of social media were key to the Arab Spring uprisings of 2011. I have made trust-based arguments <a href="http://tomslee.net/2011/02/more-egypt-more-facebook.html" target="_blank">here</a> and more formally in <a href="http://dx.doi.org/10.2139/ssrn.2116471" target="_blank">this working paper</a>.</p>
+
+<p>4 Methodology: In a BlaBlaCar rating, a reviewer gives a rating to a reviewee. The first step of the algorithm is to record all the ratings of an individual user. Each subsequent step chose a new reviewee by selecting at random from the lists of reviewers, and then records all the ratings for that user. There are cases where a single reviewer has reviewed a single reviewee multiple times; these were discarded. Only the numerical rating was recorded, and if a reviewer has not been reviewed by anyone a single “null” rating was recorded. The procedure is far from scientific, but at 190,000 ratings is way better than a few anecdotes, which is the point.</p>
+
+<p>5 Almost all the one-star ratings are given when the rider and driver failed to meet without cancelling ahead of time. Perhaps the rider didn’t turn up, or perhaps the driver didn’t, but one way or another the ride didn’t happen. If a ride takes place, it is almost universal that each of the pair will give the other a five-star rating.</p>
+
+<p>6 See also <a href="http://www.quora.com/Airbnb/Why-are-there-so-few-negative-reviews-on-Airbnb" target="_blank">this question</a> on Quora for impressionistic responses.</p>
+
+<p>7 In 2013, Airbnb claims <a href="https://www.airbnb.com/annual/" target="_blank">over 300,000 listings</a>, but a 2010 study <a href="http://www.travelweekly.com/travel-news/hotel-news/big-growth-expected-in-vacation-rental-market" target="_blank">showed</a> that “more than 6 million vacation properties in the U.S. and Europe were being rented out to travelers for a fee at least two weeks of every year”. Ad Age <a href="http://adage.com/article/news/airbnb-taps-agency-major-ad-push/244300/" target="_blank">r</a>eports that Airbnb’s 2012 revenue was $150 million, which a little arithmetic based on 3 percent <a href="https://www.airbnb.com/help/question/63" target="_blank">host fees</a> and at least 6 percent <a href="https://www.airbnb.com/help/question/104" target="_blank">guest fees</a> suggests it is part of $1.5B in transactions. The same survey estimated the global vacation rental market at $85 billion in 2010, at an average of $14,000 per property. Supporting these estimates, a <a href="http://www.phocuswright.com/products/4252" target="_blank">report</a> by market research firm PhocusWright estimates the size of the overall vacation-rentals market in the US alone to be $23 billion, and vacation rentals in Europe are <a href="http://www.travelweekly.com/travel-news/hotel-news/big-growth-expected-in-vacation-rental-market/" target="_blank">much more popular</a>.</p>
+
+<p>8 Personal story: During my childhood my mother booked almost all our family holidays from the <em>Farm Holiday Guide</em>, which listed farmhouses that provided either bed-and-breakfast or self-contained accommodations throughout the UK.This practice was not unusual. For four years, we stayed with Miss Whittaker in the Duddon Valley in the Lake District. She was a dinner lady at the local school, and rented out accommodations to supplement her income. She had a sheepdog called Jan, which we played with in her back garden. When it rained, which was often, we would read books from her bookshelves: I first encountered Miss Marple and Hercule Poirot at Miss Whittaker’s house when I was about ten. My younger brother would sometimes get up early in the morning and sit in the kitchen with her, colouring in a colouring book while Miss Whittaker started her day. Families I know in Ontario have rented out cottages for decades, through personal contacts and scattered local tourism organizations like <a href="http://www.visitsaugeenshores.ca/where-to-stay/" target="_blank">this one</a>.</p>
+
+<p>9 BlaBlaCar hosts half a million passengers a month, which sounds like a huge number, but in the year 2000 12% of the 128.3 million workers in the US carpooled to work (US Census) which, assuming two people per car, is around 7 million passengers a day, excluding non-work trips.</p>
+
+<p>10 Personal story: My own pre-digital ridesharing experiences include a year of commuting between Hamilton and Waterloo, driven by four different—and all wonderful—people, as well as several years of intermittent and luckily incident-free hitch-hiking in the UK, mainly between Leeds and London.Quiz for the reader: how would you rate the following drivers?</p>
+
+<ul>
+<li><p>The German ex-prisoner of war who stayed in the UK and who gave me a ride in a small lorry, spending much of the ride explaining in a friendly manner how Hitler had been misunderstood.</p></li>
+
+<li><p>The driver who spent 30 minutes complaining about how dark-skinned immigrants were wrecking the country.</p></li>
+
+<li><p>The driver of the empty lorry who explained that he was picking up my friend Lawrence and myself on a windy day just to provide some extra ballast.</p></li>
+
+<li><p>The driver who had cerebral palsy and whose hand shook increasingly as he reached for the gear lever, explaining that he drove better when he’d had a couple of drinks because he didn’t tremble as much.</p></li>
+
+<li><p>Women may experience many kinds of problem that I have never faced. What is the acceptable level of flirtatiousness and/or overt propositioning from a driver? And would you report over-the-line behaviour if the driver had your phone number?</p></li>
+</ul>
+
+<p>11 Personal story: Rachel Botsman also makes a point that the sharing economy now means you can stay in unusual places, not just regular hotels. When I was three years old my parents rented a converted railway carriage near Aberdovey in Wales. The jellyfish on the beach were disgusting, but otherwise it was fun.</p>
+
+<p>12 Personal story: my sister and I tried to book an apartment in Rome in spring of 2013 through <a href="http://www.homeaway.co.uk/" target="_blank">http://www.homeaway.co.uk/</a>. The owner said that apartment wasn’t available, but another one listed on <a href="http://www.homelidays.co.uk/" target="_blank">http://www.homelidays.co.uk/</a> was free. We never met the owner, but we did meet a cleaner who had a key. The rental was clearly a business transaction, and the apartment was one of six owned by the same person. The experience was very similar to booking a traditional bed and breakfast or holiday apartment through emails, websites, or even older mechanisms.</p>
+
+<p>13 Thanks to Eric Farrar for insights into the differences between sites like Kijiji and sites like eBay.</p>
+
+<p>14 One of the legal challenges faced by Airbnb is that local governments demand licensing of rental accommodation for reasons that go beyond the interests of the landlord/host and tenant/guest to include the interests of neighbours and wider community. Airbnb must campaign against such rules if it is to maintain its growth. It is no surprise that the first two actions of the new sharing economy advocacy group Peers are in support of two of the best funded companies: Airbnb and Lyft. The <a href="http://www.peers.org/action/Save-Airbnb-LA/" target="_blank">very first action</a> was to <a href="http://articles.latimes.com/2013/sep/02/business/la-fi-airbnb-economy-20130903" target="_blank">c</a>ampaign in the Silver Lake neighbourhood of Los Angeles against <a href="http://www.fastcoexist.com/3017486/the-battle-over-airbnb-moves-to-los-angeles" target="_blank">restrictions on short-term rentals</a>. San Francisco is the home base for the venture-capital wing of the sharing economy, and claims of unnecessary bureaucracy are now running into the claims of neighbours. In the Mission district, local newspaper <em>El Tecolote</em><a href="http://eltecolote.org/content/unregulated-rental-business-takes-over-housing/2013/08/01/" target="_blank"> reports</a> on how people are making large amount of money by “using a unit that’s rent controlled and they’re taking the space away from people who really need a place to stay in San Francisco” and gentrifying the Mission neighbourhood, pushing native residents out.</p>
+
+    </div>
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hub378f18ec57be63e91148374089d19f9_9524045_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://tomslee.github.io/">Tom Slee</a></h5>
+      <h6 class="card-subtitle">This and that</h6>
+      <p class="card-text" itemprop="description">Mainly technology and politics</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/whimsley" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?hl=en&amp;user=-QdBcPCiO1sJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/tomslee" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+    <div class="article-widget">
+      
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/post/relayrides-gigaom/" rel="next">
+				RelayRides, GigaOm 		</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/post/bragging-alert/" rel="prev">
+				Bragging alert		</a>
+  </div>
+  
+</div>
+
+    </div>
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyBrCa_lLBoxGFUhQMUn2gpb8H5_cioqe74"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.9ef1b53ee2bde6c7f33b150c6ba4d452.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    Copyright &copy; 2006&ndash;2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

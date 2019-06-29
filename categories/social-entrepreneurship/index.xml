@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>social entrepreneurship on Tom Slee</title>
+    <link>https://tomslee.github.io/categories/social-entrepreneurship/</link>
+    <description>Recent content in social entrepreneurship on Tom Slee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2006--{year}</copyright>
+    <lastBuildDate>Sun, 08 Sep 2013 14:55:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://tomslee.github.io/categories/social-entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>
+				Six Degrees of Omidyar		</title>
+      <link>https://tomslee.github.io/post/six-degrees-of-omidyar/</link>
+      <pubDate>Sun, 08 Sep 2013 14:55:00 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/six-degrees-of-omidyar/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            _Venture capital damages commons-based sharing, and one name appears time and time again..._
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;[&lt;strong&gt;Update:&lt;/strong&gt; a version of this post, re-edited in the light of the Omidyar/Greenwald news venture, is now at &lt;a href=&#34;http://thenewinquiry.com/essays/charity-assets/&#34; target=&#34;_blank&#34;&gt;The New Inquiry: Charity Assets&lt;/a&gt;.]&lt;/p&gt;
+
+&lt;p&gt;Start with an old story. Back in 2006 the world of microfinance split between “&lt;a href=&#34;http://www.newyorker.com/archive/2006/10/30/061030fa_fact1?currentPage=all&#34; target=&#34;_blank&#34;&gt;pure do-gooders and profit-minded do-gooders&lt;/a&gt;”, between Nobel Peace Prize winner Mohammed Yunus and eBay billionaire Pierre Omidyar. Yunus’s Grameen Bank had &lt;a href=&#34;https://en.wikipedia.org/wiki/Grameen_Bank&#34; target=&#34;_blank&#34;&gt;pioneered&lt;/a&gt; group-based credit for the impoverished, but had stayed away from making the Bank into a public company; Omidyar wanted to turn microfinance into a fully commercial, profit-making sector.&lt;/p&gt;
+
+&lt;p&gt;A few years later Hugh Sinclair, who spent several years working for microfinance institutions, compellingly &lt;a href=&#34;http://www.microfinancetransparency.com/&#34; target=&#34;_blank&#34;&gt;described&lt;/a&gt; his disillusionment and anger at the way the industry was going in &lt;em&gt;Confessions of a Microfinance Heretic&lt;/em&gt;: as money flooded into the microfinance institutions, they became like the loan sharks they replaced. At the centre of the book is the &lt;em&gt;Lift Above Poverty Organization&lt;/em&gt; (LAPO), a Nigerian microfinance institution (MFI). It charged deceptive and high interest rates, it was audited by the brother of the CEO, and it siphoned money into many already-wealthy pockets. As microfinance grew in scale it spawned a web of interacting operations: microfinance funds invest in microfinance institutions which are rated by microfinance rating agencies, and which make loans through other partners. Principal-agent problems become pervasive and, without a regulatory framework, there were incentives everywhere that not only enabled corruption but, Sinclair argues, pushed participants to keep a lid on stories of corruption—to try to fix them quietly rather than to risk the reputation of the broader industry. Taking a charity and turning it into a bank is, Sinclair says, a great way to build assets and then capitalize on them.&lt;/p&gt;
+
+&lt;p&gt;Beyond generally promoting the market-driven approach to microfinance, Omidyar Network was a big donor to Unitus, a microfinance fund embroiled in a &lt;a href=&#34;http://www.nytimes.com/2010/07/30/business/30micro.html&#34; target=&#34;_blank&#34;&gt;2010 scandal&lt;/a&gt; involving Indian MFI SKS. When SKS went public, raising $350m in its IPO, Unitus backed out of microfinance: “In charity circles, people wondered about the motives of the Unitus board members, at least four of whom had invested in SKS Microfinance themselves and thus would reap profits from the I.P.O.” More controversy followed in 2012 &lt;a href=&#34;http://online.wsj.com/article/SB10001424052970203918304577242602296683134.html&#34; target=&#34;_blank&#34;&gt;when&lt;/a&gt; it was revealed that over 200 poor, debt-ridden residents of Andhra Pradesh killed themselves in late 2010. The state blamed microfinance companies for fueling a frenzy of &amp;ldquo;overindebtedness and then pressuring borrowers so relentlessly that some took their own lives&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Sinclair concludes that “Frankly, I think the only means to rein in these groups is to formally regulate them.” (p227) He also notes that “Impact Investing”, which is the Omidyar Network’s current emphasis, has similar problems: “I do not believe there are panaceas for poverty reduction – it is hard work and requires a number of tools used wisely and collaboratively” (p236).&lt;/p&gt;
+
+&lt;p&gt;A lesson of the story is that, as capital and social action have conflicting goals, using markets to scale up social action can destroy the very thing that made it special in the first place.&lt;/p&gt;
+
+&lt;p&gt;Microfinance operates at the border between charity and business. LAPO was for several years a major partner of Omidyar-funded “peer-to-peer” lender Kiva, until Kiva cut ties in &lt;a href=&#34;http://www.kiva.org/partners/20#LAPOupdate&#34; target=&#34;_blank&#34;&gt;2010&lt;/a&gt;. The episode highlighted a fact that was &lt;a href=&#34;http://www.nytimes.com/2009/11/09/business/global/09kiva.html&#34; target=&#34;_blank&#34;&gt;worrying some observers&lt;/a&gt;, including &lt;a href=&#34;http://www.cgdev.org/blog/kiva-not-quite-what-it-seems&#34; target=&#34;_blank&#34;&gt;David Roodman&lt;/a&gt;: “peer-to-peer” lending is not actually peer-to-peer, instead Kiva works with intermediary partners which in turn make loans which were &lt;a href=&#34;http://blog.givewell.org/2009/12/28/celebrated-charities-that-we-dont-recommend/&#34; target=&#34;_blank&#34;&gt;not&lt;/a&gt;, as many thought, interest-free.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;                      *&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Anyway, new topic. Last year I was &lt;a href=&#34;http://reviewcanada.ca/magazine/2012/04/click-to-judge/&#34; target=&#34;_blank&#34;&gt;reviewing&lt;/a&gt; a book on the reputation economy which included a chapter by the founders of GlobalGiving, an &lt;a href=&#34;http://www.globalgiving.org/aboutus/media/omidyar_hewlett2.html&#34; target=&#34;_blank&#34;&gt;Omidyar-funded&lt;/a&gt; “Internet-based service focused on making international philanthropy more efficient and high impact”. GlobalGiving set out to use technology and capital to scale up charitable giving, just as Omidyar had set out to use capital and commerce to scale up microfinance. Believing in Omidyar’s vision of “market-based efforts that catalyze economic and social change”, GlobalGiving adopted a “hybrid model” involving a parallel company (ManyFutures) that provided a technology platform to support its charitable work. But ManyFutures never made money, so the funding transfer ended up going from GlobalGiving to ManyFutures rather than the other way round, and controversy &lt;a href=&#34;http://www.nytimes.com/2010/10/26/business/26hybrid.html?_r=0&#34; target=&#34;_blank&#34;&gt;ensued&lt;/a&gt;. As with microfinance, the idea that capital and sharing are natural complements went wrong.&lt;/p&gt;
+
+&lt;p&gt;The idea that bringing commerce to play can scale up nonprofit efforts has become commonplace in the technology world, and the Omidyar Network is the poster child for mixing profit and sharing. It’s a “philanthropic investment firm” that supports “market-based approaches with the potential for large-scale, catalytic impact”; it’s taken a lead in “impact investing”, and in “social enterprise”. The ideas of social entrepreneurship, &lt;a href=&#34;https://en.wikipedia.org/wiki/Benefit_corporation&#34; target=&#34;_blank&#34;&gt;Benefit Corporations&lt;/a&gt; or the closely-related &lt;a href=&#34;https://en.wikipedia.org/wiki/B_Corporation_(certification)&#34; target=&#34;_blank&#34;&gt;B Corporation&lt;/a&gt; sound sunny—who &lt;em&gt;doesn’t&lt;/em&gt; want to Do Well by Doing Good?—but capital has a way of eroding sharing-based initiatives. The hybrid charity and microfinance examples are two that I had come across, but it doesn’t stop there&amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;                      *&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So a little while ago, I wrote about the tensions between capital and commons in an essay called &lt;a href=&#34;http://thenewinquiry.com/essays/open-wide/&#34; target=&#34;_blank&#34;&gt;Open Wide&lt;/a&gt;, at &lt;em&gt;The New Inquiry&lt;/em&gt;. As part of the research for that essay I looked at what had happened to travel community &lt;a href=&#34;https://www.couchsurfing.org/&#34; target=&#34;_blank&#34;&gt;Couchsurfing&lt;/a&gt;, and wrote this:&lt;/p&gt;
+
+&lt;blockquote&gt;In his book _Cognitive Surplus_, Clay Shirky highlighted Couchsurfing, a site where young global travelers can arrange to visit and host each other, as a healthy digital commons. Couchsurfing started life as couchsurfing.org, not couchsurfing.com; even the code that ran the site was provided by the Couchsurfers themselves. But the site did have owners, and in August 2011, they incorporated and accepted $7.6 million in venture funding. As the company’s market value has grown, the Couchsurfing community has deteriorated. A long-time Couchsurfer laments the days of “art gatherings, bonfires, a weekly meet up at a bar, café gatherings, potlucks,” now lost.
+
+The community’s former strength turned out to have little to do with technology. As a commenter at Quora writes:
+
+“The old Couchsurfing thrived with a very haphazard and underfunded management structure precisely because local volunteers around the world believed they were part of a cause bigger than profit. Local collectives were highly tied to their local communities… The technical architecture of the new systems is much better, but paradoxically the ‘professional’ product development process fixes things that were broken on purpose. In other words, Couchsurfing evolved around certain quirks and inefficient processes that actually became critical to the health of the social trust platform.”
+
+Over 5000 Couchsurfing members have joined the forum **We are Against CS becoming a for-profit corporation**.
+
+Contrast Couchsurfing with [Hostelling International](http://www.hihostels.com/), a venerable network of national youth hostelling organizations that has remained resolutely nonprofit. Over 100 years old, it is still going strong and “currently provides 35 million overnight stays a year through more than 4,000 hostels in over 80 countries.” Some people do support themselves through the commons of hostels — some work in the hosteling organizations, others are paid to run hostels themselves — but it’s orders of magnitude away from the sudden injection of millions of venture-capital dollars.&lt;/blockquote&gt;
+
+&lt;p&gt;What I didn’t do was name the organization that funded Couchsurfing’s transition from nonprofit to profit-driven company. But you know what it is: it’s the &lt;a href=&#34;http://www.omidyar.com/about_us/news/2012/08/22/couchsurfing-raises-15-million-series-b-led-general-catalyst-partners-inclu&#34; target=&#34;_blank&#34;&gt;Omidyar Network&lt;/a&gt;. Again, it saw markets and profit as a way to scale up a non-market operation, and again the profit motive is driving out the non-commercial effort that is needed to sustain a trusting community. Couchsurfing will not have the longevity of Hostelling International, just as GlobalGiving will not have the longevity of Oxfam.&lt;/p&gt;
+
+&lt;p&gt;Update (October 15 2013): Couchsurfing&amp;rsquo;s CEO just resigned and 40% of the staff was layed off. See &lt;a href=&#34;https://mechanicalbrain.wordpress.com/2013/10/11/more-bad-news-at-couchsurfing/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and the announcement &lt;a href=&#34;http://blog.couchsurfing.com/changes-at-hq/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;                      *&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Before writing &lt;em&gt;Open Wide&lt;/em&gt;, I wrote some things about Open Government, including &lt;a href=&#34;http://crookedtimber.org/2012/06/25/seeing-like-a-geek/&#34; target=&#34;_blank&#34;&gt;Seeing Like a Geek&lt;/a&gt; at the Crooked Timber group blog. Open Government Data is yet another area where commerce and sharing sound like they mix nicely, but where there are real problems. In short, one of the things that making data open does is to make it free. If action around open data is kept non-commercial, then it may form an alternative to profit-driven action, but if commercial use of open data becomes the predominant form then all that has happened is that one form of industry has been replaced by another, and as the new industry is technology-driven it is more likely to be an oligopoly than the industry it replaces.&lt;/p&gt;
+
+&lt;p&gt;No surprise, then, that as I was doing the research for that piece it turns out that the Omidyar Network is deeply involved in both the &lt;a href=&#34;http://www.opengovpartnership.org/ogp-budget&#34; target=&#34;_blank&#34;&gt;Open Government Partnership&lt;/a&gt; at the international level, in &lt;em&gt;Code for America&lt;/em&gt; in the USA, and is the first major investor in the UK &lt;a href=&#34;http://www.theodi.org/news/uk-leads-demand-open-data-odi-opens-business&#34; target=&#34;_blank&#34;&gt;Open Data Institute&lt;/a&gt;. At Code for America, which describes itself as a &lt;a href=&#34;http://www.codeforamerica.org&#34; target=&#34;_blank&#34;&gt;new kind of public service&lt;/a&gt;, Omidyar has funded an Accelerator arm which invests in startups, conveniently augmenting the idea of “service” with the contradictory idea of “entrepreneurship” and blurring the boundaries between those who want to make money from government contracts and those who want to contribute to a stronger civic space. Unsurprisingly, the Open Data initiative has been &lt;a href=&#34;http://www.gov2summit.com/gov2010/public/content/sponsors&#34; target=&#34;_blank&#34;&gt;colonized&lt;/a&gt; by &lt;a href=&#34;http://en.oreilly.com/gov2fall09/public/content/microsoft&#34; target=&#34;_blank&#34;&gt;major&lt;/a&gt; companies.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;                      *&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And still we are not done. Here is one final case where the Omidyar Network’s vision of social enterprise leads to more enterprise, but less social. In 2012 &lt;a href=&#34;http://www.change.org/&#34; target=&#34;_blank&#34;&gt;Change.org&lt;/a&gt; joined Couchsurfing as a “.org” site with a for-profit motive–a misleading presentation of the organization’s mandate. Change.org changed its mandate from being a broadly progressive non-profit to a for-profit company, &lt;a href=&#34;http://www.huffingtonpost.com/2012/10/22/changeorg-corporate-gop-campaigns-internal-documents_n_1987985.html&#34; target=&#34;_blank&#34;&gt;allowing&lt;/a&gt; “corporate advertising, Republican Party solicitations, astroturf campaigns, anti-abortion or anti-union ads and other controversial sponsorships”. In &lt;a href=&#34;http://www.omidyar.com/about_us/news/2013/05/21/changeorg-secures-investment-omidyar-network&#34; target=&#34;_blank&#34;&gt;May 2013&lt;/a&gt; it took venture capital from the Omidyar Network and others in order to scale up, and the nature of the organization changed. The change in mission was described by &lt;a href=&#34;http://inthesetimes.com/duly-noted/entry/14070/change.org_quietly_changing_course/&#34; target=&#34;_blank&#34;&gt;Lindsay Beyerstein&lt;/a&gt; in &lt;em&gt;In These Times&lt;/em&gt; and &lt;a href=&#34;http://www.huffingtonpost.com/2012/10/22/changeorg-corporate-gop-campaigns-internal-documents_n_1987985.html&#34; target=&#34;_blank&#34;&gt;Ryan Grim&lt;/a&gt; of The Huffington Post.&lt;/p&gt;
+
+&lt;p&gt;The Omidyar/Change.org press release uses the standard language of social entrepreneurs: blandly inspirational and content-free.&lt;/p&gt;
+
+&lt;blockquote&gt;“Social enterprises can play an instrumental role in solving some of the world’s biggest problems,” Rattray said. “This funding will help us continue to expand our empowerment tools internationally while innovating on new products with the potential for disruptive social impact.”&lt;/blockquote&gt;
+
+&lt;p&gt;Every challenge is a problem, rather than a conflict. Who can disagree with phrases like this?&lt;/p&gt;
+
+&lt;blockquote&gt;Omidyar Network was founded on the fundamental belief that every person has the power to make a difference. We create opportunity for people to realize that power and improve the quality of their lives. When people take the initiative to make life better for themselves, they can share the benefits with their families, become more active in their communities, and be a more positive force in society.&lt;/blockquote&gt;
+
+&lt;p&gt;These failures demonstrate concretely what I have been arguing more generally: that the idea of a natural synergy between business and sharing, between capital and commons—encoded in the ideas of social enterprise, in the Apache flavours of open source license, and in the variant of open content licensing favoured by Omidyar-funded organizations—is fraught with tensions and contradictions. Also, I may be wrong, but from what I can see these repeated failures have not been addressed by Omidyar Network in a public way.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

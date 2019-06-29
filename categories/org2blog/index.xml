@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>org2blog on Tom Slee</title>
+    <link>https://tomslee.github.io/categories/org2blog/</link>
+    <description>Recent content in org2blog on Tom Slee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2006--{year}</copyright>
+    <lastBuildDate>Sun, 28 Jul 2013 23:31:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://tomslee.github.io/categories/org2blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>
+				Testing org2blog		</title>
+      <link>https://tomslee.github.io/post/testing-org2blog/</link>
+      <pubDate>Sun, 28 Jul 2013 23:31:00 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/testing-org2blog/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been using the wonderful &lt;a href=&#34;http://orgmode.org/&#34; target=&#34;_blank&#34;&gt;org mode&lt;/a&gt; more and more over the last year, but only now that &lt;a href=&#34;https://github.com/punchagan/org2blog&#34; target=&#34;_blank&#34;&gt;org2blog&lt;/a&gt; has support for the new org-mode exporter am I trying it to blog with.&lt;/p&gt;
+
+&lt;p&gt;Many thanks to Puneeth Chaganti for org2blog, and the remarkable &lt;a href=&#34;http://orgmode.org/org.html#History-and-Acknowledgments&#34; target=&#34;_blank&#34;&gt;collection of developers&lt;/a&gt; who have turned org-mode into a swiss army knife of text tools without it becoming hideously deformed in the process.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

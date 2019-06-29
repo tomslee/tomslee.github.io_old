@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sharing-economy Uber on Tom Slee</title>
+    <link>https://tomslee.github.io/tags/sharing-economy-uber/</link>
+    <description>Recent content in sharing-economy Uber on Tom Slee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2006--{year}</copyright>
+    <lastBuildDate>Fri, 03 Jan 2014 14:25:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://tomslee.github.io/tags/sharing-economy-uber/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>
+				On Surge Pricing		</title>
+      <link>https://tomslee.github.io/post/on-surge-pricing/</link>
+      <pubDate>Fri, 03 Jan 2014 14:25:00 +0000</pubDate>
+      
+      <guid>https://tomslee.github.io/post/on-surge-pricing/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            Lots of controversy about the &amp;quot;surge-pricing&amp;quot; from car-rental outfit [Uber](http://uber.com), both during a [mid-December snowstorm](http://www.metro.us/boston/news/2013/12/15/uber-mad-boston-cab-passengers-vent-as-snow-drives-uber-prices-through-the-roof/) and on [New Year&#39;s Eve](http://www.prdaily.com/Main/Articles/Uber_fields_dozens_of_complaints_about_hefty_New_Y_15849.aspx). Fares increased up to eight times the normal, so that people were getting charged hundreds of dollars for short rides. The company&#39;s response was that surge pricing is [here to stay](http://www.capitalnewyork.com/article/city-hall/2013/12/8537861/uber-its-here-stay).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The argument is standard supply-and-demand, economics 101. If demand goes up, increase the price to increase supply. Or, as the company &lt;a href=&#34;http://blog.uber.com/uber-nye-2014&#34; target=&#34;_blank&#34;&gt;says&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;With surge pricing, Uber rates increase to get more cars on the road and ensure reliability during the busiest times. When enough cars are on the road, prices go back down to normal levels.&lt;/blockquote&gt;
+
+&lt;p&gt;But there are two things that I haven&amp;rsquo;t seen elsewhere (correct me if I&amp;rsquo;m wrong); not even on Matthew Yglesias&amp;rsquo;s &lt;a href=&#34;http://www.slate.com/blogs/moneybox/2013/12/16/uber_surge_pricing_the_company_should_give_the_extra_money_to_the_driver.html&#34; target=&#34;_blank&#34;&gt;post&lt;/a&gt; at Salon, and he is a &lt;a href=&#34;https://twitter.com/mattyglesias/statuses/405719658378326016&#34; target=&#34;_blank&#34;&gt;magnificent&lt;/a&gt; observer of this and all other things.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thing One:&lt;/strong&gt; I really don&amp;rsquo;t care if you engage in &amp;ldquo;surge pricing&amp;rdquo; on New Year&amp;rsquo;s Eve, at rush hour, or at any other time when traffic is predictably busy. Knock yourself out, it&amp;rsquo;s absolutely fine by me. But surge pricing because of severe weather is something different, because at times of emergency we expect people to pull together: we expect people to check on their neighbours (for free!), to help people who are stuck (without charging!) and to generally be community-minded about things. Emphasizing monetary incentives at such a time undermines (or &amp;ldquo;crowds out&amp;rdquo;) community motives: if my neighbour and I help push your car out of a snowbank without payment then we&amp;rsquo;re just doing the right thing, but if my neighbour is being paid and I&amp;rsquo;m doing it for free, then I&amp;rsquo;m just being a mug. Surge pricing for reasons of severe weather is a bad idea. You may get a few more cabs on the road, but you make the emergency worse.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thing Two:&lt;/strong&gt; Customers were complaining that they didn&amp;rsquo;t know about the extra pricing until after they had taken their ride. Uber explained that they must have known: there was a perfectly clear screen notifying them about surge pricing, and they tapped the screen to agree to it. Now I used to do online documentation, and I&amp;rsquo;ve spent my fair share of time frustrated at the stupidity of users who cannot navigate my crystal-clear and elegant design (&amp;ldquo;Look: the button at the top there. It&amp;rsquo;s obvious&amp;rdquo;). But in the end anyone involved in user experience has to acknowledge that the user is right. What&amp;rsquo;s obvious to a designer or a trained user is not at all obvious to a casual user.&lt;/p&gt;
+
+&lt;p&gt;So if you design an app with the express purpose of making it easy to use without even thinking, and if a customer uses it fifty times and gets the same result each time, then they are not going to be paying attention the 51st time, especially after a few drinks. If you then add one extra screen in the middle of the ordering sequence that&amp;rsquo;s going to cost users an extra $300, then it&amp;rsquo;s up to you to test it till the cows come home to make sure that people know what they are agreeing to. Arguing that users should have been more careful is a really bad excuse. We should all read license agreements too, but none of us do. We just click, click, click until we get to the thing we want. Read? Of course I don&amp;rsquo;t read! And who&amp;rsquo;s ever heard of a $300 button in a mobile app? Sorry Uber: if you charge people an extra $300 for using your app too casually then it&amp;rsquo;s your own fault.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
