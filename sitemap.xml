@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tomslee.github.io/publication/testpost_publication/</loc>
-    <lastmod>2019-07-01T15:05:21-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tomslee.github.io/about/</loc>
     <lastmod>2019-07-01T16:32:40-04:00</lastmod>
     <priority>0</priority>
@@ -32,6 +27,11 @@
   <url>
     <loc>https://tomslee.github.io/about/whywhimsley/</loc>
     <lastmod>2019-07-01T16:32:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomslee.github.io/publication/rise_and_fall/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
