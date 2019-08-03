@@ -1,0 +1,1714 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Tom Slee1
+Abstract
+ Algorithms that sort people into categories are plagued by incompatible incentives. While more accurate algorithms may address problems of statistical bias and unfairness, they cannot solve the ethical challenges that arise from incompatible incentives.
+Subjects of algorithmic decisions seek to optimize their outcomes, but such efforts may degrade the accuracy of the algorithm. To maintain their accuracy, algorithms must be accompanied by supplementary rules: &ldquo;guardrails”&rdquo;that dictate the limits of acceptable behaviour by subjects.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://tomslee.github.io/publication/oup_private_sector_ai/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.cd4a39569d1c33b7bd15c30b7962dc73.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://tomslee.github.io/publication/oup_private_sector_ai/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@whimsley">
+  <meta property="twitter:creator" content="@whimsley">
+  
+  <meta property="og:site_name" content="Tom Slee">
+  <meta property="og:url" content="https://tomslee.github.io/publication/oup_private_sector_ai/">
+  <meta property="og:title" content="The incompatible incentives of private sector AI | Tom Slee">
+  <meta property="og:description" content="Tom Slee1
+Abstract
+ Algorithms that sort people into categories are plagued by incompatible incentives. While more accurate algorithms may address problems of statistical bias and unfairness, they cannot solve the ethical challenges that arise from incompatible incentives.
+Subjects of algorithmic decisions seek to optimize their outcomes, but such efforts may degrade the accuracy of the algorithm. To maintain their accuracy, algorithms must be accompanied by supplementary rules: &ldquo;guardrails”&rdquo;that dictate the limits of acceptable behaviour by subjects."><meta property="og:image" content="https://tomslee.github.io/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-03-31T00:00:00-04:00">
+  
+  <meta property="article:modified_time" content="2019-08-02T21:51:53-04:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <title>The incompatible incentives of private sector AI | Tom Slee</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Tom Slee</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Essays</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">The incompatible incentives of private sector AI</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2019-03-31 00:00:00 -0400 EDT" itemprop="datePublished">
+<meta content="2019-08-02 21:51:53 -0400 EDT" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>March 2019</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://tomslee.github.io/publication/oup_private_sector_ai/&amp;text=The%20incompatible%20incentives%20of%20private%20sector%20AI" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=The%20incompatible%20incentives%20of%20private%20sector%20AI&amp;body=https://tomslee.github.io/publication/oup_private_sector_ai/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/pdf/slee_private_sector_ai_ssrn.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+
+<p>Tom Slee<sup class="footnote-ref" id="fnref:fn-1"><a href="#fn:fn-1">1</a></sup></p>
+
+<p><strong>Abstract</strong></p>
+
+<div class="ABSTRACT">
+  <div></div>
+
+<p><em>Algorithms that sort people into categories are plagued by incompatible incentives. While more accurate algorithms may address problems of statistical bias and unfairness, they cannot solve the ethical challenges that arise from incompatible incentives.</em></p>
+
+<p><em>Subjects of algorithmic decisions seek to optimize their outcomes, but such efforts may degrade the accuracy of the algorithm. To maintain their accuracy, algorithms must be accompanied by supplementary rules: &ldquo;guardrails”&rdquo;that dictate the limits of acceptable behaviour by subjects. Algorithm owners are drawn into taking on the tasks of governance, managing and validating the behaviour of those who interact with their systems.</em></p>
+
+<p><em>The governance role offers temptations to indulge in regulatory arbitrage. If governance is left to algorithm owners, it may lead to arbitrary and restrictive controls on individual behaviour. The goal of algorithmic governance by automated decision systems, social media recommender systems, and rating systems is a mirage, retreating into the distance whenever we seem to approach it.</em></p>
+
+<p></div></p>
+
+<h2 id="performances-and-ethics">Performances and ethics</h2>
+
+<p>Individuals present themselves to the world in a set of performances,
+and tune their presentation depending on the setting.<sup class="footnote-ref" id="fnref:fn-2"><a href="#fn:fn-2">2</a></sup> We may not
+believe there is a single “real” person behind these performances, but
+we do expect to see a &ldquo;coherence among setting, appearance, and manner&rdquo;
+(p.25). Individuals whose performances differ too much between one
+setting and another risk being called dishonest or two-faced.</p>
+
+<p>Since branding became important to companies, they too have presented
+themselves to the world in a set of performances. Financial incentives
+demand they tune their performance to the setting&mdash;offering a generous
+and humane face in their public communications and a harsher and less
+empathetic one when managing the bottom line&mdash;while the ethical demand
+for coherence remains. Two decades ago the movement against
+corporate-led globalization highlighted these presentation gaps,
+captured in the dissonance between Nike&rsquo;s empowering “Just Do It” to
+those who bought their sneakers, and the far-from-empowering sweatshop
+conditions endured by those who made them.<sup class="footnote-ref" id="fnref:fn-3"><a href="#fn:fn-3">3</a></sup> One legacy of that
+movement is a set of ethical consumption initiatives, in which
+independent fair trade and sustainability certifications provide an
+opportunity for companies to demonstrate a coherent set of values behind
+their performances.<sup class="footnote-ref" id="fnref:fn-4"><a href="#fn:fn-4">4</a></sup></p>
+
+<p>Now, in the debates over AI ethics, it is technology companies who find
+themselves accused of being two-faced, of presenting themselves through
+their brands as value-driven organizations while deploying
+algorithms<sup class="footnote-ref" id="fnref:fn-5"><a href="#fn:fn-5">5</a></sup> that are too often biased, opaque, and unfair.</p>
+
+<p>The debates have taken on new importance following the explosion of
+&ldquo;deep learning&rdquo; techniques.<sup class="footnote-ref" id="fnref:fn-6"><a href="#fn:fn-6">6</a></sup> Private sector investment in what is
+now often broadly labelled “AI” is dominated by major internet platform
+companies such as Facebook, Amazon, Apple, Google, and Microsoft: while
+seven billion dollars have been invested in start-ups, these companies
+have invested four to five times that amount.<sup class="footnote-ref" id="fnref:fn-7"><a href="#fn:fn-7">7</a></sup> Platform companies
+are also leaders in deploying deep learning algorithms: deployments in
+other industries are in their early stages, yet many of us encounter
+deep learning algorithms daily through Google search, Facebook News
+Feed,<sup class="footnote-ref" id="fnref:fn-8"><a href="#fn:fn-8">8</a></sup> Apple Siri, Amazon Alexa, Uber pricing,<sup class="footnote-ref" id="fnref:fn-9"><a href="#fn:fn-9">9</a></sup> Airbnb
+search,<sup class="footnote-ref" id="fnref:fn-10"><a href="#fn:fn-10">10</a></sup> and more.<sup class="footnote-ref" id="fnref:fn-11"><a href="#fn:fn-11">11</a></sup> If this chapter focuses on the major
+platform companies, it is because they are charting paths and setting
+precedents that more traditional industries will follow.</p>
+
+<p>In response to a series of scandals and compelling arguments from
+critics and academics,<sup class="footnote-ref" id="fnref:fn-12"><a href="#fn:fn-12">12</a></sup> the platform companies have recognized
+that they must establish reputations as responsible stewards of these
+powerful technologies if they are to avoid a costly backlash. They have
+issued public commitments to ethical AI, asserted their belief in
+fairness and transparency, and proclaimed their commitment to building
+diverse organizational cultures to prevent bias from creeping in to
+their technological services and products.<sup class="footnote-ref" id="fnref:fn-13"><a href="#fn:fn-13">13</a></sup> They have set up
+ethics boards and industry organizations such as <em>Partnership on
+AI,</em><sup class="footnote-ref" id="fnref:fn-14"><a href="#fn:fn-14">14</a></sup> and participated in governmental bodies such as the EU&rsquo;s
+High-Level Expert Group on Artificial Intelligence.<sup class="footnote-ref" id="fnref:fn-15"><a href="#fn:fn-15">15</a></sup></p>
+
+<p>The platform companies have also taken on the task of designing fairness
+into their systems,<sup class="footnote-ref" id="fnref:fn-16"><a href="#fn:fn-16">16</a></sup> investing in research into fairness and
+transparency in machine learning, articulating statistical criteria for
+fairness, designing mechanisms for explaining machine-learning results,
+assembling unbiased data sets for key problems, and more. The technical
+approach is a good fit: technical criteria play to the strengths of
+technology companies. Standards set public benchmarks and provide
+protection from future accusations. Auditable criteria incorporated into
+product development and release processes can confirm compliance.</p>
+
+<p>There are also financial incentives to adopt a technical approach:
+standards that demand expertise and investment create barriers to entry
+by smaller firms, just as risk management regulations create barriers to
+entry in the financial and healthcare industries.<sup class="footnote-ref" id="fnref:fn-17"><a href="#fn:fn-17">17</a></sup></p>
+
+<p>The challenges of bias and fairness are far from solved, and critics
+continue to play an essential role. External investigations, audits and
+benchmarks reveal deficiencies missed by internal efforts.<sup class="footnote-ref" id="fnref:fn-18"><a href="#fn:fn-18">18</a></sup> But
+auditable algorithms and data sets do promise mechanisms for closing the
+presentation gap between brand and algorithm.</p>
+
+<p>Charges of bias and unfairness expose AI algorithms that are, in some
+sense, not good enough, and emphasize that the solution is better
+algorithms. But another set of problems may become <em>more</em> significant as
+algorithms become more accurate: when they become too good not to use.
+This chapter focuses on this second gap, which cannot be translated into
+research projects to be solved by computer scientists.</p>
+
+<h2 id="algorithms-create-incentives">Algorithms create incentives</h2>
+
+<p>Much debate around AI ethics imagines an algorithm as a camera,
+recording and portraying some aspect of the external world. It asks:
+does the system portray the world fairly and faithfully? When it
+categorizes things, does it do so in a way that corresponds to the real
+world?<sup class="footnote-ref" id="fnref:fn-19"><a href="#fn:fn-19">19</a></sup></p>
+
+<p>Social scientists have long known that algorithms do not just portray
+the world, they also change it. In the words of Donald MacKenzie, an
+algorithm is &ldquo;an engine, not a camera&rdquo;.<sup class="footnote-ref" id="fnref:fn-20"><a href="#fn:fn-20">20</a></sup> Introducing a new
+algorithm means sorting people differently; if people care about how
+they are sorted, they respond.<sup class="footnote-ref" id="fnref:fn-21"><a href="#fn:fn-21">21</a></sup></p>
+
+<p>Once people respond, the dynamic between algorithms and their subjects
+becomes strategic: economists are familiar with such situations and
+developed the tools of game theory to think about them.</p>
+
+<p>Sociologists have shown that responses to algorithms are ubiquitous and
+subtle. The most seemingly innocuous decisions prompt changes in what is
+being measured. In 1927 Dutch authorities separated the cause of death
+entered into statistical records from that recorded on the public death
+certificate, a change that was followed by “a considerable increase in
+Amsterdam of cases of death from syphilis, tabes, dementia paralytics,
+&hellip; and suicide.&rdquo;<sup class="footnote-ref" id="fnref:fn-22"><a href="#fn:fn-22">22</a></sup> Why? Because these causes of death could now be
+entered into the statistical record without adding to the pain of
+newly-bereaved relatives.</p>
+
+<p>Sociologists have also shown how surprisingly powerful algorithmic
+engines can be. In their book <em>Engines of Anxiety</em>, Wendy Espeland and
+Michael Sauder describe the impact of US News and World Report rankings
+on US law schools.<sup class="footnote-ref" id="fnref:fn-23"><a href="#fn:fn-23">23</a></sup> Employers use the rankings to identify good
+students, so students rely on them when choosing where to apply, so law
+schools who want the best students must play the game, and rankings end
+up dominating many aspects of law school life. The dynamic is described
+beautifully by Kieran Healy in a review of Espeland and Sauder&rsquo;s book:</p>
+
+<blockquote>
+<p>The academic legal establishment did not so much fall into this trap
+as become entangled in it. Like a fly touched by the thread of a
+spider&rsquo;s web, they were at first only lightly caught up, but then
+found that each move they made in response only drew them in more
+tightly.<sup class="footnote-ref" id="fnref:fn-24"><a href="#fn:fn-24">24</a></sup></p>
+</blockquote>
+
+
+
+
+<figure>
+
+<img src="/ox-hugo/2019-ai-incentives.png" alt="Figure 1: A schematic algorithm that takes input from subjects and sorts them into output categories, which in turn have consequences for the subject." />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  
+  <p>
+    Figure 1: A schematic algorithm that takes input from subjects and sorts them into output categories, which in turn have consequences for the subject.
+    
+    
+    
+  </p> 
+</figcaption>
+
+</figure>
+
+<p>This chapter draws loosely on social science perspectives to sketch what
+can happen when we respond to algorithms, and the consequences of our
+responses.</p>
+
+<p>Imagine an algorithm that sorts individual subjects into categories. If
+subjects care about their assigned category, then they have an incentive
+to optimize how they present themselves: changing their inputs to
+achieve a better output. Their decision to invest in this presentation
+depends on three factors:</p>
+
+<ol>
+<li><p><strong>Presentation cost.</strong> The subject must be able to afford to change
+their presentation.</p></li>
+
+<li><p><strong>Sensitivity.</strong> Changing an input feature is worthwhile only if it
+affects the output.</p></li>
+
+<li><p><strong>Impact.</strong> Changing an output is worthwhile only if it has significant
+consequences.</p></li>
+</ol>
+
+<p>Algorithms with high impact, high sensitivity, and low presentation
+costs give subjects strong incentives to change their presentation.
+Following the terminology of economics, we can loosely say that such
+algorithms have high <strong>elasticity</strong>. The data distributions on which
+elastic algorithms operate when deployed will differ from those on which
+it was trained. When data distributions change, accuracy is lost:
+elastic algorithms may also be <strong>fragile</strong>.</p>
+
+<p>There are reasons to believe that machine learning systems, and
+specifically deep learning systems, may be particularly elastic and
+fragile, mapping on to each of the factors above.</p>
+
+<p>First is the low cost of experimentation around presentation. Deep
+learning techniques called Generative Adversarial Networks (GANs)<sup class="footnote-ref" id="fnref:fn-25"><a href="#fn:fn-25">25</a></sup>
+have become excellent at generating images or videos or text that look
+as if they were created by humans or depict &ldquo;real world&rdquo; artefacts.
+These uses have been grouped together under the name &ldquo;deep
+fakes&rdquo;.<sup class="footnote-ref" id="fnref:fn-26"><a href="#fn:fn-26">26</a></sup></p>
+
+<p>There is growing evidence that the remarkable accuracy of deep learning
+models may be accompanied by high sensitivity. In 2013 a phenomenon
+called &ldquo;adversarial examples&rdquo; was discovered: certain image
+perturbations, undetectable to the human eye, nevertheless caused deep
+learning algorithms to make obvious mistakes when classifying the image
+(as measured by human judgment).<sup class="footnote-ref" id="fnref:fn-27"><a href="#fn:fn-27">27</a></sup> An example is given in Figure 2.
+The original examples were curiosities,<sup class="footnote-ref" id="fnref:fn-28"><a href="#fn:fn-28">28</a></sup> but the more it has been
+studied, the more general the phenomenon appears to be.<sup class="footnote-ref" id="fnref:fn-29"><a href="#fn:fn-29">29</a></sup> Fragility
+could be a general feature of deep learning models:<sup class="footnote-ref" id="fnref:fn-30"><a href="#fn:fn-30">30</a></sup> they
+typically optimize millions of parameters, and the more parameters, the
+bigger the &ldquo;attack surface&rdquo; as each parameter provides a new opportunity
+for subjects to tweak.</p>
+
+
+
+
+<figure>
+
+<img src="/ox-hugo/2019-ai-adversarial-macaw.png" alt="Figure 2: A slight perturbation of this picture of a macaw causes it to be classified as a bookcase.[fn:30]" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  
+  <p>
+    Figure 2: A slight perturbation of this picture of a macaw causes it to be classified as a bookcase.[fn:30]
+    
+    
+    
+  </p> 
+</figcaption>
+
+</figure>
+
+<p>Many machine learning systems have high impact because they are deployed
+at scale. We may not want to invest in optimizing our LinkedIn profile,
+but if we are seeking work and that&rsquo;s where employers look we have
+little alternative but to put our best foot forward. Scale also creates
+market opportunities for cost-lowering intermediaries who can assist
+with optimization, as with search-engine optimization, reputation
+management or, come to that, tax accountancy. Scale makes algorithmic
+flaws matter more than those of any one human.</p>
+
+<p>As deep learning drives the next generation of decision support systems
+and recommender systems, their elasticity and fragility may become
+increasingly important. To make matters more serious, these weaknesses
+will not show up in proofs of concept or early stage deployments, where
+the output has little impact on subjects. It is only when algorithms are
+operating at scale that the incentive to invest becomes large, making
+the system more fragile.</p>
+
+
+
+
+<figure>
+
+<img src="/ox-hugo/2019-ai-response-landscape.png" alt="Figure 3: Responses to algorithms include combinations of valid and invalid input, which may sustain or erode the intent of the algorithm." />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  
+  <p>
+    Figure 3: Responses to algorithms include combinations of valid and invalid input, which may sustain or erode the intent of the algorithm.
+    
+    
+    
+  </p> 
+</figcaption>
+
+</figure>
+
+<h2 id="incentives-drive-responses">Incentives drive responses</h2>
+
+<p>Figure 3 classifies responses to algorithms. Algorithms require <em>valid</em>
+input if they are to give correct output. Algorithms also have an
+<em>intent</em> that can be affected positively or negatively by the actions of
+subjects. In general, the output is a proxy for this less well-defined
+intent.<sup class="footnote-ref" id="fnref:fn-31"><a href="#fn:fn-31">31</a></sup> Each input arrow may be paired with each output arrow,
+giving four classes of response. While algorithm designers may prefer to
+permit only valid inputs which sustain the intent of the system, all
+four combinations can have ethical justifications.</p>
+
+<p>Valid inputs can be understood by thinking about a simple rule-based
+system, such as a hiring filter that sorts applicants based solely on
+educational achievements. The input is a subject&rsquo;s educational
+achievements: genuine achievements are valid and fake achievements are
+not. The intent of the system is to give the hiring manager a good set
+of interviewees: if he or she is happy with their applicants the
+system&rsquo;s intent is satisfied.</p>
+
+<p>In cases that economists describe as separating equilibria for
+signalling and screening games,<sup class="footnote-ref" id="fnref:fn-32"><a href="#fn:fn-32">32</a></sup> valid inputs sustain the intent
+of the algorithm. If the applicant pool consists of two qualities from
+an employment perspective (high and low), and if getting a degree is
+easier for high quality people than for low quality people, then only
+high-quality people find it worth investing in a degree. The beauty of
+such an arrangement is that it is &ldquo;incentive compatible&rdquo;: an “invisible
+hand” guides subjects so that, if they respond to incentives, the
+algorithm continues to satisfy its intent without additional governance.</p>
+
+<p>If it is equally costly for low quality applicants to obtain a degree as
+for high quality applicants, then the degree ceases to be a useful
+signal. Applicants may continue to invest in degrees, but the algorithm
+will no longer separate the wheat from the chaff. This is the
+game-theoretic case of a &ldquo;pooling equilibrium&rdquo;, where valid responses
+erode the intent of the algorithm. We know how the verb describing valid
+responses in pooling equilibria declines: I follow the letter of the
+law, you teach to the test, he or she games the system. The problems of
+pooling equilibria have been elevated to the status of a Law:
+&ldquo;Goodhart&rsquo;s Law&rdquo; states that &ldquo;When a measure becomes a target, it ceases
+to be a good measure&rdquo; to which we might add a corollary that becomes
+important below: “When a measure is not a target, it ceases to be
+optimized”.</p>
+
+<p>The ethics of optimizing responses using valid input is not simple. One
+reason Google keeps its search algorithms secret is to prevent gaming by
+the search-engine optimization industry,<sup class="footnote-ref" id="fnref:fn-33"><a href="#fn:fn-33">33</a></sup> but when it comes to the
+tax system their attitude is different. A secret tax system would be
+unacceptable, of course. Accused of dodging taxes by moving $23bn to
+Bermuda, Google responded simply: &ldquo;We pay all of the taxes due and
+comply with the tax laws in every country we operate in around the
+world&rdquo;.<sup class="footnote-ref" id="fnref:fn-34"><a href="#fn:fn-34">34</a></sup></p>
+
+<p><em>Workarounds</em> are a class of invalid inputs that nevertheless sustain
+the intent of the system. Legal scholar Jennifer Raso investigated the
+operation of Ontario Works, a welfare-eligibility decision
+system,<sup class="footnote-ref" id="fnref:fn-35"><a href="#fn:fn-35">35</a></sup> and found that case workers became experts at working
+with the system, on occasions entering false data to coax results that
+line up with their professional judgment. Whether dealing with bugs in
+the program (an inapplicable field for some applicants would also be a
+required field in the system) or with weaknesses in the model, case
+workers break the letter of the law to follow the spirit. Similar
+behaviour has been seen among US doctors seeking to provide their
+patients with good outcomes from insurance systems.<sup class="footnote-ref" id="fnref:fn-36"><a href="#fn:fn-36">36</a></sup></p>
+
+<p>Any statistical algorithm has error cases, and many systems cannot
+function without workarounds from those it manages or their agents,
+which is why &ldquo;work to rule&rdquo; actions in some industrial settings are
+common: if you follow the letter of the law too strictly, nothing gets
+done. The unappreciated role of workarounds is one reason why James C.
+Scott argues that “certain schemes to improve the human condition have
+failed.”<sup class="footnote-ref" id="fnref:fn-37"><a href="#fn:fn-37">37</a></sup> Scott is arguing against top-down “high-modernist”
+schemes, and algorithmic platforms certainly fall into this category.</p>
+
+<p>The final case is invalid input that also erodes an algorithm&rsquo;s intent,
+often described in security terms, as <em>attacks</em> on the algorithm. There
+are an increasing number of algorithms for which “opting out” is not an
+option, including ratings platforms. <em>Botto Bistro</em> is a San Francisco
+restaurant which was unhappy with what they saw as unethical treatment
+by Yelp, who also refused the restaurant&rsquo;s request to be removed from
+the platform. In response, <em>Botto Bistro</em> encouraged its customers to
+enter over-the-top one-star reviews, seeking to achieve the lowest
+rating on Yelp. The campaign called attention to some dubious practices
+and contradictions in Yelp&rsquo;s operations: perhaps a case of principled
+protest or subversive humour, sabotaging one system in pursuit of a
+higher goal.<sup class="footnote-ref" id="fnref:fn-38"><a href="#fn:fn-38">38</a></sup></p>
+
+<p>The more sophisticated and complex the algorithm, the more the lines
+between these four categories blur. Once algorithms move beyond simple
+inputs such as birth dates and educational qualifications, the criteria
+for distinguishing valid from invalid input become uncertain. Reputation
+systems such as Yelp, eBay, and Uber replace &ldquo;true or false&rdquo; criteria
+with more nebulous notions of &ldquo;authenticity&rdquo; or &ldquo;honesty&rdquo; and defend
+them not by appeals to correctness but to free speech.<sup class="footnote-ref" id="fnref:fn-39"><a href="#fn:fn-39">39</a></sup>. Who can
+say what a “four-star” rating really means?<sup class="footnote-ref" id="fnref:fn-40"><a href="#fn:fn-40">40</a></sup></p>
+
+<p>On the output side too, an unambiguous “ground truth” output is often
+unavailable outside the labelled training sets of the laboratory, so the
+distinction fades between an attack and a workaround. Even adversarial
+examples, which seem so obvious, have resisted definition. One technical
+attempt is to say they are input “that an attacker has intentionally
+designed to cause the model to make a mistake”<sup class="footnote-ref" id="fnref:fn-41"><a href="#fn:fn-41">41</a></sup>, but for an
+individual real-world case identifying “intent” or “mistake” may both be
+impossible, and so the classification of “attacker” fails too.</p>
+
+<h2 id="responses-demand-guardrails">Responses demand guardrails</h2>
+
+<p>In general, algorithms that classify people are
+“incentive-incompatible”: if subjects follow their incentives then the
+algorithm ceases to function as designed. To sustain their accuracy,
+algorithms need external rules to limit permissible responses. These
+rules form a set of <em>guardrails</em> which implement value judgments,
+keeping algorithms functioning by constraining the actions of
+subjects.<sup class="footnote-ref" id="fnref:fn-42"><a href="#fn:fn-42">42</a></sup></p>
+
+<p>“Move fast and break things” norms of disruptive innovation encourage
+algorithm designers to postpone thinking about guardrails. They may not
+be needed in low-elasticity environments such as proofs of concept or in
+early-stage deployments. Still, successful deployments at scale will
+require guardrails and so, even if problems of bias and fairness could
+be solved, the grail of algorithmic governance&mdash;of impartial and
+automatic algorithmic data-driven and evidence-based
+decision-making&mdash;would fall at this hurdle. Algorithms and their
+guardrails form an inseparable pair. Code is law, until it is not.</p>
+
+<p>The existence of a scalable algorithm does not imply the existence of
+equally scalable guardrails: guardrails must deal with specific contexts
+and factors outside the original model, which only grow in number as
+algorithms draw on an ever-increasing volume and variety of data in
+pursuit of accuracy. Attempts to implement automated moderation have
+repeatedly failed, and companies have resorted instead to what Astra
+Taylor calls &ldquo;fauxtomation&rdquo;: behind the scenes real people do the work
+to simulate the effects of an algorithm, because the technology is not
+up to the task.<sup class="footnote-ref" id="fnref:fn-43"><a href="#fn:fn-43">43</a></sup> The work of content moderators has been described
+recently by Sarah Roberts<sup class="footnote-ref" id="fnref:fn-44"><a href="#fn:fn-44">44</a></sup> and Tarleton Gillespie.<sup class="footnote-ref" id="fnref:fn-45"><a href="#fn:fn-45">45</a></sup></p>
+
+<p>Algorithms without guardrails may become ungovernable. Social media
+recommender algorithms, for example, have all three qualities needed for
+high elasticity. Experimentation is affordable, content producers can
+discover the kind of content to which the recommendation algorithm is
+sensitive because they get fast feedback in the form of view counts, and
+the impact of the recommendation system is high. High elasticity means
+strong incentives to optimize individual outcomes.</p>
+
+<p>The YouTube recommendation algorithm<sup class="footnote-ref" id="fnref:fn-46"><a href="#fn:fn-46">46</a></sup> suffers from
+ungovernability. In a widely read article, James Bridle provided a tour
+through the long tail of bizarre content appearing on YouTube Kids as
+producers experiment to gain views.<sup class="footnote-ref" id="fnref:fn-47"><a href="#fn:fn-47">47</a></sup> As just one example, they
+would rely on keyword/hashtag association when generating new content.</p>
+
+<blockquote>
+<p>When some trend, such as Surprise Egg videos, reaches critical mass,
+content producers pile onto it, creating thousands and thousands more
+of these videos in every possible iteration&hellip; branded content and
+nursery rhyme titles and “surprise egg” all stuffed into the same word
+salad to capture search results, sidebar placement, and “up next”
+autoplay rankings&hellip;</p>
+
+<p>A striking example of the weirdness is the Finger Family videos&hellip; I
+have no idea where they came from or the origin of the children&rsquo;s
+rhyme at the core of the trope, but there are <strong>at least 17 million
+versions</strong> of this currently on YouTube, and again they cover every
+possible genre, with billions and billions of aggregated views.</p>
+</blockquote>
+
+<p>Ironically, it was Bridle&rsquo;s essay going viral that made YouTube act, and
+they did so by invoking community guidelines. The response seems like an
+ethical platform making best efforts to implement guardrails that eject
+malicious actors, but the story is not so simple. One channel removed
+for violating the &ldquo;family friendly&rdquo; rule was that of Johnny
+Tanner.<sup class="footnote-ref" id="fnref:fn-48"><a href="#fn:fn-48">48</a></sup> Tanner said he could not discover what had prompted the
+punishment, because he had no person to talk to. In defence of his
+channel, he said, &ldquo;The algorithm is the thing we had a relationship with
+since the beginning. That&rsquo;s what got us out there and popular&hellip; We
+learned to fuel it and do whatever it took to please the algorithm.&rdquo;</p>
+
+<p>The same article quotes Davey Orgill, who left his job to make superhero
+parody videos, and whose channel reached two million viewers before
+being shut down. He argued that &ldquo;the platform is responsible for
+encouraging&hellip; objectionable, sexual, and violent superhero content
+ostensibly oriented toward children&hellip; YouTube blames it on these people
+that were doing it, but for a year their algorithm pushed this
+content&hellip; People were doing it because it was creating millions and
+millions and millions of views. They created a monster.&rdquo; The left hand
+of the recommendation algorithms promotes videos that the right hand of
+the Community Guidelines would later forbid.</p>
+
+<p>Bridle ends his essay this way: “The architecture they have built to
+extract the maximum revenue from online video is being hacked by persons
+unknown to abuse children, perhaps not even deliberately, but at a
+massive scale,” but the disturbing videos are not “hacking” any more
+than minimizing tax payments is hacking, they are responses driven by
+the algorithm itself.</p>
+
+<p>Facebook&rsquo;s News Feed algorithm also suffers from high elasticity and its
+problems have also been framed as those of defence against malicious
+actors. Former Facebook executive Antonio Garcia Martinez complained on
+Twitter that &ldquo;The same FB [Facebook] critics who call on the company to
+take on responsibility for moderating content (an operational job they
+(Facebook) don&rsquo;t want, and had to be pressed to perform), will of course
+be shocked, shocked at the human cost in reviewing billions of pieces of
+random content&rdquo;.<sup class="footnote-ref" id="fnref:fn-49"><a href="#fn:fn-49">49</a></sup> But the requirement for guardrails .</p>
+
+<p>The intent of News Feed has changed over time and remains operationally
+vague. Mark Zuckerberg announced in January 2018 that “I&rsquo;m changing the
+goal I give our product teams from focusing on helping you find relevant
+content to helping you have more meaningful social interactions”.<sup class="footnote-ref" id="fnref:fn-50"><a href="#fn:fn-50">50</a></sup>
+Facebook designed News Feed as a system with large rewards for high
+circulation, so encouraging participants to invest heavily in optimizing
+their outcomes. Attempting to move on from the resulting Clickbait
+headlines, Facebook has doubled down on building in-house algorithmic or
+fauxtomatic solutions.</p>
+
+<blockquote>
+<p>Facebook&rsquo;s entire project, when it comes to news, rests on the
+assumption that people&rsquo;s individual preferences ultimately coincide
+with the public good, and that if it doesn&rsquo;t appear that way at first,
+you&rsquo;re not delving deeply enough into the data.<sup class="footnote-ref" id="fnref:fn-51"><a href="#fn:fn-51">51</a></sup></p>
+</blockquote>
+
+<p>The assumption fails. An elastic system based on “the data” causes the
+foundations on which it is built to shift. The incentive-incompatible
+News Feed algorithm demands guardrails to police the content it
+generates.</p>
+
+<p>If Facebook does not want the job of managing news content, it could
+hand it to the news industry. Emily Bell of the Columbia Journalism
+School explains:</p>
+
+<blockquote>
+<p>“At some point, if they really want to address this, they have to say,
+‘This is good information&rsquo; and ‘This is bad information.&lsquo; They have to
+say, ‘These are the kinds of information sources that we want to
+privilege, and these others are not going to be banned from the
+platform, but they are not going to thrive.&rsquo; In other words, they have
+to create a hierarchy, and they&rsquo;re going to have to decide how they&rsquo;re
+going to transfer wealth into the publishing market.”<sup class="footnote-ref" id="fnref:fn-52"><a href="#fn:fn-52">52</a></sup></p>
+</blockquote>
+
+<p>Facebook does want the job, or at least the money that comes with it.
+Financial incentives demand that Facebook keep responsibility for News
+Feed content, while insisting it has no accountability for the outcome
+beyond making best efforts.</p>
+
+<p>Social media algorithms may be particularly prone to driving “gaming”
+behaviour, but others are not immune.</p>
+
+<p>The Allegheny Family Screening Tool (AFST) is a decision support system
+used to predict child abuse or child neglect at the time of birth, and
+to alert child services to children who may be at risk. The attentions
+of child services can have a large effect on the lives of families whose
+risk score is high. Contact with social services is one factor that may
+lead to a high predictive score, so some families feel they must engage
+in self-harming behaviour, withdrawing from “networks that provide
+services, support, and community” to optimize their score. AFST might
+“create the very abuse it seeks to prevent.&rdquo;<sup class="footnote-ref" id="fnref:fn-53"><a href="#fn:fn-53">53</a></sup></p>
+
+<p>Facial recognition has long prompted civil liberties concerns.<sup class="footnote-ref" id="fnref:fn-54"><a href="#fn:fn-54">54</a></sup>
+Guardrails are one of these concerns: is covering one&rsquo;s face acceptable
+behaviour around facial recognition software in public spaces? In a
+trial deployment in London, police fined a man after he covered his face
+and objected to subsequent police questioning.<sup class="footnote-ref" id="fnref:fn-55"><a href="#fn:fn-55">55</a></sup> More generally, as
+the data sources used by insurance companies, potential employers, and
+others expand, the potential for unusual or unorthodox behaviour
+patterns to trigger inferences, for example based on outlier detection
+algorithms, expands in tandem. Without protection against such
+inferences, the unusual becomes the suspicious.<sup class="footnote-ref" id="fnref:fn-56"><a href="#fn:fn-56">56</a></sup> If the guardrail
+question: “what have you got to hide” becomes legitimate for authorities
+to ask, the technology will have altered public norms for the worse.</p>
+
+<p>Autonomous vehicles will need new guardrails to manage pedestrian
+behaviour. At current levels of deployment, pedestrians will behave much
+as they do around cars with drivers, but if self-driving becomes
+commonplace then some may optimize their experience by stepping out
+ahead of autonomous cars, in full confidence that the car will stop.
+Should such pedestrian assertion become the norm, &ldquo;autonomous vehicle
+adoption may be hampered by their strategic disadvantage that slows them
+down in urban traffic&rdquo;.<sup class="footnote-ref" id="fnref:fn-57"><a href="#fn:fn-57">57</a></sup> Perhaps, says Drive.ai board member
+Andrew Ng, &ldquo;we should partner with the government to ask people to be
+lawful and considerate&hellip; Safety isn&rsquo;t just about the quality of the AI
+technology.&rdquo;<sup class="footnote-ref" id="fnref:fn-58"><a href="#fn:fn-58">58</a></sup> We can expect the self-driving car industry to seek
+new guardrails that protect their own algorithms, yet discussion of
+these guardrails are largely missing from conversations about the ethics
+of autonomous vehicles.</p>
+
+<p>In short, guardrails limit the autonomy of algorithmic subjects.
+Algorithmic governance may encourage platforms to innovate with A/B
+testing on their subjects, but the subjects themselves are constrained.
+Some may be punished twice over: once by the algorithm for unorthodox
+behaviour that it does not properly model, and a second time if they
+fall foul of the guardrails while trying to avoid the first.</p>
+
+<h2 id="guardrails-create-temptation">Guardrails create temptation</h2>
+
+<p>The algorithm-guardrail pairing creates temptations for platform owners
+to indulge in arbitrage: exploiting presentation gaps to circumvent
+regulation and to avoid brand damage. When algorithms encourage
+behaviour that the guardrails forbid, platform companies may choose
+whether to present themselves through their algorithm or through the
+values imposed by their guardrails. Ethics calls for a consistent
+presentation, but companies have a financial incentive to keep the gap
+wide, and many activities can be seen in this light.</p>
+
+<p>One response is to frame problems in terms of the software development
+lifecycle. Problems are bugs, and the software industry knows how to
+deal with bugs: they are reported, they are fixed, and fixes are rolled
+out to customers. It is a statement of faith that bugs are temporary,
+and software improves through iterative refinement. If algorithmic
+failings are bugs, external authorities have neither the jurisdiction
+nor the expertise to fix them. But as we have seen, guardrail failures
+are features not bugs: they are created by the incentives built into the
+algorithm. In her book “Uberland”, Alex Rosenblat talks of Uber drivers
+seeing &ldquo;phantom requests&rdquo; that appear briefly on the driver app but
+vanish before they can respond.<sup class="footnote-ref" id="fnref:fn-59"><a href="#fn:fn-59">59</a></sup> Phantom requests damage drivers&rsquo;
+prospects of earning bonuses that depend on maintaining a high
+acceptance rate. Uber&rsquo;s response to driver complaints was to blame it on
+network problems and promise a fix. Without effective person-to-person
+driver support, Uber denies drivers the option of a workaround, while
+the language and practices of software development helps the company
+avoid what would, in other companies, be a breach of contract with their
+drivers.</p>
+
+<p>A second response is to invoke value-based guardrails in an ad-hoc
+manner. If algorithmic governance leads to behaviour on the part of
+subjects that may damage the brand, it is tempting to let it go until
+the prospect becomes too dangerous. YouTube&rsquo;s actions around the YouTube
+Kids channel fall into this pattern.</p>
+
+<p>Airbnb is an algorithmically-governed platform with a stated intent of
+the building a community of regular people who live in their own home
+and occasionally share it with strangers. Any guardrails to keep
+behaviour within this mandate runs the risk of affecting Airbnb&rsquo;s
+earnings, and so there has been nothing in Airbnb&rsquo;s systems to stop
+hosts creating multiple listings, setting up organizations with
+different &ldquo;hosts&rdquo; as fronts,<sup class="footnote-ref" id="fnref:fn-60"><a href="#fn:fn-60">60</a></sup> or renting out listings for 365
+nights a year. When the gap between algorithmic practices and stated
+aims became too large in New York City, bringing the threat of
+restrictions on Airbnb&rsquo;s market, the company invoked guardrails to expel
+a thousand hosts off its platform,<sup class="footnote-ref" id="fnref:fn-61"><a href="#fn:fn-61">61</a></sup> claiming that they were not
+providing the experience their community expected.<sup class="footnote-ref" id="fnref:fn-62"><a href="#fn:fn-62">62</a></sup> Code was
+overruled by brand.</p>
+
+<p>A third temptation is to use the platform&rsquo;s information resources to
+hide or muddy the waters regarding algorithmic failures. Ryan Calo and
+Alex Rosenblat have detailed the many ways in which Uber has used its
+information to shape the behaviour of its drivers.<sup class="footnote-ref" id="fnref:fn-63"><a href="#fn:fn-63">63</a></sup> The selective
+and judicious release of data on an exclusive basis for collaboration
+with academics or industry experts may also serve to shape the overall
+perception of the company, whether individual papers are written
+independently or not.</p>
+
+<p>Finally: companies that become embedded into the infrastructure of our
+lives have leverage when it comes to the presentation gap. Uber seeks to
+become a privately-owned part of city transit infrastructure and uses
+the data it has accumulated as a resource to be licensed back to the
+cities in which they operate. Once integrated, cities cannot easily walk
+away from the platform, problems on the platform become public concerns
+regarding malicious actors, and cities&rsquo; leverage regarding governance on
+the Uber platform is lost. Smart City initiatives such as the Toronto
+project led by Google subsidiary Sidewalk implicitly adopt this same
+approach.<sup class="footnote-ref" id="fnref:fn-64"><a href="#fn:fn-64">64</a></sup></p>
+
+<h2 id="temptation-needs-policing">Temptation needs policing</h2>
+
+<p>The more powerful algorithms have become, the more it is clear that
+market forces alone cannot solve the problems arising from the
+incompatible incentives.</p>
+
+<p>Platform companies can sustain a gap between algorithm and guardrail in
+part because Section 230 of the CDA absolves them of much responsibility
+for the consequences of their governance failures, in the USA at least.
+Chesney and Citron&rsquo;s recent paper on Deep Fakes<sup class="footnote-ref" id="fnref:fn-65"><a href="#fn:fn-65">65</a></sup> identify the
+platform companies as the &ldquo;least cost avoider&rdquo;: the actor who is in the
+best position to fix problems of incompatible incentives. The previous
+section claimed that platforms currently have an incentive to take
+ownership of the problem, but not to fix it: that taking ownership is
+currently a way to ward off regulation. Revisiting Section 230 and its
+equivalents in other jurisdictions does the opposite.</p>
+
+<p>One of society&rsquo;s most serious classification problems is that of
+“innocent or guilty”, and it worth remembering that data-driven
+statistical methods are not permitted in this venue: evidence is instead
+strictly limited in scope. One reason is that people should not be
+punished for factors that, while they may correlate with criminality,
+lie outside their control. Another is that it would demand that people,
+especially members of less privileged groups, invest in optimizing their
+risk scores for fear of contact with the criminal system.
+“Evidence-based” statistical decision-making has become increasingly
+used in areas of the justice system such as parole and even sentencing
+and its use raises both problems. While the trend remains towards
+data-driven decisions, voices are being raised against use of actuarial
+risk assessment in the justice system.<sup class="footnote-ref" id="fnref:fn-66"><a href="#fn:fn-66">66</a></sup> Restricting data use goes
+against the grain of the current drive to a data-driven society, but as
+the impact of algorithmic decisions grows, ideas from this venue where
+decisions matter the most may become more prominent in the years to
+come.</p>
+
+<p>Competition rules provide another avenue to resolving incentive
+problems. Algorithmic ranking systems can become powerful institutions
+in and of themselves: part of the infrastructure of society. Advantages
+accrue to the company that owns the infrastructure when it is also
+competing in the market for services that exploit that
+infrastructure.<sup class="footnote-ref" id="fnref:fn-67"><a href="#fn:fn-67">67</a></sup></p>
+
+<p>In some industries the essential infrastructure is heavily regulated and
+controlled, while services built on that infrastructure are opened for
+innovation. Airport infrastructure is separated from the operation of
+airlines. Core banking functions are strictly regulated &ndash; perhaps not
+as strictly as some would like &ndash; while many countries are experimenting
+with open banking laws to permit innovation on top of this
+infrastructure.</p>
+
+<p>Outside the realm of regulation, we can look to alternative models.
+Wikipedia is the only non-profit in the top ranks of web sites, and it
+has been significantly less affected by the problems of incompatible
+incentives. Many, the present author included, thought that Wikipedia
+would be unable to maintain quality over nearly two decades, but it has
+proven sceptics wrong. Perhaps the anonymous nature of contributions
+removes many of the distorting incentives associated with
+self-promotion, perhaps it&rsquo;s because Wikipedia is largely free of
+“viral” phenomena, but something is working on Wikipedia that is not
+working at YouTube, Facebook, or Amazon.</p>
+
+<p>In conclusion, deep learning algorithms may be more intelligent than
+previous generations of machine learning, but they are not more robust.
+There may be a faint technical path forward for problems of bias and
+unfairness, but algorithms are engines, not cameras, and pervasive
+incompatible incentives will remain. Algorithms require guardrails, and
+technology companies are ill-suited and ill-positioned to design or
+implement these value-based rules. Guardrails become constraints on
+people&rsquo;s behaviour and yet, in cases of high elasticity, effective
+governance may still be elusive. The pairing of the algorithm and
+guardrails tempts companies to engage in regulatory arbitrage, providing
+a requirement for external action.</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>I would like to thank the editors for their invitation and guidance, and
+the other contributors who took part in the Toronto workshop for their
+inspiration and expertise. I acknowledge helpful conversations with John
+Slee and Lynne Supeene.</p>
+
+<h2 id="bibliography">Bibliography</h2>
+
+<p>Essential texts concerning the mechanisms and consequences of sorting.</p>
+
+<ul>
+<li><p>Geoffrey C. Bowker and Susan Leigh Star, <em>Sorting Things Out: Classification and Its Consequences</em> (The MIT Press, 1999)</p></li>
+
+<li><p>Wendy Nelson Espeland and Michael Sauder, <em>Engines of Anxiety: Academic Rankings, Reputation, and Accountability</em> (Russell Sage Foundation, 2016)</p></li>
+
+<li><p>Bernard E. Harcourt, <em>Against Prediction</em> (University of Chicago Press, 2006)</p></li>
+
+<li><p>Jane Jacobs, <em>The Death and Life of Great American Cities</em> (New York: Random House, 1961)</p></li>
+
+<li><p>Donald MacKenzie, An Engine, Not a Camera: How Financial Models Shape Markets (MIT Press, 2007).</p></li>
+
+<li><p>James C. Scott, <em>Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed</em> (Yale University Press, 1998)</p></li>
+
+<li><p>Thomas C. Schelling, <em>Micromotives and Macrobehavior</em> (W.W. Norton and Company, 1978)</p></li>
+</ul>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:fn-1">Draft of a chapter contributed to the <em>Oxford Handbook of Ethics of Artificial Intelligence</em>, edited by Markus Dubber, Frank Pasquale, and Sunit Das, Oxford University Press 2019. This version March 31, 2019. The opinions expressed in this chapter are those of the author and do not represent the views or policies of SAP. This essay is also available at <a href="https://ssrn.com/abstract=3363342" target="_blank">https://ssrn.com/abstract=3363342</a>.
+ <a class="footnote-return" href="#fnref:fn-1"><sup>^</sup></a></li>
+<li id="fn:fn-2">Erving Goffman, <em>The Presentation of Self in Everyday Life</em> (Garden City, New York: Doubleday, 1959).
+ <a class="footnote-return" href="#fnref:fn-2"><sup>^</sup></a></li>
+<li id="fn:fn-3">Naomi Klein, <em>No Logo</em> (Toronto: Knopf Canada, 2000).
+ <a class="footnote-return" href="#fnref:fn-3"><sup>^</sup></a></li>
+<li id="fn:fn-4">Kimberley Ann Elliott and Richard B. Freeman, <em>Can Labor Standards Improve Under Globalization?</em> (Washington DC: Institute for International Economics, 2003).
+ <a class="footnote-return" href="#fnref:fn-4"><sup>^</sup></a></li>
+<li id="fn:fn-5">In this chapter, <em>algorithm</em> is shorthand for any automated data-driven sorting systems, including classifying, scoring, rating, and ranking. Algorithms may be implemented by computers but may also be implemented through organizational policies and practices.
+ <a class="footnote-return" href="#fnref:fn-5"><sup>^</sup></a></li>
+<li id="fn:fn-6">Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, “Imagenet Classification with Deep Convolutional Neural Networks,” in <em>Advances in Neural Information Processing Systems</em>, 2012, 1097&ndash;1105, <a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank">https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</a>.
+ <a class="footnote-return" href="#fnref:fn-6"><sup>^</sup></a></li>
+<li id="fn:fn-7">McKinsey Global Institute, “Artificial Intelligence: The Next Digital Frontier?” (McKinsey &amp; Company, June 2017), <a href="https://www.mckinsey.com/" target="_blank">https://www.mckinsey.com/</a> /media/McKinsey/Industries/Advanced%20Electronics/Our%20Insights/How%20artificial%20intelligence%20can%20deliver%20real%20value%20to%20companies/MGI-Artificial-Intelligence-Discussion-paper.ashx.
+ <a class="footnote-return" href="#fnref:fn-7"><sup>^</sup></a></li>
+<li id="fn:fn-8">K. Hazelwood et al., “Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective,” in /2018 IEEE International Symposium on High Performance Computer Architecture (HPCA)/, 2018, 620&ndash;29, <a href="https://doi.org/10.1109/HPCA.2018.00059" target="_blank">https://doi.org/10.1109/HPCA.2018.00059</a>.
+ <a class="footnote-return" href="#fnref:fn-8"><sup>^</sup></a></li>
+<li id="fn:fn-9">Alexander Sergeev and Mike Del Balso, “Horovod: Fast and Easy Distributed Deep Learning in TensorFlow,” <em>ArXiv:1802.05799 [Cs, Stat]</em>, February 15, 2018, <a href="http://arxiv.org/abs/1802.05799" target="_blank">http://arxiv.org/abs/1802.05799</a>.
+ <a class="footnote-return" href="#fnref:fn-9"><sup>^</sup></a></li>
+<li id="fn:fn-10">Malay Haldar et al., “Applying Deep Learning To Airbnb Search,” <em>ArXiv:1810.09591 [Cs, Stat]</em>, October 22, 2018, <a href="http://arxiv.org/abs/1810.09591" target="_blank">http://arxiv.org/abs/1810.09591</a>.
+ <a class="footnote-return" href="#fnref:fn-10"><sup>^</sup></a></li>
+<li id="fn:fn-11">Nicola Jones, “Computer Science: The Learning Machines,” <em>Nature News</em> 505, no. 7482 (January 9, 2014): 146, <a href="https://doi.org/10.1038/505146a" target="_blank">https://doi.org/10.1038/505146a</a>.
+ <a class="footnote-return" href="#fnref:fn-11"><sup>^</sup></a></li>
+<li id="fn:fn-12">Frank Pasquale, The Black Box Society: The Secret Algorithms That Control Money and Information (Cambridge: Harvard University Press, 2015); Cathy O&rsquo;Neill, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy (Crown Random House, 2016); Safiya Umoja Noble, Algorithms of Oppression: How Search Engines Reinforce Racism (New York University Press, 2018); Solon Barocas and Andrew Selbst, “Big Data&rsquo;s Disparate Impact,” California Law Review 104 (2016): 671, <a href="https://dx.doi.org/10.2139/ssrn.2477899" target="_blank">https://dx.doi.org/10.2139/ssrn.2477899</a>.
+ <a class="footnote-return" href="#fnref:fn-12"><sup>^</sup></a></li>
+<li id="fn:fn-13">Google, “Our Principles,” Google AI, accessed February 1, 2019, <a href="https://ai.google/principles/" target="_blank">https://ai.google/principles/</a>; Microsoft, “Our Approach: Microsoft AI Principles,” Microsoft, accessed February 1, 2019, <a href="https://www.microsoft.com/en-us/ai/our-approach-to-ai" target="_blank">https://www.microsoft.com/en-us/ai/our-approach-to-ai</a>.
+ <a class="footnote-return" href="#fnref:fn-13"><sup>^</sup></a></li>
+<li id="fn:fn-14">The Partnership on AI, “The Partnership on AI,” The Partnership on AI, accessed February 1, 2019, <a href="https://www.partnershiponai.org/" target="_blank">https://www.partnershiponai.org/</a>.
+ <a class="footnote-return" href="#fnref:fn-14"><sup>^</sup></a></li>
+<li id="fn:fn-15">European Commission, “High-Level Expert Group on Artificial Intelligence,” 2018, <a href="https://ec.europa.eu/digital-single-market/en/high-level-expert-group-artificial-intelligence" target="_blank">https://ec.europa.eu/digital-single-market/en/high-level-expert-group-artificial-intelligence</a>.
+ <a class="footnote-return" href="#fnref:fn-15"><sup>^</sup></a></li>
+<li id="fn:fn-16">Margaret Mitchell et al., “Model Cards for Model Reporting,” in <em>Proceedings of the Conference on Fairness, Accountability, and Transparency</em>, FAT* &lsquo;19 (New York, NY, USA: ACM, 2019), 220&ndash;229, <a href="https://doi.org/10.1145/3287560.3287596" target="_blank">https://doi.org/10.1145/3287560.3287596</a>.
+ <a class="footnote-return" href="#fnref:fn-16"><sup>^</sup></a></li>
+<li id="fn:fn-17">Malcolm Campbell-Verduyn, Marcel Goguen, and Tony Porter, “Big Data and Algorithmic Governance: The Case of Financial Practices,” <em>New Political Economy</em> 22, no. 2 (March 4, 2017): 219&ndash;36, <a href="https://doi.org/10.1080/13563467.2016.1216533" target="_blank">https://doi.org/10.1080/13563467.2016.1216533</a>.
+ <a class="footnote-return" href="#fnref:fn-17"><sup>^</sup></a></li>
+<li id="fn:fn-18">Joy Buolamwini and Timnit Gebru, “Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classiﬁcation,” n.d., 15; Inioluwa Deborah Raji and Joy Buolamwini, “Actionable Auditing: Investigating the Impact of Publicly Naming Biased Performance Results of Commercial AI Products,” n.d., 7.
+ <a class="footnote-return" href="#fnref:fn-18"><sup>^</sup></a></li>
+<li id="fn:fn-19">Sam Corbett-Davies and Sharad Goel, “The Measure and Mismeasure of Fairness: A Critical Review of Fair Machine Learning,” <em>ArXiv:1808.00023 [Cs]</em>, July 31, 2018, <a href="http://arxiv.org/abs/1808.00023" target="_blank">http://arxiv.org/abs/1808.00023</a>; Alexandra Chouldechova, “Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments,” <em>Big Data</em> 5, no. 2 (June 2017): 153&ndash;63, <a href="https://doi.org/10.1089/big.2016.0047" target="_blank">https://doi.org/10.1089/big.2016.0047</a>; Arvind Narayanan, <em>Tutorial: 21 Fairness Definitions and Their Politics</em>, accessed January 27, 2019, <a href="https://www.youtube.com/watch?v=jIXIuYdnyyk" target="_blank">https://www.youtube.com/watch?v=jIXIuYdnyyk</a>.
+ <a class="footnote-return" href="#fnref:fn-19"><sup>^</sup></a></li>
+<li id="fn:fn-20">Donald MacKenzie, <em>An Engine, not a Camera: How Financial Models Shape Markets</em> (MIT Press, 2007).
+ <a class="footnote-return" href="#fnref:fn-20"><sup>^</sup></a></li>
+<li id="fn:fn-21">Danielle Keats Citron and Frank A. Pasquale, “The Scored Society: Due Process for Automated Predictions,” SSRN Scholarly Paper (Rochester, NY: Social Science Research Network, 2014), <a href="https://papers.ssrn.com/abstract=2376209" target="_blank">https://papers.ssrn.com/abstract=2376209</a>.
+ <a class="footnote-return" href="#fnref:fn-21"><sup>^</sup></a></li>
+<li id="fn:fn-22">Geoffrey C. Bowker and Susan Leigh Star, <em>Sorting Things Out: Classification and Its Consequences</em> (The MIT Press, 1999). p 141
+ <a class="footnote-return" href="#fnref:fn-22"><sup>^</sup></a></li>
+<li id="fn:fn-23">Wendy Nelson Espeland and Michael Sauder, <em>Engines of Anxiety: Academic Rankings, Reputation, and Accountability</em> (Russell Sage Foundation, 2016).
+ <a class="footnote-return" href="#fnref:fn-23"><sup>^</sup></a></li>
+<li id="fn:fn-24">Kieran Healy, “By the Numbers - Wendy Espeland and Michael Sauder, Engines of Anxiety: Academic Rankings, Reputation, and Accountability (New York, Russell Sage, 2016),” <em>European Journal of Sociology / Archives Européennes de Sociologie</em> 58, no. 3 (December 2017): 512&ndash;19, <a href="https://doi.org/10.1017/S0003975617000315" target="_blank">https://doi.org/10.1017/S0003975617000315</a>.
+ <a class="footnote-return" href="#fnref:fn-24"><sup>^</sup></a></li>
+<li id="fn:fn-25">Ian Goodfellow et al., “Generative Adversarial Networks,” in <em>Advances in Neural Information Processing Systems 27</em>, ed. Z. Ghahramani et al. (Curran Associates, Inc., 2014), 2672&ndash;2680, <a href="http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf" target="_blank">http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf</a>.
+ <a class="footnote-return" href="#fnref:fn-25"><sup>^</sup></a></li>
+<li id="fn:fn-26">Robert Chesney and Danielle Keats Citron, “Deep Fakes: A Looming Challenge for Privacy, Democracy, and National Security,” SSRN Scholarly Paper (Rochester, NY: Social Science Research Network, July 14, 2018), <a href="https://papers.ssrn.com/abstract=3213954" target="_blank">https://papers.ssrn.com/abstract=3213954</a>.
+ <a class="footnote-return" href="#fnref:fn-26"><sup>^</sup></a></li>
+<li id="fn:fn-27">Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy, “Explaining and Harnessing Adversarial Examples,” <em>ArXiv:1412.6572 [Cs, Stat]</em>, December 19, 2014, <a href="http://arxiv.org/abs/1412.6572" target="_blank">http://arxiv.org/abs/1412.6572</a>.
+ <a class="footnote-return" href="#fnref:fn-27"><sup>^</sup></a></li>
+<li id="fn:fn-28">Christian Szegedy et al., “Intriguing Properties of Neural Networks,” <em>ArXiv:1312.6199 [Cs]</em>, December 20, 2013, <a href="http://arxiv.org/abs/1312.6199" target="_blank">http://arxiv.org/abs/1312.6199</a>.
+ <a class="footnote-return" href="#fnref:fn-28"><sup>^</sup></a></li>
+<li id="fn:fn-29">Nicholas Carlini and David Wagner, “Audio Adversarial Examples: Targeted Attacks on Speech-to-Text,” <em>ArXiv:1801.01944 [Cs]</em>, January 5, 2018, <a href="http://arxiv.org/abs/1801.01944" target="_blank">http://arxiv.org/abs/1801.01944</a>.
+ <a class="footnote-return" href="#fnref:fn-29"><sup>^</sup></a></li>
+<li id="fn:fn-30">Adi Shamir et al., “A Simple Explanation for the Existence of Adversarial Examples with Small Hamming Distance,” <em>ArXiv:1901.10861 [Cs, Stat]</em>, January 30, 2019, <a href="http://arxiv.org/abs/1901.10861" target="_blank">http://arxiv.org/abs/1901.10861</a>; Alexandru Constantin Serban and Erik Poll, “Adversarial Examples - A Complete Characterisation of the Phenomenon,” <em>ArXiv:1810.01185 [Cs]</em>, October 2, 2018, <a href="http://arxiv.org/abs/1810.01185" target="_blank">http://arxiv.org/abs/1810.01185</a>; Ali Shafahi et al., “Are Adversarial Examples Inevitable?,” September 27, 2018, <a href="https://openreview.net/forum?id=r1lWUoA9FQ" target="_blank">https://openreview.net/forum?id=r1lWUoA9FQ</a>; David Stutz, Matthias Hein, and Bernt Schiele, “Disentangling Adversarial Robustness and Generalization,” <em>ArXiv:1812.00740 [Cs, Stat]</em>, December 3, 2018, <a href="http://arxiv.org/abs/1812.00740" target="_blank">http://arxiv.org/abs/1812.00740</a>; Dimitris Tsipras et al., “Robustness May Be at Odds with Accuracy,” May 30, 2018, <a href="https://arxiv.org/abs/1805.12152v3" target="_blank">https://arxiv.org/abs/1805.12152v3</a>.
+ <a class="footnote-return" href="#fnref:fn-30"><sup>^</sup></a></li>
+<li id="fn:fn-31">Cathy O&rsquo;Neill, <em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em> (Crown Random House, 2016).
+ <a class="footnote-return" href="#fnref:fn-31"><sup>^</sup></a></li>
+<li id="fn:fn-32">Michael A. Spence, “Job Market Signaling,” <em>The Quarterly Journal of Economics</em> 87, no. 3 (1973): 355&ndash;74; Joseph E. Stiglitz, <em>Whither Socialism?</em>, The Wicksell Lectures (Cambridge Massachusetts, London England: The MIT Press, 1994).
+ <a class="footnote-return" href="#fnref:fn-32"><sup>^</sup></a></li>
+<li id="fn:fn-33">Jonathan Rosenberg, “The Meaning of Open,” December 21, 2009, <a href="http://googleblog.blogspot.ca/2009/12/meaning-of-open.html" target="_blank">http://googleblog.blogspot.ca/2009/12/meaning-of-open.html</a>.
+ <a class="footnote-return" href="#fnref:fn-33"><sup>^</sup></a></li>
+<li id="fn:fn-34">Reuters, “Google Shifted $23bn to Tax Haven Bermuda in 2017, Filing Shows | Technology | The Guardian,” <em>The Guardian</em>, January 3, 2019, <a href="https://www.theguardian.com/technology/2019/jan/03/google-tax-haven-bermuda-netherlands" target="_blank">https://www.theguardian.com/technology/2019/jan/03/google-tax-haven-bermuda-netherlands</a>.
+ <a class="footnote-return" href="#fnref:fn-34"><sup>^</sup></a></li>
+<li id="fn:fn-35">Jennifer Raso, “Displacement as Regulation: New Regulatory Technologies and Front-Line Decision-Making in Ontario Works,” <em>Canadian Journal of Law &amp; Society / La Revue Canadienne Droit et Société</em> 32, no. 1 (April 2017): 75&ndash;95, <a href="https://doi.org/10.1017/cls.2017.6" target="_blank">https://doi.org/10.1017/cls.2017.6</a>.
+ <a class="footnote-return" href="#fnref:fn-35"><sup>^</sup></a></li>
+<li id="fn:fn-36">Matthew K. Wynia et al., “Physician Manipulation of Reimbursement Rules for Patients: Between a Rock and a Hard Place,” <em>JAMA</em> 283, no. 14 (April 12, 2000): 1858&ndash;65, <a href="https://doi.org/10.1001/jama.283.14.1858" target="_blank">https://doi.org/10.1001/jama.283.14.1858</a>.
+ <a class="footnote-return" href="#fnref:fn-36"><sup>^</sup></a></li>
+<li id="fn:fn-37">James C. Scott, <em>Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed</em> (Yale University Press, 1998).
+ <a class="footnote-return" href="#fnref:fn-37"><sup>^</sup></a></li>
+<li id="fn:fn-38">Tom Slee, “In Praise of Fake Reviews,” <em>The New Inquiry</em>, October 29, 2014, <a href="https://thenewinquiry.com/in-praise-of-fake-reviews/" target="_blank">https://thenewinquiry.com/in-praise-of-fake-reviews/</a>.
+ <a class="footnote-return" href="#fnref:fn-38"><sup>^</sup></a></li>
+<li id="fn:fn-39">James Grimmelmann, “Three Theories of Copyright in Ratings,” <em>Vanderbilt Journal of Entertainment and Technology Law</em> 14, no. 4 (2012): 85&ndash;887.
+ <a class="footnote-return" href="#fnref:fn-39"><sup>^</sup></a></li>
+<li id="fn:fn-40">Abbey Stemler, “Feedback Loop Failure: Implications for the Self-Regulation of the Sharing Economy,” SSRN Scholarly Paper (Rochester, NY: Social Science Research Network, April 1, 2016), <a href="https://papers.ssrn.com/abstract=2754768" target="_blank">https://papers.ssrn.com/abstract=2754768</a>.
+ <a class="footnote-return" href="#fnref:fn-40"><sup>^</sup></a></li>
+<li id="fn:fn-41">Justin Gilmer et al., “Motivating the Rules of the Game for Adversarial Example Research,” <em>ArXiv:1807.06732 [Cs, Stat]</em>, July 17, 2018, <a href="http://arxiv.org/abs/1807.06732" target="_blank">http://arxiv.org/abs/1807.06732</a>.
+ <a class="footnote-return" href="#fnref:fn-41"><sup>^</sup></a></li>
+<li id="fn:fn-42">The metaphor adopts the designer&rsquo;s point of view; from a subject&rsquo;s point of view, “straitjacket” may be more appropriate.
+ <a class="footnote-return" href="#fnref:fn-42"><sup>^</sup></a></li>
+<li id="fn:fn-43">Astra Taylor, “The Automation Charade,” Logic Magazine, October 2, 2018, <a href="https://logicmag.io/05-the-automation-charade/" target="_blank">https://logicmag.io/05-the-automation-charade/</a>.
+ <a class="footnote-return" href="#fnref:fn-43"><sup>^</sup></a></li>
+<li id="fn:fn-44">Sarah Roberts, “Commercial Content Moderation: Digital Laborers&rsquo; Dirty Work,” in <em>Intersectional Internet: Race, Sex, Class and Culture Online</em>, ed. Safiya Umoja Noble and Brendesha M Tynes, Digital Formations Series (Peter Lang Publishing, Inc., 2016), <a href="https://intersectionalinternet.com/about/" target="_blank">https://intersectionalinternet.com/about/</a>; Sarah T. Roberts, <em>Behind the Screen: Content Moderation in the Shadows of Social Media</em> (Yale University Press, 2019), <a href="https://yalebooks.yale.edu/book/9780300235883/behind-screen" target="_blank">https://yalebooks.yale.edu/book/9780300235883/behind-screen</a>.
+ <a class="footnote-return" href="#fnref:fn-44"><sup>^</sup></a></li>
+<li id="fn:fn-45">Tarleton GIllespie, /Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media/ (Yale University Press, 2018), <a href="https://yalebooks.yale.edu/book/9780300173130/custodians-internet" target="_blank">https://yalebooks.yale.edu/book/9780300173130/custodians-internet</a>.
+ <a class="footnote-return" href="#fnref:fn-45"><sup>^</sup></a></li>
+<li id="fn:fn-46">Paul Covington, Jay Adams, and Emre Sargin, “Deep Neural Networks for YouTube Recommendations,” in <em>Proceedings of the 10th ACM Conference on Recommender Systems</em>, RecSys &lsquo;16 (New York, NY, USA: ACM, 2016), 191&ndash;198, <a href="https://doi.org/10.1145/2959100.2959190" target="_blank">https://doi.org/10.1145/2959100.2959190</a>.
+ <a class="footnote-return" href="#fnref:fn-46"><sup>^</sup></a></li>
+<li id="fn:fn-47">James Bridle, “Something Is Wrong on the Internet,” <em>James Bridle</em> (blog), November 6, 2017, <a href="https://medium.com/@jamesbridle/something-is-wrong-on-the-internet-c39c471271d2" target="_blank">https://medium.com/@jamesbridle/something-is-wrong-on-the-internet-c39c471271d2</a>.
+ <a class="footnote-return" href="#fnref:fn-47"><sup>^</sup></a></li>
+<li id="fn:fn-48">Charlie Warzel, “YouTube Is Addressing Its Massive Child Exploitation Problem,” <em>BuzzFeed News</em>, November 22, 2017, <a href="https://www.buzzfeednews.com/article/charliewarzel/youtube-is-addressing-its-massive-child-exploitation-problem" target="_blank">https://www.buzzfeednews.com/article/charliewarzel/youtube-is-addressing-its-massive-child-exploitation-problem</a>; Davey Alba, “YouTube Has A Massive Child Exploitation Problem. How Humans Train Its Search AI Is Partly Why.,” <em>BuzzFeed News</em>, December 28, 2017, <a href="https://www.buzzfeednews.com/article/daveyalba/youtube-search-rater-algorithms-children-disturbing-videos" target="_blank">https://www.buzzfeednews.com/article/daveyalba/youtube-search-rater-algorithms-children-disturbing-videos</a>.
+ <a class="footnote-return" href="#fnref:fn-48"><sup>^</sup></a></li>
+<li id="fn:fn-49">Tweet since deleted.
+ <a class="footnote-return" href="#fnref:fn-49"><sup>^</sup></a></li>
+<li id="fn:fn-50">Mark Zuckerberg, “One of Our Big Focus Areas for 2018,” Social Media, <em>Mark Zuckerberg&rsquo;s Facebook Posts</em> (blog), January 11, 2018, <a href="https://www.facebook.com/zuck/posts/10104413015393571" target="_blank">https://www.facebook.com/zuck/posts/10104413015393571</a>.
+ <a class="footnote-return" href="#fnref:fn-50"><sup>^</sup></a></li>
+<li id="fn:fn-51">Farhad Manjoo, “Can Facebook Fix Its Own Worst Bug?,” <em>The New York Times</em>, April 25, 2017, sec. Magazine, <a href="https://www.nytimes.com/2017/04/25/magazine/can-facebook-fix-its-own-worst-bug.html" target="_blank">https://www.nytimes.com/2017/04/25/magazine/can-facebook-fix-its-own-worst-bug.html</a>.
+ <a class="footnote-return" href="#fnref:fn-51"><sup>^</sup></a></li>
+<li id="fn:fn-52">Manjoo.
+ <a class="footnote-return" href="#fnref:fn-52"><sup>^</sup></a></li>
+<li id="fn:fn-53">Virginia Eubanks, <em>Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor</em> (St. Martin&rsquo;s Press, 2017), 169.
+ <a class="footnote-return" href="#fnref:fn-53"><sup>^</sup></a></li>
+<li id="fn:fn-54">Lucas Introna and David Wood, “Picturing Algorithmic Surveillance: The Politics of Facial Recognition Systems,” <em>Surveillance &amp; Society</em> 2, no. <sup>2</sup>&frasl;<sub>3</sub> (2004): 177&ndash;98, <a href="https://doi.org/10.1.1.117.7338&amp;rep=rep1&amp;type=pdf" target="_blank">https://doi.org/10.1.1.117.7338&amp;rep=rep1&amp;type=pdf</a>.
+ <a class="footnote-return" href="#fnref:fn-54"><sup>^</sup></a></li>
+<li id="fn:fn-55">Lizzie Dearden, “Man Fined £90 after Covering Face during Facial Recognition Trial in London,” <em>The Independent</em>, January 31, 2019, <a href="https://www.independent.co.uk/news/uk/crime/facial-recognition-cameras-technology-london-trial-met-police-face-cover-man-fined-a8756936.html" target="_blank">https://www.independent.co.uk/news/uk/crime/facial-recognition-cameras-technology-london-trial-met-police-face-cover-man-fined-a8756936.html</a>.
+ <a class="footnote-return" href="#fnref:fn-55"><sup>^</sup></a></li>
+<li id="fn:fn-56">Sandra Wachter and Brent Mittelstadt, “A Right to Reasonable Inferences: Re-Thinking Data Protection Law in the Age of Big Data and AI,” SSRN Scholarly Paper (Rochester, NY: Social Science Research Network, September 13, 2018), <a href="https://papers.ssrn.com/abstract=3248829" target="_blank">https://papers.ssrn.com/abstract=3248829</a>.
+ <a class="footnote-return" href="#fnref:fn-56"><sup>^</sup></a></li>
+<li id="fn:fn-57">Adam Millard-Ball, “Pedestrians, Autonomous Vehicles, and Cities,” <em>Journal of Planning Education and Research</em> 38, no. 1 (2018), <a href="https://journals.sagepub.com/doi/abs/10.1177/0739456X16675674" target="_blank">https://journals.sagepub.com/doi/abs/10.1177/0739456X16675674</a>.
+ <a class="footnote-return" href="#fnref:fn-57"><sup>^</sup></a></li>
+<li id="fn:fn-58">Russell Brandom, “Self-Driving Cars Are Headed toward an AI Roadblock,” The Verge, July 3, 2018, <a href="https://www.theverge.com/2018/7/3/17530232/self-driving-ai-winter-full-autonomy-waymo-tesla-uber" target="_blank">https://www.theverge.com/2018/7/3/17530232/self-driving-ai-winter-full-autonomy-waymo-tesla-uber</a>.
+ <a class="footnote-return" href="#fnref:fn-58"><sup>^</sup></a></li>
+<li id="fn:fn-59">Alex Rosenblat, <em>Uberland: How Algorithms Are Rewriting the Rules of Work</em> (University of California Press, 2018), <a href="https://www.ucpress.edu/book/9780520298576/uberland" target="_blank">https://www.ucpress.edu/book/9780520298576/uberland</a>.
+ <a class="footnote-return" href="#fnref:fn-59"><sup>^</sup></a></li>
+<li id="fn:fn-60">Luis Ferré-Sadurní, “Inside the Rise and Fall of a Multimillion-Dollar Airbnb Scheme,” <em>The New York Times</em>, February 23, 2019, sec. New York, <a href="https://www.nytimes.com/2019/02/23/nyregion/airbnb-nyc-law.html" target="_blank">https://www.nytimes.com/2019/02/23/nyregion/airbnb-nyc-law.html</a>.
+ <a class="footnote-return" href="#fnref:fn-60"><sup>^</sup></a></li>
+<li id="fn:fn-61">Murray Cox and Tom Slee, “How Airbnb Hid the Facts in New York City,” February 7, 2016, <a href="http://tomslee.net/how-airbnb-hid-the-facts-in-nyc" target="_blank">http://tomslee.net/how-airbnb-hid-the-facts-in-nyc</a>.
+ <a class="footnote-return" href="#fnref:fn-61"><sup>^</sup></a></li>
+<li id="fn:fn-62">Kristen V. Brown, “Airbnb Admits That It Purged 1,500 Unflattering New York Listings Right before Data Release,” Splinter, accessed March 30, 2019, <a href="https://splinternews.com/airbnb-admits-that-it-purged-1-500-unflattering-new-yor-1793854942" target="_blank">https://splinternews.com/airbnb-admits-that-it-purged-1-500-unflattering-new-yor-1793854942</a>.
+ <a class="footnote-return" href="#fnref:fn-62"><sup>^</sup></a></li>
+<li id="fn:fn-63">Ryan Calo and Alex Rosenblat, “The Taking Economy: Uber, Information, and Power,” <em>Columbia Law Review</em> 117 (March 9, 2017), <a href="https://papers.ssrn.com/abstract=2929643" target="_blank">https://papers.ssrn.com/abstract=2929643</a>.
+ <a class="footnote-return" href="#fnref:fn-63"><sup>^</sup></a></li>
+<li id="fn:fn-64">See the chapter by Ellen Goodman in this book.
+ <a class="footnote-return" href="#fnref:fn-64"><sup>^</sup></a></li>
+<li id="fn:fn-65">Chesney and Citron, “Deep Fakes.”
+ <a class="footnote-return" href="#fnref:fn-65"><sup>^</sup></a></li>
+<li id="fn:fn-66"> <a class="footnote-return" href="#fnref:fn-66"><sup>^</sup></a></li>
+<li id="fn:fn-67">Lina M Khan, “Amazon&rsquo;s Antitrust Paradox,” <em>The Yale Law Journal</em> 126 (2017): 710&ndash; 805.
+ <a class="footnote-return" href="#fnref:fn-67"><sup>^</sup></a></li>
+</ol>
+</div>
+</div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hub378f18ec57be63e91148374089d19f9_9524045_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://tomslee.github.io/"></a></h5>
+      
+      <p class="card-text" itemprop="description">Mainly technology and politics</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/whimsley" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?hl=en&amp;user=-QdBcPCiO1sJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/tomslee" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  </div>
+</div>
+
+
+<div class="article-container article-widget">
+  
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/publication/workaround-medical/" rel="next">Workarounds in decision support systems</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/publication/rise_and_fall/" rel="prev">The Rise and Fall of the Sharing Economy</a>
+  </div>
+  
+</div>
+
+</div>
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyBrCa_lLBoxGFUhQMUn2gpb8H5_cioqe74"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.9ef1b53ee2bde6c7f33b150c6ba4d452.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    Copyright &copy; 2006&ndash;2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
