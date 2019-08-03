@@ -30,11 +30,6 @@
   </url>
   
   <url>
-    <loc>https://tomslee.github.io/about/whywhimsley/</loc>
-    <lastmod>2019-07-01T16:32:40-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tomslee.github.io/publication/oup_private_sector_ai/</loc>
     <lastmod>2019-08-02T21:51:53-04:00</lastmod>
   </url>
@@ -109,13 +104,13 @@
   </url>
   
   <url>
-    <loc>https://tomslee.github.io/tags/airbnb/</loc>
+    <loc>https://tomslee.github.io/categories/airbnb/</loc>
     <lastmod>2019-06-29T15:58:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tomslee.github.io/categories/airbnb/</loc>
+    <loc>https://tomslee.github.io/tags/airbnb/</loc>
     <lastmod>2019-06-29T15:58:15-04:00</lastmod>
     <priority>0</priority>
   </url>
