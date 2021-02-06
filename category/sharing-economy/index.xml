@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sharing economy | Tom Slee</title>
+    <link>/category/sharing-economy/</link>
+      <atom:link href="/category/sharing-economy/index.xml" rel="self" type="application/rss+xml" />
+    <description>sharing economy</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Sep 2014 23:29:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>sharing economy</title>
+      <link>/category/sharing-economy/</link>
+    </image>
+    
+    <item>
+      <title>
+				All Sharing Economy, All the Time		</title>
+      <link>/post/all-sharing-economy-all-the-time/</link>
+      <pubDate>Tue, 16 Sep 2014 23:29:00 +0000</pubDate>
+      <guid>/post/all-sharing-economy-all-the-time/</guid>
+      <description>&lt;p&gt;So it&amp;rsquo;s been a long time since I posted here. Basically, I thought I&amp;rsquo;d said all I had to say about the sharing economy: it&amp;rsquo;s being covered in so many places now a blog has less of a contribution to make. So I pondered the meaning of life and thought I&amp;rsquo;d move on to other things (and thanks to Kieran for counsel on that).&lt;/p&gt;
+&lt;p&gt;But oddly enough, requests for comment and posts about the sharing economy continue to come in, far more than any other topic I&amp;rsquo;ve written on, so that&amp;rsquo;s where the demand is (thanks to Trebor, Cameron, CBC (times 2) and Andrew (even if we don&amp;rsquo;t get anything worthwhile from that effort)).&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s more, the dividing lines are being drawn increasingly clearly as labour and community groups line up on one side, and fans of deregulation, conservatives, republicans and Fox News line up on the other. It&amp;rsquo;s good to be contributing to something worthwhile (thanks to LAANE from Los Angeles for a chance to support their efforts).&lt;/p&gt;
+&lt;p&gt;So I&amp;rsquo;ll be spending the next several months focusing on the sharing economy, and hope to build up a useful set of resources here, as well as contributing elsewhere. It&amp;rsquo;s likely that this blog will be more narrowly focused than in the dim and distant past when I used to write about other things. It will also get repetitive and repetitive. You have been warned.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Sharing and Caring at Jacobin		</title>
+      <link>/post/sharing-and-caring-at-jacobin/</link>
+      <pubDate>Fri, 24 Jan 2014 18:29:15 +0000</pubDate>
+      <guid>/post/sharing-and-caring-at-jacobin/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            I have a piece called &amp;quot;[Sharing and Caring](https://www.jacobinmag.com/2014/01/sharing-and-caring/)&amp;quot; up at Jacobin (a fine publication. you should read it anyway). It asks what a left-wing view of the sharing economy should be. Thanks to the editors for their work on it.		
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Sharing Economy Startup Generator		</title>
+      <link>/post/sharing-economy-startup-generator/</link>
+      <pubDate>Sun, 19 Jan 2014 16:53:15 +0000</pubDate>
+      <guid>/post/sharing-economy-startup-generator/</guid>
+      <description>&lt;p&gt;If you can&amp;rsquo;t beat &amp;lsquo;em, join &amp;lsquo;em. Here&amp;rsquo;s a pithy sharing-economy pitch for the venture capitalist in your life. Click below for more randomness.&lt;/p&gt;
+&lt;p&gt;[insert_php]
+function ts_sesg_like_generate() {
+$companies = array(
+&amp;lsquo;&lt;a href=&#34;http://airbnb.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Airbnb&lt;/a&gt;&amp;rsquo;,
+&amp;lsquo;&lt;a href=&#34;http://etsy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Etsy&lt;/a&gt;&amp;rsquo;,
+&amp;lsquo;&lt;a href=&#34;http://lyft.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lyft&lt;/a&gt;&amp;rsquo;,
+&amp;lsquo;&lt;a href=&#34;http://taskrabbit.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TaskRabbit&lt;/a&gt;&amp;rsquo;,
+&amp;lsquo;&lt;a href=&#34;http://uber.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Uber&lt;/a&gt;&amp;rsquo;,
+);
+return &amp;quot; &amp;quot; . $companies[array_rand($companies)];&lt;br&gt;
+}&lt;/p&gt;
+&lt;p&gt;function ts_sesg_thing_generate() {&lt;br&gt;
+$things = array(&lt;br&gt;
+&amp;lsquo;for cemetery plots&amp;rsquo;,
+&amp;lsquo;, but only for beautiful people&amp;rsquo;,
+&amp;lsquo;, but you pay with Bitcoin&amp;rsquo;,
+&amp;lsquo;for confession and absolution&amp;rsquo;,
+&amp;lsquo;for butlers&amp;rsquo;,
+&amp;lsquo;for &lt;a href=&#34;http://mashable.com/2013/08/20/republic-spaces/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vacant retail spaces&lt;/a&gt;&amp;rsquo;,
+&amp;lsquo;for &lt;a href=&#34;http://techcrunch.com/2014/01/23/backed-with-9-8m-from-mayfield-fitmob-wants-to-reinvent-local-group-fitness/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;personal fitness trainers&lt;/a&gt;&amp;rsquo;,
+&amp;lsquo;for &lt;a href=&#34;http://pando.com/2014/01/23/sharing-economy-foes-coming-after-our-business/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;people who want to share their unused assets&lt;/a&gt;&amp;rsquo;, //
+&amp;lsquo;for &lt;a href=&#34;http://www.fastcoexist.com/3028682/change-generation/this-airbnb-for-skills-will-liberate-you-from-your-9-to-5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;skills&lt;/a&gt;&amp;rsquo;, //
+&amp;lsquo;for string quartets&amp;rsquo;,
+&amp;lsquo;for standup comedians&amp;rsquo;,
+&amp;lsquo;for Vice Presidents of Marketing&amp;rsquo;,
+&amp;lsquo;for Chief Financial Officers&amp;rsquo;,
+&amp;lsquo;for private prisons and group homes&amp;rsquo;,
+&amp;lsquo;for endangered species&amp;rsquo;,
+&amp;lsquo;for airline pilots&amp;rsquo;,
+&amp;lsquo;for psychoanalysts&amp;rsquo;,
+&amp;lsquo;, but people bring you chips and guacamole&amp;rsquo;,
+&amp;lsquo;for Lacanian theorists&amp;rsquo;,
+&amp;lsquo;for your online reputation&amp;rsquo;,
+&amp;lsquo;for your personally identifiable information&amp;rsquo;,
+&amp;lsquo;for brogrammers&amp;rsquo;,
+&amp;lsquo;, but you buy and sell personal data&amp;rsquo;,
+&amp;lsquo;, but you auction your online passwords&amp;rsquo;,
+&amp;lsquo;for software engineers&amp;rsquo;,
+&amp;lsquo;for software bugs&amp;rsquo;,
+&amp;lsquo;for death metal bands&amp;rsquo;,
+&amp;lsquo;for brain surgeons&amp;rsquo;,
+&amp;lsquo;for heart surgeons&amp;rsquo;,
+&amp;lsquo;for thinkfluencers&amp;rsquo;,
+&amp;lsquo;on steroids&amp;rsquo;,
+&amp;lsquo;, but &lt;a href=&#34;http://techcrunch.com/2013/11/27/flatclub-an-airbnb-for-elite-universities-lands-1-5m-investment-to-scale-up/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;only for Oxbridge graduates&lt;/a&gt;&amp;rsquo;,
+&amp;lsquo;for time-of-flight mass spectrometers&amp;rsquo;,
+&amp;lsquo;for personal grooming services&amp;rsquo;,&lt;br&gt;
+&amp;lsquo;for unconferences and barcamps&amp;rsquo;,
+&amp;lsquo;for random household appliances&amp;rsquo;,
+&amp;lsquo;for sharing economy startups&amp;rsquo;,
+&amp;lsquo;for sharing economy startup generators&amp;rsquo;,
+&amp;lsquo;for unicycles&amp;rsquo;,
+&amp;lsquo;for your spouse&amp;rsquo;,
+&amp;lsquo;for &lt;a href=&#34;http://dogvacay.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;your dog&lt;/a&gt;&amp;rsquo;,
+);    &lt;br&gt;
+return &amp;quot; &amp;quot; . $things[array_rand($things)];&lt;br&gt;
+}&lt;/p&gt;
+&lt;p&gt;function ts_sesg_adjective_generate() {
+$adjective = array(
+&amp;lsquo;an awesome&amp;rsquo;,
+&amp;lsquo;a trusted&amp;rsquo;,
+&amp;lsquo;a disruptive&amp;rsquo;,
+&amp;lsquo;a grassroots&amp;rsquo;,
+&amp;lsquo;a commons-based&amp;rsquo;,
+&amp;lsquo;a peer-to-peer&amp;rsquo;,
+&amp;lsquo;a P2P&amp;rsquo;,
+&amp;lsquo;a collaborative&amp;rsquo;,
+&amp;lsquo;a sustainable&amp;rsquo;,
+&amp;lsquo;an innovative&amp;rsquo;,
+&amp;lsquo;a social&amp;rsquo;,
+&amp;lsquo;a social media&amp;rsquo;,
+&amp;lsquo;a crowdsourced&amp;rsquo;,
+&amp;lsquo;a nextified&amp;rsquo;,
+&amp;lsquo;a Big Data&amp;rsquo;,
+);
+return &amp;quot; &amp;quot; . $adjective[array_rand($adjective)];&lt;br&gt;
+}&lt;/p&gt;
+&lt;p&gt;function ts_sesg_place_generate() {
+$place = array(
+&amp;lsquo;marketplace&amp;rsquo;,
+&amp;lsquo;community&amp;rsquo;,
+&amp;lsquo;system&amp;rsquo;,
+&amp;lsquo;economy&amp;rsquo;,
+&amp;lsquo;space&amp;rsquo;,
+&amp;lsquo;network&amp;rsquo;,
+&amp;lsquo;community marketplace&amp;rsquo;,
+&amp;lsquo;platform&amp;rsquo;,
+);
+return &amp;quot; &amp;quot; . $place[array_rand($place)];&lt;br&gt;
+}&lt;/p&gt;
+&lt;p&gt;function ts_sesg_inhabitants_generate() {
+$inhabitants = array(
+&amp;lsquo;promoting access over ownership&amp;rsquo;,
+&amp;lsquo;engaged in collaborative consumption&amp;rsquo;,
+&amp;lsquo;connecting amazing people&amp;rsquo;,
+&amp;lsquo;of awesome individuals&amp;rsquo;,
+&amp;lsquo;of regular people&amp;rsquo;,
+&amp;lsquo;of people and farms you know&amp;rsquo;,
+&amp;lsquo;of neighbors&amp;rsquo;,
+&amp;lsquo;of people who take pride in delivering exceptional customer service&amp;rsquo;,
+&amp;lsquo;of creative individuals&amp;rsquo;,
+&amp;lsquo;, but personal&amp;rsquo;,
+&amp;lsquo;, generating value at scale&amp;rsquo;,
+&amp;lsquo;of people just like you&amp;rsquo;,
+&amp;lsquo;of makers&amp;rsquo;,
+&amp;lsquo;for underutilized assets&amp;rsquo;,
+&amp;lsquo;, but AWESOMER&amp;rsquo;,
+&amp;lsquo;of everyday folks making a little extra money&amp;rsquo;,
+);
+return &amp;quot; &amp;quot; . $inhabitants[array_rand($inhabitants)];&lt;br&gt;
+}&lt;/p&gt;
+&lt;p&gt;function ts_sesg_whynot_generate() {
+$whynot = array(
+&amp;lsquo;You must be kidding&amp;rsquo;,
+&amp;lsquo;Ashton Kutcher doesn&#39;t see the opportunity&amp;rsquo;,
+&amp;lsquo;Andreessen-Horowitz says it&#39;s not disruptive enough&amp;rsquo;,
+&amp;lsquo;That may fool Jeff Bezos, but it doesn&#39;t fool me&amp;rsquo;,
+&amp;lsquo;Try selling that to Google Ventures&amp;rsquo;,
+&amp;lsquo;Not a profitable business model&amp;rsquo;,
+&amp;lsquo;Y Combinator would never combine with that&amp;rsquo;,
+&amp;lsquo;Insufficiently awesome&amp;rsquo;,
+&amp;lsquo;I rate you one star out of five&amp;rsquo;,
+);
+return $whynot[array_rand($whynot)];&lt;br&gt;
+}&lt;/p&gt;
+&lt;p&gt;function ts_sesg_reload_generate() {&lt;br&gt;
+$reload = array(&lt;br&gt;
+&amp;lsquo;TaskRabbit me another&amp;rsquo;,
+&amp;lsquo;share me another&amp;rsquo;,
+&amp;lsquo;create me another, micro-entrepreneur&amp;rsquo;,
+&amp;lsquo;give me what I want, and give it to me right now&amp;rsquo;,
+&amp;lsquo;show me the money&amp;rsquo;,
+&amp;lsquo;give me something disruptive&amp;rsquo;,
+);    &lt;br&gt;
+return $reload[array_rand($reload)];&lt;br&gt;
+}&lt;/p&gt;
+&lt;p&gt;$thing = ts_sesg_thing_generate();&lt;/p&gt;
+&lt;p&gt;// Output
+echo &amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;quot;;
+echo &amp;ldquo;It&amp;rsquo;s&amp;rdquo; . ts_sesg_like_generate() . $thing . &amp;ldquo;.&lt;br&gt;
+&amp;ldquo;;
+echo &amp;ldquo;&amp;ndash; &amp;quot; . ts_sesg_adjective_generate() . ts_sesg_place_generate() . ts_sesg_inhabitants_generate() . &amp;ldquo;.&amp;quot;;
+echo &amp;ldquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;;
+echo &amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;quot;&amp;rdquo; . ts_sesg_whynot_generate() . &amp;ldquo;. Now &lt;em&gt;&amp;rdquo; . ts_sesg_reload_generate() . &amp;ldquo;&lt;/em&gt;.&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;;
+[/insert_php]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				On Surge Pricing		</title>
+      <link>/post/on-surge-pricing/</link>
+      <pubDate>Fri, 03 Jan 2014 14:25:00 +0000</pubDate>
+      <guid>/post/on-surge-pricing/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            Lots of controversy about the &amp;quot;surge-pricing&amp;quot; from car-rental outfit [Uber](http://uber.com), both during a [mid-December snowstorm](http://www.metro.us/boston/news/2013/12/15/uber-mad-boston-cab-passengers-vent-as-snow-drives-uber-prices-through-the-roof/) and on [New Year&#39;s Eve](http://www.prdaily.com/Main/Articles/Uber_fields_dozens_of_complaints_about_hefty_New_Y_15849.aspx). Fares increased up to eight times the normal, so that people were getting charged hundreds of dollars for short rides. The company&#39;s response was that surge pricing is [here to stay](http://www.capitalnewyork.com/article/city-hall/2013/12/8537861/uber-its-here-stay).
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The argument is standard supply-and-demand, economics 101. If demand goes up, increase the price to increase supply. Or, as the company &lt;a href=&#34;http://blog.uber.com/uber-nye-2014&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;says&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;With surge pricing, Uber rates increase to get more cars on the road and ensure reliability during the busiest times. When enough cars are on the road, prices go back down to normal levels.&lt;/blockquote&gt;
+&lt;p&gt;But there are two things that I haven&amp;rsquo;t seen elsewhere (correct me if I&amp;rsquo;m wrong); not even on Matthew Yglesias&amp;rsquo;s &lt;a href=&#34;http://www.slate.com/blogs/moneybox/2013/12/16/uber_surge_pricing_the_company_should_give_the_extra_money_to_the_driver.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;post&lt;/a&gt; at Salon, and he is a &lt;a href=&#34;https://twitter.com/mattyglesias/statuses/405719658378326016&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;magnificent&lt;/a&gt; observer of this and all other things.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thing One:&lt;/strong&gt; I really don&amp;rsquo;t care if you engage in &amp;ldquo;surge pricing&amp;rdquo; on New Year&amp;rsquo;s Eve, at rush hour, or at any other time when traffic is predictably busy. Knock yourself out, it&amp;rsquo;s absolutely fine by me. But surge pricing because of severe weather is something different, because at times of emergency we expect people to pull together: we expect people to check on their neighbours (for free!), to help people who are stuck (without charging!) and to generally be community-minded about things. Emphasizing monetary incentives at such a time undermines (or &amp;ldquo;crowds out&amp;rdquo;) community motives: if my neighbour and I help push your car out of a snowbank without payment then we&amp;rsquo;re just doing the right thing, but if my neighbour is being paid and I&amp;rsquo;m doing it for free, then I&amp;rsquo;m just being a mug. Surge pricing for reasons of severe weather is a bad idea. You may get a few more cabs on the road, but you make the emergency worse.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thing Two:&lt;/strong&gt; Customers were complaining that they didn&amp;rsquo;t know about the extra pricing until after they had taken their ride. Uber explained that they must have known: there was a perfectly clear screen notifying them about surge pricing, and they tapped the screen to agree to it. Now I used to do online documentation, and I&amp;rsquo;ve spent my fair share of time frustrated at the stupidity of users who cannot navigate my crystal-clear and elegant design (&amp;ldquo;Look: the button at the top there. It&amp;rsquo;s obvious&amp;rdquo;). But in the end anyone involved in user experience has to acknowledge that the user is right. What&amp;rsquo;s obvious to a designer or a trained user is not at all obvious to a casual user.&lt;/p&gt;
+&lt;p&gt;So if you design an app with the express purpose of making it easy to use without even thinking, and if a customer uses it fifty times and gets the same result each time, then they are not going to be paying attention the 51st time, especially after a few drinks. If you then add one extra screen in the middle of the ordering sequence that&amp;rsquo;s going to cost users an extra $300, then it&amp;rsquo;s up to you to test it till the cows come home to make sure that people know what they are agreeing to. Arguing that users should have been more careful is a really bad excuse. We should all read license agreements too, but none of us do. We just click, click, click until we get to the thing we want. Read? Of course I don&amp;rsquo;t read! And who&amp;rsquo;s ever heard of a $300 button in a mobile app? Sorry Uber: if you charge people an extra $300 for using your app too casually then it&amp;rsquo;s your own fault.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				This Week in the Sharing Economy: Late Edition		</title>
+      <link>/post/this-week-in-the-sharing-economy-late-edition/</link>
+      <pubDate>Tue, 10 Dec 2013 05:23:19 +0000</pubDate>
+      <guid>/post/this-week-in-the-sharing-economy-late-edition/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            In lieu of real content, another set of links.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Picks of the week:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://nymag.com/daily/intelligencer/2013/12/uber-might-be-more-valuable-than-facebook.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kevin Roose&lt;/a&gt; speculates about Uber&amp;rsquo;s future&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://pando.com/2013/12/08/airbnb-says-this-man-does-not-exist-so-i-had-coffee-with-him/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cale Weissman&lt;/a&gt; interviews an Airbnb landlord&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.forbes.com/sites/tomiogeron/2013/09/03/startup-homejoy-works-with-cities-to-find-workers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tomio Geron&lt;/a&gt; talks to new Google investees Homejoy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Peers.org:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://tech.fortune.cnn.com/2013/12/09/behind-airbnbs-legal-fights-grassroots-activism/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Grassroots activism behind Airbnb&amp;rsquo;s legal fights&lt;/a&gt;, or &lt;a href=&#34;http://www.fastcompany.com/3022974/tech-forecast/is-peers-the-sharing-economys-future-or-just-a-great-silicon-valley-pr-stunt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Silicon Valley PR Stunt&lt;/a&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Airbnb:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Their own headquarters are &lt;a href=&#34;http://www.fastcodesign.com/3022969/design-50/inside-airbnbs-whimsical-new-headquarters&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;extravagant&lt;/a&gt;, including a &lt;a href=&#34;http://techcrunch.com/2013/12/03/with-a-fresh-200m-in-the-bank-airbnb-built-a-replica-of-the-dr-strangelove-war-room-in-its-office/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;replica of the Dr. Strangelove war room&lt;/a&gt; as Airbnb joins in the &lt;a href=&#34;http://www.modernluxury.com/san-francisco/story/workspace-arms-race&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;workspace arms race&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Is the company &lt;a href=&#34;http://www.tnooz.com/article/caught-red-handed-airbnb-tripvillas-and-the-curious-case-of-a-rogue-spammer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;returning&lt;/a&gt; to its &lt;a href=&#34;http://www.tnooz.com/article/airbnb-admits-rogue-sales-team-used-craigslist-for-stealthy-property-drive/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spammy roots&lt;/a&gt;?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;a href=&#34;http://allthingsd.com/20131204/filling-out-its-executive-team-airbnb-hires-operations-and-hr-heads&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hiring&lt;/a&gt; of executives continues.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stories of hosts: &lt;a href=&#34;http://www.nytimes.com/2013/12/03/nyregion/after-renting-out-a-terrace-an-eviction-notice.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;evicted&lt;/a&gt;, &lt;a href=&#34;http://nypost.com/2013/12/08/how-airbnb-saved-my-house/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;supportive&lt;/a&gt;, &lt;a href=&#34;http://pando.com/2013/12/08/airbnb-says-this-man-does-not-exist-so-i-had-coffee-with-him/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ethically dubious&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;More stories? Try &lt;a href=&#34;http://www.airbnbconfessions.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Airbnb confessions&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Or &lt;a href=&#34;http://www.entrepreneur.com/article/230292&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Airbnb marketing in New York&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://skift.com/2013/11/28/why-hotel-brands-should-care-about-airbnbs-disruption/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hotels should be worried&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Want to buy a property just to rent out on Airbnb? Try &lt;a href=&#34;http://mashvisor.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mashvisor&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Industry:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Google &lt;a href=&#34;http://www.wired.com/business/2013/12/google-homejoy-funding/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;invests&lt;/a&gt; in housecleaning as Peers member &lt;a href=&#34;https://www.homejoy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Homejoy&lt;/a&gt; hits it big. Homejoy is a Peers partner, but its &amp;ldquo;professional&amp;rdquo; employees are, according to &lt;a href=&#34;http://www.forbes.com/sites/tomiogeron/2013/09/03/startup-homejoy-works-with-cities-to-find-workers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Forbes&lt;/a&gt;, people who need to show proof of employment to receive government assistance, recruited through municipal employment services.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DHL launches its &lt;a href=&#34;https://www.myways.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MyWays&lt;/a&gt; delivery service, powered by &amp;ldquo;people who want to deliver parcels and earn some extra money&amp;rdquo;. Does Peers approve?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Meanwhile, &lt;a href=&#34;http://techcrunch.com/2013/11/27/flatclub-an-airbnb-for-elite-universities-lands-1-5m-investment-to-scale-up&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatclub&lt;/a&gt; is like Airbnb but only if you went to a fancy university. Sharing without the hoi polloi.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There is a cynicism to the simplistic claim that &amp;ldquo;&lt;a href=&#34;http://www.inc.com/will-yakowicz/3-reasons-why-the-sharing-economy-is-here-to-stay.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;systems are broken&lt;/a&gt;&amp;rdquo; and that technology can fix them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://insuranceblog.accenture.com/sharing-economy-explodes-where-do-you-fit-in-part-1-of-3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Accenture&lt;/a&gt; continues to be interested.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lots of actual careers going at &lt;a href=&#34;https://www.uber.com/jobs/list&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Uber&lt;/a&gt; (not drivers), &lt;a href=&#34;https://www.airbnb.ca/jobs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Airbnb&lt;/a&gt; (not B&amp;amp;B owners), &lt;a href=&#34;https://www.homejoy.com/job-listings&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Homejoy&lt;/a&gt; (not cleaners).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Softball questions from the media:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.forbes.com/sites/naveenjain/2013/12/03/trust-transparency-and-shared-economy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Forbes&lt;/a&gt; asks no difficult questions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://knowledge.wharton.upenn.edu/article/sharing-economy-even-mainstream-businesses-want-piece-pie/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wharton Business School&lt;/a&gt; cheerleads&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.inc.com/will-yakowicz/3-reasons-why-the-sharing-economy-is-here-to-stay.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Inc.com&lt;/a&gt; gushes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;as do &lt;a href=&#34;http://thehoopla.com.au/theres-place-like-strangers-bed/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Australians&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Taxis and ridesharing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.ozy.com/the-oversharing-economy/4126.article&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Oversharing Economy&lt;/a&gt;?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://circuloti.sharedby.co/PD4E9o&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lyft and Uber&amp;rsquo;s fleets&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Uber is making &lt;a href=&#34;http://valleywag.gawker.com/leaked-ubers-internal-revenue-and-ride-request-number-1475924182&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a lot of money&lt;/a&gt;…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;and might be &lt;a href=&#34;http://nymag.com/daily/intelligencer/2013/12/uber-might-be-more-valuable-than-facebook.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;more valuable than Facebook&lt;/a&gt; someday. It certainly&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;has &lt;a href=&#34;http://www.inc.com/christine-lagorio/uber-tree-delivery-explained.html?cid%3Dreadmore&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;big ambitions&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lyft hires &lt;a href=&#34;http://venturebeat.com/2013/12/06/lyfts-new-vp-brings-data-science-chops-from-netflix-google-and-space-exclusive/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ex-Netflix and Google&lt;/a&gt; &amp;ldquo;data scientist&amp;rdquo; (not a real job).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://allthingsd.com/20131202/europes-blablacar-has-created-the-purest-version-of-the-sharing-economy-so-far-and-its-working&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blablacar&lt;/a&gt; is more sharing than North American transit companies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;But &lt;a href=&#34;http://www.economist.com/news/britain/21590942-sharing-economy-all-very-wellbut-not-my-car-thanks-single-lane&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ride sharing&lt;/a&gt; is still very limited.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Or you can share &lt;a href=&#34;http://urbanland.uli.org/infrastructure-transit/parking-yields-to-the-sharing-economy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;parking&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				This Week in the Sharing Economy: The Move to Professionalism		</title>
+      <link>/post/this-week-in-the-sharing-economy-the-move-to-professionalism/</link>
+      <pubDate>Wed, 20 Nov 2013 03:22:39 +0000</pubDate>
+      <guid>/post/this-week-in-the-sharing-economy-the-move-to-professionalism/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            In separate announcements, two of the most well-capitalized sharing-economy companies (Lyft and Airbnb) announced moves away from their &amp;quot;sharing&amp;quot; and co-operative roots. I suggested they would at the end of [this post](http://tomslee.net/2013/09/some-obvious-things-about-internet-reputation-systems.html):
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;To be successful, the venture-capital-funded &#34;sharing economy&#34; will be forced to lose all those aspects of informal sharing that makes &#34;sharing&#34; attractive, and to keep those aspects that erode neighbourhoods, erode employment rights, and remove basic standards. And if they succeed, they will have used the language of sharing to bring about an unregulated, free-market, neoliberal economy.&lt;/blockquote&gt;
+&lt;p&gt;In September Lyft, Sidecar, and Uber (with its Uber X service) were &lt;a href=&#34;http://docs.cpuc.ca.gov/PublishedDocs/Published/G000/M077/K112/77112285.PDF&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;approved&lt;/a&gt; in California as a new class of &amp;ldquo;Transportation Network Companies&amp;rdquo;. Now both Lyft and Sidecar have &lt;a href=&#34;http://www.latimes.com/business/technology/la-fi-tn-lyft-minimum-fares-california-20131115,0,1699156.story?track%3Drss#axzz2kuZtrVvW&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;done away with&lt;/a&gt; the pretence that the money passing from passenger to driver was a &amp;ldquo;donation&amp;rdquo; and have instituted a system of formal fares (as Uber already does). The idea that passengers may pay more or less than the suggested donation, which is a part of the casual and informal nature of the exchanges that sharing economy companies appeal to, is now gone for Californians.&lt;/p&gt;
+&lt;p&gt;In a separate move, Lyft has instituted a new &amp;ldquo;surge pricing&amp;rdquo; initiative, which amounts to requiring a 25% additional payment to drivers during periods of heavy demand. Similar to Uber&amp;rsquo;s surge pricing, this move appeals directly to price as a means of rationing, and assumes that drivers are motivated primarily by money, despite the heavy use of community-focused language that Lyft uses in its marketing. We&amp;rsquo;ll have to see if the attempt by Taxi companies to &lt;a href=&#34;http://www.bizjournals.com/sanfrancisco/blog/2013/11/uber-lyft-andreessen-sidecar-uberx.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;raise money&lt;/a&gt; to push back gains any momentum.&lt;/p&gt;
+&lt;p&gt;These moves are part of a rapid shift of the Venture Capital-funded part of the transport side of the sharing economy. They follow the &lt;a href=&#34;http://allthingsd.com/20130712/lyft-sells-zimride-carpool-service-to-rental-car-giant-enterprise/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sale&lt;/a&gt; of Lyft&amp;rsquo;s original Zimride Carpool service to rental-car giant Enterprise in July, the &lt;a href=&#34;http://gigaom.com/2013/01/02/avis-budget-snaps-up-car-sharing-leader-zipcar-for-500m/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sale&lt;/a&gt; of Zipcar to Avis Budget in January, and the &lt;a href=&#34;http://tomslee.net/2013/10/relayrides-gigaom.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shift&lt;/a&gt; of RelayRides to longer-term rentals. The moves are a fascinating contrast to the success of French company Blablacar, which has a model much closer to the original carpool idea, is growing by leaps and bounds, and is &lt;a href=&#34;http://www.telegraph.co.uk/finance/newsbysector/transport/10454869/Car-share-business-BlaBlaCar-coming-to-Britain.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;now&lt;/a&gt; moving into the UK.&lt;/p&gt;
+&lt;p&gt;The best treatment I&amp;rsquo;ve seen of the latest changes in this transport area is by &lt;a href=&#34;http://allthingsd.com/20131116/competition-brings-lyft-sidecar-and-uber-closer-to-cloning-each-other-and-cabs/?mod%3Dtweet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Liz Gannes&lt;/a&gt; at &lt;em&gt;All Things D&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The other big announcement came from Airbnb, at a press conference at their very &lt;a href=&#34;http://officesnapshots.com/2011/11/08/exclusive-first-look-at-airbnbs-amazing-new-offices/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fancy&lt;/a&gt; headquarters. In addition to announcing new versions of their mobile apps, CEO Brian Chesky stepped away from his &amp;ldquo;our hosts are regular people&amp;rdquo; line to &lt;a href=&#34;http://mashable.com/2013/11/12/airbnb-ios-android-apps/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tell them&lt;/a&gt; &amp;ldquo;You&amp;rsquo;re in the business of hospitality&amp;rdquo;. Airbnb is bringing back a program calls Superhost, which &amp;ldquo;is meant to identify and reward some of the platform&amp;rsquo;s most active and highly recommended hosts&amp;rdquo;; as well as offering a Host Rewards Program to encourage people to rent more often. So again there is a move away from regular people &amp;ldquo;occasionally&amp;rdquo; renting a room out and earning a little extra money, to a revenue model that is driven by higher volume hosts. Airbnb already relies on these increasingly professional hosts for a significant chunk of its revenue as I showed in &lt;a href=&#34;http://tomslee.net/2013/11/airbnb-business-in-new-york-revisited.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my look&lt;/a&gt; at its New York data: that trend is only going to accelerate.&lt;/p&gt;
+&lt;p&gt;Again, this week&amp;rsquo;s steps are part of a rapid movement. Over the last year Airbnb has moved towards a more formal security and identification system, demanding government documents as proof of identity along with the usual Facebook information. Not, it seems, that relying on positive reviews is &lt;a href=&#34;http://pandodaily.com/2013/11/18/airbnb-host-left-violated-after-busting-fanny-pack-clad-male-prostitutes-in-her-apartment/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;foolproof&lt;/a&gt;, as a Washington DC woman found out recently. Airbnb Brian Chesky increasingly refers to his hosts as &amp;ldquo;micro-entrepreneurs&amp;rdquo;: emphasizing the market-driven view of the business that he has, and again moving away from a community model of sharing. The term started, I think, with TaskRabbit, another &amp;ldquo;sharing&amp;rdquo; company that is walking the same path: less community, more &lt;a href=&#34;http://techcrunch.com/2013/07/08/taskrabbit-confirms-layoffs-as-it-realigns-to-focus-on-mobile-and-enterprise/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;temp agency&lt;/a&gt; in Rabbit&amp;rsquo;s clothing.&lt;/p&gt;
+&lt;p&gt;Push back from cities from &lt;a href=&#34;http://www.dailymail.co.uk/travel/article-2507146/End-holiday-rental-Berlin-Paris-look-follow-New-York-banning-short-self-catering-stays.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Berlin and Paris&lt;/a&gt; to &lt;a href=&#34;http://www.wdbj7.com/video/Bed-and-breakfast-owners-violating-Roanoke-City-law/-/20128758/23036348/-/1099snrz/-/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Roanoke City in Virginia&lt;/a&gt; to &lt;a href=&#34;http://www.mlive.com/news/grand-rapids/index.ssf/2013/11/4_thoughts_on_airbnb_regulatio.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Grand Rapids&lt;/a&gt; &lt;a href=&#34;http://www.mlive.com/news/grand-rapids/index.ssf/2013/11/airbnb_and_other_short-term_re.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in Michigan&lt;/a&gt; to &lt;a href=&#34;http://vancouver.24hrs.ca/2013/11/18/vancouver-goes-after-online-apartment-rental-site-airbnb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vancouver&lt;/a&gt; is growing, and the New York Case continues to roll on, with &lt;a href=&#34;http://skift.com/2013/11/19/airbnbs-most-notorious-landlord-settles-with-new-york-city/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;one notorious Airbnb landlord&lt;/a&gt; settling with the city. The danger here is that Airbnb&amp;rsquo;s hubris will damage other, less arrogant and less revenue-hungry companies who have engaged in apartment rentals for years (including the lovely one in Rome I was lucky enough to rent last spring) and that the venture capitalists, instead of bringing in a new level of sharing, will clumsily damage &lt;a href=&#34;http://www.alternet.org/environment/real-sharing-economy-booming-and-its-not-one-venture-capitalists-are-cashing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;what&amp;rsquo;s already there&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Airbnb Business in New York, Revisited		</title>
+      <link>/post/airbnb-business-in-new-york-revisited/</link>
+      <pubDate>Mon, 11 Nov 2013 03:38:17 +0000</pubDate>
+      <guid>/post/airbnb-business-in-new-york-revisited/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            Since I did a [post](http://tomslee.net/2013/10/notes-on-airbnbs-new-york-business.html) about Airbnb&#39;s business in New York, Airbnb has published [its own study](http://blog.airbnb.com/airbnbs-economic-impact-nyc-community/) and so there has been some follow-up interest in my numbers, [here](http://techpresident.com/news/24513/analysis-examines-how-much-illegal-money-airbnb-makes-new-york), [here](http://nextcity.org/sharedcity/entry/the-numbers-airbnb-hasnt-released), and [here](http://www.cnbc.com/id/101176262).
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The data and the conclusions cannot be conclusive because they are a sample (though a big one) of limited publicly-available information. I&amp;rsquo;m happy to be corrected, but Airbnb would have to release some real numbers to do so, instead of silly 300 word &amp;ldquo;studies&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t have new data, and I think there is enough detail in the &lt;a href=&#34;http://tomslee.net/2013/10/notes-on-airbnbs-new-york-business.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;original post&lt;/a&gt; to understand the sources and the limits of the analysis, but here is a PDF presentation that tries to make the conclusions a bit more clear. &lt;a href=&#34;http://tomslee.net/wordpress/wp-content/uploads/2013/11/airbnbny_handout.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Here&lt;/a&gt; is a version formatted for download and printing.&lt;/p&gt;
+&lt;p&gt;[gview file=&amp;ldquo;http://tomslee.net/wordpress/wp-content/uploads/2013/11/airbnbny.pdf&amp;rdquo; profile=&amp;ldquo;3&amp;rdquo; save=&amp;ldquo;0&amp;rdquo;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				This Week in the Sharing Economy (November 8 2013 Edition)		</title>
+      <link>/post/this-week-in-the-sharing-economy-november-8-2013-edition/</link>
+      <pubDate>Sat, 09 Nov 2013 20:07:00 +0000</pubDate>
+      <guid>/post/this-week-in-the-sharing-economy-november-8-2013-edition/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            Another collection of links (about 75) with almost no commentary. There’s so much happening this may be a regular feature.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Airbnb:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The big story is the New York challenge, in which the Attorney General’s office is demanding Airbnb data. Airbnb has loudly &lt;a href=&#34;http://publicpolicy.airbnb.com/new-york-next-steps/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;refused&lt;/a&gt;, the AG’s office says their refusal &lt;a href=&#34;http://news.cnet.com/8301-1023_3-57611599-93/new-york-ags-office-airbnb-lying-about-user-data-subpoena/?part%3Drss&amp;amp;subj%3Dnews&amp;amp;tag%3Dtitle&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;exaggerates what the state is asking for&lt;/a&gt;. Stil, the Internet Association has &lt;a href=&#34;http://internetassociation.org/11082013airbnbamicusbrief/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;filed on Airbnb’s behalf&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the Airbnb business? Airbnb paints a picture of community in this &lt;a href=&#34;https://www.airbnb.ca/press/news/new-study-airbnb-generated-632-million-in-economic-activity-in-new-york?locale%3Den&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;study&lt;/a&gt;. (mentioned last week). The New York Times casts some doubts on the Airbnb business model &lt;a href=&#34;http://www.nytimes.com/2013/11/05/nyregion/the-airbnb-economy-in-new-york-lucrative-but-often-unlawful.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, with commentary at the Real Deal &lt;a href=&#34;http://therealdeal.com/blog/2013/11/04/top-100-airbnb-users-grossed-54m-over-last-three-years/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Both &lt;a href=&#34;http://techpresident.com/news/24513/analysis-examines-how-much-illegal-money-airbnb-makes-new-york&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sam Roudman&lt;/a&gt; at TechPresident and &lt;a href=&#34;http://nextcity.org/sharedcity/entry/the-numbers-airbnb-hasnt-released&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nancy Scola&lt;/a&gt; at NextCity use my results from &lt;a href=&#34;http://tomslee.net/2013/10/notes-on-airbnbs-new-york-business.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; to question the claims. I should have something more on this soon.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In favour of Airbnb: some people like the &lt;a href=&#34;http://www.peacefulcombat.com/airbnb-and-the-trouble-with-breaking-rules/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;breaking rules&lt;/a&gt;, Cato says &lt;a href=&#34;http://www.cato.org/blog/big-government-wants-spare-bedroom&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;govt is bad&lt;/a&gt;, and so do &lt;a href=&#34;https://www.cdt.org/blogs/gs-hans/0611overbroad-subpoena-airbnb-user-data-smacks-general-warrant&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these people&lt;/a&gt;. Meanwhile: &lt;a href=&#34;http://technical.ly/brooklyn/2013/11/01/airbnbs-brooklyn-impact/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brooklyn&lt;/a&gt;. And here is the &lt;a href=&#34;http://nypost.com/2013/11/04/turning-your-ny-apartment-into-a-hotel-is-illegal/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;New York Post&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hosts: One big story, which came out late last week and has been reposted in several places, was how to &lt;a href=&#34;http://needwant.com/p/buying-apartment-airbnb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;buy an apartment&lt;/a&gt; just to rent out on Airbnb. Some, however, are &lt;a href=&#34;http://finance.fortune.cnn.com/2013/11/07/airbnb-rental-income/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dubious&lt;/a&gt; about it. Other articles tell us how to manage a &lt;a href=&#34;http://www.fastcompany.com/3021179/secrets-of-running-a-six-figure-airbnb-business&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;six figure&lt;/a&gt; Airbnb business, how to rent out your &lt;a href=&#34;http://www.forbes.com/sites/vanessagrout/2013/11/04/how-to-use-airbnb-to-profit-from-your-second-home/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;second home&lt;/a&gt;, warn you that it’s more &lt;a href=&#34;http://www.intelligentspeculator.net/passive-income-project/buying-property-to-rent-out-airbnb-style-getting-easier-and-more-complex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;more complex&lt;/a&gt; than you might have thought, or offer &lt;a href=&#34;http://www.lifehacker.com.au/2013/11/top-10-tips-for-first-time-airbnb-hosts/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tips&lt;/a&gt;. If you’re doing it seriously, a new set of services is likely to build around this industry, like &lt;a href=&#34;http://guesthop.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guesthop&lt;/a&gt;, or &lt;a href=&#34;https://www.taskrabbit.com/san-francisco-ca/t/lightly-clean-and-manage-my-airbnb-property-full-house&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Taskrabbit, natch&lt;/a&gt; or &lt;a href=&#34;http://collaborativ.co/2013/11/08/airbnb-building-platform-home-services-like-home-cleaning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;others&lt;/a&gt;. All these pieces indicate a future that is different from the “Javier likes to show off his favorite Latin dance spots to travelers” vibe that they promote.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Effect on rentals: &lt;a href=&#34;http://www.sfbg.com/2013/08/06/thin-air&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;old from SF&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;History: &lt;a href=&#34;http://www.businessinsider.com/airbnb-a-13-billion-dollar-startups-first-ever-pitch-deck-2011-9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;First pitch deck&lt;/a&gt;, it was &lt;a href=&#34;http://venturebeat.com/2013/11/06/airbnb-cofounder-in-the-early-days-every-rejection-we-got-was-an-invitation-to-keep-going/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a tough road&lt;/a&gt; before the &lt;a href=&#34;http://www.gadling.com/2013/11/06/airbnb-having-media-moment/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;media moment&lt;/a&gt; and now you get to &lt;a href=&#34;http://www.customspaces.com/projects/ZewNn5vLy4/airbnb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;work here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Commentary from &lt;a href=&#34;http://skift.com/2013/10/30/expedia-ceo-is-bullish-about-the-future-of-airbnb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Expedia CEO&lt;/a&gt;, the &lt;a href=&#34;http://fredericgonzalo.com/en/2013/07/27/collaborative-economy-in-travel-the-big-disruptor/http://fredericgonzalo.com/en/2013/07/27/collaborative-economy-in-travel-the-big-disruptor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;travel industry&lt;/a&gt;, &lt;a href=&#34;http://www.cntraveler.com/perrin-post/2013/11/should-you-book-an-airbnb-rental-in-new-york-city&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Conde Nast Traveler&lt;/a&gt;, &lt;a href=&#34;http://consumerist.com/2013/11/01/will-airbnb-and-etsy-destroy-the-economy-or-save-us-all/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Consumerist&lt;/a&gt;, &lt;a href=&#34;http://www.hotelnewsnow.com/article/12561/Meet-the-new-competition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hotel News Now&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stories: &lt;a href=&#34;http://monocle.io/posts/the-story-of-airbnb-photography&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;misleading photos&lt;/a&gt;, &lt;a href=&#34;http://www.theguardian.com/travel/2013/nov/01/todd-selby-airbnb-locals-world-city-tour&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;world tour&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;More broadly on the sharing economy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://piper2.bluematrix.com/docs/pdf/35ef1fcc-a07b-48cf-ab80-04d80e5665c4.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Piper-Jaffray Report: The Disruption of Sharing&lt;/a&gt;, &lt;a href=&#34;http://greenupgrader.com/27176/meet-the-sharing-economy-with-sharing-is-good/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a new book&lt;/a&gt; (also &lt;a href=&#34;http://www.mnn.com/lifestyle/responsible-living/stories/new-book-explores-the-sharing-economy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;), &lt;a href=&#34;http://www.compareandshare.com/sharing-economy-directory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a directory&lt;/a&gt;, &lt;a href=&#34;http://blog.supplymanagement.com/2013/11/the-opportunities-of-the-sharing-economy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;opportunities&lt;/a&gt;, &lt;a href=&#34;http://www.economistinsights.com/sites/default/files/EIU_Zuora_WEB_Final.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;changing patterns&lt;/a&gt;. &lt;a href=&#34;http://gigaom.com/2013/10/19/four-business-opportunity-that-remove-barriers-to-the-sharing-economy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter Coffee&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www3.weforum.org/docs/WEF_YGL_CircularEconomyInnovation_PositionPaper_2013.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Young Global Leaders&lt;/a&gt;, &lt;a href=&#34;http://martinpasquier.com/2013/10/15/the-sharing-economy-hangover-states-and-olbiz-strike-back-on-c2c-startups/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;strike back&lt;/a&gt;, &lt;a href=&#34;http://science-inc.com/about/blog/2013/10/10/how-capitalism-and-regulation-will-reshape-the-sharing-economy-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;capitalism and regulation&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://a2share.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;In Ann Arbor&lt;/a&gt;, in &lt;a href=&#34;http://ouishare.net/2013/10/sharing-economy-gaining-momentum-in-the-arab-world/#.Unj7_W9KyG8.twitter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the Arab World&lt;/a&gt; (&lt;a href=&#34;http://www.wamda.com/2013/10/4-issues-sharing-economy-solve-arab-world&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;again&lt;/a&gt;) &lt;a href=&#34;http://www.smartcompany.com.au/growth/economy/34413-subscription-and-sharing-models-popular-with-businesses-could-this-be-the-new-economy.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;adopted by corporations&lt;/a&gt;, &lt;a href=&#34;http://www.mb.com.ph/the-sharing-economy-where-creatives-should-be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in the Philippines&lt;/a&gt;, &lt;a href=&#34;http://citizentekk.com/2013/10/29/asia-ready-sharing-economy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in Asia&lt;/a&gt;, in &lt;a href=&#34;http://www.builtinchicago.org/blog/chicago-sharing-startups-featured-national-tv-news-coverage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chicago&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.smh.com.au/money/planning/sharing-your-way-to-a-tidy-profit-20131022-2vy0u.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A tidy profit&lt;/a&gt;, &lt;a href=&#34;http://www.fastcoexist.com/3020778/sharing-can-truly-disrupt-business-by-mixing-money-and-social-change&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mixing business and social change&lt;/a&gt;, &lt;a href=&#34;http://techcitynews.com/2013/10/31/5-sharing-economy-startups-thatll-make-you-feel-good-inside/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;feel good inside&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Or &lt;a href=&#34;http://www.alternet.org/labor/backed-billionaire-investors-ridesharing-companies-lyft-and-uber-are-dismantling-public&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;not&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Also, &lt;a href=&#34;http://t.co/SPO7kPYHM7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Couchsurfing&lt;/a&gt;, &lt;a href=&#34;http://www.slate.com/articles/technology/future_tense/2013/11/reputation_economics_privacy_isn_t_a_right_it_s_a_commodity.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reputation as commodity&lt;/a&gt;, &lt;a href=&#34;https://secure.peers.org/page/signup/dinner-with-peers-report?sp_ref%3D17348104.84.996.t.4180.2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dinner with Peers&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ridesharing (and Lyft):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://blogs.kqed.org/newsfix/2013/11/07/taxis-lyft-ride-service-war-on-streets-of-san-francisco&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;and taxis in San Francisco&lt;/a&gt;, and &lt;a href=&#34;http://technical.ly/baltimore/2013/11/06/lyft-uber-ridesharing-baltimore/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in Baltimore&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://taxicabtimes.com/a-proprietary-promise-the-one-million-dollars-that-lies-behind-closed-door-p1998-1.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;insurance&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Accenture on insurance, parts &lt;a href=&#34;http://insuranceblog.accenture.com/tag/sharing-economy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1&lt;/a&gt;, &lt;a href=&#34;http://insuranceblog.accenture.com/is-that-opportunity-calling-part-2-of-3/?cid%3Dfs_accinsfy14_10000283_smc_0913#sf19108342&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.popularresistance.org/privatized-ridesharing-is-a-parasitic-business-model/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;parasitic&lt;/a&gt;, &lt;a href=&#34;http://www.fastcoexist.com/3020788/change-generation/how-one-young-car-sharing-entrepreneur-keeps-disrupting-how-we-get-around&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;entrepreneur!&lt;/a&gt;, &lt;a href=&#34;http://valleywag.gawker.com/when-your-smartphone-chauffeur-becomes-a-stalker-801080008&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;stalker&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Freelancers: contradictory views &lt;a href=&#34;http://www.fastcoexist.com/3021147/its-time-for-the-sharing-economy-to-become-the-sharing-society&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://medium.com/changing-city/f2e12c2748e2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Also &lt;a href=&#34;http://www.freelancersunion.org/dispatches/2013/10/24/freelancers-are-building-sharing-economy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TaskRabbit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://libcom.org/blog/ten-ninety-nihilists-06112013&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;casualized work&lt;/a&gt; (&lt;a href=&#34;http://therealnews.com/t2/component/content/article/269-kevin-carhart/1764-the-ten-ninety-nihilists&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repeated from here&lt;/a&gt;), &lt;a href=&#34;http://www.nytimes.com/2013/11/10/magazine/outsource-your-way-to-success.html?smid%3Dtw-share&amp;amp;_r%3D0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;outsourcing&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.quora.com/TaskRabbit/How-much-revenue-is-Taskrabbit-com-making&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;having problems?&lt;/a&gt;, &lt;a href=&#34;http://www.businessweek.com/articles/2013-07-09/trouble-at-taskrabbit-is-bad-news-for-the-sharing-economy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;maybe (old)&lt;/a&gt;, &lt;a href=&#34;http://www.quora.com/TaskRabbit/Why-is-TaskRabbit-struggling-to-get-traction/answer/Michael-Horowitz?share%3D1&amp;amp;srid%3DuXR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lacking traction&lt;/a&gt;, &lt;a href=&#34;http://www.quora.com/TaskRabbit/What-is-TaskRabbits-background-check-process-like&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;background checks&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.theverge.com/2013/5/23/4352116/taskrabbit-temp-agency-gig-economy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;real jobs&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				This Week in the Sharing Economy		</title>
+      <link>/post/this-week-in-the-sharing-economy/</link>
+      <pubDate>Fri, 01 Nov 2013 21:24:00 +0000</pubDate>
+      <guid>/post/this-week-in-the-sharing-economy/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Airbnb:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Airbnb &lt;a href=&#34;http://blog.airbnb.com/airbnbs-economic-impact-nyc-community/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;released&lt;/a&gt; a study they commissioned, entitled &lt;em&gt;The Airbnb Community’s Economic Impact on New York City&lt;/em&gt;. Carried out by &lt;a href=&#34;http://www.hraadvisors.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HR&amp;amp;A Advisors&lt;/a&gt;, the study claimed that “Airbnb generated $632 million in economic activity in New York in one year”. The study was written up, together with the conclusions, in &lt;a href=&#34;http://www.businessweek.com/articles/2013-10-22/airbnb-says-it-has-a-huge-impact-on-nycs-economy-except-when-it-doesnt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Business Week&lt;/a&gt;, &lt;a href=&#34;http://online.wsj.com/news/articles/SB10001424052702303448104579149844259343658&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Wall Street Journal&lt;/a&gt;, &lt;a href=&#34;http://nypost.com/2013/10/23/airbnb-claims-site-helps-ny/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The New York Post&lt;/a&gt;, as well as &lt;a href=&#34;http://techcrunch.com/2013/10/22/airbnb-nyc-632-m/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TechCrunch&lt;/a&gt;, &lt;a href=&#34;http://allthingsd.com/20131022/in-new-york-fight-airbnb-says-it-has-proof-that-hosts-rent-out-their-own-homes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AllThingsD&lt;/a&gt;, and &lt;a href=&#34;https://www.google.ca/search?q%3Dairbnb%2Bnew%2Byork%2Bstudy&amp;amp;oq%3Dairbnb%2Bnew%2Byork%2Bstudy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;many more&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;But wait! It turns out the study is all of 300 words with no indication where the data comes from, what “economic impact” means or how it was calculated, what it means that Airbnb “supported 950 jobs in the outer boroughs”, where the tourist spending figures came from, or anything else. Truly strange.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Meanwhile, some developers are &lt;a href=&#34;http://valleywag.gawker.com/major-new-york-city-developer-bans-airbnb-for-its-nega-1453473087&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;notifying&lt;/a&gt; their tenants that they should not sublet their rooms through Airbnb and other sites, as&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Peter Thiel’s &lt;em&gt;Founders Fund&lt;/em&gt; &lt;a href=&#34;http://techcrunch.com/2013/10/28/airbnb-200m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;has invested&lt;/a&gt; $200 million in the company.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I can sympathise with people like &lt;a href=&#34;http://www.nydailynews.com/opinion/rent-home-airbnb-article-1.1490082&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kimberly Kaye&lt;/a&gt; who find Airbnb helpful,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;but despite these cases, it looks like &lt;a href=&#34;http://needwant.com/p/buying-apartment-airbnb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;buying an apartment specifically to rent out&lt;/a&gt; is becoming increasingly common (see the interesting discussion at &lt;a href=&#34;https://news.ycombinator.com/item?id%3D6655492&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hacker News&lt;/a&gt;, where it is the top post).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;and leading, unsurprisingly, to the rise of &lt;a href=&#34;http://beyondstays.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;management firms&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;and concerns like &lt;a href=&#34;http://www.sfbg.com/2013/08/06/thin-air&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; from the San Francisco Bay Guardian persuade me that Airbnb is not a bonus for a city,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;as does &lt;a href=&#34;http://www.rooflines.org/3498/airbnb_way_to_make_ends_meet_or_destroyer_of_affordable_housing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this thoughtful essay&lt;/a&gt; by Miriam Axel-Lute at rooflines.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you are pretty enough, you can always go &lt;a href=&#34;http://mashable.com/2013/10/29/loveroom-airbnb-no-ugly-people/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;to LoveRoom instead&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;More on the Sharing Economy&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Kevin Roose in &lt;em&gt;New York Magazine&lt;/em&gt;: &lt;a href=&#34;http://nymag.com/daily/intelligencer/2013/10/new-economy-is-indentured-taskrabbits.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;In the New Economy, Everyone Is an Indentured TaskRabbit&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;while Nancy Scola asks &lt;a href=&#34;http://nextcity.org/sharedcity/entry/are-we-taskrabbiting-ourselves-to-death&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Are We TaskRabbiting Ourselves to Death?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Darwing Bond-Graham in &lt;em&gt;Alternet&lt;/em&gt;: &lt;a href=&#34;http://www.alternet.org/labor/backed-billionaire-investors-ridesharing-companies-lyft-and-uber-are-dismantling-public&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Uber and Lyft Get a Lot of Hype – But Ridesharing Is a Parasitic Business Model&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In &lt;em&gt;Governing&lt;/em&gt;, J.B. Wogan asks &lt;a href=&#34;http://www.governing.com/topics/urban/gov-how-sharing-economy-will-change-cities.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How Will the Sharing Economy Change the Way Cities Function?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lobby Group &lt;a href=&#34;http://peers.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peers&lt;/a&gt; hosted a set of &lt;a href=&#34;http://action.peers.org/page/s/dinner-with-peers-report&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dinners&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;and Businessweek’s Joshua Brustein went to one, concluding that &lt;a href=&#34;http://www.businessweek.com/articles/2013-10-18/the-sharing-economy-isnt-quite-a-kick-to-capitalisms-crotch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Sharing Economy Isn’t Quite a Kick to Capitalism’s Crotch&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Meanwhile, in &lt;em&gt;The Atlantic Cities&lt;/em&gt;, Emily Badger has a good piece about &lt;a href=&#34;http://www.theatlanticcities.com/jobs-and-economy/2013/10/rise-invisible-work/7412/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Rise of Invisible Work&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;An older post that is worth a read: &lt;em&gt;The Phantom Cab Driver&lt;/em&gt; asks: &lt;a href=&#34;http://phantomcabdriverphites.blogspot.ca/2013/02/100000-uninsured-rides-and-counting-in.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;100,000 Uninsured Rides and Counting: In Good Hands with Lyft and Sidecar?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Payments is a key component for “sharing economy” companies, and it turns out it’s largely handled by &lt;a href=&#34;http://www.itworld.com/operating-systems/375702/how-stripe-company-youve-never-heard-powers-sharing-economy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stripe&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Notes on Airbnb&#39;s New York Business		</title>
+      <link>/post/notes-on-airbnbs-new-york-business/</link>
+      <pubDate>Sat, 19 Oct 2013 04:00:00 +0000</pubDate>
+      <guid>/post/notes-on-airbnbs-new-york-business/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            [**Update, Nov 10:** clearer explanation [here](http://tomslee.net/2013/11/airbnb-business-in-new-york-revisited.html). PDF for download [here](http://tomslee.net/wordpress/wp-content/uploads/2013/11/airbnbny_handout.pdf).]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Two recent Airbnb blog posts make statements about its business in New York. One is from David Hantman, Airbnb’s public policy head hired from being Yahoo’s head of government relations, and it is &lt;a href=&#34;http://publicpolicy.airbnb.com/fighting-for-you/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. The other is from CEO Brian Chesky, &lt;a href=&#34;http://blog.airbnb.com/who-we-are/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I was interested in whether there are other ways to frame the picture that Chesky paints of the Airbnb business in New York, so I wrote a bit of python that downloaded as many New York listings as I could find and stuck them in a database, and here’s a few notes from what they show. I collected 9527 places rented by 7112 hosts in New York. Airbnb claims 15,000 hosts, but I suspect the others are not doing much business because the searches I did over several days did not find them.&lt;/p&gt;
+&lt;blockquote&gt;In New York, our 15,000 hosts are regular people from all five boroughs. Eighty-seven percent of them rent the homes in which they live.&lt;/blockquote&gt;
+&lt;p&gt;Of the 7112 hosts I found, 6038 rent one room, which is 85%. An even greater percentage (92%) rent from a single address, but there is no way to confirm if it is “the home in which they live”. These numbers are close enough to show that the data set is representative of the overall population.&lt;/p&gt;
+&lt;p&gt;But looking at it another way, only 63% (6038 of 9527) of &lt;em&gt;rooms&lt;/em&gt; are single-room offerings (that is, a host who offers only one place to stay). And only 53% (60439 of 114659) of &lt;em&gt;bookings&lt;/em&gt; are in single-room offerings (using reviews as a proxy for bookings). Assuming the same length of stay in each place, the amount of &lt;em&gt;revenue&lt;/em&gt; that comes from single-room renters is 54%. That is, very nearly half of Airbnb’s business is from hosts who are renting multiple offerings.&lt;/p&gt;
+&lt;blockquote&gt;The vast majority of these hosts are everyday New Yorkers who occasionally share the home in which they live.&lt;/blockquote&gt;
+&lt;p&gt;“Share the home” is open to interpretation. The stories that Chesky tells are all of people staying in their home while guests are present, which is the flavour of “sharing” that I get from the statement. But the majority of New York listings (5380 of 9527, or 56%) are for “entire home or apartment” compared to 3636 “private room” and only 511 “shared room”. The same percentage of bookings and 73% of total revenue comes from “entire home or apartment” rentals. The amount of Airbnb revenue that comes from people sharing a part of their home while they stay in it is only just over a quarter.&lt;/p&gt;
+&lt;p&gt;Chesky says that “If you want to understand Airbnb, you have to understand our beginnings” and describes how he and Joe Gebbia, both designers, had an idea when a design conference came to town: “why not turn our place into a bed and breakfast for the conference? We inflated air beds and called it the AirBed &amp;amp; Breakfast.” This sounds like a shared-room arrangement, but only 511 of 9527 offerings in New York are shared rooms (less than 6%) and less than 4% of the bookings are of this type. Today’s Airbnb has nothing to do with the “origin myth” that the company promotes.&lt;/p&gt;
+&lt;p&gt;So the Airbnb statements are not factually wrong, but are misleading: Airbnb’s financial interests do not align nearly as closely with its “community” as it claims.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				RelayRides, GigaOm 		</title>
+      <link>/post/relayrides-gigaom/</link>
+      <pubDate>Tue, 01 Oct 2013 17:44:08 +0000</pubDate>
+      <guid>/post/relayrides-gigaom/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            Nice to see [Mathew Ingram](http://gigaom.com/2013/10/01/trust-reputation-and-regulation-can-the-new-sharing-economy-find-a-way-to-scale/) at GigaOm give a thoughtful precis and response to my [Reputation Systems](http://tomslee.net/2013/09/some-obvious-things-about-internet-reputation-systems.html) post.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Also, it&amp;rsquo;s timely to see today&amp;rsquo;s news that sharing economy company RelayRides has confirmed my predictions in its move away from its original market of hourly rentals and towards longer-term rentals, described in &lt;a href=&#34;http://www.wired.com/business/2013/10/relayrides-drops-hourly-rentals/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wired&lt;/a&gt;, &lt;a href=&#34;http://www.forbes.com/sites/tomiogeron/2013/10/01/relayrides-focuses-on-longer-travel-rentals-as-sharing-economy-focuses-on-travel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Forbes&lt;/a&gt; and elsewhere. Hourly rentals may appeal to &amp;ldquo;sharing&amp;rdquo; but monthly rentals is just commerce. It&amp;rsquo;s becoming more like a regular car rental company and less like a car-sharing company.&lt;/p&gt;
+&lt;p&gt;Why? Because of the demand for growth that faces VC funded companies, and according to &lt;a href=&#34;http://www.crunchbase.com/company/relayrides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crunchbase&lt;/a&gt; RelayRides has been funded to the tune of $30m by investors including Google Ventures, General Motors, and others. Let&amp;rsquo;s hope that the boom and bust mentality behind these companies don&amp;rsquo;t have a bad effect on local initiatives like &lt;a href=&#34;http://communitycarshare.ca/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Community Carshare&lt;/a&gt; near me, which don&amp;rsquo;t have ambitions to disrupt the world but focus on doing something useful and actually cooperative.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Some Obvious Things About Internet Reputation Systems		</title>
+      <link>/post/some-obvious-things-about-internet-reputation-systems/</link>
+      <pubDate>Mon, 30 Sep 2013 02:40:42 +0000</pubDate>
+      <guid>/post/some-obvious-things-about-internet-reputation-systems/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Update 2:&lt;/strong&gt; This essay is the starting point for Chapter 7: &amp;ldquo;Strangers Trusting Strangers&amp;rdquo;, in my book &amp;ldquo;What&amp;rsquo;s Yours is Mine&amp;rdquo; (&lt;a href=&#34;http://www.orbooks.com/catalog/whats-yours-is-mine-by-tom-slee/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2015 in the US&lt;/a&gt; and the UK; &lt;a href=&#34;https://btlbooks.com/book/whats-yours-is-mine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2016 in Canada&lt;/a&gt; and elsewhere).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; now with added footnotes.&lt;/p&gt;
+&lt;p&gt;Debates around the “sharing economy” have been driven by personal stories and broad claims. In contrast, this is a dense and not-easy-to-read step-by-step look at the internet reputation systems on which the sharing economy claims are based, with some predictions about the neoliberal future of the sharing economy. References, statistics, and, yes, some personal stories are relegated to footnotes. If you&amp;rsquo;re really interested you can download a &lt;a href=&#34;http://tomslee.net/wordpress/wp-content/uploads/2013/09/2013-09-23_reputation_systems.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Internet reputation systems&lt;/em&gt; let individuals rate other individuals over the internet and provide recommendations based on those ratings. A new class of enterprise claims to use internet reputation systems to enable sharing of personal goods and services at unprecedented scale. Its rise has been announced by both [&lt;em&gt;Forbes&lt;/em&gt;](&lt;a href=&#34;http://www.forbes.com/sites/tomiogeron/2013/01/23/&#34;&gt;http://www.forbes.com/sites/tomiogeron/2013/01/23/&lt;/a&gt; airbnb-and-the-unstoppable-rise-of-the-share-economy), and by [&lt;em&gt;The Economist&lt;/em&gt;](http:// &lt;a href=&#34;http://www.economist.com/news/leaders/21573104-internet-everything-hire-risesharing-&#34;&gt;www.economist.com/news/leaders/21573104-internet-everything-hire-risesharing-&lt;/a&gt; economy), according to which accommodation rental service Airbnb…&lt;/p&gt;
+&lt;blockquote&gt;…is the most prominent example of a huge new “sharing economy”, in which people rent beds, cars, boats and other assets directly from each other, co-ordinated via the internet. …[T]echnology has reduced transaction costs, making sharing assets cheaper and easier than ever—and therefore possible on a much larger scale… social networks provide a way to check up on people and build trust; and online payment systems handle the billing.&lt;/blockquote&gt;
+&lt;p&gt;The claim is that internet reputation systems solve two problems. One is &lt;em&gt;coordination&lt;/em&gt; (can I find someone who has what I want, or wants what I have?) and the other is &lt;em&gt;trust&lt;/em&gt; (can you trust the person on the other side of the exchange to keep their end of the bargain?).1 Sharing economy advocates claim, and I will return to this at the end of the essay, that it is both necessary and sufficient to solve these problems to unlock a large new economy of resource sharing.&lt;/p&gt;
+&lt;h2 id=&#34;trust-and-coordination&#34;&gt;Trust and Coordination&lt;/h2&gt;
+&lt;p&gt;To understand the sharing economy it is necessary to understand trust.2&lt;/p&gt;
+&lt;p&gt;A &lt;em&gt;truster&lt;/em&gt; must decide whether or not to make a loan to a potential &lt;em&gt;trustee&lt;/em&gt;; if the truster does make the loan, then the trustee must decide whether or not to repay it. We say the truster &lt;em&gt;trusts&lt;/em&gt; the trustee if she expects him to repay, and the trustee is &lt;em&gt;trustworthy&lt;/em&gt; if he would repay a loan, should the truster make it.&lt;/p&gt;
+&lt;p&gt;Trust is a problem of asymmetric information: a truster cannot divine the trustee’s trustworthiness directly but must look instead for &lt;em&gt;signs&lt;/em&gt; of trustworthiness.&lt;/p&gt;
+&lt;p&gt;An &lt;em&gt;opportunist&lt;/em&gt; is someone who is &lt;em&gt;not&lt;/em&gt; trustworthy but who seeks to &lt;em&gt;mimic&lt;/em&gt; signs of trustworthiness in order to deceive potential trusters. Opportunists create what Bacharach and Gambetta call a “problem of secondary trust” which, they argue, “almost always accompanies, and is often the key to solving, problems of primary trust” (p158). Instead of just looking for signs of trustworthiness, the truster must decide whether she can trust those signs; instead of just displaying signs of trustworthiness, the trustee must convince the truster that he is not mimicking them.&lt;/p&gt;
+&lt;p&gt;Secondary trust is a &lt;em&gt;signalling problem&lt;/em&gt; in the sense [first spelled out](&lt;a href=&#34;http://www.econ.yale.edu/~dirkb/teach/&#34;&gt;http://www.econ.yale.edu/~dirkb/teach/&lt;/a&gt; pdf/spence/1973%20job%20market%20signalling.pdf) by economist Michael Spence. An effective signal is an action or sign that is easy for a trustworthy person to display but costly for an untrustworthy person to display. If it’s not worth the effort for an opportunist to mimic the signal, we say that the signal _separates _trustworthy people from untrustworthy people or &lt;em&gt;discriminates&lt;/em&gt; between them. If no discriminating signal is available, then there is no way to distinguish trustworthy people from opportunists—an outcome that is called &lt;em&gt;pooling&lt;/em&gt;—and trust cannot be established between truster and trustee. In real life, of course, we deal with probabilities rather than certainties, but there is a spectrum from separating to pooling outcomes in problems of trust.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Economist&lt;/em&gt; observed, above, that the internet has reduced the transaction costs of collaboration, enabling what Yochai Benkler calls a “new modality of organizing production: radically decentralized, collaborative, and non-proprietary… ‘commons-based peer production’” (The Wealth of Networks, p60). But the problem of secondary trust emphasizes that &lt;em&gt;low transaction costs do not necessarily improve collaboration&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Other things being equal, and in the absence of opportunists, lower transaction costs (discovery and communication) should increase the amount of collaboration, but in the presence of opportunists—in what Bacharach and Gambetta [call](&lt;a href=&#34;http://www.nuffield.ox&#34;&gt;http://www.nuffield.ox&lt;/a&gt;. ac.uk/People/sites/Gambetta/Publication%20Files/Trust%20in%20signs.pdf) “mimic-beset trust games&amp;quot;—collaboration is possible only in the presence of an effective signalling mechanism, and lowering transaction costs can destroy trust-dependent collaboration by making it easier for opportunists to mimic trustworthiness.3&lt;/p&gt;
+&lt;h2 id=&#34;reputation&#34;&gt;Reputation&lt;/h2&gt;
+&lt;p&gt;In the sense used here, reputation is a sign of trustworthiness manifested as testimony by other people. When my neighbour says “Don’t hire John the Plumber: he came to fix my sink but it’s still blocked”, she is providing information that lets me decide whether to trust John to fix my drains.&lt;/p&gt;
+&lt;p&gt;When it works well, reputation is an effective discriminating signal that promotes trust and collaboration based on trust. In a community with strong word of mouth, it is easy for a good plumber to establish a reputation as reliable, punctual, and skilled simply by being reliable, punctual, and skilled; it is difficult for an incompetent or lazy plumber to do the same.&lt;/p&gt;
+&lt;p&gt;Reputation is not a perfect discriminating signal. Much of what is communicated in testimonies may be private and informal (“he fixed my sink and came on time, but there was something about him… I just didn’t like having him in my house”) and this privacy and informality can have both good and bad effects. It can transmit justified but nebulous suspicions, but it makes it difficult for John to gain a good reputation—no matter how trustworthy he is—if he is a black man trying to find work in a white community with a history of racism, or difficult for Jane the Plumber’s skills to be taken seriously if the community has traditional norms about women’s roles. “Old boys’ clubs” and other insider groups provide members with an inbuilt advantage when it comes to establishing a reputation.&lt;/p&gt;
+&lt;p&gt;Reputation is only one mechanism for solving the problem of trust. Others include reciprocity in long-term relationships, regulations (you can trust this restaurant because it has passed a food safety inspection), professional qualifications (you can trust this person to fix your leg because she is a doctor), voluntary industry certifications (you can trust this coffee to be fair trade because there is a fair trade label on the package), independent rating agencies, individual firm commitments (you can trust this retailer because they have invested heavily in their brand, and so must act accordingly), the common property regimes explored by &lt;a href=&#34;https://en.wikipedia.org/wiki/Elinor_Ostrom&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elinor Ostrom&lt;/a&gt;, and many others.&lt;/p&gt;
+&lt;p&gt;Reputation, in the sense used here, is peer-to-peer, informal, decentralized, community-driven, and non-commercial, and it is those alternative qualities that sharing economy advocates claim can be scaled up by using internet reputation systems. &lt;a href=&#34;https://www.airbnb.ca/about/about-us&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Airbnb&lt;/a&gt; and &lt;a href=&#34;http://www.blablacar.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BlaBlaCar&lt;/a&gt; both describe themselves as “a trusted community marketplace”; &lt;a href=&#34;http://blog.lyft.com/post/57730672346/lyft-celebrates-one-million-rides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lyft&lt;/a&gt;’s one-million rides show “the power of community”.&lt;/p&gt;
+&lt;p&gt;The effectiveness of reputation depends on the motivations of those giving testimonies as well as on the actions of the trustee: the problem of secondary trust described above. Reputation is effective only if the testimonies are independent and free from the taint of collusion or retaliation. Testimony from John’s brother does not carry the same weight as that of someone who has no stake in John’s success or failure, and while John may not want my neighbour to tell me about his failure to fix their sink, there’s not a lot he can do about private conversations over a garden fence.&lt;/p&gt;
+&lt;p&gt;Market-based incentives erode the effectiveness of reputation, and in this respect reputation is a &lt;em&gt;cultural commons&lt;/em&gt; (see &lt;a href=&#34;http://www.lawschool.cornell.edu/research/cornell-law-review/upload/madison-frischmann-strandburg-final.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, and see also me [here](http://thenewinquiry. com/essays/open-wide/)). In her &lt;a href=&#34;http://www.ted.com/talks/rachel_botsman_the_currency_of_the_new_economy_is_trust.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TED talk&lt;/a&gt;, influential author Rachel Botsman says that in the new economy “reputation will be your most valuable asset”, but as reputation becomes an important asset, markets will grow around it and intermediaries will claim to help you boost your reputation, but these market-based incentives destroy the value of reputation as a mechanism for establishing trust. Mechanisms for buying and selling testimonies, for example, cause testimonies to lose their ability to discriminate between trustworthiness and opportunism because an opportunist with money could buy themselves a good reputation.&lt;/p&gt;
+&lt;h2 id=&#34;internet-reputation-systems&#34;&gt;Internet Reputation Systems&lt;/h2&gt;
+&lt;p&gt;Internet reputation systems promise to create a global village by scaling up informal word-of-mouth reputation mechanisms for sharing and for creating trust, and so solve both the coordination and the trust problem for a variety of services which could not previously be exchanged. For sharing economy advocates, reputation is an alternative to regulation: in the recent book &lt;em&gt;The Reputation Economy,&lt;/em&gt; law professor Lior Strahilevitz asks us to “imagine if every plumber, manufactured product, cell phone provider, home builder, professor, hair stylist, accountant, attorney, golf pro, and taxi driver were rated… In such a world, there would be diminished need for regulatory oversight and legal remedies because consumers would police misconduct themselves.”&lt;/p&gt;
+&lt;p&gt;Do internet reputation systems act as an effective signal of trustworthiness?&lt;/p&gt;
+&lt;p&gt;Figure 1 is the distribution of ratings for the Netflix Prize data set. Netflix ratings are not a reputation system in the sense used here, in that they are not testimonials about people: the data set consists of ratings of movies and TV shows by Netflix customers. There is every reason to believe that the ratings are independent and honest: the rater can offer an opinion freely, having no reason to expect expect reward or punishment for any particular rating. The rater also has an incentive to give a rating that matches their actual opinion, as it enables Netflix to recommend movies that better match their tastes. So Figure 1 can take this as a reasonable distribution of independent ratings.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://tomslee.net/wordpress/wp-content/uploads/2013/09/netflixratings.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://tomslee.net/wordpress/wp-content/uploads/2013/09/netflixratings.jpg&#34; alt=&#34;Figure 1.&#34;&gt;&lt;/a&gt;
+Figure 1.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.blablacar.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BlaBlaCar&lt;/a&gt;, a French sharing economy company that connects “drivers with people travelling the same way” throughout Europe, has over a million registered drivers, transports over half a million passengers every month, and is expanding rapidly. Also, it makes testimonial-based ratings available on its web site. Figure 2 is the distribution of a set of 190,000 ratings from the blablacar.com site.4&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://tomslee.net/wordpress/wp-content/uploads/2013/09/blablacarratings.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://tomslee.net/wordpress/wp-content/uploads/2013/09/blablacarratings.jpg&#34; alt=&#34;Figure 2.&#34;&gt;&lt;/a&gt;
+Figure 2.&lt;/p&gt;
+&lt;p&gt;Of 190129 distinct ratings, 2152 were one-star, there was not a single two-star rating, there was one three-star rating, five four-star ratings, and 187971 five-star ratings. A BlaBlaCar rating means something different from a Netflix movie rating.&lt;/p&gt;
+&lt;p&gt;With over 98% of ratings being five stars, the reputation system does not meaningfully discriminate among drivers or riders. A reputation system that does not discriminate fails as a reputation system: it fails to solve the problem of trust.5&lt;/p&gt;
+&lt;p&gt;Collusion and fear of retaliation are the reasons why there are essentially no reviews less than five stars for rides that take place. If you give a less-than-five star review then, unlike in the case of offline community-based testimonials, it is visible to the reviewee, who can give you a harsh review in return and so affect your chance of getting future rides. Do you want to defend your opinion that the driver was a bit close to the car in front, or that the car was a bit dirty, or do you just want to give a five-star review and make a note to yourself not to ride with them again? Collusion is the other side of the retaliation coin: I know I turned up late and was eating smelly food in your car and you didn’t like it, but so long as you give me five stars I’ll give you a good positive rating and we’re both better off. Neither of these factors need to be explicit or even to be very important to produce large effects, because it makes no difference to me how I rate you. One seemingly tiny difference between word-of-mouth and the internet rating system makes all the difference, that testimonials are visible to everyone &lt;em&gt;including&lt;/em&gt; the reviewee instead of everyone &lt;em&gt;except&lt;/em&gt; the reviewee.&lt;/p&gt;
+&lt;p&gt;The problem is not unique to BlaBlaCar. Reciprocity and collusion in the eBay reputation system has been studied &lt;a href=&#34;http://ben.orsee.org/papers/engineering_trust.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and the authors also provide an estimate of how many dissatisfied people are not rating their trustee:&lt;/p&gt;
+&lt;blockquote&gt;The fact that from 742,829 eBay users… who received at least one feedback, 67% have a percentage positive of 100%, and 80.5% have a percentage positive of greater than 99%, provides suggestive support for the bias. The observation is in line with Dellarocas and Wood (2008) who examine the information hidden in the cases where feedback is not given. They estimate, under some auxiliary assumptions, that buyers are at least mildly dissatisfied in about 21% of all eBay transactions, far higher than the levels suggested by the reported feedback. They argue that many buyers do not submit feedback at all because of the potential risk of retaliation.&lt;/blockquote&gt;
+&lt;p&gt;Finally, on Airbnb, reviewing of hosts by guests and guests by hosts also happens in public and is reciprocal. The Airbnb web site does not display individual numerical reviews, although it does display individual text reviews; instead it displays the average rating that a room has received in each of several categories (cleanliness, location, communication,…) together with an overall average, rounded off to the nearest 0.5 out of five. The web site is less easy to traverse programmatically, but out of well over a hundred offerings in New York, Sydney, Berlin and Paris I have yet to see a single one that is not rated 4.5 or 5.6&lt;/p&gt;
+&lt;p&gt;So even in the absence of explicit gaming, &lt;strong&gt;peer-to-peer internet reputation systems do not solve the problem of trust.&lt;/strong&gt; The BlaBlaCar site fails the basic test of discriminating among almost any of the 190,000 drives that took place—it fails to deliver any useful information beyond giving the occasional sign that a driver or rider may not turn up.&lt;/p&gt;
+&lt;h2 id=&#34;the-growth-of-the-sharing-economy&#34;&gt;The “Growth” of the “Sharing Economy”&lt;/h2&gt;
+&lt;p&gt;Rachel Botsman claims that “Even four years ago, letting strangers stay in your home seemed like a crazy idea”, and she describes the meteoric growth of the sharing economy. The picture she paints would seem to be incompatible with the idea that internet reputation systems fail to solve the problem of trust. What’s going on?&lt;/p&gt;
+&lt;p&gt;Some perspective is in order. The rapid growth of individual sharing economy companies does not represent the appearance of new social practices of sharing. The growth of sharing economy companies is, at least in part, a movement of already-existing social practices to online forums.&lt;/p&gt;
+&lt;p&gt;“Letting strangers stay in your home” has long been a common practice. Millions of people let strangers stay in their homes without the benefit of internet reputation systems: the overall vacation rental market, which includes cottages, apartments, second homes and other personal rentals, is much larger than Airbnb.7 , 8&lt;/p&gt;
+&lt;p&gt;Similarly, BlaBlaCar is a small fraction of the overall carpooling practice, which precedes internet reputation systems. Carpooling has been a widespread practice in many urban centres for decades, encouraged by local governments and transit authorities with “Park-and-Ride” facilities, especially in Europe where fuel costs are higher than North America. Student union noticeboards have long been a way to coordinate rides home for the weekend.9 , 10&lt;/p&gt;
+&lt;p&gt;The dispersed nature of tourism boards, local travel authorities, booking agencies, university notice boards, and so on make counting trips and visits difficult, while the centralized nature of sharing economy sites makes data collection trivial for those with the infrastructure, so it is easy to underestimate—or entirely neglect—the pre-existing economy.&lt;/p&gt;
+&lt;p&gt;Also, not all the activity on sharing economy websites is of the personal, informal kind that the site owners portray, so the growth of these companies overstates the growth of sharing. Multiple rentals are common, suggesting rentals of properties other than the host’s primary residence, such as investment properties.11 , 12&lt;/p&gt;
+&lt;h2 id=&#34;the-problem-of-trust-in-the-sharing-economy&#34;&gt;The Problem of Trust in the Sharing Economy&lt;/h2&gt;
+&lt;p&gt;Still, sharing economy web sites are growing fast. How are they succeeding if the peer-to-peer reputation systems fail to solve the problem of trust?&lt;/p&gt;
+&lt;p&gt;One reason is that coordination is useful in itself. Classified ads, whether local newspapers or sites like Craigslist and Kijiji, solve coordination problems but do not even try to solve problems of trust beyond the most basic verification. It’s left to individuals to contact each other, make arrangements, decide on the terms of a sale, and complete the deal. In trading second-hand lawnmowers for cheap prices, the worst that can happen to a purchaser is that they overpay by a few dollars, and that’s a risk that many are prepared to take. One option for sharing economy companies would be to accept that they are solving only the simpler coordination problem, and adopt a business model that has no involvement in the transaction itself and which charges small listing fees.13 But such a business model will not provide the returns that venture capital is expecting from this industry. Sharing economy companies funded by venture capital have no option but to solve the problem of trust.&lt;/p&gt;
+&lt;p&gt;In some cases, community membership itself has provided an adequate signal of trustworthiness, particularly in communities that are prepared to accept some level of risk. Opportunists are screened out, to the extent that they need to be, by an implicit community selection process, so that matching &lt;em&gt;within&lt;/em&gt; the community is reduced to a coordination problem. For example, travel site &lt;a href=&#34;http:couchsurfing.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Couchsurfing&lt;/a&gt; built itself largely by word-of-mouth among young travellers. Couchsurfing members pre-selected themselves to be adventurous (so not looking for a high degree of assurance from the organization) and community-minded individuals with a common interest in travel. Simply being part of the Couchsurfing community was a sign that correlated with trustworthiness, and community members voluntarily undertook the additional risk that came with the program.&lt;/p&gt;
+&lt;p&gt;Unfortunately, community membership as a sign of trustworthiness does not survive large scale growth, for two reasons.&lt;/p&gt;
+&lt;p&gt;As a community grows, it attracts opportunists. In a small community, the benefit to an opportunist of mimicking a sign of trustworthiness is small, but as the community scales, the potential benefits for opportunists are larger, and the incentive to mimic trustworthiness is greater. In evolutionary terms, Bacharach and Gambetta [describe](&lt;a href=&#34;http://www.nuffield.ox&#34;&gt;http://www.nuffield.ox&lt;/a&gt;. ac.uk/People/sites/Gambetta/Publication%20Files/Trust%20in%20signs.pdf) the phenomenon as “model precedes mimic”. Sharing economy sites have benefited from community membership as a screening process, but as they become larger they will need new solutions.&lt;/p&gt;
+&lt;p&gt;Second, people who have a commitment to a community may be prepared to take on additional personal risk, either because of the nature of the community itself (a community of adventurers is not looking for a high level of security) or because they are prepared to overlook lapses to support the community. There is a reciprocity, not just between individuals, but between the members and the community-as-a-whole. However, the revenue and growth models of venture-capital funded companies are based on providing a service that can scale to people with no particular commitment to the community itself. As &lt;em&gt;AllThingsD&lt;/em&gt; reporter Liz Gannes &lt;a href=&#34;http://allthingsd.com/20130716/after-home-trashing-incident-airbnb-builds-an-in-house-enforcer-team/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writes&lt;/a&gt;: “maintaining customer trust is paramount because, at any given moment, they are all one bad incident away from users turning back to more traditional arrangements”&lt;/p&gt;
+&lt;h2 id=&#34;the-future-of-the-sharing-economy&#34;&gt;The Future of the Sharing Economy&lt;/h2&gt;
+&lt;p&gt;Venture capital demands for scale will produce changes in the nature of the sharing economy sites, changes that erode any community focus they have, and which turn them into far more traditional models. Such changes are already underway at the largest, most heavily funded sites.&lt;/p&gt;
+&lt;p&gt;As Gannes reports, a single bad incident has forced Airbnb to hire a 50-person “trust and safety team” headed by a former US Army intelligence office and a former government investigator. The use of a human team clearly doesn’t scale, so Airbnb is now turning to centralized analysis to solve its problems, &lt;a href=&#34;http://gigaom.com/2013/07/29/airbnb-is-engineering-itself-into-a-data-driven-company/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;saying&lt;/a&gt; “We want to apply data to every decision. We want to be a very data-driven company.” On April 30 2013, asserting that “Trust is the key to our community”, Airbnb &lt;a href=&#34;http://blog.airbnb.com/introducing-airbnb-verified-id/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;i&lt;/a&gt;ntroduced a “Verified ID program” which &lt;a href=&#34;http://www.forbes.com/sites/tomiogeron/2013/04/30/airbnb-adds-identity-verification-in-big-step-for-sharing-economy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demands&lt;/a&gt; that you provide government-verified identification and permit the company to analyze your social networking presence or provide it with a video profile.&lt;/p&gt;
+&lt;p&gt;There is also a drive for more professionalism among hosts. Airbnb now &lt;a href=&#34;http://www.tnooz.com/article/seismic-shift-airbnb-will-let-hosts-sell-tours-and-activities/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lets hosts sell tours and activities&lt;/a&gt;, and here is Chip Conley, the new “Head of Global Hospitality” for Airbnb, hired from the hotel industry, in a &lt;a href=&#34;http://www.cntraveler.com/daily-traveler/2013/09/my-travel-routine-chip-conley-airbnb-s-head-of-global-hospitality&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;September 2013 interview&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;We’ll be introducing nine minimum standards around what we expect an Airbnb experience to be, whether it’s related to cleanliness or the basic amenities you expect, which is not currently the case. The idea that we create some amenities that you should expect—clean towels, clean sheets—that’s important.&lt;/blockquote&gt;
+&lt;p&gt;In short, Airbnb is abandoning the idea that peer-to-peer reputation systems can solve the problem of trust, is moving away from the casual “air bed” mentality that gave it its name, and is resorting to traditional centralized systems of enforced minimum standards, documentary verification, and so on.&lt;/p&gt;
+&lt;p&gt;There is, however, one remaining difference between Airbnb and a traditional hospitality business. To go back to the beginning of this essay, sharing economy companies claim that it is both necessary &lt;em&gt;and sufficient&lt;/em&gt; to solve problems of trust and coordination to unlock a large new economy of resource sharing. The “sufficient” part of this is valid only if there are no spill-over effects from the operations of the sharing economy, so sharing economies will campaign for freedom from those constraints that prevent them maximizing their returns: health and safety standards, employment standards, licensing laws, and so on.14&lt;/p&gt;
+&lt;p&gt;To be successful, the venture-capital-funded “sharing economy” will be forced to lose all those aspects of informal sharing that makes “sharing” attractive, and to keep those aspects that erode neighbourhoods, erode employment rights, and remove basic standards. And if they succeed, they will have used the language of sharing to bring about an unregulated, free-market, neoliberal economy.&lt;/p&gt;
+&lt;h2 id=&#34;footnotes&#34;&gt;Footnotes&lt;/h2&gt;
+&lt;p&gt;1 For example, economist Arun Sundararajan [says](&lt;a href=&#34;http://blogs.hbr.org/2013/01/from-zipcarto-&#34;&gt;http://blogs.hbr.org/2013/01/from-zipcarto-&lt;/a&gt; the-sharing-eco/) that in peer-to-peer marketplaces “Reputation systems and active supplier screening maintain quality” and [that](&lt;a href=&#34;http://www.wired.com/opinion/2012/&#34;&gt;http://www.wired.com/opinion/2012/&lt;/a&gt; 10/from- airbnb- to- coursera-why- the- government- shouldnt- regulate- thesharing- economy/) “These reputation systems take community enforcement up a few notches from the time of the Maghribis, combining numerical scores and textual feedback with reviews, pictures, and peer references that are instantly visible to any potential market participant. By making both product and trader quality instantly transparent, this approach reduces the risks that often lead to market failure”; PBS Newshour [says](http: //www.pbs.org/newshour/mt4/mt-tb.cgi/18502) that “Users trust each other according to a person’s accumulated social credit; user ratings thus form a currency to increase the odds of finding a willing driver”; and in a January 2013 interview Airbnb CEO Brian Chesky [said](&lt;a href=&#34;http://skift.com/2013/01/11/airbnb-responds-to-illegal-rentals-storyfirst-&#34;&gt;http://skift.com/2013/01/11/airbnb-responds-to-illegal-rentals-storyfirst-&lt;/a&gt; of-all-its-not-illegal-everywhere/) “Well it turns out that cities can’t screen as well as technologies can screen. Companies have these magical things called reputation systems”; Forbes [writes](&lt;a href=&#34;http://www.forbes.com/sites/tomiogeron/2013/01/23/&#34;&gt;http://www.forbes.com/sites/tomiogeron/2013/01/23/&lt;/a&gt; airbnb-and-the-unstoppable-rise-of-the-share-economy/) that “Ebay’s much-duplicated rating system bestows commercial credibility on individuals”.&lt;/p&gt;
+&lt;p&gt;2 The description draws from the work of sociologist Diego Gambetta, who has spent years writing about trust, and in particular from a 2001 [article](&lt;a href=&#34;http://www.nuffield.ox&#34;&gt;http://www.nuffield.ox&lt;/a&gt;. ac.uk/People/sites/Gambetta/Publication%20Files/Trust%20in%20signs.pdf) written with Michael Bacharach.&lt;/p&gt;
+&lt;p&gt;3 The need for trust in collaboration is essential to opposition movements in authoritarian states, which is one reason I don’t believe that the “low transaction costs” of social media were key to the Arab Spring uprisings of 2011. I have made trust-based arguments &lt;a href=&#34;http://tomslee.net/2011/02/more-egypt-more-facebook.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and more formally in &lt;a href=&#34;http://dx.doi.org/10.2139/ssrn.2116471&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this working paper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;4 Methodology: In a BlaBlaCar rating, a reviewer gives a rating to a reviewee. The first step of the algorithm is to record all the ratings of an individual user. Each subsequent step chose a new reviewee by selecting at random from the lists of reviewers, and then records all the ratings for that user. There are cases where a single reviewer has reviewed a single reviewee multiple times; these were discarded. Only the numerical rating was recorded, and if a reviewer has not been reviewed by anyone a single “null” rating was recorded. The procedure is far from scientific, but at 190,000 ratings is way better than a few anecdotes, which is the point.&lt;/p&gt;
+&lt;p&gt;5 Almost all the one-star ratings are given when the rider and driver failed to meet without cancelling ahead of time. Perhaps the rider didn’t turn up, or perhaps the driver didn’t, but one way or another the ride didn’t happen. If a ride takes place, it is almost universal that each of the pair will give the other a five-star rating.&lt;/p&gt;
+&lt;p&gt;6 See also &lt;a href=&#34;http://www.quora.com/Airbnb/Why-are-there-so-few-negative-reviews-on-Airbnb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this question&lt;/a&gt; on Quora for impressionistic responses.&lt;/p&gt;
+&lt;p&gt;7 In 2013, Airbnb claims &lt;a href=&#34;https://www.airbnb.com/annual/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;over 300,000 listings&lt;/a&gt;, but a 2010 study &lt;a href=&#34;http://www.travelweekly.com/travel-news/hotel-news/big-growth-expected-in-vacation-rental-market&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;showed&lt;/a&gt; that “more than 6 million vacation properties in the U.S. and Europe were being rented out to travelers for a fee at least two weeks of every year”. Ad Age &lt;a href=&#34;http://adage.com/article/news/airbnb-taps-agency-major-ad-push/244300/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;r&lt;/a&gt;eports that Airbnb’s 2012 revenue was $150 million, which a little arithmetic based on 3 percent &lt;a href=&#34;https://www.airbnb.com/help/question/63&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;host fees&lt;/a&gt; and at least 6 percent &lt;a href=&#34;https://www.airbnb.com/help/question/104&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;guest fees&lt;/a&gt; suggests it is part of $1.5B in transactions. The same survey estimated the global vacation rental market at $85 billion in 2010, at an average of $14,000 per property. Supporting these estimates, a &lt;a href=&#34;http://www.phocuswright.com/products/4252&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;report&lt;/a&gt; by market research firm PhocusWright estimates the size of the overall vacation-rentals market in the US alone to be $23 billion, and vacation rentals in Europe are &lt;a href=&#34;http://www.travelweekly.com/travel-news/hotel-news/big-growth-expected-in-vacation-rental-market/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;much more popular&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;8 Personal story: During my childhood my mother booked almost all our family holidays from the &lt;em&gt;Farm Holiday Guide&lt;/em&gt;, which listed farmhouses that provided either bed-and-breakfast or self-contained accommodations throughout the UK.This practice was not unusual. For four years, we stayed with Miss Whittaker in the Duddon Valley in the Lake District. She was a dinner lady at the local school, and rented out accommodations to supplement her income. She had a sheepdog called Jan, which we played with in her back garden. When it rained, which was often, we would read books from her bookshelves: I first encountered Miss Marple and Hercule Poirot at Miss Whittaker’s house when I was about ten. My younger brother would sometimes get up early in the morning and sit in the kitchen with her, colouring in a colouring book while Miss Whittaker started her day. Families I know in Ontario have rented out cottages for decades, through personal contacts and scattered local tourism organizations like &lt;a href=&#34;http://www.visitsaugeenshores.ca/where-to-stay/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this one&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;9 BlaBlaCar hosts half a million passengers a month, which sounds like a huge number, but in the year 2000 12% of the 128.3 million workers in the US carpooled to work (US Census) which, assuming two people per car, is around 7 million passengers a day, excluding non-work trips.&lt;/p&gt;
+&lt;p&gt;10 Personal story: My own pre-digital ridesharing experiences include a year of commuting between Hamilton and Waterloo, driven by four different—and all wonderful—people, as well as several years of intermittent and luckily incident-free hitch-hiking in the UK, mainly between Leeds and London.Quiz for the reader: how would you rate the following drivers?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The German ex-prisoner of war who stayed in the UK and who gave me a ride in a small lorry, spending much of the ride explaining in a friendly manner how Hitler had been misunderstood.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The driver who spent 30 minutes complaining about how dark-skinned immigrants were wrecking the country.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The driver of the empty lorry who explained that he was picking up my friend Lawrence and myself on a windy day just to provide some extra ballast.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The driver who had cerebral palsy and whose hand shook increasingly as he reached for the gear lever, explaining that he drove better when he’d had a couple of drinks because he didn’t tremble as much.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Women may experience many kinds of problem that I have never faced. What is the acceptable level of flirtatiousness and/or overt propositioning from a driver? And would you report over-the-line behaviour if the driver had your phone number?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;11 Personal story: Rachel Botsman also makes a point that the sharing economy now means you can stay in unusual places, not just regular hotels. When I was three years old my parents rented a converted railway carriage near Aberdovey in Wales. The jellyfish on the beach were disgusting, but otherwise it was fun.&lt;/p&gt;
+&lt;p&gt;12 Personal story: my sister and I tried to book an apartment in Rome in spring of 2013 through &lt;a href=&#34;http://www.homeaway.co.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.homeaway.co.uk/&lt;/a&gt;. The owner said that apartment wasn’t available, but another one listed on &lt;a href=&#34;http://www.homelidays.co.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.homelidays.co.uk/&lt;/a&gt; was free. We never met the owner, but we did meet a cleaner who had a key. The rental was clearly a business transaction, and the apartment was one of six owned by the same person. The experience was very similar to booking a traditional bed and breakfast or holiday apartment through emails, websites, or even older mechanisms.&lt;/p&gt;
+&lt;p&gt;13 Thanks to Eric Farrar for insights into the differences between sites like Kijiji and sites like eBay.&lt;/p&gt;
+&lt;p&gt;14 One of the legal challenges faced by Airbnb is that local governments demand licensing of rental accommodation for reasons that go beyond the interests of the landlord/host and tenant/guest to include the interests of neighbours and wider community. Airbnb must campaign against such rules if it is to maintain its growth. It is no surprise that the first two actions of the new sharing economy advocacy group Peers are in support of two of the best funded companies: Airbnb and Lyft. The &lt;a href=&#34;http://www.peers.org/action/Save-Airbnb-LA/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;very first action&lt;/a&gt; was to &lt;a href=&#34;http://articles.latimes.com/2013/sep/02/business/la-fi-airbnb-economy-20130903&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;c&lt;/a&gt;ampaign in the Silver Lake neighbourhood of Los Angeles against &lt;a href=&#34;http://www.fastcoexist.com/3017486/the-battle-over-airbnb-moves-to-los-angeles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;restrictions on short-term rentals&lt;/a&gt;. San Francisco is the home base for the venture-capital wing of the sharing economy, and claims of unnecessary bureaucracy are now running into the claims of neighbours. In the Mission district, local newspaper &lt;em&gt;El Tecolote&lt;/em&gt;&lt;a href=&#34;http://eltecolote.org/content/unregulated-rental-business-takes-over-housing/2013/08/01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; reports&lt;/a&gt; on how people are making large amount of money by “using a unit that’s rent controlled and they’re taking the space away from people who really need a place to stay in San Francisco” and gentrifying the Mission neighbourhood, pushing native residents out.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Why The Sharing Economy Isn&#39;t		</title>
+      <link>/post/why-the-sharing-economy-isnt/</link>
+      <pubDate>Fri, 30 Aug 2013 18:48:00 +0000</pubDate>
+      <guid>/post/why-the-sharing-economy-isnt/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            So a couple of months ago Douglas Atkin, head of Community and E-staff Member at AirBnB, took to the stage of the Le Web conference in London ([video](http://www.youtube.com/watch?v%3Dcp2Hlp2TP-M)) to announce the formation of [Peers](http://www.peers.org/): “a grassroots organization that supports the sharing economy movement.” I like grassroots organizations and I like the co-operative impulse, but this… Well here is his speech in its entirety (in italics) with comments from yours truly.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;I joined [AirBnB](http://www.airbnb.com) about four months ago, but I’m going to talk about a different organization.&lt;/blockquote&gt;
+&lt;p&gt;He means &lt;a href=&#34;http://peers.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peers&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;In fact I’d like to talk about a movement for the sharing economy. By “a movement” I mean exactly that. I mean huge numbers of people, with a shared identity, mobilized to take action to do two things: to grow the peer sharing economy, and to fight for their collective interests against unfair and unreasonable obstacles.&lt;/blockquote&gt;
+&lt;p&gt;A grassroots organization with 40 corporate “partners”, with unspecified but significant funding, formed with &lt;a href=&#34;http://www.peers.org/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;guidance from&lt;/a&gt; a set of high-profile “thought leaders”, without local chapters, and with nothing much for the grassroots to do, but with an Executive Director on day one.&lt;/p&gt;
+&lt;p&gt;Andrew Leonard from Salon has been following the story, and tells us that funding comes from “&lt;a href=&#34;http://www.salon.com/2013/07/31/the_sharing_economy_gets_greedy/%5D%5B%20apparently%20these%20partners%20do%20fund%20Peers%5D%5D.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mission-aligned independent donors&lt;/a&gt;”. So that’s wealthy backers with a financial interest in the sharing economy. This is not grassroots, it’s astroturf.&lt;/p&gt;
+&lt;p&gt;If there is one thing that makes me angry, it is people appropriating the language of collective and progressive politics for financial gain. And that’s one thread of what’s going on here. As we shall see. It does seem that Executive Director Natalie Foster’s heart is in the right place, but that’s one of the tragedies of the sharing economy: well-intentioned people end up contributing to immiseration and injustice when they think they are doing the opposite.&lt;/p&gt;
+&lt;blockquote&gt;So what we’re talking about here is not just people sharing their skills, or their apartment, or their car, but also their collective power to expand the sharing economy together, and to stand up against entrenched interests who stand unfairly in their way. So “people power” if you like, or more accurately “peer power”.&lt;/blockquote&gt;
+&lt;p&gt;And what we’re &lt;em&gt;not&lt;/em&gt; talking about here is venture capital. Going through Crunchbase tells me that the total funding for the 40 partners is over $600M. AirBnB has received $120M, including funding from Andreessen Horowitz, Jeff Bezos, Ashton Kucher. You know, people standing up against entrenched interests.&lt;/p&gt;
+&lt;p&gt;At the end of this post I’ve added a table of what I could find. It tells us that almost all the funding is going to the Bay Area or New York. The non-profits in this organization are being taken for a ride by the appealing anti-establishment language of Silicon Valley . They need to take a look at who their bedfellows are and what the real agenda is.&lt;/p&gt;
+&lt;p&gt;Venture Capital funds are not interested in people power, they are interested in an investment with a good return. The fact that Douglas Atkin doesn’t once mention the financial motivations of the forces behind the sharing economy is either dishonest or unbelievably self-deceiving.&lt;/p&gt;
+&lt;blockquote&gt;Now why would there be a need for such a thing? The sharing economy seems to be barrelling along pretty happily. Why do we need another organization? Well, firstly the opportunity. This was brought home to me a week ago in San Francisco where I attended a meeting of sharing economy participants. So there were drivers, passengers, hosts, guests, and tour guides from [RelayRides](http://relayrides.com), Lyft, AirBnB, Vayable and Sidecar, and they were literally bouncing up and down with enthusiasm about the opportunity to collaborate together — with each other.
+&lt;p&gt;So they were developing ideas — brilliant ideas actually — to share customers with each other, across verticals. One person even suggested that there could be a peer economy currency — maybe Bitcoin. Or even points to encourage people to cross verticals and recruit new people into this new economy.&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;The language changes, the mask slips. Participants become customers, sharing becomes buying. The phrase “across verticals” reminds us that Douglas Atkin is an advertising executive. Now the sharing economy is about loyalty programs and cross marketing? Not the kind of sharing I want to be part of. I don’t have a problem with commerce, but what I do object to is commerce wrapped up in, and appropriating, the language of solidarity.&lt;/p&gt;
+&lt;blockquote&gt;These people were incredibly impressive, with their passion and their eagerness and creativity to work together locally to expand the sharing economy. So that was the opportunity. It was incredibly exciting to see that. And I did a couple more of these types of meetings, with people from different verticals in the sharing economy in New York, where the same thing happened. So there’s the opportunity.&lt;/blockquote&gt;
+&lt;p&gt;The Peers organization came together, then, in San Francisco and New York – the well-heeled, well-funded districts of the sharing economy movement.&lt;/p&gt;
+&lt;blockquote&gt;Secondly, though, there’s the challenges. It’s unlikely, I believe — and I believe this because I used to work for them — that the entrenched interests of the old economy are going to stand idly by as their business model of the past seventy years is challenged by the new economy.&lt;/blockquote&gt;
+&lt;p&gt;Billion-dollar venture capital funds are out to undercut people who run licensed bed and breakfasts, and he’d have me believe that it’s the B&amp;amp;B owners who are the “entrenched interests”. If this is your idea of a revolution (and it is, unbelievably enough: that comes later) then brother don’t you know, you can count me out.&lt;/p&gt;
+&lt;blockquote&gt;What’s more, outdated laws and new laws which have been badly conceived, with unintended consequences, really threaten the growth of this nascent new world economy.&lt;/blockquote&gt;
+&lt;p&gt;The laws that he is talking about are licensing laws and other laws put in place to protect employees, customers, and neighbourhoods. These laws are not all perfect. But the sharing economy has nothing to replace them beyond magical thinking about “trust” (with little accountability).&lt;/p&gt;
+&lt;blockquote&gt;How much better would it be if citizens banded together to grow and protect their interests in the sharing economy rather than companies wielding their power?&lt;/blockquote&gt;
+&lt;p&gt;How about banding together to protest when a TaskRabbit customer posts a job to do four loads of laundry and it’s actually 10 or 15 loads covered in cat diarrhea? &lt;a href=&#34;http://www.businessinsider.com/confessions-of-a-task-rabbit-2011-12&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;No&lt;/a&gt;: if you do that, you’re fired. The company (a partner of Peers.org, natch) also takes steps to prevent its TaskRabbits from meeting because “They don’t want us unionizing”. I’m sorry, what was that about citizens banding together against companies?&lt;/p&gt;
+&lt;blockquote&gt;So I’m here to tell you about some plans which will enable people to create a member-driven movement for the sharing economy. If you like, a new kind of union for a new kind of economy. And I’m also here to ask for your support. So if you’re a platform: help your users create this organization and join it. If you’re a thought-leader, blogger, or conference speaker: champion it. And if you’ve got some ready cash, please help fund it.&lt;/blockquote&gt;
+&lt;p&gt;A new kind of union? What, me and Peter Thiel, &lt;a href=&#34;http://www.fastcompany.com/3012593/taskrabbit-leah-busque&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;billionaire investor&lt;/a&gt; in TaskRabbit? Sorry, I won’t be handing over my cash any time soon.&lt;/p&gt;
+&lt;blockquote&gt;Now why should you do this? Well it’s the right thing to do. We literally stand on the brink of a new, better kind of economic system, that delivers social as well as economic benefits. In fact, social and economic benefits that the old economy promised but failed to deliver. As Julia, an AirBnB host, told me just last night, “the sharing economy saved my arse”.&lt;/blockquote&gt;
+&lt;p&gt;The sharing economy is not an alternative to capitalism, it’s the ultimate end point of capitalism in which we are all reduced to temporary labourers and expected to smile about it because we are interested in the experience not the money. Jobs become “extra money” just like women’s jobs used to be “extra money”, and like those jobs they don’t come with things like insurance protection, job security, benefits – none of that old economy stuff. But hey, you’re not an employee, you’re a &lt;a href=&#34;http://www.huffingtonpost.com/2012/07/10/leah-busque-taskrabbit_n_1651880.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;micro-entrepreneur&lt;/a&gt;. And you’re not doing it for the money, you’re doing it for the experience. We just assume you’re making a living some other way.&lt;/p&gt;
+&lt;blockquote&gt;The old economy has largely failed us. Most people are not experiencing the economic independence and the happiness that mass production and consumerism promised. Partly, in a way, because the old system centralizes production, wealth and control. That’s just the way it works. And in a sense, that’s largely to blame. The peer sharing economy is a new model, which distributes power, wealth, and control to everyone else. Best of all, the very things that have become the casualties of the old economy — things like economic independence, entrepreneurialism, community, individuality, happiness — are actually built in to the very structure of this new economy. You can’t do sharing without building community, without creating individualized experiences.&lt;/blockquote&gt;
+&lt;p&gt;The sharing economy is the centralization of global casual labour. Investors invest because individual sharing economy companies have the potential for global reach, collecting a little from each of millions of transactions around the world, and funnelling it to California.&lt;/p&gt;
+&lt;blockquote&gt;We’ve had this ridiculous debate for the past thirty years ago in this old economy about a work/life balance, because the honest truth is life gets squeezed out because of work. As Rachel says: doing jobs we hate to buy shit we don’t need. But in this sharing economy, life is built in. So Etsy producers get to know their consumers and sell individualized goods. Whenever I take a Lyft or a Sidecar — which are ride-sharing organizations in San Francisco — I always ask them “So why are you doing this?” And their first response is “To interact and meet with new and interesting people”. And then secondly, the flexible hours and a bit of extra cash. It’s the community they are most interested in experiencing.&lt;/blockquote&gt;
+&lt;p&gt;Trashing consumerism appeals to many environmentally-minded, social-justice oriented people. But if you displace taxi drivers and replace them with casual labour, you’re not improving the work/life balance of drivers, you’re making them poorer.&lt;/p&gt;
+&lt;blockquote&gt;Fred Mazella was a genius when he named blablacar [blablacar](http://www.blablacar.com/), because he’s actually naming what happens in the car. He named his organization not after the transaction, which is ridesharing, but because people communicate and go “bla bla bla” to each other in the car. He correctly identified what the real benefit of the sharing economy is, which is these other social and economic rewards.&lt;/blockquote&gt;
+&lt;p&gt;You know, I talk to taxi drivers too. Some of them are interesting people. You should try it sometime.&lt;/p&gt;
+&lt;blockquote&gt;So there’s a nascent organization which is about to bloom. It’s independent, it’s member-driven, it’s global, it’s not a trade association, it’s not a lobbying group. It will use peer power and collective action to grow the sharing economy and overcome unfair obstacles.&lt;/blockquote&gt;
+&lt;p&gt;I don’t know if he’s lying or if he believes this stuff, but take a look at the website of &lt;a href=&#34;http://peers.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peers.org&lt;/a&gt; and tell me you believe it.&lt;/p&gt;
+&lt;blockquote&gt;I personally want to see the sharing economy grow to become the dominant global economic model in the world, because of the social and economic benefits which are built-in, because of the distributed wealth, control, and power which it represents. It has the possibility of transforming the world for the better. So if you want that too, especially if you’d like to see members champion it for themselves, rather than the usual suspects, come and see me afterwards and I can tell you how you can help. Or talk to [Leah](https://www.taskrabbit.com/about), who is the founder of [TaskRabbit](https://www.taskrabbit.com/) and Fred from [blablacar](http://blablacar.com) or [Lisa Gansky](http://lisagansky.com/). We can all tell you a little more about it.
+&lt;p&gt;So Vive La Revolution, and thank you very much.&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;When all jobs are Taskrabbit jobs, how does anyone earn a living?&lt;/p&gt;
+&lt;h2 id=&#34;appendix&#34;&gt;Appendix&lt;/h2&gt;
+&lt;p&gt;Here’s that table of Peers.org partners.&lt;/p&gt;
+&lt;table rules=&#34;groups&#34; cellspacing=&#34;0&#34; frame=&#34;hsides&#34; border=&#34;2&#34; cellpadding=&#34;6&#34; &gt; 
+&lt;tr &gt;
+Company
+Funding ($US)
+Location
+Investors include…
+&lt;/tr&gt;
+&lt;tbody &gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;AirBnB
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;120M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Andreessen Horowitz, a $2.5B fund
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Airtasker
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Sydney, AUS
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Bay Share
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Blablacar
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;10M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Paris
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Car Next Door
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Carpooling.com
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;10M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Munich
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Daimler
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;City Car Share
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;non-profit
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Chegg
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;195M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;(many)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Collaborative Fund
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;(VC)
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;New York
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Collaborative Lab
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;co:NYC
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;New York
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Members include AirBnB etc
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Cookening
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Paris
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Divvy
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Australia
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Farmigo
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;10M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Palo Alto
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Sherbrooke Capital
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;General Assembly
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;14.3M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;New York
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Maveron, a $780M fund
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Getaround
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;19M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Marissa Mayer
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Green Spaces
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;New York
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;The Hub
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Vienna
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;ioby
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;New York
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;LiquidSpace
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;12.2M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Palo Alto
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Greylock Partners, a $1.73B fund
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Lyft
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;82.5M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Andreessen Horowitz, a $2.5B fund
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Maker Media
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Meetup
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;18.3M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;New York
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Omidyar Network
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Mesh
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;(book)
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Mosaic
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;22M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Oakland
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Spring Ventures
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Open Shed
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Australia
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;OuiShare
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;non-profit
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;France?
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;ParkAtMyHouse
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;UK
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;BMW
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;RelayRides
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;13M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;General Motors, Google Ventures
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Scoot Networks
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;1.65M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Lisa Gansky
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Shareable
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;(magazine)
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Side.Cr (Sidecar)
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;10M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Lisa Gansky, Google Ventures
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Skillshare
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;4.65M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;New York
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Union Square Ventures, a $200M fund
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;TaskRabbit
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;37.7M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Lightspeed Ventures, a $2B fund
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;TimeRepublik
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;South Africa?
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Vayable
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;SV Angel, an $89M fund
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Yerdle
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;--
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;WeWork
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;6.85M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;New York
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Zaarly
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;15.2M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;San Francisco
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Kleiner Perkins Caufield &amp; Byers
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Zookal
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;1.46M
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Sydney
+&lt;/td&gt;
+&lt;td class=&#34;left&#34; &gt;Filtro Private Equity
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

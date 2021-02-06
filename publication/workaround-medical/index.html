@@ -1,13 +1,17 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.0.0-beta.2 for Hugo" />
+  
+  
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.3.1">
-
+  
   
 
   
@@ -29,22 +33,36 @@
     
   
   <meta name="description" content="A recent paper highlights &ldquo;adversarial attacks&rdquo; by physicians as a threat to medical machine learning. Its recommendations may do more harm than good.
-
- Table of Contents  Adversarial examples Workarounds Two sides of the same coin Governing machine learning   
-Adversarial examples The rise of deep learning has been accompanied by a fascination with &ldquo;adversarial examples&rdquo;: the classic cases are striking because they cause amazingly accurate machine learning models to make amazingly stupid mistakes.">
+Table of Contents Adversarial examples Workarounds Two sides of the same coin Governing machine learning  Adversarial examples The rise of deep learning has been accompanied by a fascination with &ldquo;adversarial examples&rdquo;: the classic cases are striking because they cause amazingly accurate machine learning models to make amazingly stupid mistakes. A carefully designed tweak invisible to the human eye may cause an image-recognition system to mistake what is &ldquo;obviously&rdquo; a picture of a macaw for a picture of a bookcase." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://tomslee.github.io/publication/workaround-medical/">
+  <link rel="alternate" hreflang="en-us" href="/publication/workaround-medical/" />
 
   
 
 
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   
 
   
   
   
-  <meta name="theme-color" content="#2962ff">
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
   
 
   
@@ -52,9 +70,11 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
   
   
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
 
     
     
@@ -65,94 +85,293 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
         
       
     
 
     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
 
     
 
-  
-
-  
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="/css/academic.min.cd4a39569d1c33b7bd15c30b7962dc73.css">
-
-  
-
-  
-  
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-7526668-2', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
-  
-  
-
-  
-
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
-
-  <link rel="canonical" href="https://tomslee.github.io/publication/workaround-medical/">
-
-  
-  
-  
-  
     
     
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
   
-  <meta property="twitter:card" content="summary">
+
   
-  <meta property="twitter:site" content="@whimsley">
-  <meta property="twitter:creator" content="@whimsley">
   
-  <meta property="og:site_name" content="Tom Slee">
-  <meta property="og:url" content="https://tomslee.github.io/publication/workaround-medical/">
-  <meta property="og:title" content="Medical machine learning and the importance of workarounds | Tom Slee">
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.66b14a1c920c4d338f6a1c6f8e2eaf3f.css" />
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="/publication/workaround-medical/" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@whimsley" />
+    <meta property="twitter:creator" content="@whimsley" />
+  
+  <meta property="og:site_name" content="Tom Slee" />
+  <meta property="og:url" content="/publication/workaround-medical/" />
+  <meta property="og:title" content="Medical machine learning and the importance of workarounds | Tom Slee" />
   <meta property="og:description" content="A recent paper highlights &ldquo;adversarial attacks&rdquo; by physicians as a threat to medical machine learning. Its recommendations may do more harm than good.
-
- Table of Contents  Adversarial examples Workarounds Two sides of the same coin Governing machine learning   
-Adversarial examples The rise of deep learning has been accompanied by a fascination with &ldquo;adversarial examples&rdquo;: the classic cases are striking because they cause amazingly accurate machine learning models to make amazingly stupid mistakes."><meta property="og:image" content="https://tomslee.github.io/img/icon-192.png">
-  <meta property="og:locale" content="en-us">
+Table of Contents Adversarial examples Workarounds Two sides of the same coin Governing machine learning  Adversarial examples The rise of deep learning has been accompanied by a fascination with &ldquo;adversarial examples&rdquo;: the classic cases are striking because they cause amazingly accurate machine learning models to make amazingly stupid mistakes. A carefully designed tweak invisible to the human eye may cause an image-recognition system to mistake what is &ldquo;obviously&rdquo; a picture of a macaw for a picture of a bookcase." /><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
-  <meta property="article:published_time" content="2019-08-05T14:25:22-04:00">
-  <meta property="article:modified_time" content="2019-08-05T14:29:34-04:00">
-  
-
+    
+      <meta property="article:published_time" content="2019-08-05T14:25:22-04:00" />
+    
+    <meta property="article:modified_time" content="2019-08-05T14:25:22-04:00">
   
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/workaround-medical/"
+  },
+  "headline": "Medical machine learning and the importance of workarounds",
+  
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "2019-08-05T14:25:22-04:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tom Slee",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "A recent paper highlights \u0026ldquo;adversarial attacks\u0026rdquo; by physicians as a threat to medical machine learning. Its recommendations may do more harm than good.\n\r\rTable of Contents\r Adversarial examples Workarounds Two sides of the same coin Governing machine learning  \r\rAdversarial examples The rise of deep learning has been accompanied by a fascination with \u0026ldquo;adversarial examples\u0026rdquo;: the classic cases are striking because they cause amazingly accurate machine learning models to make amazingly stupid mistakes. A carefully designed tweak invisible to the human eye may cause an image-recognition system to mistake what is \u0026ldquo;obviously\u0026rdquo; a picture of a macaw for a picture of a bookcase."
+}
+</script>
+
+  
+
+  
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
   window.addEventListener("load", function(){
     window.cookieconsent.initialise({
       "palette": {
         "popup": {
-          "background": "#2962ff",
-          "text": "#fff"
+          "background": "#1565c0",
+          "text": "rgb(255, 255, 255)"
         },
         "button": {
-          "background": "#fff",
-          "text": "#2962ff"
+          "background": "rgb(255, 255, 255)",
+          "text": "#1565c0"
         }
       },
       "theme": "classic",
@@ -160,11 +379,10 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
         "message": "This website uses cookies to ensure you get the best experience on our website.",
         "dismiss": "Got it!",
         "link": "Learn more",
-        "href": "https://cookies.insites.com"
+        "href": "https://www.cookiesandyou.com"
       }
     })});
-</script>
-
+  </script>
 
 
   
@@ -174,13 +392,24 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
 
 
   <title>Medical machine learning and the importance of workarounds | Tom Slee</title>
-
 </head>
 
 
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
 
-  <aside class="search-results" id="search">
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.d876f1a6b98701f9238f2313b512a26f.js"></script>
+
+  
+
+<aside class="search-modal" id="search">
   <div class="container">
     <section class="search-header">
 
@@ -189,16 +418,22 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
           <h1>Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
         </div>
       </div>
 
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
         
       </div>
+
+      
+      
+
+      
 
     </section>
     <section class="section-search-results">
@@ -212,25 +447,49 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
 </aside>
 
 
-  
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-  <div class="container">
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Tom Slee</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Tom Slee</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -242,16 +501,61 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
+            
+            
+              
+            
+            
           
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
           
         
 
@@ -271,21 +575,29 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+          <a class="nav-link " href="/#posts"><span>Notes</span></a>
         </li>
 
         
@@ -300,16 +612,24 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -320,60 +640,67 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
         
         
 
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-      
-      </ul>
-      <ul class="navbar-nav ml-auto">
       
 
         
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
-
-        
-
-        
-
       </ul>
-
     </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
 
-  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -394,17 +721,13 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Medical machine learning and the importance of workarounds</h1>
+  <h1>Medical machine learning and the importance of workarounds</h1>
 
   
 
   
     
 
-
-
-<meta content="2019-08-05 14:25:22 -0400 EDT" itemprop="datePublished">
-<meta content="2019-08-05 14:25:22 -0400 EDT" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -417,7 +740,7 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
     
       
     
-    <time>August 2019</time>
+    2019-08-05
   </span>
   
 
@@ -427,59 +750,16 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
 
   
   
-
   
   
+  
 
   
-    
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://tomslee.github.io/publication/workaround-medical/&amp;text=Medical%20machine%20learning%20and%20the%20importance%20of%20workarounds" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Medical%20machine%20learning%20and%20the%20importance%20of%20workarounds&amp;body=https://tomslee.github.io/publication/workaround-medical/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-  </ul>
-</div>
-
-
   
 
 </div>
 
     
-
-
-
-
-
-
-
-
-
 
 
 
@@ -501,7 +781,7 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/pdf/workaround-medical.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/pdf/workaround-medical.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -534,483 +814,488 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
     
 
     
+    
 
     
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-
-<div class="ABSTRACT">
+    <div class="article-style"><div class="ABSTRACT">
   <div></div>
-
 <p><em>A recent paper highlights &ldquo;adversarial attacks&rdquo; by physicians as a threat to medical machine learning. Its recommendations may do more harm than good.</em></p>
-
-<p></div></p>
-
+</div>
 <div class="ox-hugo-toc toc">
 <div></div>
-
 <div class="heading">Table of Contents</div>
-
 <ul>
 <li><a href="#adversarial-examples">Adversarial examples</a></li>
 <li><a href="#workarounds">Workarounds</a></li>
 <li><a href="#two-sides-of-the-same-coin">Two sides of the same coin</a></li>
 <li><a href="#governing-machine-learning">Governing machine learning</a></li>
 </ul>
-
-<p></div>
-<!--endtoc--></p>
-
+</div>
+<!--endtoc-->
 <h2 id="adversarial-examples">Adversarial examples</h2>
-
 <p>The rise of deep learning has been accompanied by a fascination with &ldquo;adversarial examples&rdquo;: the classic cases are striking because they cause amazingly accurate machine learning models to make amazingly stupid mistakes. A carefully designed tweak invisible to the human eye may cause an image-recognition system to mistake what is &ldquo;obviously&rdquo; a picture of a macaw for a picture of a bookcase.</p>
 
 
 
 
-<figure>
-
-<img src="/ox-hugo/2019-ai-adversarial-macaw.png" alt="Figure 1: A slight perturbation of this picture of a macaw causes it to be classified as a bookcase." />
 
 
 
-<figcaption data-pre="Figure " data-post=":" >
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-1-a-slight-perturbation-of-this-picture-of-a-macaw-causes-it-to-be-classified-as-a-bookcase">
+
+
+  <a data-fancybox="" href="/ox-hugo/2019-ai-adversarial-macaw.png" data-caption="Figure 1: A slight perturbation of this picture of a macaw causes it to be classified as a bookcase.">
+
+
+  <img src="/ox-hugo/2019-ai-adversarial-macaw.png" alt=""  >
+</a>
+
+
   
-  <p>
+  
+  <figcaption>
     Figure 1: A slight perturbation of this picture of a macaw causes it to be classified as a bookcase.
-    
-    
-    
-  </p> 
-</figcaption>
+  </figcaption>
+
 
 </figure>
 
 <p>In the few years since their discovery, adversarial examples have been shown to be both ubiquitous and difficult to prevent. These &ldquo;adversarial attacks&rdquo;, as they are also called, cast a doubt over whether deep learning systems can survive in the real world. Deep learning systems seem to have the potential for great accuracy over some dimensions, but also great fragility in others.</p>
-
-<p>The real-world implications of adversarial examples are going to be important topics over the next few years. One example of things to come is a recent paper in the prestigious Science magazine warning about <a href="https://science.sciencemag.org/content/363/6433/1287" target="_blank">Adversarial attacks on medical machine learning</a> (<a href="https://www.ehidc.org/sites/default/files/resources/files/Adversarial%20attacks%20on%20medical%20machine%20learning.pdf" target="_blank">full text PDF</a>)<sup class="footnote-ref" id="fnref:fn-1"><a href="#fn:fn-1">1</a></sup>. It&rsquo;s no surprise that healthcare has been highlighted: investment in deep learning systems for healthcare is already massive. High-profile successes in &ldquo;better than human&rdquo; diagnosis from medical images, and the potential for extracting useful information from electronic health records have made for something of a gold rush. Eric Topol&rsquo;s new book <a href="https://www.basicbooks.com/titles/eric-topol/deep-medicine/9781541644649/" target="_blank">Deep Medicine</a> charts some of the potential. However, the authors of the Science paper warn, the billions of dollars flowing through healthcare systems provide obvious incentives for &ldquo;attackers&rdquo; to corrupt the system for fraudulent purposes. If adversarial attacks are easy to make and difficult to defend against, then the promise of medical machine learning may never be realized.</p>
-
+<p>The real-world implications of adversarial examples are going to be important topics over the next few years. One example of things to come is a recent paper in the prestigious Science magazine warning about <a href="https://science.sciencemag.org/content/363/6433/1287" target="_blank" rel="noopener">Adversarial attacks on medical machine learning</a> (<a href="https://www.ehidc.org/sites/default/files/resources/files/Adversarial%20attacks%20on%20medical%20machine%20learning.pdf" target="_blank" rel="noopener">full text PDF</a>)<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. It&rsquo;s no surprise that healthcare has been highlighted: investment in deep learning systems for healthcare is already massive. High-profile successes in &ldquo;better than human&rdquo; diagnosis from medical images, and the potential for extracting useful information from electronic health records have made for something of a gold rush. Eric Topol&rsquo;s new book <a href="https://www.basicbooks.com/titles/eric-topol/deep-medicine/9781541644649/" target="_blank" rel="noopener">Deep Medicine</a> charts some of the potential. However, the authors of the Science paper warn, the billions of dollars flowing through healthcare systems provide obvious incentives for &ldquo;attackers&rdquo; to corrupt the system for fraudulent purposes. If adversarial attacks are easy to make and difficult to defend against, then the promise of medical machine learning may never be realized.</p>
 <p>The Science paper, by researchers from Harvard and MIT, is my main topic here, but first we need to talk about a seemingly-humdrum topic that gets much less attention, but which turns out to be closely related.</p>
-
 <h2 id="workarounds">Workarounds</h2>
-
 <p>An adversarial attack is an input crafted intentionally to force a model to make a mistake. A workaround is the opposite: an input crafted intentionally to force a model to <em>correct</em> a mistake.</p>
-
 <p>A schematic example is shown below. The data points are shown with their &ldquo;true&rdquo; values of blue or orange, and the background shade marks the regions categorized by the model as &ldquo;blue&rdquo; or &ldquo;orange&rdquo;. The model has a high accuracy: most of the actually-blue dots lie in the categorized-as-blue region, and most of the actually-orange points lie in the categorized-as-orange region. But even the best machine learning systems are  statistical engines with non-zero error rates, so you can see a few incorrectly classified examples in the diagram too.</p>
-
 <p>The adversarial example (red arrow) changes the input for a correctly-classified &ldquo;orange&rdquo; data point so that it is incorrectly classified as blue. The workaround (green arrow) changes the input for an &ldquo;orange&rdquo; data point that is incorrectly classified as &ldquo;blue&rdquo; so that it is classified correctly.</p>
-
 <p><a id="org447a402"></a></p>
 
 
 
 
-<figure>
-
-<img src="/ox-hugo/tensorflow-playground.png" alt="Figure 2: Schematic view of a machine learning model, showing an adversarial example and a workaround. The image was built from  [Tensorflow Playground](https://playground.tensorflow.org))" />
 
 
 
-<figcaption data-pre="Figure " data-post=":" >
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-2-schematic-view-of-a-machine-learning-model-showing-an-adversarial-example-and-a-workaround-the-image-was-built-from--tensorflow-playgroundhttpsplaygroundtensorfloworg">
+
+
+  <a data-fancybox="" href="/ox-hugo/tensorflow-playground.png" data-caption="Figure 2: Schematic view of a machine learning model, showing an adversarial example and a workaround. The image was built from  &lt;a href=&#34;https://playground.tensorflow.org&#34;&gt;Tensorflow Playground&lt;/a&gt;)">
+
+
+  <img src="/ox-hugo/tensorflow-playground.png" alt=""  >
+</a>
+
+
   
-  <p>
-    Figure 2: Schematic view of a machine learning model, showing an adversarial example and a workaround. The image was built from  <a href="https://playground.tensorflow.org" target="_blank">Tensorflow Playground</a>)
-    
-    
-    
-  </p> 
-</figcaption>
+  
+  <figcaption>
+    Figure 2: Schematic view of a machine learning model, showing an adversarial example and a workaround. The image was built from  <a href="https://playground.tensorflow.org">Tensorflow Playground</a>)
+  </figcaption>
+
 
 </figure>
 
 <p>Adversarial examples may be novel, but workaroudns have become routine in the automated workplace. Automation shifts decision-making from &ldquo;front line&rdquo; workers to computerized systems, but as these systems have entered the workplace, many professionals have learned a new and often unacknowledged skill: they have become experts at making automated decision systems work properly.</p>
-
-<p>As just one example, legal scholar Jennifer Raso explored the changing jobs of Ontario welfare case workers when an automated decision system was introduced in a <a href="https://ssrn.com/abstract=3062620" target="_blank">prize-winning paper</a>. Instead of making their own judgments about client needs, the role of case workers is now to enter data into an algorithmic scoring system (not deep learning), which makes entitlement decisions according to well-defined rules. She writes about how social service case workers responded:</p>
-
+<p>As just one example, legal scholar Jennifer Raso explored the changing jobs of Ontario welfare case workers when an automated decision system was introduced in a <a href="https://ssrn.com/abstract=3062620" target="_blank" rel="noopener">prize-winning paper</a>. Instead of making their own judgments about client needs, the role of case workers is now to enter data into an algorithmic scoring system (not deep learning), which makes entitlement decisions according to well-defined rules. She writes about how social service case workers responded:</p>
 <blockquote>
-<p>While new technologies may attempt to deskill and decentre front-line decision-makers, transforming them into data entry clerks, caseworkers learn how to expertly translate and input client data to produce decisions that more closely match their interpretation of clients&rsquo; needs and welfare laws.</p>
+<p>While new technologies may attempt to deskill and decentre front-line decision-makers, transforming them into data entry clerks, caseworkers learn how to expertly translate and input client data to produce decisions that more closely match their interpretation of clients' needs and welfare laws.</p>
 </blockquote>
-
-<p>The importance of workarounds will be familiar to anyone who has read James C. Scott&rsquo;s <a href="https://yalebooks.yale.edu/book/9780300078152/seeing-state" target="_blank">Seeing Like a State</a>. Heavily designed schemes to improve the human condition assume, and impose, a simplified and idealized representation of working and living that neglects the unruly irregularities of real life. These systems rely on a certain level of workaround to function: people prepared to bend the official rules in order to get their work done. There is a reason that the &ldquo;work to rule&rdquo; has been successful in labour disputes as a form of protest.</p>
-
-<p>The American healthcare system is no exception. The rigidities of automated billing systems recently produced a memorable essay by Atul Gawande entitled <a href="https://www.newyorker.com/magazine/2018/11/12/why-doctors-hate-their-computers" target="_blank">Why Doctors Hate Their Computers</a>, documenting many of the challenges experienced by physicians as new decision support systems have been introduced, and the ingenious but often costly workarounds they have had to undertake in order to deliver high quality care to their patients.</p>
-
+<p>The importance of workarounds will be familiar to anyone who has read James C. Scott&rsquo;s <a href="https://yalebooks.yale.edu/book/9780300078152/seeing-state" target="_blank" rel="noopener">Seeing Like a State</a>. Heavily designed schemes to improve the human condition assume, and impose, a simplified and idealized representation of working and living that neglects the unruly irregularities of real life. These systems rely on a certain level of workaround to function: people prepared to bend the official rules in order to get their work done. There is a reason that the &ldquo;work to rule&rdquo; has been successful in labour disputes as a form of protest.</p>
+<p>The American healthcare system is no exception. The rigidities of automated billing systems recently produced a memorable essay by Atul Gawande entitled <a href="https://www.newyorker.com/magazine/2018/11/12/why-doctors-hate-their-computers" target="_blank" rel="noopener">Why Doctors Hate Their Computers</a>, documenting many of the challenges experienced by physicians as new decision support systems have been introduced, and the ingenious but often costly workarounds they have had to undertake in order to deliver high quality care to their patients.</p>
 <p>Will workarounds be needed for the next generation of deep learning medical systems? History suggests that they will. There is a long history of technical innovations that are designed around idealized and simplified models of behaviour, and which underestimate the complexities of &ldquo;edge cases&rdquo; in real life. Witness the over-enthusiasm around self-driving cars a couple of years ago, that is now being confronted with the messiness of reality.</p>
-
 <p>From a researcher&rsquo;s point of view, adversarial examples are fascinating cases that raise a multitude of new questions: so much so that several papers <em>per day</em> are now published on the topic. Workarounds, in contrast, are boring. They raise few questions. They are merely machine learning residue&mdash;what&rsquo;s left over after the algorithm has made its best attempt, hopefully cleared up by the next iteration of the model.</p>
 
 
 
 
-<figure>
-
-<img src="/ox-hugo/david-evans-paper-count.png" alt="Figure 3: The rise in &#34;adversarial example&#34; publications, from [this talk by David Evans](https://www.youtube.com/watch?v=sFhD6ABghf8)." />
 
 
 
-<figcaption data-pre="Figure " data-post=":" >
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-3-the-rise-in-adversarial-example-publications-from-this-talk-by-david-evanshttpswwwyoutubecomwatchvsfhd6abghf8">
+
+
+  <a data-fancybox="" href="/ox-hugo/david-evans-paper-count.png" data-caption="Figure 3: The rise in &amp;ldquo;adversarial example&amp;rdquo; publications, from &lt;a href=&#34;https://www.youtube.com/watch?v=sFhD6ABghf8&#34;&gt;this talk by David Evans&lt;/a&gt;.">
+
+
+  <img src="/ox-hugo/david-evans-paper-count.png" alt=""  >
+</a>
+
+
   
-  <p>
-    Figure 3: The rise in &ldquo;adversarial example&rdquo; publications, from <a href="https://www.youtube.com/watch?v=sFhD6ABghf8" target="_blank">this talk by David Evans</a>.
-    
-    
-    
-  </p> 
-</figcaption>
+  
+  <figcaption>
+    Figure 3: The rise in &ldquo;adversarial example&rdquo; publications, from <a href="https://www.youtube.com/watch?v=sFhD6ABghf8">this talk by David Evans</a>.
+  </figcaption>
+
 
 </figure>
 
 <p>From an end user&rsquo;s point of view, things look different. Faced with getting their job done and a decision system that seems to have taken a bad decision,  they are not in a position to improve the model: they can either follow often a maze of twisty passages in an attempt to get an exception or they can fudge the input and move on. Workarounds are far more interesting than adversarial examples, for all their exoticism.</p>
-
 <h2 id="two-sides-of-the-same-coin">Two sides of the same coin</h2>
-
 <p>The previous section presented adversarial attacks and workarounds as opposites, whcih holds true in a laboratory environment where the &ldquo;correct&rdquo; result for each individual data point is known and particularly in the classic cases where the &ldquo;correct&rdquo; result is, to a human, obvious and uncontroversial. In real-world environments things are different. Machine learning systems are statistical beasts, and however accurate they may be over a large data set, statistics cannot tell us whether any one individual data point is handled correctly or not. In many cases the &ldquo;true&rdquo; value for an individual case is not available at all. This difference between the world of the laboratory and that of production environments is noted by the Harvard / MIT researchers:</p>
-
 <blockquote>
 <p>[T]he ground truth in medical diagnoses is often ambiguous, meaning that for many cases no individual human can definitively assign the true label between, say, &ldquo;benign&rdquo; and &ldquo;cancerous&rdquo; on a photograph of a mole.</p>
 </blockquote>
-
 <p>The figure below is the same as the previous one, but now the two individual data points are coloured grey, showing that we do not know their &ldquo;true&rdquo; value. All of a sudden, instead of being opposites, there is no difference between the adversarial example and the workaround.</p>
-
 <p>(The diagram is misleading in an important way: in a two-dimensional space only a few of the dots are close to a boundary, and that boundarey is with just one other class. It would be reasonable to think that the problem is irrelevant for most inputs that lie comfortably within one region or another. In the many-dimensional space in which machine-learning models operate, it turns out that <em>all</em> dots are close to boundaries with <em>all other classes</em>: the situation for machine learning is therefore much <em>more</em> severe than the diagram suggests.)</p>
-
 <p><a id="orgac29a52"></a></p>
 
 
 
 
-<figure>
-
-<img src="/ox-hugo/tensorflow-playground-2.png" alt="Figure 4: In a real-world deployment, it may be impossible to distinguish between an input that is &#34;truly orange&#34; and one that is &#34;truly blue&#34;." />
 
 
 
-<figcaption data-pre="Figure " data-post=":" >
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-4-in-a-real-world-deployment-it-may-be-impossible-to-distinguish-between-an-input-that-is-truly-orange-and-one-that-is-truly-blue">
+
+
+  <a data-fancybox="" href="/ox-hugo/tensorflow-playground-2.png" data-caption="Figure 4: In a real-world deployment, it may be impossible to distinguish between an input that is &amp;ldquo;truly orange&amp;rdquo; and one that is &amp;ldquo;truly blue&amp;rdquo;.">
+
+
+  <img src="/ox-hugo/tensorflow-playground-2.png" alt=""  >
+</a>
+
+
   
-  <p>
+  
+  <figcaption>
     Figure 4: In a real-world deployment, it may be impossible to distinguish between an input that is &ldquo;truly orange&rdquo; and one that is &ldquo;truly blue&rdquo;.
-    
-    
-    
-  </p> 
-</figcaption>
+  </figcaption>
+
 
 </figure>
 
 <p>Surprisingly, machine learning gives no definition to distinguish unambiguously between an adversarial example and a workaround. A standard definition in papers is something like &ldquo;an input to a machine learning model that an attacker has intentionally designed to cause the model to make a mistake&rdquo;, but assigning &ldquo;intent&rdquo; is outside the scope of machine learning, and a &ldquo;mistake&rdquo; is, as we have seen, often not decidable in any individual case.</p>
-
 <p>Some machine learning practitioners have gone so far as to define &ldquo;attacks&rdquo; as any attempt by a subject to influence the outcome of a machine learning system, but that makes an attacker of anyone who has put effort into writing an appealing resume in the hopes of getting a job. Adversarial examples and workarounds are both just optimization attempts: intentional changes to inputs in order to generate desired outputs.</p>
-
-<p>But don&rsquo;t take all this from me: if you want to hear an expert opinion on the definition problem, see <a href="https://www.youtube.com/watch?v=sFhD6ABghf8" target="_blank">this keynote talk by David Evans</a> (especially the first ten minutes) from which much of the last few paragraphs is taken.</p>
-
-<p>When it comes to medicine, physicians face incentives to engage in workarounds as well as in adversarial attacks. The Science article is not completely silent on the topic of workarounds: it references a survey carried out by the American Medical Association from almost 20 years ago, described in a titled <a href="https://jamanetwork.com/journals/jama/fullarticle/192577" target="_blank">Physician Manipulation of Reimbursement Rules for Patients: Between a Rock and a Hard Place</a>, but the remainder of the Science article focuses almost exclusively on the problem of adversarial attacks by healthcare providers.</p>
-
+<p>But don&rsquo;t take all this from me: if you want to hear an expert opinion on the definition problem, see <a href="https://www.youtube.com/watch?v=sFhD6ABghf8" target="_blank" rel="noopener">this keynote talk by David Evans</a> (especially the first ten minutes) from which much of the last few paragraphs is taken.</p>
+<p>When it comes to medicine, physicians face incentives to engage in workarounds as well as in adversarial attacks. The Science article is not completely silent on the topic of workarounds: it references a survey carried out by the American Medical Association from almost 20 years ago, described in a titled <a href="https://jamanetwork.com/journals/jama/fullarticle/192577" target="_blank" rel="noopener">Physician Manipulation of Reimbursement Rules for Patients: Between a Rock and a Hard Place</a>, but the remainder of the Science article focuses almost exclusively on the problem of adversarial attacks by healthcare providers.</p>
 <p>The &ldquo;physician manipulation&rdquo; article outlines the frustrations physicians face when trying to provide care for their patients:</p>
-
 <blockquote>
 <p>In some cases, physicians may feel trapped between professional obligations to advocate for their patients and conflicting contractual obligations to follow coverage rules. It has been suggested that some insurers are &ldquo;gaming&rdquo; patients and physicians&mdash;tricking them into paying for covered services by routinely denying coverage but then approving services that are subsequently appealed, knowing that time and other constraints will prevent some appeals.</p>
 </blockquote>
-
 <p>Any attempt to tackle the threat of adversarial attacks will also penalize workarounds: designing proper rules for machine learning systems starts with recognizing the problems, and an exclusive focus on adversarial attacks fails to do so.</p>
-
 <h2 id="governing-machine-learning">Governing machine learning</h2>
-
 <p>When it comes to interventions, the Harvard / MIT researchers make two recommendations. The first is to procrastinate: to avoid stifling innovation by prematurely enforcing demands for robustness. The second is to increase IT-driven supervision of medical practitioners, storing &ldquo;hashes&rdquo; of images to check that they are not &ldquo;tampered&rdquo; with during processing.</p>
-
-<p>To take the second suggestion first: the proposal will crack down on &ldquo;adversarial attacks&rdquo; but will also prevent workarounds. As such, it removes room for doctors&rsquo; discretion and judgement. Good physician performance will be measured by accurate data entry rather than creative problem solving, and such measures would prevent physician pushback against any payment-minimizing moves by insurance companies. It reduces the role of physician from a professional responsible for diagnosis and prescription (which most would see as their primary roles), to that of a managed and supervised data entry technician. Any assessment of medical machine learning must address the potential consequences of deskilling among physicians.</p>
-
+<p>To take the second suggestion first: the proposal will crack down on &ldquo;adversarial attacks&rdquo; but will also prevent workarounds. As such, it removes room for doctors' discretion and judgement. Good physician performance will be measured by accurate data entry rather than creative problem solving, and such measures would prevent physician pushback against any payment-minimizing moves by insurance companies. It reduces the role of physician from a professional responsible for diagnosis and prescription (which most would see as their primary roles), to that of a managed and supervised data entry technician. Any assessment of medical machine learning must address the potential consequences of deskilling among physicians.</p>
 <p>The billing system, whether or not it is driven by deep learning, is a site of tension, at which <em>all</em> parties seek to find their best outcomes. To treat the problems around billing systems as security problems in which the healthcare provider is the most likely attacker is to adopt the perspective of the insurance company or the vendor that provides them with a deep learning system.</p>
-
 <p>In fairness, the authors do point out that the American medical claims approval process is plagued by many competing financial interests, &ldquo;providers [i.e. doctors and hospitals] seeking to maximize and payers [insurance companies] seeking to minimize reinbursement&rdquo;, but for the bulk of the article, and in the recommendations, the problem of &ldquo;attacks&rdquo; by insurance companies is neglected.</p>
-
-<p>A more productive approach would be to adopt a game-theoretical perspective, where strategic considerations by all parties lead to some equilibrium outcome. As I&rsquo;ve <a href="https://ssrn.com/abstract=3363342" target="_blank">written elsewhere</a>, most machine learning systems of any interest are <em>incentive incompatible</em>, and medical systems are no different. The subjects who provide the inputs and the consumers of the outputs have different and conflicting interests.</p>
-
+<p>A more productive approach would be to adopt a game-theoretical perspective, where strategic considerations by all parties lead to some equilibrium outcome. As I&rsquo;ve <a href="https://ssrn.com/abstract=3363342" target="_blank" rel="noopener">written elsewhere</a>, most machine learning systems of any interest are <em>incentive incompatible</em>, and medical systems are no different. The subjects who provide the inputs and the consumers of the outputs have different and conflicting interests.</p>
 <p>In such an arrangement costly governance measures are not just likely, but inevitable, and that leads us to what&rsquo;s wrong with the first recommendation: procrastination. To encourage deployment without proper costing of governance is to underestimate implementation costs: it&rsquo;s building in debt, committing institutions that deploy these systems to unknown but significant future costs, and painting a false picture of efficiency gains. It tilts the cost comparison between physician-diagnosis and machine-diagnosis in favour of the machine (or, more accurately, its vendor), and more-or-less guarantees buyer&rsquo;s remorse.</p>
-
 <p>There is no one-size fits all solution, of course. The right form of governance for EHR-based methods would be different to that for medical image diagnostics. But a prerequisite for any progress must be to acknowledge all the incentives in the system, to attempt to estimate the true costs of implementation, and not to overlook the humble but essential role of the workaround.</p>
-<div class="footnotes">
-
-<hr />
-
+<section class="footnotes" role="doc-endnotes">
+<hr>
 <ol>
-<li id="fn:fn-1">Samuel G. Finlayson, John D. Bowers, Joichi Ito, Jonathan L. Zittrain, Andrew L. Beam, Isaac S. Kohane, &ldquo;Adversarial attacks on medical machine learning&rdquo;, Science, 22 March 2019, p 1287.
- <a class="footnote-return" href="#fnref:fn-1"><sup>^</sup></a></li>
+<li id="fn:1" role="doc-endnote">
+<p>Samuel G. Finlayson, John D. Bowers, Joichi Ito, Jonathan L. Zittrain, Andrew L. Beam, Isaac S. Kohane, &ldquo;Adversarial attacks on medical machine learning&rdquo;, Science, 22 March 2019, p 1287. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
+</section>
 </div>
-</div>
 
     
 
 
-    
 
 
 
 
 
 
-
-
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
       
-      <img class="portrait mr-3" src="/authors/admin/avatar_hub378f18ec57be63e91148374089d19f9_9524045_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/workaround-medical/&amp;text=Medical%20machine%20learning%20and%20the%20importance%20of%20workarounds" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/workaround-medical/&amp;t=Medical%20machine%20learning%20and%20the%20importance%20of%20workarounds" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Medical%20machine%20learning%20and%20the%20importance%20of%20workarounds&amp;body=/publication/workaround-medical/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/workaround-medical/&amp;title=Medical%20machine%20learning%20and%20the%20importance%20of%20workarounds" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Medical%20machine%20learning%20and%20the%20importance%20of%20workarounds%20/publication/workaround-medical/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/workaround-medical/&amp;title=Medical%20machine%20learning%20and%20the%20importance%20of%20workarounds" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hub378f18ec57be63e91148374089d19f9_9524045_270x270_fill_q75_lanczos_center.jpg" alt="">
     
 
     <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="https://tomslee.github.io/"></a></h5>
+      <h5 class="card-title"></h5>
       
-      <p class="card-text" itemprop="description">Mainly technology and politics</p>
+      <p class="card-text">Mainly technology and politics</p>
       <ul class="network-icon" aria-hidden="true">
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="/#contact" >
-              <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://twitter.com/whimsley" target="_blank" rel="noopener">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?hl=en&amp;user=-QdBcPCiO1sJ" target="_blank" rel="noopener">
-              <i class="ai ai-google-scholar"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://github.com/tomslee" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        
-      </ul>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/whimsley" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?hl=en&amp;user=-QdBcPCiO1sJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/tomslee" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
     </div>
   </div>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
   </div>
 </div>
-
-
-<div class="article-container article-widget">
-  
-<div class="post-nav">
-  
-  
-  
-  <div class="post-nav-item">
-    <div class="meta-nav">Previous</div>
-    <a href="/publication/oup_private_sector_ai/" rel="prev">The incompatible incentives of private sector AI</a>
   </div>
-  
-</div>
 
-</div>
-
-
-      
-
+  <div class="page-footer">
     
     
-    
-    <script src="/js/mathjax-config.js"></script>
-    
-
-    
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-
-      
-
-      
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
-        
-      
-
-      
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
-      
-    
-
-    
-    
-      <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyBrCa_lLBoxGFUhQMUn2gpb8H5_cioqe74"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
-    
-
-    
-    
-    
-
-    
-    
-    <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-    
-    <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks"
-        };
-    </script>
-    
-
-    
-    
-
-    
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
-        </div>
-      </div>
-      </div>
-    </script>
-    
-
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    <script src="/js/academic.min.9ef1b53ee2bde6c7f33b150c6ba4d452.js"></script>
-
-    
-
-
-
-
-
-
-  
-  <div class="container">
-    <footer class="site-footer">
+    <div class="container">
+      <footer class="site-footer">
   
 
   <p class="powered-by">
-    Copyright &copy; 2006&ndash;2019 &middot; 
-
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
     
-    <span class="float-right" aria-hidden="true">
-      <a href="#" id="back_to_top">
-        <span class="button_icon">
-          <i class="fas fa-chevron-up fa-2x"></i>
-        </span>
-      </a>
-    </span>
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
     
   </p>
 </footer>
 
+    </div>
+    
   </div>
-  
 
   
 <div id="modal" class="modal fade" role="dialog">
@@ -1037,6 +1322,113 @@ Adversarial examples The rise of deep learning has been accompanied by a fascina
     </div>
   </div>
 </div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+        <div class="search-hit-content">
+          <div class="search-hit-name">
+            <a href="{{relpermalink}}">{{title}}</a>
+            <div class="article-metadata search-hit-type">{{type}}</div>
+            <p class="search-hit-description">{{snippet}}</p>
+          </div>
+        </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.06e52bf0665167274d459a9300d0fab2.js"></script>
+
+    
+
+
+
+
+
 
 </body>
 </html>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cities | Tom Slee</title>
+    <link>/tag/cities/</link>
+      <atom:link href="/tag/cities/index.xml" rel="self" type="application/rss+xml" />
+    <description>cities</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Oct 2015 01:50:32 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>cities</title>
+      <link>/tag/cities/</link>
+    </image>
+    
+    <item>
+      <title>
+				Uber: (Getting Over)^3		</title>
+      <link>/post/uber-getting-over3/</link>
+      <pubDate>Mon, 19 Oct 2015 01:50:32 +0000</pubDate>
+      <guid>/post/uber-getting-over3/</guid>
+      <description>&lt;p&gt; This is cross-posted from &lt;a href=&#34;https://medium.com/@whimsley/uber-getting-over-3-e593ade95398&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Medium&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;_the-story-so-far_&#34;&gt;&lt;em&gt;The story so far…&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Susan Crawford &lt;a href=&#34;https://medium.com/backchannel/getting-over-uber-fdf75faf7f6e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wrote&lt;/a&gt; about “Getting Over Uber”. Swimming against the tide as a technophile and Internet enthusiast, she has come to believe that transport and communications networks in cities are about more than the market exchange of getting a ride. Also that Uber — a company that already squeezes its drivers as tightly as it possibly can — will squeeze even more tightly if it becomes unconstrained. Uber, Crawford says, is not a good idea for American cities.&lt;/p&gt;
+&lt;p&gt;Tim O’Reilly responded with &lt;a href=&#34;https://medium.com/@timoreilly/getting-over-taxis-79849b3a4282&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Getting Over Taxis&lt;/a&gt;. He found Crawford’s arguments puzzling and unconvincing. He did some back-of-the-napkin math to show that Uber can be better for drivers than taxis. He concludes that while “common carriage” (uniform and universally accessible transport) is a noble goal, “when the private sector is doing a better job of providing that service than the previous government-chartered monopolies, government needs to get out of the way.”&lt;/p&gt;
+&lt;p&gt;Here, I want to do two things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I think Tim O’Reilly’s back-of-the-napkin math about driver income gets some things wrong and I want to put another point of view.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;That said questions about driver income are probably not going to make the difference in this debate, which takes us back to Susan Crawford’s post.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(Aside: I’ll sometimes call them “O’Reilly” and “Crawford” below. Californians may feel this looks hostile, but that is not the intent. I’ve just never met either of them, so take it as old-style British formality.)&lt;/p&gt;
+&lt;h2 id=&#34;do-the-math-taxi-vs-uber2&#34;&gt;(Do the Math: Taxi vs Uber)^2&lt;/h2&gt;
+&lt;p&gt;Start with the questions about driver income. O’Reilly notes that taxi drivers typically rent his or her taxi from the owner, usually for a fee of just over $500 per week, after which, the driver keeps 100% of all fares and tips (but has to pay for gas). He compares this “gate fee” to the following Uber driver expenses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Uber’s 25–30% that it keeps of every fare.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A $109 per week lease from Toyota, provided by Uber.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While it’s not easy to translate Uber’s cut into a weekly amount, O’Reilly notes that for this to equal the $500 per week gate fee for taxis, the driver would be making $2000 per week, which “seems unlikely”.&lt;/p&gt;
+&lt;p&gt;The equation, that Uber fee + lease is the equivalent of taxi lease and operating expenses (save gas) is off the mark. But I want to be constructive about this, so before I spell out an alternative, a few disclaimers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There is no one taxi driver. It’s a complicated industry; even within one city, there is complexity. In Toronto, for example, there have been moves to permit more owner-operators (ambassadors) to take some power away from fleet owners, and then some modifications to let ambassadors have one other driver (to get the most use out of their license) and so on. Different cities have different rules. Small towns are different from the big metropolises.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There is no one Uber driver. The company sets very different rates in different cities ($2.15 per mile + $0.40 per minute in New York; $0.75 per mile + $0.15 per minute in Detroit), takes a different percentage of the fare, and even sets different “safety fees” ($0 in New York, $2.50 in Gary, Indiana, according to &lt;a href=&#34;http://www.businessinsider.com/us-cities-with-highest-uber-safe-rides-fees-2015-10&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biz Carson&lt;/a&gt;). And that’s before the whole surge pricing thing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I’m not an expert. If you want to take a look at the complexities of driver expenses by someone who is, see Lawrence Meyers’ dense 27-page epic “&lt;a href=&#34;https://assets.documentcloud.org/documents/2435064/uber-cost-white-paper-revised.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Towards A Cost Estimate of A NYC UberX Driver&lt;/a&gt;”. Of course, NYC is only one city and the picture will be different elsewhere; details clarify the picture, but details also muddy the picture.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So with all those caveats, here is what Tim O’Reilly missed: the $500 per week “gate fee” that he talks about includes maintenance, repairs, depreciation and insurance in addition to the fee that the vehicle owner takes. The Uber “fee plus lease” misses the cost of maintenance (except, I believe, for oil changes and tire rotations), repairs, and insurance. Once we include those costs, things look different: the short version is that most Uber drivers probably get about the same as most taxi drivers.&lt;/p&gt;
+&lt;p&gt;Here’s the longer version. From what I could see &lt;a href=&#34;http://tomslee.net/2014/06/uber-drivers-earning-90kyear-more-evidence-needed.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;last year&lt;/a&gt;, each dollar of a taxi fare gets split very roughly four ways: a quarter goes to the leaseholder, a quarter to the costs of car operation (including insurance), a quarter to gas, and a quarter to the driver. The “gate fee” is the leaseholder and the operation parts, so about half of the overall income.&lt;/p&gt;
+&lt;p&gt;When it comes to Uber, a quarter (or over) goes to Uber, about half goes to gas and costs of operation (minus commercial insurance) leaving about a quarter for the driver.&lt;/p&gt;
+&lt;p&gt;Where does that “half” come from? Two places: one is a table in Meyers’ paper that lists the revenue per mile that a driver is earning, and the percentage of revenue that is lost. A percentage of 40 to 50% is in the middle of this chart:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-2.medium.com/max/800/1*tUOD79J6mrlEItO4tYYsiw.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Driver expenses, as a function of revenue per mile, from Lawrence Meyers “Towards a Cost Estimate of a NYC Uber driver”&lt;/p&gt;
+&lt;p&gt;A second is that Meyers’ cost estimate is a bit higher than the numbers calculated by &lt;a href=&#34;http://justin-singer.org/blog/2014/06/beautiful-illusions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Justin Singer&lt;/a&gt; and lower than the 57c per mile that the IRS allows, so it’s in the right ballpark (but remember, there are many different ballparks).&lt;/p&gt;
+&lt;p&gt;So from what I can see, the overall split is fairly similar between Uber and taxis.&lt;/p&gt;
+&lt;p&gt;But there are some other differences to remember, one in favour of Uber and one against:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In its favour: Uber claims greater utilization (more rides per hour) which would lead to better incomes. The data it has provided in support of this is partial.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On the other hand, there’s nothing here about commercial insurance. Adding commercial insurance is expensive (Meyers suggests an additional 8c per mile, which amounts to somewhere around 5% or so of the fare). Of course, most Uber drivers don’t take out this insurance: part of Uber’s cost advantage is that passengers and drivers are often taking uninsured rides.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(Aside: I recently attended an Uber driver information session. They did not mention insurance at all until an audience member asked about it, at which point they said it’s between the driver and the insurance company. They would have had to wink broadly to make it any more clear that they aren’t checking insurance and won’t ask questions.)&lt;/p&gt;
+&lt;p&gt;What this leads to is that the Uber driver’s position is not so different from that of the taxi driver: both keep somewhere around a quarter of the fare, and increase utilization on Uber rides gets eaten up by the per-mile costs Uber drivers have to pay. While Tim O’Reilly says the amount you can make as an Uber driver is “almost surely higher than the median income for taxi and limousine drivers in 2012” I would suggest that it’s probably about the same, with quite a bit of variance both ways.&lt;/p&gt;
+&lt;p&gt;I admit that the estimates above remain full of holes and the conclusions are wrapped in caveats, but there’s one other reason I have confidence in my overall conclusion that most of Uber’s drivers are not making significantly more than taxi drivers. If Uber had comprehensive data that proved drivers were making a good income &lt;em&gt;after expenses&lt;/em&gt; they would shout it from the rooftops. The fact that they haven’t (all their posts and papers talk about “before expenses” income) tells us a lot.&lt;/p&gt;
+&lt;h2 id=&#34;the-future&#34;&gt;The future&lt;/h2&gt;
+&lt;p&gt;Crawford argues that “ Uber consistently squeezes its drivers as tightly as it possibly can; new drivers are paying an even higher cut to Uber than the first generation did.” And I agree: the future is likely to be more difficult for Uber drivers.&lt;/p&gt;
+&lt;p&gt;Uber is currently &lt;a href=&#34;http://gawker.com/here-are-the-internal-documents-that-prove-uber-is-a-mo-1704234157&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;losing money&lt;/a&gt; in its efforts to attract drivers and passengers. It’s possible that its Xchange car loan program is also a driver subsidy. But while losing money may help build the company pre-IPO, when accounts are private and growth is everything, it is not a sustainable strategy.&lt;/p&gt;
+&lt;p&gt;Within cities, the company keeps its own slice of the pie small when it gets started in a new location, to get riders and drivers onto the platform and to push the aggressive growth strategy it has adopted. It has then increased its cut in many places. Once the taxi companies have been pushed to the side, why should it continue to pay its drivers as much as it does now?&lt;/p&gt;
+&lt;h2 id=&#34;where-is-the-real-dividing-line&#34;&gt;Where is the real dividing line?&lt;/h2&gt;
+&lt;p&gt;I might be wrong, but I suspect that all the above is beside the point.&lt;/p&gt;
+&lt;p&gt;Susan Crawford talks about “My tribe — the technophiles, the Internet enthusiasts” being thrilled about Uber, and it’s the technophile part of this that is key: people who identify with the technology will generally identify with Uber. How we feel about Uber is shaped by how we feel about free markets and civic governance; who we identify with.&lt;/p&gt;
+&lt;p&gt;For all the argument, I suspect most people would have the same view of Uber whether their drivers make more than taxi drivers or make less. If taxi drivers make more than Uber drivers, then to some that would simply prove that taxi drivers are fat-cat monopolists who need to stop overcharging their customers and adjust to the new world. If Uber drivers make more than taxi drivers, then that just shows that the efficiency of new technology is taking us into a win-win world. And yes, I’m aware that identity-driven thinking goes the other way too.&lt;/p&gt;
+&lt;p&gt;Crawford owns up to her bias: “I’m a fan of taxis wherever I find them.” So I should make my own bias clear. I work in the private sector technology industry, but I’m a big fan of democracy. Public transit and city-provided public services matter, warts and all. Personally, I’ve met fascinating people (travelling from San Francisco airport on the BART I met one of the authors of the Kyrgyzstan constitution) and it takes you to interesting places (the M60 bus from La Guardia into New York city takes you to 125th Street and Lexington Avenue— it took me a while to place &lt;a href=&#34;http://genius.com/The-velvet-underground-im-waiting-for-the-man-lyrics#note-1210051&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the intersection&lt;/a&gt;, but who wouldn’t want to go there?) I live in a house near public transit and did so while my kids grew up so they could be mobile and independent.&lt;/p&gt;
+&lt;p&gt;Does technology drive business or does business drive technology? I see business as the lead here. And given the incentives at work, I cannot trust Uber. Its success is rooted not only in its technology, but in avoiding costs like sales tax (in many cities), like insurance, and (despite all the claims) like providing universal service. It succeeds (as Crawford hints) by avoiding the costs of being a constructive partner in the cities where it operates.&lt;/p&gt;
+&lt;p&gt;It’s easy to forget that Uber is not yet a publicly traded company, so any information about its business comes from leaks or press releases. Venture capital needs its successful exit, and as anyone who has looked for a date on Ashley Madison or a blood test from Theranos now knows, there are big incentives to paint a selective picture when billions are at stake. Once Uber is public, the incentives change: balanced books and cost control become more important. What happens when Uber has displaced taxis and then needs to squeeze its drivers a little harder?&lt;/p&gt;
+&lt;p&gt;Looking even further ahead, Jathan Sadowski and Karen Gregory argue that Uber’s investors see this business model as an opportunity to &lt;a href=&#34;http://www.theguardian.com/technology/2015/sep/15/is-ubers-ultimate-goal-the-privatisation-of-city-governance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;privatize city governance&lt;/a&gt;. This is a damaging and antidemocratic goal. For a smallish city in Canada, what happens to accountability when faced with a massive American company with little interest in Canadian employment law or Canadian traditions? Two quick examples: as Michael Geist pointed out, Uber has no Canada-specific privacy policy, but what can Canadian cities do about it? And regardless of our labour laws, how can small cities respond when drivers are fired at will for being critical of the company or for unsubstantiated complaints by customers that cannot be appealed?&lt;/p&gt;
+&lt;p&gt;There’s one thing that Crawford and O’Reilly (and I) can agree on, which is that the sudden interest in urban transit that Uber has sparked may be valuable. I side with Crawford, because Uber is not just about getting a ride from A to B, it’s about our cities and the scope of our democratic institutions. Cities are more than the site for consumer-driven market exchanges. Where the line gets drawn between community, government and marketplace will differ from country to country, but what is constant is that people need a say in the decision: as citizens, not just as consumers. Local government, flawed as it is, is important — and it can be innovative. Cities need tending and democracy, not venture capital, is the best tool for that job.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Self-promotion alert: I have more to say about Uber and other sharing economy businesses in my book, “What’s Yours is Mine: Against the Sharing Economy”, &lt;em&gt;&lt;a href=&#34;http://www.orbooks.com/catalog/whats-yours-is-mine-by-tom-slee/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;coming soon from OR Books&lt;/em&gt;&lt;/a&gt;&lt;/em&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

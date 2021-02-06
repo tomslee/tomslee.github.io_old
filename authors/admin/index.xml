@@ -2,24 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tom Slee</title>
-    <link>https://tomslee.github.io/authors/admin/</link>
-    <description>Recent content on Tom Slee</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>Copyright &amp;copy; 2006--{year}</copyright>
-    
-	    <atom:link href="https://tomslee.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title></title>
-      <link>https://tomslee.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tomslee.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;Tom Slee writes about technology and society.&lt;/p&gt;
-</description>
-    </item>
+    <link>/authors/admin/</link>
+      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tom Slee</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/authors/admin/avatar_hub378f18ec57be63e91148374089d19f9_9524045_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Tom Slee</title>
+      <link>/authors/admin/</link>
+    </image>
     
   </channel>
 </rss>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uber | Tom Slee</title>
+    <link>/tag/uber/</link>
+      <atom:link href="/tag/uber/index.xml" rel="self" type="application/rss+xml" />
+    <description>uber</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Oct 2015 01:50:32 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>uber</title>
+      <link>/tag/uber/</link>
+    </image>
+    
+    <item>
+      <title>
+				Uber: (Getting Over)^3		</title>
+      <link>/post/uber-getting-over3/</link>
+      <pubDate>Mon, 19 Oct 2015 01:50:32 +0000</pubDate>
+      <guid>/post/uber-getting-over3/</guid>
+      <description>&lt;p&gt; This is cross-posted from &lt;a href=&#34;https://medium.com/@whimsley/uber-getting-over-3-e593ade95398&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Medium&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;_the-story-so-far_&#34;&gt;&lt;em&gt;The story so far…&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Susan Crawford &lt;a href=&#34;https://medium.com/backchannel/getting-over-uber-fdf75faf7f6e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wrote&lt;/a&gt; about “Getting Over Uber”. Swimming against the tide as a technophile and Internet enthusiast, she has come to believe that transport and communications networks in cities are about more than the market exchange of getting a ride. Also that Uber — a company that already squeezes its drivers as tightly as it possibly can — will squeeze even more tightly if it becomes unconstrained. Uber, Crawford says, is not a good idea for American cities.&lt;/p&gt;
+&lt;p&gt;Tim O’Reilly responded with &lt;a href=&#34;https://medium.com/@timoreilly/getting-over-taxis-79849b3a4282&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Getting Over Taxis&lt;/a&gt;. He found Crawford’s arguments puzzling and unconvincing. He did some back-of-the-napkin math to show that Uber can be better for drivers than taxis. He concludes that while “common carriage” (uniform and universally accessible transport) is a noble goal, “when the private sector is doing a better job of providing that service than the previous government-chartered monopolies, government needs to get out of the way.”&lt;/p&gt;
+&lt;p&gt;Here, I want to do two things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I think Tim O’Reilly’s back-of-the-napkin math about driver income gets some things wrong and I want to put another point of view.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;That said questions about driver income are probably not going to make the difference in this debate, which takes us back to Susan Crawford’s post.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(Aside: I’ll sometimes call them “O’Reilly” and “Crawford” below. Californians may feel this looks hostile, but that is not the intent. I’ve just never met either of them, so take it as old-style British formality.)&lt;/p&gt;
+&lt;h2 id=&#34;do-the-math-taxi-vs-uber2&#34;&gt;(Do the Math: Taxi vs Uber)^2&lt;/h2&gt;
+&lt;p&gt;Start with the questions about driver income. O’Reilly notes that taxi drivers typically rent his or her taxi from the owner, usually for a fee of just over $500 per week, after which, the driver keeps 100% of all fares and tips (but has to pay for gas). He compares this “gate fee” to the following Uber driver expenses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Uber’s 25–30% that it keeps of every fare.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A $109 per week lease from Toyota, provided by Uber.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While it’s not easy to translate Uber’s cut into a weekly amount, O’Reilly notes that for this to equal the $500 per week gate fee for taxis, the driver would be making $2000 per week, which “seems unlikely”.&lt;/p&gt;
+&lt;p&gt;The equation, that Uber fee + lease is the equivalent of taxi lease and operating expenses (save gas) is off the mark. But I want to be constructive about this, so before I spell out an alternative, a few disclaimers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There is no one taxi driver. It’s a complicated industry; even within one city, there is complexity. In Toronto, for example, there have been moves to permit more owner-operators (ambassadors) to take some power away from fleet owners, and then some modifications to let ambassadors have one other driver (to get the most use out of their license) and so on. Different cities have different rules. Small towns are different from the big metropolises.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There is no one Uber driver. The company sets very different rates in different cities ($2.15 per mile + $0.40 per minute in New York; $0.75 per mile + $0.15 per minute in Detroit), takes a different percentage of the fare, and even sets different “safety fees” ($0 in New York, $2.50 in Gary, Indiana, according to &lt;a href=&#34;http://www.businessinsider.com/us-cities-with-highest-uber-safe-rides-fees-2015-10&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biz Carson&lt;/a&gt;). And that’s before the whole surge pricing thing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I’m not an expert. If you want to take a look at the complexities of driver expenses by someone who is, see Lawrence Meyers’ dense 27-page epic “&lt;a href=&#34;https://assets.documentcloud.org/documents/2435064/uber-cost-white-paper-revised.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Towards A Cost Estimate of A NYC UberX Driver&lt;/a&gt;”. Of course, NYC is only one city and the picture will be different elsewhere; details clarify the picture, but details also muddy the picture.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So with all those caveats, here is what Tim O’Reilly missed: the $500 per week “gate fee” that he talks about includes maintenance, repairs, depreciation and insurance in addition to the fee that the vehicle owner takes. The Uber “fee plus lease” misses the cost of maintenance (except, I believe, for oil changes and tire rotations), repairs, and insurance. Once we include those costs, things look different: the short version is that most Uber drivers probably get about the same as most taxi drivers.&lt;/p&gt;
+&lt;p&gt;Here’s the longer version. From what I could see &lt;a href=&#34;http://tomslee.net/2014/06/uber-drivers-earning-90kyear-more-evidence-needed.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;last year&lt;/a&gt;, each dollar of a taxi fare gets split very roughly four ways: a quarter goes to the leaseholder, a quarter to the costs of car operation (including insurance), a quarter to gas, and a quarter to the driver. The “gate fee” is the leaseholder and the operation parts, so about half of the overall income.&lt;/p&gt;
+&lt;p&gt;When it comes to Uber, a quarter (or over) goes to Uber, about half goes to gas and costs of operation (minus commercial insurance) leaving about a quarter for the driver.&lt;/p&gt;
+&lt;p&gt;Where does that “half” come from? Two places: one is a table in Meyers’ paper that lists the revenue per mile that a driver is earning, and the percentage of revenue that is lost. A percentage of 40 to 50% is in the middle of this chart:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-2.medium.com/max/800/1*tUOD79J6mrlEItO4tYYsiw.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Driver expenses, as a function of revenue per mile, from Lawrence Meyers “Towards a Cost Estimate of a NYC Uber driver”&lt;/p&gt;
+&lt;p&gt;A second is that Meyers’ cost estimate is a bit higher than the numbers calculated by &lt;a href=&#34;http://justin-singer.org/blog/2014/06/beautiful-illusions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Justin Singer&lt;/a&gt; and lower than the 57c per mile that the IRS allows, so it’s in the right ballpark (but remember, there are many different ballparks).&lt;/p&gt;
+&lt;p&gt;So from what I can see, the overall split is fairly similar between Uber and taxis.&lt;/p&gt;
+&lt;p&gt;But there are some other differences to remember, one in favour of Uber and one against:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In its favour: Uber claims greater utilization (more rides per hour) which would lead to better incomes. The data it has provided in support of this is partial.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On the other hand, there’s nothing here about commercial insurance. Adding commercial insurance is expensive (Meyers suggests an additional 8c per mile, which amounts to somewhere around 5% or so of the fare). Of course, most Uber drivers don’t take out this insurance: part of Uber’s cost advantage is that passengers and drivers are often taking uninsured rides.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(Aside: I recently attended an Uber driver information session. They did not mention insurance at all until an audience member asked about it, at which point they said it’s between the driver and the insurance company. They would have had to wink broadly to make it any more clear that they aren’t checking insurance and won’t ask questions.)&lt;/p&gt;
+&lt;p&gt;What this leads to is that the Uber driver’s position is not so different from that of the taxi driver: both keep somewhere around a quarter of the fare, and increase utilization on Uber rides gets eaten up by the per-mile costs Uber drivers have to pay. While Tim O’Reilly says the amount you can make as an Uber driver is “almost surely higher than the median income for taxi and limousine drivers in 2012” I would suggest that it’s probably about the same, with quite a bit of variance both ways.&lt;/p&gt;
+&lt;p&gt;I admit that the estimates above remain full of holes and the conclusions are wrapped in caveats, but there’s one other reason I have confidence in my overall conclusion that most of Uber’s drivers are not making significantly more than taxi drivers. If Uber had comprehensive data that proved drivers were making a good income &lt;em&gt;after expenses&lt;/em&gt; they would shout it from the rooftops. The fact that they haven’t (all their posts and papers talk about “before expenses” income) tells us a lot.&lt;/p&gt;
+&lt;h2 id=&#34;the-future&#34;&gt;The future&lt;/h2&gt;
+&lt;p&gt;Crawford argues that “ Uber consistently squeezes its drivers as tightly as it possibly can; new drivers are paying an even higher cut to Uber than the first generation did.” And I agree: the future is likely to be more difficult for Uber drivers.&lt;/p&gt;
+&lt;p&gt;Uber is currently &lt;a href=&#34;http://gawker.com/here-are-the-internal-documents-that-prove-uber-is-a-mo-1704234157&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;losing money&lt;/a&gt; in its efforts to attract drivers and passengers. It’s possible that its Xchange car loan program is also a driver subsidy. But while losing money may help build the company pre-IPO, when accounts are private and growth is everything, it is not a sustainable strategy.&lt;/p&gt;
+&lt;p&gt;Within cities, the company keeps its own slice of the pie small when it gets started in a new location, to get riders and drivers onto the platform and to push the aggressive growth strategy it has adopted. It has then increased its cut in many places. Once the taxi companies have been pushed to the side, why should it continue to pay its drivers as much as it does now?&lt;/p&gt;
+&lt;h2 id=&#34;where-is-the-real-dividing-line&#34;&gt;Where is the real dividing line?&lt;/h2&gt;
+&lt;p&gt;I might be wrong, but I suspect that all the above is beside the point.&lt;/p&gt;
+&lt;p&gt;Susan Crawford talks about “My tribe — the technophiles, the Internet enthusiasts” being thrilled about Uber, and it’s the technophile part of this that is key: people who identify with the technology will generally identify with Uber. How we feel about Uber is shaped by how we feel about free markets and civic governance; who we identify with.&lt;/p&gt;
+&lt;p&gt;For all the argument, I suspect most people would have the same view of Uber whether their drivers make more than taxi drivers or make less. If taxi drivers make more than Uber drivers, then to some that would simply prove that taxi drivers are fat-cat monopolists who need to stop overcharging their customers and adjust to the new world. If Uber drivers make more than taxi drivers, then that just shows that the efficiency of new technology is taking us into a win-win world. And yes, I’m aware that identity-driven thinking goes the other way too.&lt;/p&gt;
+&lt;p&gt;Crawford owns up to her bias: “I’m a fan of taxis wherever I find them.” So I should make my own bias clear. I work in the private sector technology industry, but I’m a big fan of democracy. Public transit and city-provided public services matter, warts and all. Personally, I’ve met fascinating people (travelling from San Francisco airport on the BART I met one of the authors of the Kyrgyzstan constitution) and it takes you to interesting places (the M60 bus from La Guardia into New York city takes you to 125th Street and Lexington Avenue— it took me a while to place &lt;a href=&#34;http://genius.com/The-velvet-underground-im-waiting-for-the-man-lyrics#note-1210051&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the intersection&lt;/a&gt;, but who wouldn’t want to go there?) I live in a house near public transit and did so while my kids grew up so they could be mobile and independent.&lt;/p&gt;
+&lt;p&gt;Does technology drive business or does business drive technology? I see business as the lead here. And given the incentives at work, I cannot trust Uber. Its success is rooted not only in its technology, but in avoiding costs like sales tax (in many cities), like insurance, and (despite all the claims) like providing universal service. It succeeds (as Crawford hints) by avoiding the costs of being a constructive partner in the cities where it operates.&lt;/p&gt;
+&lt;p&gt;It’s easy to forget that Uber is not yet a publicly traded company, so any information about its business comes from leaks or press releases. Venture capital needs its successful exit, and as anyone who has looked for a date on Ashley Madison or a blood test from Theranos now knows, there are big incentives to paint a selective picture when billions are at stake. Once Uber is public, the incentives change: balanced books and cost control become more important. What happens when Uber has displaced taxis and then needs to squeeze its drivers a little harder?&lt;/p&gt;
+&lt;p&gt;Looking even further ahead, Jathan Sadowski and Karen Gregory argue that Uber’s investors see this business model as an opportunity to &lt;a href=&#34;http://www.theguardian.com/technology/2015/sep/15/is-ubers-ultimate-goal-the-privatisation-of-city-governance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;privatize city governance&lt;/a&gt;. This is a damaging and antidemocratic goal. For a smallish city in Canada, what happens to accountability when faced with a massive American company with little interest in Canadian employment law or Canadian traditions? Two quick examples: as Michael Geist pointed out, Uber has no Canada-specific privacy policy, but what can Canadian cities do about it? And regardless of our labour laws, how can small cities respond when drivers are fired at will for being critical of the company or for unsubstantiated complaints by customers that cannot be appealed?&lt;/p&gt;
+&lt;p&gt;There’s one thing that Crawford and O’Reilly (and I) can agree on, which is that the sudden interest in urban transit that Uber has sparked may be valuable. I side with Crawford, because Uber is not just about getting a ride from A to B, it’s about our cities and the scope of our democratic institutions. Cities are more than the site for consumer-driven market exchanges. Where the line gets drawn between community, government and marketplace will differ from country to country, but what is constant is that people need a say in the decision: as citizens, not just as consumers. Local government, flawed as it is, is important — and it can be innovative. Cities need tending and democracy, not venture capital, is the best tool for that job.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Self-promotion alert: I have more to say about Uber and other sharing economy businesses in my book, “What’s Yours is Mine: Against the Sharing Economy”, &lt;em&gt;&lt;a href=&#34;http://www.orbooks.com/catalog/whats-yours-is-mine-by-tom-slee/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;coming soon from OR Books&lt;/em&gt;&lt;/a&gt;&lt;/em&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				More employee/contractor cases		</title>
+      <link>/post/more-employeecontractor-cases/</link>
+      <pubDate>Sat, 26 Sep 2015 18:58:40 +0000</pubDate>
+      <guid>/post/more-employeecontractor-cases/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            Boston lawyer Shannon Liss-Riordan has brought two new lawsuits against on-demand delivery companies, claiming that those doing the deliveries should be classified as employees rather than as contractors. [Cyrus Farivar ](http://arstechnica.com/tech-policy/2015/09/two-more-on-demand-delivery-startups-sued-over-alleged-labor-violations/) writes about these newest cases, against GrubHub and DoorDash), while [Davey Alba](http://www.wired.com/2015/09/doordash-grubhub-caviar-labor-suits/) lists the companies sued so far:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.documentcloud.org/documents/2432051-grubhub-class-complaint.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GrubHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.documentcloud.org/documents/2432052-doordash-class-complaint.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DoorDash&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Handy&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Homejoy (now out of business)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.plainsite.org/dockets/2n6onghu1/superior-court-of-california-county-of-san-francisco/barry-taranto-v-washio-inc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Washio&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Postmates (&lt;a href=&#34;http://www.bizjournals.com/sanfrancisco/news/2015/07/01/shyp-washio-postmates-sued-uber-lyft-caviar.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; for these three)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lyft&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Caviar&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Instacart (has reclassified part of its workforce as a response)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Shyp (ditto)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://arstechnica.com/tech-policy/2015/09/uber-now-faces-class-action-lawsuit-in-california-over-expenses-tips/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Uber&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A federal judge in San Francisco recently granted class action status to a group of four Uber drivers, making this the first case to be certified as a class action.&lt;/p&gt;
+&lt;p&gt;(If you want some background on these cases, try &lt;a href=&#34;http://america.aljazeera.com/opinions/2015/6/worker-protections-theres-no-app-for-that.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Susie Cagle&lt;/a&gt;&amp;rsquo;s illustrated op-ed from June.)&lt;/p&gt;
+&lt;p&gt;The main argument against employee status has been the flexibility that supposedly comes with service provider status: service providers choose when to work and when not to work. &lt;a href=&#34;http://onlabor.org/2015/07/15/new-dol-guidance-on-employee-status-news-for-uber-or-lyft/#more-5299&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benjamin Sachs&lt;/a&gt;  describes a new Interpretation of the Fair Labor Standards Act by the US Department of Labor, which makes it clear that there is more to the definition than just flexibility:&lt;/p&gt;
+&lt;blockquote&gt;employee status under the FLSA is to be determined according to an “economic realities” test. With respect to the economic realities test, moreover, the Interpretation emphasizes that the test turns on a determination of whether the worker is “economically dependent on the employer (and thus its employee) or is really in business for him or herself (and thus its independent contractor).&lt;/blockquote&gt;
+&lt;p&gt;A driver putting in 50 hours a week in a car leased by Uber, to take one extreme, is clearly dependent on Uber. A driver putting in a few hours here or there, and also driving for Lyft, is much less dependent.&lt;/p&gt;
+&lt;p&gt;More from Sachs:&lt;/p&gt;
+&lt;blockquote&gt;What is the Nature and Degree of the Employer’s Control”  Control is the last factor in the six-prong test, and it’s the last one the Interpretation discusses, but it may be the most relevant for Uber and Lyft.  Why? Because the Interpretation takes up, and then dispenses with, two of the most common views about why on-demand workers ought to be considered independent contractors. First, the Interpretation states that the lack of direct supervision over how work is carried out is “largely insignificant” when workers work offsite. And, second, the Interpretation states that workers’ ability to determine _when _they work is also “not indicative of independent contractor status.”  Citing the Third Circuit’s _DialAmerica Marketing_ decision, the Interpretation thus concludes that “the fact that the workers could control the hours during which they worked and that they were subject to little direct supervision was unsurprising given that such facts are typical of homeworkers and thus largely insignificant in determining their status.”  In other words, you can be an employee even if you set your own hours and are never directly supervised.  This is a conclusion with unmistakable relevance to the on-demand debate.&lt;/blockquote&gt;
+&lt;p&gt;Those defending companies&#39; rights to classify their workers as independent contractors often warn that if the court cases succeed, then service providers will lose the flexibility that is part of the appeal of &amp;ldquo;gig economy&amp;rdquo; work:&lt;/p&gt;
+&lt;blockquote&gt;“The way we look at it, the laws governing employers require [them] to exert much more control over their employees, monitor, make sure they’re taking break times,” Ted Boutrous, Uber’s lawyer, said in a press conference last week. “It’s inevitable the flexibility and autonomy that drivers crave would have to be limited.” A spokesperson added that managing overtime would be another reason Uber would have to assign shifts.&lt;/blockquote&gt;
+&lt;p&gt;That&amp;rsquo;s from &lt;a href=&#34;http://recode.net/2015/08/11/despite-ubers-arguments-flexibility-for-employees-is-a-companys-choice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Carmel DeAmicis&lt;/a&gt; of re/code, who writes very smartly about this. She goes on:&lt;/p&gt;
+&lt;blockquote&gt;They’re stretching the truth. Labor laws don’t prohibit flexible working conditions. If drivers were legally employees, they could still drive one hour one week and 40 the next. In a business like Uber’s, where apps track when workers are logged in, it would be easy for a company to send a push notification to people after four hours of work, requiring them to take a 15 minute break, or for the app to turn off after a 40-hour workweek to prevent overtime. Monitoring drivers would be easy for a company whose algorithms have optimized pricing at all hours.&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://onlabor.org/2015/09/25/uber-employee-status-and-flexibility/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benjamin Sachs&lt;/a&gt; also writes about the supposed loss of flexibility that would come with employee status:&lt;/p&gt;
+&lt;blockquote&gt;If a court determines that these facts are consistent with a finding of employment, the drivers would be “employees.”  But Uber would not somehow then be required to exercise additional control over when and how long the drivers worked, or over other aspects of the job that are currently flexible.  Uber _would _be required to comply with minimum wage laws, safety and health laws, and anti-discrimination laws, and it would be required to contribute to unemployment insurance and withhold payroll taxes and the like.  But it could do all of this without taking away the flexibility that the drivers currently enjoy.&lt;/blockquote&gt;
+&lt;p&gt;The big problem for Uber and others is that right now they have a cheap labour force who take all the risks associated with providing the service. Uber&amp;rsquo;s business model is based on avoiding regulations: it knows full well that most of its drivers do not have proper insurance for the work they do (I am sure this is one of the reasons that they never break down driver expenses in their claims about income), and may or may not pay full taxes on their income.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				A few updates		</title>
+      <link>/post/a-few-updates/</link>
+      <pubDate>Tue, 15 Sep 2015 08:16:40 +0000</pubDate>
+      <guid>/post/a-few-updates/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;            I&#39;ve completed my book manuscript, and it&#39;s time to return to blogging. I&#39;m going to change things a bit. Mostly until now I&#39;ve done fairly long-form essays every now and again, but I&#39;m going to try going more frequent and more links than original stuff (so if you get the emails you may want to click that Unsubscribe button). I don&#39;t think there is a place that aggregates Sharing Economy events and commentary, so I&#39;m going to try that for a while.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To start off, here are three interesting pieces. All links open in a new tab.&lt;/p&gt;
+&lt;p&gt;The indefatigable Ellen Huet &lt;a href=&#34;http://www.forbes.com/sites/ellenhuet/2015/09/11/uber-raises-uberx-commission-to-25-percent-in-five-more-markets/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;highlights&lt;/a&gt; Uber&amp;rsquo;s continual efforts to raise its take of each ride: it has now raised its commission to 25% in five more cities.&lt;/p&gt;
+&lt;blockquote&gt;In the last few months, Uber has quietly bumped up commissions from 20% to 25% for new drivers in five cities. New York City drivers who joined as of April will pay 25%, as well as drivers in Toronto, Indianapolis, Boston  and Worcester, Mass., who joined as of August, the company confirmed.
+&lt;blockquote&gt;
+&lt;p&gt;San Francisco drivers who joined in the last year still pay a 25% commission. An Uber spokeswoman declined to say whether the 30% commission pilot program has spread to more drivers or markets.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Keeping the higher commission to recent drivers doesn’t actually limit its impact very much. Uber’s workforce is constantly churning and growing: In January, an Uber-conducted study showed &lt;a href=&#34;http://www.forbes.com/sites/ellenhuet/2015/01/22/uber-study-workforce/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a quarter of its active drivers had joined in the last month&lt;/a&gt;. It’s unclear if raising the commission deters new drivers from signing up, but if the policy has spread from its first test city, it suggests it makes economic sense.&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;The churn among Uber&amp;rsquo;s drivers matches that in Airbnb&amp;rsquo;s hosts: new people try it out, and a lot decide it&amp;rsquo;s not for them. You would think that the more Uber takes from each ride, the weaker its claims that it is not responsible (just a technology company) when things go wrong, but it looks like they are confident they can take more money without taking on more risk.&lt;/p&gt;
+&lt;p&gt;Ilya Marritz in WNYC news &lt;a href=&#34;http://www.wnyc.org/story/when-inspectors-look-illegal-hotels/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reports&lt;/a&gt; on city inspectors chasing down potential illegal rentals:&lt;/p&gt;
+&lt;blockquote&gt;WNYC has obtained detailed records from a year and a half of inspections. Here’s what we learned by reading through all 2,684 reports.
+&lt;p&gt;&amp;hellip;from October 2013 through April 2015, the city received 1,616 complaints about illegal hotels. In the same period, inspectors made 2,684 visits looking for rentals that violate local laws&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;While Airbnb is responsible for most, it surprises me how many reports are from non-Airbnb listings. In particular, Priceline has more than HomeAway.&lt;/p&gt;
+&lt;blockquote&gt;Airbnb - 101
+Booking.com (owned by Priceline)– 40
+Portobello Suites – 11
+VRBO (owned by HomeAway)– 11
+Homeaway.com – 10
+Tripadvisor - 5
+Agoda (owned by Priceline)– 3
+Expedia – 3&lt;/blockquote&gt;
+&lt;p&gt;I do wish she had given us more of the report details, but there are some gems there, like this one:&lt;/p&gt;
+&lt;blockquote&gt;“Unidentified Woman Opened Door And After Saying She Did Not Live There Attempted To Slam Door On Identified Police Officer. Woman In Back Screamed To Her Dont Let Them In. Male Came And Id Self As Owner Of Multiple Apts And Said We Should Be Going After Real Criminals Not What They Are Doing.”&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Why Canada should de-activate Uber		</title>
+      <link>/post/why-canada-should-de-activate-uber/</link>
+      <pubDate>Sat, 22 Nov 2014 05:00:00 +0000</pubDate>
+      <guid>/post/why-canada-should-de-activate-uber/</guid>
+      <description>&lt;p&gt;&lt;em&gt;A long post collecting together a number of arguments and resources about Uber and why it doesn&amp;rsquo;t belong in Canada. If you want to print it off, &lt;a href=&#34;http://tomslee.net/wordpress/wp-content/uploads/2014/11/2014-11_uber_toronto1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; is a PDF.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;An updated version of this page is maintained &lt;a href=&#34;http://tomslee.net/why-canada-should-de-activate-uber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, which you can access through the menu above.&lt;/p&gt;
+&lt;p&gt;In September, Uber &lt;a href=&#34;http://www.thestar.com/business/2014/09/08/uber_introduces_new_ridesharing_service_uberx_to_toronto_mississauga.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;introduced&lt;/a&gt; its UberX service in Toronto as part of a broad expansion across Canada (among other countries), and the City of Toronto is now &lt;a href=&#34;http://wx.toronto.ca/inter/it/newsrel.nsf/7017df2f20edbe2885256619004e428e/43b5c208afe6f41f85257d940066aa0c?OpenDocument&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;seeking a court injunction&lt;/a&gt; to stop the company. Back in December 2012 the company was &lt;a href=&#34;http://business.financialpost.com/2012/12/06/uber-toronto-facing-new-licensing-charges-related-to-taxi-business/?__lsa=61ea-1a68&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;chased out&lt;/a&gt; of the city, but now &lt;a href=&#34;http://www.theglobeandmail.com/globe-debate/the-ubers-are-destined-to-win-the-taxi-wars/article21658996/#dashboard/follows/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;some&lt;/a&gt; &lt;a href=&#34;http://www.theglobeandmail.com/news/toronto/instead-of-blocking-progress-toronto-should-encourage-uber/article21664545/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;journalists&lt;/a&gt;, &lt;a href=&#34;http://www.theglobeandmail.com/news/toronto/toronto-seeks-injunction-to-stop-uber-taxi-service/article21638796/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;business professors&lt;/a&gt;, and even &lt;a href=&#34;http://www.cbc.ca/news/canada/toronto/uber-is-here-to-stay-toronto-mayor-elect-john-tory-says-1.2840295&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the mayor&lt;/a&gt; (not that one) think it&amp;rsquo;s time to disrupt the taxi industry, ignore the city &lt;a href=&#34;http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=69b5a83b82870410VgnVCM10000071d60f89RCRD&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;licensing and standards&lt;/a&gt; process and let Uber run its taxi alternatives.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;d think, reading these articles, that customer service is the only issue at stake here. But there&amp;rsquo;s more to it than that: the decision about Uber is also a decision about the kind of jobs we want to have, about accessibility, and about the kind of city in which we want to live. It&amp;rsquo;s about us as consumers, but also us as citizens, us as Canadians, and us as employees.&lt;/p&gt;
+&lt;h2 id=&#34;uber-is-not-the-future-its-a-future&#34;&gt;Uber is not &amp;ldquo;the future&amp;rdquo;, it&amp;rsquo;s &amp;ldquo;a future&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Contrary to the way some articles are written, we do have a choice here. A lot of the links above talk as if Uber were some kind of inevitable future (&amp;ldquo;The Ubers are destined to win the taxi wars&amp;rdquo;); here is an example from &lt;a href=&#34;http://www.theglobeandmail.com/report-on-business/rob-commentary/rob-insight/taxi-trouble-disruptive-technology-claims-another-unadapting-victim/article21675184/#dashboard/follows/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Todd Hirsch&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;It&#39;s an economic tale told time and again. Camera film makers. Video stores. The music recording industry. Perhaps most famously, the Luddites – those textile labourers in 19th century England who protested against the introduction of mechanized looms by smashing them. Many of them failed to adapt to new, disruptive technologies and went extinct.
+&lt;p&gt;Next on the list may be the taxi industry…&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;Conflating Uber with the broad advance of technology is just wrong, and it&amp;rsquo;s also exactly what Uber wants us to do. After all, if you&amp;rsquo;re the future, who can argue against that? But thousands of new technology businesses start every year, and many of them fail. Groupon turned out not to be the future of shopping. Mayor John Tory &lt;a href=&#34;http://globalnews.ca/news/1681159/is-john-tory-facing-an-uber-battle-at-city-hall/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wants&lt;/a&gt; to &amp;ldquo;sit down with the Ubers and the Hailos and others of the world&amp;rdquo;, but Hailo has already folded its North American operations. Paris has &lt;a href=&#34;http://venturebeat.com/2014/10/16/paris-court-rules-uberpop-illegal-fines-company-as-uber-vows-to-fight/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;turned down&lt;/a&gt; UberPop, but it has Autolib&#39;, which may be the world&amp;rsquo;s most successful electric-car sharing program. There are many roads to the future—many &lt;em&gt;innovative&lt;/em&gt; roads to the future—and the best of them don&amp;rsquo;t involve Uber.&lt;/p&gt;
+&lt;p&gt;The Uber controversy is not just—or even mainly—a technology story, it&amp;rsquo;s fundamentally a deregulation story; the story of a uniquely American fundamentalist free-market worldview being sold to us in the name of &amp;ldquo;car-sharing&amp;rdquo; and innovation.&lt;/p&gt;
+&lt;h2 id=&#34;two-cheers-for-regulation&#34;&gt;Two cheers for regulation&lt;/h2&gt;
+&lt;p&gt;Uber CEO Travis Kalanick&amp;rsquo;s says that his company is engaged in something like an election race in which&lt;/p&gt;
+&lt;blockquote&gt;Uber is the candidate and [its opponent] is an asshole called Taxi. I&#39;m not totally comfortable with it but we have to bring out the truth of how evil Taxi is.&lt;/blockquote&gt;
+&lt;p&gt;Kalanick also &lt;a href=&#34;http://blog.uber.com/davidplouffe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;referred&lt;/a&gt; to &amp;ldquo;Our opponent – the Big Taxi cartel&amp;rdquo; when he hired former Obama strategist David Plouffe to run its political lobbying efforts.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s worth reflecting for a moment on the fact that cities all around the world, with many different political and economic traditions, have decided independently that taxis need some regulation; and there is no &amp;ldquo;Big Taxi cartel&amp;rdquo; coordinating these decisions. Taxi firms are generally city-wide, at least until Uber itself came along.&lt;/p&gt;
+&lt;p&gt;Cities have had their own reasons for regulating taxis. As McGill University Law Professor Paul Stephen Dempsey &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2241306&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wrote&lt;/a&gt; in a 1996 paper, regulations typically include:&lt;/p&gt;
+&lt;blockquote&gt;(1) limited entry (restricting the number of firms, and/or the ratio of taxis to population), usually under a standard of &#34;public convenience and necessity,&#34; [PC&amp;N] (2) just, reasonable, and non-discriminatory fares, (3) service standards (e.g., vehicular and driver safety standards, as well as a common carrier obligation of non-discriminatory service, 24-hour radio dispatch capability, and a minimum level of response time), and (4) financial responsibility standards (e.g., insurance).&lt;/blockquote&gt;
+&lt;p&gt;It is not a coincidence that, all around the world, taxi regulation happens at the city level rather than at a national or provincial level. Different cities have different needs. The one-size-fits-all model that Uber wants to roll out treats Tokyo the same as London the same as Windsor, but as Dempsey (see link above) writes:&lt;/p&gt;
+&lt;blockquote&gt;In the final analysis, the suitability of taxicab service and pricing is a peculiarly local issue, best tailored by local governments based on their unique populations, spatial densities, road congestion, air pollution, and airport and hotel traffic.&lt;/blockquote&gt;
+&lt;p&gt;Meanwhile, for all its attempts to conjure up an underdog image, Uber has funding from (&lt;a href=&#34;http://www.crunchbase.com/organization/uber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;among others&lt;/a&gt;) Google, Jeff Bezos of Amazon, and Goldman Sachs.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s also worth remembering that taxi deregulation has been tried and failed in many places. For example, Seattle deregulated in 1979 but &lt;a href=&#34;http://sfcda.org/CPUC/Seattle_DeReg.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;found&lt;/a&gt; that &amp;ldquo;service quality declined and rates were often higher&amp;rdquo;; and &lt;a href=&#34;http://www.cga.ct.gov/2004/rpt/2004-R-0380.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a 2004 US report&lt;/a&gt; noted that&lt;/p&gt;
+&lt;blockquote&gt;…several studies, including a 1993 Price Waterhouse study, found that overall, in many cities that deregulated, the supply of taxicabs increased, fares increased, service quality declined and there were more trip refusals, lower vehicle quality, and aggressive solicitation of customers resulting from a higher supply of taxicabs.&lt;/blockquote&gt;
+&lt;p&gt;So taxi regulation is imperfect, but the solution to that imperfection is not to walk away from it. Taxis are part of city infrastructure, like buildings, buses, and subways, and serve a valuable public service. Taxi regulation provides a way for the public and for our elected representatives to have a say in how the taxi industry works, so that (for example) &lt;a href=&#34;http://www.thestar.com/news/city_hall/2014/02/19/council_votes_to_overhaul_toronto_taxi_industry.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Toronto can demand&lt;/a&gt; that the entire taxi fleet must be wheelchair accessible, rolling in over the next decade, or London can introduce a &lt;a href=&#34;http://www.newmetrocab.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zero-emission Metrocab&lt;/a&gt; to address environmental concerns. The taxi industry may be a flawed part of our democratic institutions, but the solution to flawed democratic institutions is more and better democracy, not the American rejection of government and of democracy&amp;rsquo;s role in the economy.&lt;/p&gt;
+&lt;p&gt;Despite claims of technological inevitability, saying No to Uber is perfectly compatible with innovation and forward thinking. If Canadian cities such as Toronto do say No to Uber, they would be joining cities around the world such as &lt;a href=&#34;http://www.redherring.com/startups/berlin-pits-ubers-inevitable-ascent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Berlin&lt;/a&gt;, &lt;a href=&#34;http://www.cnet.com/news/seoul-korea-says-uber-is-illegal-promises-to-take-stern-action/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Seoul&lt;/a&gt;, &lt;a href=&#34;http://novobrief.com/spain-trying-push-uber-country-drivers-will-face-fines-e18000/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Madrid&lt;/a&gt;, and &lt;a href=&#34;http://www.reuters.com/article/2014/10/16/us-france-uber-idUSKCN0I527M20141016&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paris&lt;/a&gt; in refusing to roll over and hand the responsibility for their taxi service to Silicon Valley.&lt;/p&gt;
+&lt;h2 id=&#34;uber-corporate-culture&#34;&gt;Uber corporate culture&lt;/h2&gt;
+&lt;p&gt;Digital platforms are governed by network effects, which is why Uber&amp;rsquo;s massive funding rounds (having &lt;em&gt;raised&lt;/em&gt; $1.5 Billion, they are now &lt;a href=&#34;http://blogs.wsj.com/digits/2014/11/20/ubers-massive-fundraising-campaign-forges-ahead-amid-controversy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;looking&lt;/a&gt; to raise another $1 Billion) and rapid global expansion are so important to the company&amp;rsquo;s future. They and their investors know it&amp;rsquo;s a winner-take-all game; that&amp;rsquo;s why Uber CEO Travis Kalanick &lt;a href=&#34;http://www.vanityfair.com/business/2014/12/uber-travis-kalanick-controversy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;admitted&lt;/a&gt; this month that he undermined the fund-raising efforts of his main competitor, Lyft. The decision facing Canadian cities is not about permitting a smartphone app, it&amp;rsquo;s about handing a large part of Toronto&amp;rsquo;s taxi service over to Uber.&lt;/p&gt;
+&lt;p&gt;So what kind of company is Uber, that people want to put aside taxi regulation and hand control over to them?&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a company in the middle of controversy, as executive Emil Michael muses about &lt;a href=&#34;http://www.buzzfeed.com/bensmith/uber-executive-suggests-digging-up-dirt-on-journalists&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;digging up dirt on (female) journalists&lt;/a&gt; who criticize the company. It&amp;rsquo;s a company that spies on its customers using what it calls its &amp;ldquo;God View&amp;rdquo; of company data &lt;a href=&#34;http://www.forbes.com/sites/kashmirhill/2014/10/03/god-view-uber-allegedly-stalked-users-for-party-goers-viewing-pleasure/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;for party tricks&lt;/a&gt; or for &lt;a href=&#34;https://web.archive.org/web/20140827195715/http://blog.uber.com/2012/01/09/uberdata-san-franciscomics/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog posts&lt;/a&gt;. It&amp;rsquo;s a company whose &lt;a href=&#34;http://www.buzzfeed.com/johanabhuiyan/uber-is-investigating-its-top-new-york-executive-for-privacy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;top New York exec is being investigated&lt;/a&gt; internally for tracking a female journalist without her consent. It&amp;rsquo;s a company whose employees have &lt;a href=&#34;http://www.modernluxury.com/san-francisco/story/uber-employees-warned-san-francisco-magazine-writer-executives-might-snoop-her&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;warned&lt;/a&gt; another female journalist that &amp;ldquo;company higher-ups might access my rider logs&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;I emphasize &amp;ldquo;female journalist&amp;rdquo; here because the culture of the company is a big part of the problem. Do we want to hand over Toronto streets to a company whose CEO wisecracks about women on demand (&amp;quot;&lt;a href=&#34;http://pando.com/2014/02/27/we-call-that-boob-er-the-four-most-awful-things-travis-kalanick-said-in-his-gq-profile/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yeah, we call that Boob-er&lt;/a&gt;&amp;quot;)? Which &amp;ldquo;&lt;a href=&#34;http://www.marketplace.org/topics/business/final-note/ubers-data-makes-creepy-point-about-company&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;can and does&lt;/a&gt; track one-night stands&amp;rdquo; and posts a blog entry about the data called &amp;ldquo;Rides of Glory&amp;rdquo; (now removed)? Which, more damagingly, ran &lt;a href=&#34;http://www.dailydot.com/business/uber-france-sexism/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a campaign in France&lt;/a&gt; (now also removed) called &amp;ldquo;Avions de Chasse&amp;rdquo; to pair Uber riders with &amp;ldquo;hot chick&amp;rdquo; drivers? As the company &lt;a href=&#34;http://www.buzzfeed.com/charliewarzel/french-uber-bird-hunting-promotion-pairs-lyon-riders-with-a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;posted&lt;/a&gt; on the English version of its website:&lt;/p&gt;
+&lt;blockquote&gt;&#34;Avions de chasse&#34; is the French term for &#34;fighter jets&#34;, but also the colloquial term to designate an incredibly hot chick. Lucky you! the world&#39;s most beautiful &#34;Avions&#34; are waiting for you on this app. Seat back, relax and let them take you on cloud 9!&lt;/blockquote&gt;
+&lt;p&gt;This is a company that responded to a complaint by a female customer that she was driven 20 miles out of her way to an abandoned lot by saying it was an &lt;a href=&#34;http://valleywag.gawker.com/uber-calls-womans-20-mile-nightmare-abduction-an-ineff-1645819700&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;inefficient route&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s also a company that &lt;a href=&#34;http://www.autoblog.com/2014/11/14/uber-coaching-airport-drivers-violate-rules/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;coaches Miami drivers how to circumvent laws&lt;/a&gt;. It&amp;rsquo;s a company that &lt;a href=&#34;http://money.cnn.com/2014/08/11/technology/uber-fake-ride-requests-lyft/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ordered and cancelled&lt;/a&gt; over 5,000 rides with its main competitor to interfere with their service. It&amp;rsquo;s a company that sets out to &lt;a href=&#34;http://www.laweekly.com/informer/2014/10/29/after-our-uber-expose-their-pr-team-tried-to-dupe-us&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dupe newspapers with fake PR&lt;/a&gt;, and which now talks of &amp;ldquo;&lt;a href=&#34;http://www.buzzfeed.com/johanabhuiyan/uber-sought-to-hire-opposition-researcher-to-weaponize-facts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;weaponizing facts&lt;/a&gt;&amp;rdquo; in its PR campaigns (this company really likes its military analogies). In short, it&amp;rsquo;s a company that reflects the worst of the macho culture of some parts of the technology industry.&lt;/p&gt;
+&lt;p&gt;In among all the privacy problems, it is worth noting that Uber has one privacy policy for the US, but has &lt;a href=&#34;http://www.thestar.com/business/2014/11/21/why_uber_has_a_canadian_privacy_problem.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;no Canadian privacy policy&lt;/a&gt;. That&amp;rsquo;s how much Uber is thinking, for all its massive funding base, about privacy issues for Canadian riders.&lt;/p&gt;
+&lt;h2 id=&#34;drive-income-the-uber-unicorn&#34;&gt;Drive income: the Uber unicorn&lt;/h2&gt;
+&lt;p&gt;What really appeals to people who have used Uber (and I am not one of them) is the smooth efficiency of the service, an efficiency that relies on drivers to be in place, ready to take you where you want to go.&lt;/p&gt;
+&lt;p&gt;According to Uber, efficiency and affordable pricing is combined with fantastic pay for drivers. In May 2014 the company posted a claim &lt;a href=&#34;http://blog.uber.com/uberimpact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on its website&lt;/a&gt; that the median uberX annual income is $90,766 in New York City and $74,191 in San Francisco. The claim was hailed (hah!) by Matt McFarland of the Washington Post with the headline &lt;em&gt;Uber&amp;rsquo;s remarkable growth could end the era of poorly paid cab drivers&lt;/em&gt;. Noting that &amp;ldquo;estimates of the typical cab driver&amp;rsquo;s salary hover around $30,000&amp;rdquo;, McFarland acknowledged that &amp;ldquo;Uber&amp;rsquo;s numbers don&amp;rsquo;t account for the costs a driver incurs to own and operate a vehicle. Still, the gap in compensation for providing similar services is astounding&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;The claim is indeed astounding. How could Uber pay its drivers three times the pay of a taxi driver, charge riders less, and still be profitable? The initial explanation was that taxi medallion owners in many cities suck all the money out of the taxi system (see financial journalist Felix Salmon &lt;a href=&#34;http://blogs.reuters.com/felix-salmon/2013/12/11/why-cab-drivers-should-love-uber/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://medium.com/@felixsalmon/the-economics-of-everyones-private-driver-464bfd730b38&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; for example).&lt;/p&gt;
+&lt;p&gt;I &lt;a href=&#34;http://tomslee.net/2014/06/uber-drivers-earning-90kyear-more-evidence-needed.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;took a look&lt;/a&gt; at the claim when it was made and compared Uber&amp;rsquo;s estimates to taxi reports from three different cities. It was clear that Uber was taking out about the same percentage of each dollar of fare from the system as do medallion owners (20% of the fare at the time, plus a $1 &amp;ldquo;safety fee&amp;rdquo; per ride), so there was no magic there after all. The company admitted that it was looking only at drivers who logged over 40 hours a week which, given that most drivers are working longer than they are actually &amp;ldquo;on the app&amp;rdquo; means that the average is highly selective of the top end of drivers. Finally, Uber massively underestimated the costs of gas, maintenance, insurance, and other expenses (such as tolls) that drivers incur (uberX drivers must drive their own cars).&lt;/p&gt;
+&lt;p&gt;Since then, the claim has become less and less plausible. Felix Salmon toned down his praise &lt;a href=&#34;https://medium.com/@felixsalmon/how-well-uberx-pays-part-2-cbc948eaeeaf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Seattle Uber drivers protests in &lt;a href=&#34;http://www.thestranger.com/seattle/uber-drivers-say-they-need-a-union/Content?oid=19281784&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;April&lt;/a&gt; and &lt;a href=&#34;http://slog.thestranger.com/slog/archives/2014/08/29/uber-drivers-honking-their-horns-in-downtown-seattle-to-protest-pay-cut&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;August&lt;/a&gt;, San Francisco drivers protested low income in &lt;a href=&#34;http://time.com/92988/uberx-san-francisco-protest-uber/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;May&lt;/a&gt;, Los Angeles drivers protested in &lt;a href=&#34;http://losangeles.cbslocal.com/2014/09/02/uber-defends-slashing-drivers-rates-amid-la-protest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;September&lt;/a&gt;, New York drivers protested in &lt;a href=&#34;http://www.buzzfeed.com/johanabhuiyan/uber-drivers-are-protesting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;September&lt;/a&gt; (Uber &lt;a href=&#34;http://www.slate.com/blogs/moneybox/2014/09/12/uber_drivers_strike_they_protested_cheap_uberx_fares_uber_backed_down.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;backtracked&lt;/a&gt; over new rules it had introduced) and again in &lt;a href=&#34;http://www.dailymail.co.uk/news/article-2802430/uber-drivers-new-york-plan-strike-shut-phones-protest-treatment-company.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;October&lt;/a&gt; along with &lt;a href=&#34;http://www.buzzfeed.com/johanabhuiyan/uber-drivers-protest-in-sf-and-la-while-drivers-in-ny-and-lo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;San Francisco and London&lt;/a&gt;. Low income has been a consistent complaint, including on the active Uber driver forum &lt;a href=&#34;http://uberpeople.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UberPeople&lt;/a&gt; and at &lt;a href=&#34;http://www.reddit.com/r/uberdrivers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reddit&lt;/a&gt;. Reports from individual Uber drivers failed to come near to the income figures that Uber claimed (for example &lt;a href=&#34;http://uberpeople.net/threads/fort-worth-30-hr-lies.4595/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt; report from Fort Worth (strong language!) or &lt;a href=&#34;http://www.businessinsider.com.au/uber-drivers-say-theyre-making-less-than-minimum-wage-2014-10&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt; report or &lt;a href=&#34;http://bostinno.streetwise.co/2014/06/09/how-much-do-uberx-drivers-actually-make-per-hour/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt; report from Boston).&lt;/p&gt;
+&lt;p&gt;Meanwhile, Uber has been taking a bigger and bigger slice of the consumer dollar. The $1 per trip &amp;ldquo;&lt;a href=&#34;http://mashable.com/2014/04/18/uber-adds-1-safe-rides-fee/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;safety fee&lt;/a&gt;&amp;rdquo; was a start, then they started &lt;a href=&#34;http://www.geekwire.com/2014/uber-now-charging-drivers-520-per-year-lease-smartphone/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;charging&lt;/a&gt; drivers $10 per week for use of a smartphone, and more recently they &lt;a href=&#34;http://www.forbes.com/sites/ellenhuet/2014/09/22/uber-now-taking-its-biggest-uberx-commission-ever-25-percent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;increased&lt;/a&gt; their commission for new drivers in San Francisco to 25% of the fare.&lt;/p&gt;
+&lt;p&gt;Finally, multiple rounds of fare cuts have put pressure on driver income. Uber insists that a greater number of rides per driver makes up for the price cuts, but drivers themselves &lt;a href=&#34;http://uberpeople.net/threads/real-statistics-price-drops-and-your-earnings.3009/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dispute&lt;/a&gt; this claim and there are few numbers from Uber to back it up.&lt;/p&gt;
+&lt;p&gt;The $90,000 claims have been re-investigated in recent weeks by two of the most consistently informative journalists covering Uber. Johana Bhuiyan of Buzzfeed looked at eleven Uber drivers&amp;rsquo;s pay slips &lt;a href=&#34;http://www.buzzfeed.com/johanabhuiyan/what-uber-drivers-really-make-according-to-their-pay-stubs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;; and Slate&amp;rsquo;s Alison Griswold called the $90,000 driver &lt;a href=&#34;http://www.slate.com/articles/business/moneybox/2014/10/uber_driver_salary_the_ride_sharing_company_says_its_drivers_make_great.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Uber&amp;rsquo;s Unicorn&lt;/a&gt;, saying &amp;ldquo;In several months of reporting on Uber, I have yet to come across a single driver earning the equivalent of $90,766 a year.&amp;rdquo; She asked Uber&amp;rsquo;s Lane Kasselman to introduce her to one and concludes: &amp;ldquo;Last I heard, they’re still looking.&amp;rdquo; Meanwhile, the New York Post &lt;a href=&#34;http://nypost.com/2014/11/02/ubers-claim-of-90k-average-pay-for-drivers-is-overestimated/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;concludes&lt;/a&gt; that &amp;ldquo;their take-home pay is closer to the average that yellow cabbies make.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;rating-systems-and-vulnerable-drivers&#34;&gt;Rating systems and vulnerable drivers&lt;/h2&gt;
+&lt;p&gt;Money is, of course, one of the main points of contention for many jobs, but Uber is not just another employer. In fact, it&amp;rsquo;s not an employer at all: Uber drivers are &amp;ldquo;partners&amp;rdquo;, self-employed entrepreneurs who choose to work on the platform. The model of &amp;ldquo;micro-entrepreneurs&amp;rdquo; who can choose when to work independently is what makes Uber part of the booming &amp;ldquo;sharing economy&amp;rdquo; along with others such as Airbnb. What seems at first like a light-weight and flexible model of work turns out, in Uber&amp;rsquo;s hands, to be another way for the company to have its cake and eat it too.&lt;/p&gt;
+&lt;p&gt;Uber claims its drivers are not employees, but has been exerting more and more control over their behaviour.&lt;/p&gt;
+&lt;p&gt;Uber makes it easy for new drivers to join up: it publicizes what many drivers describe as unrealistic earnings to attract interest (see above) and encourages drivers to take out what amount to &lt;a href=&#34;http://valleywag.gawker.com/uber-and-its-shady-partners-are-pushing-drivers-into-su-1649936785&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;subprime loans&lt;/a&gt; in order to buy a car. Then, of course, the driver has to put in long hours to pay off the purchase, and being kicked off the platform becomes even more of a threat.&lt;/p&gt;
+&lt;p&gt;Uber has taken advantage of the vulnerability of its drivers by imposing more and more strenuous rules. Driver acceptance rates (when the app assigns them to a customer) have to be up around 90% or you get a &lt;a href=&#34;http://www.reddit.com/r/uberdrivers/comments/2mykji/my_reply_to_ubers_low_acceptance_rate_email/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;notification&lt;/a&gt; to &amp;ldquo;Please improve your acceptance rate if you want to continue to use the Uber platform&amp;rdquo;. Drivers claim to have been &lt;a href=&#34;http://www.forbes.com/sites/ellenhuet/2014/10/16/uber-driver-deactivated-over-tweet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;deactivated&lt;/a&gt; for being critical of the company on Twitter. Drivers on the premium Uber Black service (I have mainly ignored the complexity of the different Uber services here) were suddenly forced to take &lt;a href=&#34;http://pando.com/2014/09/04/uber-continues-to-screw-its-partners-now-by-forcing-uber-black-drivers-accept-uberx-fares/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;requests&lt;/a&gt; for the lower pay uberX service. The company &lt;a href=&#34;http://www.reddit.com/r/uberdrivers/comments/2mxk8g/uber_doesnt_just_stalk_passengers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tracks&lt;/a&gt; driver locations and complains if they are not to the company liking.&lt;/p&gt;
+&lt;p&gt;But at the heart of the control is the rating system that permits riders to rate drivers. Most riders give their drivers five stars out of five as a courtesy, but if a driver&amp;rsquo;s rating slips even slightly – below 4.7 in many cities – they can be &amp;ldquo;deactivated&amp;rdquo; or kicked off the platform. The system makes drivers vulnerable to the most demanding of riders, as a small number of complaints can lead to the driver losing their way of making a living. And of course there is no appeal, as the driver isn&amp;rsquo;t an employee and the contract is not a work contract. The reports of happy and friendly Uber drivers (see the Globe and Mail articles at the beginning of this post) take on a different meaning once you know the precariousness of Uber drivers&#39; situation. As Forbes&#39; Jeff Bercovici &lt;a href=&#34;http://www.forbes.com/sites/jeffbercovici/2014/08/14/what-are-we-actually-rating-when-we-rate-other-people/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reported&lt;/a&gt;, &amp;ldquo;Uber likes this system because it enjoys being able to say all of its drivers have near-perfect ratings. But it&amp;rsquo;s a harsh one for drivers, and also for customers, who find themselves repeatedly forced to choose between guilt, spite and ignorance.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;While Uber gets to dictate the behaviour of its drivers in more and more specific ways, it still takes none of the responsibility when things go wrong. Section 230 of the &amp;ldquo;Communications Decency Act&amp;rdquo; may seem like an odd law to protect the company, but here&amp;rsquo;s how it works. The law was initially introduced to say that blog sites and other user-content sites such as YouTube were not responsible for content posted by its users. Fair enough. But now Uber says it&amp;rsquo;s not a taxi company, it just runs a web site and an app, and puts drivers in touch with riders. Anything that goes wrong is not Uber&amp;rsquo;s responsibility, it&amp;rsquo;s the driver&amp;rsquo;s. The law is an American one, but challenging Uber is going to be expensive and maybe prohibitively so for Canadians too, especially given the company&amp;rsquo;s formidable bank account.&lt;/p&gt;
+&lt;p&gt;Uber&amp;rsquo;s rules seem to step over the line regarding whether a driver is, or is not, an employee according to Canada Revenue Agency rules. Sharing economy workers are facing this issue with other companies too, such as cleaning/odd-job service &lt;a href=&#34;http://www.forbes.com/sites/ellenhuet/2014/11/18/contractor-or-employee-silicon-valleys-branding-dilemma/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Handy&lt;/a&gt;. It&amp;rsquo;s an issue that other industries face, such as &lt;a href=&#34;http://www.journalofcommerce.com/Home/News/2011/3/The-deliberate-misclassification-of-workers-hurts-almost-everyone-JOC043591W/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;construction&lt;/a&gt;, and the root cause is always the same: classification as an independent contractor relieves the hiring company (Uber in this case) from having to pay EI premiums, and from having to abide by employment standards. The risk is pushed entirely onto the subcontractor. When Toronto mayor John Tory says that Uber should be allowed to operate, he&amp;rsquo;s implicitly approving of these arrangements, and allowing bad labour practices to intrude further and further into Canada&amp;rsquo;s workplaces. It&amp;rsquo;s bad for the drivers, and it&amp;rsquo;s bad for our society.&lt;/p&gt;
+&lt;h2 id=&#34;customer-issues&#34;&gt;Customer issues&lt;/h2&gt;
+&lt;p&gt;Among all of these problems, the customer is the one who does well (putting aside the problems with sexism and privacy violation listed at the top of the post). Uber is keeping the prices low, pushing drivers to accept all the rides they are assigned whether or not it makes them money, and is using the rating system to ensure that the drivers put on a friendly face. It&amp;rsquo;s relying on these customers to push cities into permitting the apps.&lt;/p&gt;
+&lt;p&gt;But even here there are concerns: issues of race are complex: some people of colour report &lt;a href=&#34;http://www.racialicious.com/2012/11/28/cab-drivers-uber-and-the-costs-of-racism/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a dramatically better&lt;/a&gt; experience than with taxis but others are concerned about &lt;a href=&#34;http://blogs.dallasobserver.com/unfairpark/2013/10/southern_dallas_leaders_say_ub.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;customer profiling&lt;/a&gt;, and &lt;a href=&#34;http://www.nancyleong.com/race-2/uber-privacy-discrimination/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;potential for discrimination&lt;/a&gt;. Disability access is more troubling: &lt;a href=&#34;http://www.sfgate.com/bayarea/article/Uber-accused-in-suit-of-refusing-customers-with-5746412.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blind riders&lt;/a&gt; are suing Uber and &lt;a href=&#34;http://www.chron.com/news/houston-texas/article/Texas-advocates-file-32-disabilities-act-lawsuits-5644400.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;disability activists&lt;/a&gt; are filing lawsuits.&lt;/p&gt;
+&lt;h2 id=&#34;summing-up&#34;&gt;Summing up&lt;/h2&gt;
+&lt;p&gt;This post is already too long. I could have written about the occasional horror stories of accidents and abusive behaviour from drivers, but they happen with taxis too. And I&amp;rsquo;ve not covered the dubious screening process that Uber uses, or the lack of proper mechanical inspection of the cars, or the difficulties with insurance: these have all been covered elsewhere.&lt;/p&gt;
+&lt;p&gt;The list of problems with Uber is long. The existing taxi industry is not perfect, especially in big cities, but it is a part of the democratic fabric of the country, and we need to address its problems by better democracy, not by throwing democratic accountability aside for the promise of self-regulation by an unaccountable company with an arrogant, sexist corporate culture, which treats its drivers badly, which walks away from its responsibility when things go wrong, and which is importing an American anti-democratic attitude into this country.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>
+				Uber Drivers Earning $90K/year? More Evidence Needed		</title>
+      <link>/post/uber-drivers-earning-90kyear-more-evidence-needed/</link>
+      <pubDate>Tue, 03 Jun 2014 01:08:00 +0000</pubDate>
+      <guid>/post/uber-drivers-earning-90kyear-more-evidence-needed/</guid>
+      <description>&lt;p&gt;Last Tuesday taxi-disrupting tech company Uber &lt;a href=&#34;http://blog.uber.com/uberimpact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;posted&lt;/a&gt; on the company blog that &amp;ldquo;the median income on uberX is more than $90,000/year/driver in New York and more than $74,000/year/driver in San Francisco&amp;rdquo;. I don&amp;rsquo;t think their numbers add up, but first the story so far&amp;hellip;&lt;/p&gt;
+&lt;p&gt;For the notoriously cheap taxi industry, those are some pretty sweet numbers, and they were hailed (hah!) by Matt McFarland of the Washington Post with the headline &lt;a href=&#34;http://www.washingtonpost.com/blogs/innovations/wp/2014/05/27/ubers-remarkable-growth-could-end-the-era-of-poorly-paid-cab-drivers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Uber&amp;rsquo;s remarkable growth could end the era of poorly paid cab drivers&lt;/a&gt;. Noting that &amp;ldquo;estimates of the typical cab driver&amp;rsquo;s salary hover around $30,000&amp;rdquo;, McFarland acknowledged that &amp;ldquo;Uber&amp;rsquo;s numbers don&amp;rsquo;t account for the costs a driver incurs to own and operate a vehicle. Still, the gap in compensation for providing similar services is astounding&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;As the story spread, many just ignored those pesky costs. CNBC &lt;a href=&#34;http://www.cnbc.com/id/101710406&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;led with&lt;/a&gt; &amp;ldquo;Uber&amp;rsquo;s $90K salary could disrupt the taxi business&amp;rdquo;. The New Orleans Times-Picayune &lt;a href=&#34;http://www.nola.com/business/index.ssf/2014/05/uber_drivers_in_new_york_city.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;headlined&lt;/a&gt; its story &amp;ldquo;Uber drivers in New York City earn more than $90,000 a year, newspaper reports&amp;rdquo; and Entrepreneur.com &lt;a href=&#34;http://www.entrepreneur.com/article/234289&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;claimed&lt;/a&gt; &amp;ldquo;The Median Income of an Uber Driver in NYC Is Nearly $100,000&amp;rdquo;. From the technology industry, CEO Mike Jones laid it out at &lt;a href=&#34;http://recode.net/2014/05/31/tech-titans-on-income-inequality-and-their-stingy-stingy-industry/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code Conference&lt;/a&gt;: &amp;ldquo;You&amp;rsquo;re qualified to drive a car, but not professionally doing it. Congratulations, boom, you&amp;rsquo;re making [a] $90,000-a-year average Uber salary.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Among all this enthusiasm, a few voices did raise some questions. In &lt;em&gt;Time Magazine&lt;/em&gt; Dan Kedmey &lt;a href=&#34;http://time.com/119587/do-uberx-drivers-really-take-home-90k-a-year-on-average-not-exactly/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emphasized the costs&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;Unfortunately, the figure excludes many of the costs of running a business, including gas, insurance, parking, maintenance and repairs and the original sale or lease price of the car which can take some hefty bites out of the driver&#39;s take home pay. It also measures a median income among a particularly dedicated set of drivers, logging a minimum of 40 hours a week and sometimes much longer hauls.&lt;/blockquote&gt;
+&lt;p&gt;He asked Uber, but they shrugged their shoulders.&lt;/p&gt;
+&lt;blockquote&gt;Just how much those costs eat away at a driver&#39;s take home wages is not easily gauged, according to Uber spokesman, Lane Kasselman. They can vary depending on the age of vehicle, the density of app users in the city, how many hours the driver puts in and what sort of customer ratings the driver receives. And for now that data, Kasselman says, is proprietary.&lt;/blockquote&gt;
+&lt;p&gt;At &lt;a href=&#34;http://mashable.com/2014/05/28/uber-drivers-salary-not-sustainable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mashable&lt;/a&gt;, Jason Abbruzzese asked whether the income is sustainable (Uber is looking to entice drivers and has deep pockets, after all), and at The Atlantic&amp;rsquo;s CityLab &lt;a href=&#34;http://www.citylab.com/commute/2014/05/theres-no-way-most-uberx-drivers-make-twice-what-traditional-cabbies-do/371669/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eric Jaffe&lt;/a&gt; pointed to the Uber driver protest in San Francisco, where drivers claimed they &amp;ldquo;work for less than minimum wage&amp;rdquo; and asked how these stories could fit together.&lt;/p&gt;
+&lt;p&gt;Back in December, economists Felix Salmon (&lt;a href=&#34;http://blogs.reuters.com/felix-salmon/2013/12/11/why-cab-drivers-should-love-uber/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;) and Tim Worstall (of &lt;a href=&#34;http://www.forbes.com/sites/timworstall/2013/12/12/how-lyft-and-uber-will-raise-taxi-drivers-incomes-not-lower-them/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Forbes&lt;/a&gt;) had both had fingered the culprit for taxi drivers&#39; appalling incomes: the medallion system that many cities use means that medallion owners get to take the money. Now, in the wake of the new claims, Salmon &lt;a href=&#34;https://medium.com/@felixsalmon/the-economics-of-everyones-private-driver-464bfd730b38&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;asked Uber&lt;/a&gt; for details of these extra expenses and they actually sent him numbers (take that, Time Magazine!) showing that business expenses would be around $15K, so the drivers are still making twice the norm: not bad. Salmon deemed these numbers &amp;ldquo;reasonable and entirely intuitive&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Uber, by the way, takes 20% of the fare, plus a $1 &amp;ldquo;safety fee&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Now I&amp;rsquo;m no expert, but I thought I&amp;rsquo;d take a look at some reports into the taxi industry and see what I could find out about the Uber claims. The short version is this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The medallion owners in some cities take roughly the same amount of the fare as Uber. They may be ripping off the drivers, but the lease costs that they charge don&amp;rsquo;t seem to be the main reason for the difference between the numbers. I think Salmon and Worstall have this wrong.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Uber claims over car maintenance costs are under what other reports say about the costs. I suspect they are cherry-picked, but they are also not the main reason for the difference.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The big difference comes from the claim that an uberX car takes in $110,000 in fares over a year, while driving 40,000 miles. A regular taxi takes in about half that, and drives about 50% more. It&amp;rsquo;s not clear where this difference comes from (different cities? different ways of counting? bad guesses?) but if Uber is going to stick by its claim, it needs to explain the difference.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The media writers who take business expenses as a minor factor in the driver&amp;rsquo;s overall income are way off.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Put this all together, and the driver incomes look too high.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;First let&amp;rsquo;s look at the plight of taxi drivers. I found relatively recent reports on the taxi industry in three major North American cities: a UCLA study on &lt;a href=&#34;http://www.taxi-library.org/driving-poor.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Los Angeles&lt;/a&gt; (2006), a San Diego State University report on &lt;a href=&#34;http://onlinecpi.org/reports/driven-to-despair/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;San Diego&lt;/a&gt; (2012), and &lt;a href=&#34;http://www.itaxiworkers.ca/Reform%20proposal%202012.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;two&lt;/a&gt; &lt;a href=&#34;http://www1.toronto.ca/City%20Of%20Toronto/Municipal%20Licensing%20&amp;amp;%20Standards/1-Files/PDFs/Taxireview/universitystudy.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reports&lt;/a&gt; about Toronto (2008, 2012). Obviously these are not San Francisco and New York, which is what Uber was writing about, but the point is not to ask if they are telling the exact truth, but to see if the picture they paint is a representative one.&lt;/p&gt;
+&lt;p&gt;The three reports paint a grim picture of a taxi driver&amp;rsquo;s life. In all three cities, most drivers work six 12-hour shifts a week for less than minimum wage, even after tips. These are mainly immigrant men, and most are between 30 and 50 so many have family responsibilities. Health insurance is non-existent, and the job is dangerous with assault, vomit (which they have to pay to get cleaned) and petty aggravations as perpetual companions. I don&amp;rsquo;t think anyone wants to paint a rosy picture of the taxi driver&amp;rsquo;s working conditions.&lt;/p&gt;
+&lt;p&gt;But now to the numbers. There is a surprising consistency to the three cities (which I write as LA, SD, and TO).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In their 72 hours of driving each week, a driver will cover about 1200 miles (LA), of which just under half (LA) are &amp;ldquo;on the meter&amp;rdquo;. The LA study gives an average of 6.2 miles-per-paid-gallon.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The total income (fares + tips) that comes into the cab over a week is about $1500 (LA), $1100 (SD), or $1150 (TO).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gas is a significant expense, and cab drivers have to pay it. The weekly cost is about $250 (LA), $260 (SD), and $250 (TO). This suggests that San Diego drivers cover the same distance as LA, while Toronto (where gas is more expensive) cover significantly less.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Most taxi drivers pay a lease that covers car insurance and maintenance as well as earning money for the medallion owner. The weekly lease is about $500 (LA), $400 (SD), and $260 (TO). There&amp;rsquo;s quite a bit of variation in each city because there is a mixture of owner-operators, shift drivers, and others at work and their situations are all different.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Toronto report separates the car maintenance, depreciation, repair and insurance out. For LA and SD this will come out of the medallion owner&amp;rsquo;s income. It is about $300/week ($70 insurance, $70 maintenance and repairs, $175 on car financing).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;That leave a weekly income for the driver of about $600 (LA), $320 (SD), and $450 (TO). This comes to an annual income of $31,000 (LA), and a terrible $16,60 (SD) and $23,400 (TO).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We can put these in a table and compare them to the Uber estimates:&lt;/p&gt;
+&lt;p&gt;[Update: changed these figures on June 3 to be better averages of the driver kinds in each city.]&lt;/p&gt;
+&lt;table rules=&#34;groups&#34; cellspacing=&#34;0&#34; frame=&#34;hsides&#34; border=&#34;2&#34; cellpadding=&#34;6&#34; &gt; 
+&lt;tr &gt;
+Quantity (weekly)
+LA
+SD
+TO
+Uber (est)
+&lt;/tr&gt;
+&lt;tbody &gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Fares + tips
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;1500
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;1100
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;1150
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;2070
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody &gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Gas
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;250
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;260
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;250
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;115
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Lease/Operator
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;250
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;140
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;260
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;414
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Car Operation &amp; Depreciation
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;300*
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;300*
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;300
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;76
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Other expenses
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;100
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;70
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;90
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;0
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr &gt;
+&lt;td class=&#34;left&#34; &gt;Driver Income
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;600
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;330
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;250
+&lt;/td&gt;
+&lt;td class=&#34;right&#34; &gt;1465
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+* = uses Toronto estimate, as no estimate given in report. Is paid by the lease-holder for those who lease.
+&lt;p&gt;Do the Uber numbers make sense? At the very least they need some explaining before we take them seriously. Here are the questions that need answering:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;According to the Washington Post, Uber&amp;rsquo;s sample is &amp;ldquo;drivers working over 40 hours per week&amp;rdquo;. Are they working the same 72 hour weeks that taxi drivers are?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Taxi mileage is way higher than Uber&#39; estimate of 770 miles per week. Maybe Uber is not counting the &amp;ldquo;off meter&amp;rdquo; miles?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Can they justify the low gas costs that they estimate or are they not counting time between rides (which is half the mileage for taxi drivers)?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Uber seems to take more than the leaseholder (after expenses). Given the slagging off that medallion holders get, this surprised me.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The car maintenance fee for Uber is much lower than for taxi drivers. Does this reflect a lower standard for Uber or where do they get this number?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In short, a lot of questions to be answered before Uber&amp;rsquo;s claims can be justified.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
