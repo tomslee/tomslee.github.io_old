@@ -5,7 +5,7 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Notes</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Oct 2017 19:06:02 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 06 Feb 2021 12:06:02 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Notes</title>
@@ -13,8 +13,23 @@
     </image>
     
     <item>
-      <title>
-				Airbnb data collection: announcement		</title>
+      <title>Site setup</title>
+      <link>/post/web-site-setup/</link>
+      <pubDate>Sat, 06 Feb 2021 12:06:02 +0000</pubDate>
+      <guid>/post/web-site-setup/</guid>
+      <description>&lt;p&gt;The site is set up with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub pages&lt;/a&gt;, to host the published static content and serve it.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;, to generate the published static content from source.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://themes.gohugo.io/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic theme&lt;/a&gt;, even though I&amp;rsquo;m not an academic, to style the web site presentation.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://orgmode.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Org Mode&lt;/a&gt; with &lt;a href=&#34;https://ox-hugo.scripter.co/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ox-hugo&lt;/a&gt;, to write the material. Although some files, including this, are written directly in markdown using &lt;a href=&#34;https://www.vim.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vim&lt;/a&gt; or &lt;a href=&#34;https://code.visualstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft VSCode&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m currently working on the content in an Ubuntu &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/wsl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WSL2&lt;/a&gt; instance on Windows, and using &lt;a href=&#34;https://mobaxterm.mobatek.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXterm&lt;/a&gt; and/or &lt;a href=&#34;https://github.com/microsoft/terminal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows Terminal&lt;/a&gt; to get at it.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Airbnb data collection: announcement</title>
       <link>/post/airbnb-data-collection-announcement/</link>
       <pubDate>Mon, 09 Oct 2017 19:06:02 +0000</pubDate>
       <guid>/post/airbnb-data-collection-announcement/</guid>

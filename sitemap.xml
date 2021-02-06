@@ -3,17 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2021-02-06T12:06:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/meta/</loc>
+    <lastmod>2021-02-06T12:06:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2021-02-06T12:06:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/web-site-setup/</loc>
+    <lastmod>2021-02-06T12:06:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-02-06T12:06:02+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/workaround-medical/</loc>
     <lastmod>2019-08-05T14:25:22-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/</loc>
-    <lastmod>2019-08-05T14:25:22-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2019-08-05T14:25:22-04:00</lastmod>
   </url>
   
@@ -64,16 +84,6 @@
   
   <url>
     <loc>/category/airbnb-data/</loc>
-    <lastmod>2017-10-09T19:06:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2017-10-09T19:06:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2017-10-09T19:06:02+00:00</lastmod>
   </url>
   
