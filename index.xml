@@ -5,12 +5,72 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Tom Slee</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Feb 2021 00:00:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Feb 2021 00:00:00 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Tom Slee</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Uber-Optimistic</title>
+      <link>/post/2021-02-10-uber-earnings/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 -0500</pubDate>
+      <guid>/post/2021-02-10-uber-earnings/</guid>
+      <description>&lt;p&gt;As Uber loses more money, CEO Dara Khosrowshahi continues cross his fingers and dream.&lt;/p&gt;
+&lt;p&gt;Uber &lt;a href=&#34;https://investor.uber.com/news-events/news/press-release-details/2021/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2020/default.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;just announced&lt;/a&gt; its Q4 2020 earnings: net loss was $968 million in the quarter, or an &amp;ldquo;Adjusted EBITDA loss of $(454) million&amp;rdquo;. It still says it&amp;rsquo;s going to be profitable by the end of 2021. What&amp;rsquo;s the track record for such predictions?&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s Uber&amp;rsquo;s revenue (blue), profitability (orange) and also number of trips (green).&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/ox-hugo/uber-earnings-2020-q4.png&#34; &gt;
+
+
+  &lt;img src=&#34;/ox-hugo/uber-earnings-2020-q4.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;And here are some of their hints and predictions&amp;hellip;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When Gawker saw a leaked document in &lt;a href=&#34;https://www.businessinsider.com/ubers-revenue-profit-and-loss-2015-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;August 2015&lt;/a&gt;, showing losses at Uber, the company shrugged it off. &amp;ldquo;It&amp;rsquo;s the case of business 101: you raise money, you invest money, you grow (hopefully), you make a profit and that generates a return for investors.&amp;rdquo; Turns out the &amp;ldquo;investment&amp;rdquo; part is not the hard part.&lt;/li&gt;
+&lt;li&gt;In &lt;a href=&#34;https://www.theinformation.com/articles/ubers-losses-grow-but-so-do-its-profit-projections&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;January 2016&lt;/a&gt;, Amir Efrati of &lt;em&gt;The Information&lt;/em&gt; saw some internal projections. &amp;ldquo;The projection suggested Uber would generate an $8.2 billion profit in 2019 from $22.7 billion in net revenue. During the next four years, according to the projection, Uber would expect to generate nearly $14 billion in profit in developed markets.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;On &lt;a href=&#34;https://techcrunch.com/2016/02/18/uber-ceo-travis-kalanick-says-company-is-profitable-in-u-s/#:~:text=Uber%20is%20officially%20profitable%20in,publication%20BetaKit%20earlier%20this%20week.&amp;amp;text=%E2%80%9CWe%27re%20profitable%20in%20the,China%2C%E2%80%9D%20Kalanick%20told%20BetaKit.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;February 18 2016&lt;/a&gt;, then-CEO Travis Kalanick said Uber is &amp;ldquo;profitable in the USA, but we&amp;rsquo;re losing over $1 billion a year in China&amp;rdquo; (Uber sold its China operations in August 2016. Still not profitable).&lt;/li&gt;
+&lt;li&gt;In &lt;a href=&#34;https://www.cnbc.com/2016/03/24/uber-ceo-sees-profits-in-china-in-2-yearss-time.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;March 2016&lt;/a&gt;, Kalanick &amp;ldquo;sees profits in China in 2 years&#39; time&amp;rdquo;. He claimed that &amp;ldquo;the company, which currently operates in 400 cities around the world, will not be able to scale up without investing and being unprofitable for a while.&amp;rdquo; Five years of scaling later&amp;hellip;&lt;/li&gt;
+&lt;li&gt;In &lt;a href=&#34;https://fortune.com/2016/06/16/uber-profitable-markets/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;June 2016&lt;/a&gt;, Kalanick &amp;ldquo;revealed&amp;rdquo; that Uber is profitable (excluding interest and taxes) in &amp;ldquo;several markets&amp;rdquo;. No evidence yet.&lt;/li&gt;
+&lt;li&gt;At &lt;a href=&#34;https://www.bloomberg.com/news/articles/2018-01-23/uber-to-be-profitable-within-three-years-khosrowshahi-says&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Davos in January 2018,&lt;/a&gt; CEO Dara Khosrowshahi says Uber will be &amp;ldquo;profitable in three years&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;In &lt;a href=&#34;https://www.newyorker.com/magazine/2018/04/09/at-uber-a-new-ceo-shifts-gears&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;April 2018&lt;/a&gt;, Eric Meyhofer, head of the autonomous-driving unit, said &amp;ldquo;This is all about building autonomous ride-sharing, at scale, as a product. This is our future&amp;hellip; The question now isn’t whether the company can make a self-driving vehicle but whether it can make one quickly and cheaply enough to solve [Uber&amp;rsquo;s] revenue problems.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;In &lt;a href=&#34;https://www.cnbc.com/2018/05/30/uber-ceo-on-ipo-plans-and-warren-buffett.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;May 2018&lt;/a&gt;, he said &amp;ldquo;We&amp;rsquo;re in a good position in terms of the company’s profile, in terms of profitability and margins continue to get better&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;In &lt;a href=&#34;https://www.theverge.com/2018/5/15/17340064/uber-ceo-dara-khosrowshahi-interview-elevate-flying-cars&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;May 2018&lt;/a&gt; Dara saw a commercial &amp;ldquo;urban air mobility&amp;rdquo; service by 2023.&lt;/li&gt;
+&lt;li&gt;In &lt;a href=&#34;https://techcrunch.com/2018/09/06/uber-ceo-ride-hailing-will-be-eclipsed-by-scooters-bikes-and-even-flying-taxis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;September 2018&lt;/a&gt;, he said that &amp;ldquo;ride hailing will be eclipsed by scooters, bikes and even flying taxis&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;In &lt;a href=&#34;https://www.bbc.com/news/technology-52832791&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;May 2020&lt;/a&gt;, Uber destroyed &amp;ldquo;thousands of electric bikes and scooters, after selling its Jump business to Lime.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;In &lt;a href=&#34;https://www.npr.org/2020/12/07/944004278/after-once-touting-self-driving-cars-uber-sells-unit-to-refocus-on-core-business#:~:text=in%20Los%20Angeles.-,Uber%20said%20it%20will%20sell%20its%20self,research%20unit%20to%20startup%20Aurora.&amp;amp;text=Ride%2Dhailing%20giant%20Uber%20is,the%20self%2Ddriving%20startup%20Aurora.&amp;amp;text=Uber%20hasn%27t%20given%20up%20on%20the%20promise%20of%20autonomous%20vehicles.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;December 2020&lt;/a&gt;, Uber sold its self-driving unit.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnbc.com/2020/12/08/air-taxi-start-up-joby-acquires-uber-elevate-.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;And&lt;/a&gt; its flying taxi business.&lt;/li&gt;
+&lt;li&gt;A year ago, on &lt;a href=&#34;https://www.reuters.com/article/us-uber-results/uber-sees-profit-by-end-of-2020-but-still-expects-full-year-loss-idINKBN2002UQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;February 6 2020&lt;/a&gt;, Uber said it had a target &amp;ldquo;to achieve a measure of profitability to the fourth quarter of 2020, but the ride-hailing company still expects to lose a total of more than $1 billion this year&amp;rdquo; (it lost $6.8B). OK, give them a break because of Covid, but in &lt;a href=&#34;https://www.wsj.com/articles/ubers-first-quarter-loss-balloons-on-coronavirus-impact-11588882349&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;May 2020&lt;/a&gt; Khosrowshahi himself said &amp;ldquo;We believe the disruption caused by Covid-19 will impact our time line by a matter of quarters and not years&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, still not profitable.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Site Setup</title>
@@ -24141,9 +24201,9 @@ people would be able to figure it out and not go.&amp;rdquo;&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>/post/github-pages/</link>
+      <link>/post/github-pages-uber/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/github-pages/</guid>
+      <guid>/post/github-pages-uber/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 Meta&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;span class=&#34;tags&#34;&gt;&lt;span&gt;@meta&lt;/span&gt;&lt;/span&gt;
@@ -24181,11 +24241,106 @@ The site is set up with:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://orgmode.org/&#34;&gt;Org mode&lt;/a&gt;, with &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;ox-hugo&lt;/a&gt;, to write the material. Although some files, including this, are written directly in markdown using &lt;a href=&#34;https://www.vim.org/&#34;&gt;vim&lt;/a&gt; or &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Microsoft VS Code&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;I&amp;#39;m currently working on the content in an Ubuntu &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/wsl/&#34;&gt;WSL2&lt;/a&gt; instance on Windows, and using &lt;a href=&#34;https://mobaxterm.mobatek.net/&#34;&gt;MobaXTerm&lt;/a&gt; and/or &lt;a href=&#34;https://github.com/microsoft/terminal&#34;&gt;Windows Terminal&lt;/a&gt; to get at it.&lt;/p&gt;
+&lt;p&gt;I&amp;#39;m currently working on the content in an Ubuntu &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/wsl/&#34;&gt;WSL2&lt;/a&gt; instance on Windows, and using &lt;a href=&#34;https://mobaxterm.mobatek.net/&#34;&gt;MobaXTerm&lt;/a&gt; and/or &lt;a href=&#34;https://github.com/microsoft/terminal&#34;&gt;Windows Terminal&lt;/a&gt; to get at it. I try to confirm that it all works from windows too&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-4&#34;&gt;
+How to
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Install hugo (extended version), which may need you to install golang.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Clone the Academic theme&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/github-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/github-pages/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Uber&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;span class=&#34;tags&#34;&gt;&lt;span&gt;@uber&lt;/span&gt;&lt;/span&gt;
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+All posts here will have the category set to &lt;em&gt;uber&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Uber earnings Q4 2020
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+As Uber loses more money, CEO Dara Khosrowshahi continues cross his fingers and dream.&lt;/p&gt;
+&lt;p&gt;
+Uber &lt;a href=&#34;https://investor.uber.com/news-events/news/press-release-details/2021/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2020/default.aspx&#34;&gt;just announced&lt;/a&gt; its Q4 2020 earnings: net loss was $968 million in the quarter, or an &amp;#34;Adjusted EBITDA loss of $(454) million&amp;#34;. It still says it&amp;#39;s going to be profitable by the end of 2021. What&amp;#39;s the track record for such predictions?&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s Uber&amp;#39;s revenue (blue), profitability (orange) and also number of trips (green).&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&#34;~/src/academic-kickstart/content/uber-earnings-2020-q4.png&#34; alt=&#34;~/src/academic-kickstart/content/uber-earnings-2020-q4.png&#34; title=&#34;~/src/academic-kickstart/content/uber-earnings-2020-q4.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;
+And here are some of their hints and predictions…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;When Gawker saw a leaked document in &lt;a href=&#34;https://www.businessinsider.com/ubers-revenue-profit-and-loss-2015-8&#34;&gt;August 2015&lt;/a&gt;, showing losses at Uber, the company shrugged it off. &amp;#34;It&amp;#39;s the case of business 101: you raise money, you invest money, you grow (hopefully), you make a profit and that generates a return for investors.&amp;#34; Turns out the &amp;#34;investment&amp;#34; part is not the hard part.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In &lt;a href=&#34;https://www.theinformation.com/articles/ubers-losses-grow-but-so-do-its-profit-projections&#34;&gt;January 2016&lt;/a&gt;, Amir Efrati of &lt;em&gt;The Information&lt;/em&gt; saw some internal projections. &amp;#34;The projection suggested Uber would generate an $8.2 billion profit in 2019 from $22.7 billion in net revenue. During the next four years, according to the projection, Uber would expect to generate nearly $14 billion in profit in developed markets.&amp;#34;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On &lt;a href=&#34;https://techcrunch.com/2016/02/18/uber-ceo-travis-kalanick-says-company-is-profitable-in-u-s/#:~:text=Uber%20is%20officially%20profitable%20in,publication%20BetaKit%20earlier%20this%20week.&amp;amp;text=%E2%80%9CWe&amp;#39;re%20profitable%20in%20the,China%2C%E2%80%9D%20Kalanick%20told%20BetaKit.&#34;&gt;February 18 2016&lt;/a&gt;, then-CEO Travis Kalanick said Uber is &amp;#34;profitable in the USA, but we&amp;#39;re losing over $1 billion a year in China&amp;#34; (Uber sold its China operations in August 2016. Still not profitable).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In &lt;a href=&#34;https://www.cnbc.com/2016/03/24/uber-ceo-sees-profits-in-china-in-2-yearss-time.html&#34;&gt;March 2016&lt;/a&gt;, Kalanick &amp;#34;sees profits in China in 2 years&amp;#39; time&amp;#34;. He claimed that &amp;#34;the company, which currently operates in 400 cities around the world, will not be able to scale up without investing and being unprofitable for a while.&amp;#34; Five years of scaling later…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In &lt;a href=&#34;https://fortune.com/2016/06/16/uber-profitable-markets/&#34;&gt;June 2016&lt;/a&gt;, Kalanick &amp;#34;revealed&amp;#34; that Uber is profitable (excluding interest and taxes) in &amp;#34;several markets&amp;#34;. No evidence yet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;At &lt;a href=&#34;https://www.bloomberg.com/news/articles/2018-01-23/uber-to-be-profitable-within-three-years-khosrowshahi-says&#34;&gt;Davos in January 2018,&lt;/a&gt; CEO Dara Khosrowshahi says Uber will be &amp;#34;profitable in three years&amp;#34;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In &lt;a href=&#34;https://www.newyorker.com/magazine/2018/04/09/at-uber-a-new-ceo-shifts-gears&#34;&gt;April 2018&lt;/a&gt;, Eric Meyhofer, head of the autonomous-driving unit, said &amp;#34;This is all about building autonomous ride-sharing, at scale, as a product. This is our future… The question now isn’t whether the company can make a self-driving vehicle but whether it can make one quickly and cheaply enough to solve [Uber&amp;#39;s] revenue problems.&amp;#34;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In &lt;a href=&#34;https://www.cnbc.com/2018/05/30/uber-ceo-on-ipo-plans-and-warren-buffett.html&#34;&gt;May 2018&lt;/a&gt;, he said &amp;#34;We&amp;#39;re in a good position in terms of the company’s profile, in terms of profitability and margins continue to get better&amp;#34;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In &lt;a href=&#34;https://www.theverge.com/2018/5/15/17340064/uber-ceo-dara-khosrowshahi-interview-elevate-flying-cars&#34;&gt;May 2018&lt;/a&gt; Dara saw a commercial &amp;#34;urban air mobility&amp;#34; service by 2023.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In &lt;a href=&#34;https://techcrunch.com/2018/09/06/uber-ceo-ride-hailing-will-be-eclipsed-by-scooters-bikes-and-even-flying-taxis/&#34;&gt;September 2018&lt;/a&gt;, he said that &amp;#34;ride hailing will be eclipsed by scooters, bikes and even flying taxis&amp;#34;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In &lt;a href=&#34;https://www.bbc.com/news/technology-52832791&#34;&gt;May 2020&lt;/a&gt;, Uber destroyed &amp;#34;thousands of electric bikes and scooters, after selling its Jump business to Lime.&amp;#34;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In &lt;a href=&#34;https://www.npr.org/2020/12/07/944004278/after-once-touting-self-driving-cars-uber-sells-unit-to-refocus-on-core-business#:~:text=in%20Los%20Angeles.-,Uber%20said%20it%20will%20sell%20its%20self,research%20unit%20to%20startup%20Aurora.&amp;amp;text=Ride%2Dhailing%20giant%20Uber%20is,the%20self%2Ddriving%20startup%20Aurora.&amp;amp;text=Uber%20hasn&amp;#39;t%20given%20up%20on%20the%20promise%20of%20autonomous%20vehicles.&#34;&gt;December 2020&lt;/a&gt;, Uber sold its self-driving unit.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cnbc.com/2020/12/08/air-taxi-start-up-joby-acquires-uber-elevate-.html&#34;&gt;And&lt;/a&gt; its flying taxi business.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A year ago, on &lt;a href=&#34;https://www.reuters.com/article/us-uber-results/uber-sees-profit-by-end-of-2020-but-still-expects-full-year-loss-idINKBN2002UQ&#34;&gt;February 6 2020&lt;/a&gt;, Uber said it had a target &amp;#34;to achieve a measure of profitability to the fourth quarter of 2020, but the ride-hailing company still expects to lose a total of more than $1 billion this year&amp;#34; (it lost $6.8B). OK, give them a break because of Covid, but in &lt;a href=&#34;https://www.wsj.com/articles/ubers-first-quarter-loss-balloons-on-coronavirus-impact-11588882349&#34;&gt;May 2020&lt;/a&gt; Khosrowshahi himself said &amp;#34;We believe the disruption caused by Covid-19 will impact our time line by a matter of quarters and not years&amp;#34;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, still not profitable.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>
