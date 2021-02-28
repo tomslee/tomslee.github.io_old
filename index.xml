@@ -5,12 +5,116 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Tom Slee</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Feb 2021 00:00:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 28 Feb 2021 00:00:00 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Tom Slee</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Site Setup</title>
+      <link>/post/2021-02-07-site-setup/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 -0500</pubDate>
+      <guid>/post/2021-02-07-site-setup/</guid>
+      <description>&lt;p&gt;Configuration and notes to do this again the next time I lose everything.&lt;/p&gt;
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+&lt;p&gt;The site is set up with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Pages&lt;/a&gt;, to host the published static content and serve it.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;, to generate the published static content from source.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://themes.gohugo.io/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic theme&lt;/a&gt;, even though I&amp;rsquo;m not an academic, to style the web site presentation.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://orgmode.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Org mode&lt;/a&gt;, with &lt;a href=&#34;https://ox-hugo.scripter.co/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ox-hugo&lt;/a&gt;, to write the material. Although some files, including this, are written directly in markdown using &lt;a href=&#34;https://www.vim.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vim&lt;/a&gt; or &lt;a href=&#34;https://code.visualstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft VS Code&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m currently working on the content in an Ubuntu &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/wsl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WSL2&lt;/a&gt; instance on Windows, and using &lt;a href=&#34;https://mobaxterm.mobatek.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXTerm&lt;/a&gt; and/or &lt;a href=&#34;https://github.com/microsoft/terminal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows Terminal&lt;/a&gt; to get at it.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advertising, news, and houses of cards</title>
+      <link>/post/2021-02-28-houses-of-cards/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 -0500</pubDate>
+      <guid>/post/2021-02-28-houses-of-cards/</guid>
+      <description>&lt;div class=&#34;ox-hugo-toc toc&#34;&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div class=&#34;heading&#34;&gt;Table of Contents&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#advertising-is-everywhere-and-nowhere&#34;&gt;Advertising is everywhere and nowhere&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#newspaper-boundaries&#34;&gt;Newspaper boundaries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#social-media-and-the-news&#34;&gt;Social media and the news&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#coyne-again&#34;&gt;Coyne again&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-would-social-media-governance-look-like&#34;&gt;What would social media governance look like?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bundles-and-subsidies&#34;&gt;Bundles and subsidies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-do-we-lose&#34;&gt;What do we lose?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--endtoc--&gt;
+&lt;p&gt;State: very rough first draft.&lt;/p&gt;
+&lt;p&gt;Australia, journalism, social media, house-of-cards governance.&lt;/p&gt;
+&lt;h2 id=&#34;advertising-is-everywhere-and-nowhere&#34;&gt;Advertising is everywhere and nowhere&lt;/h2&gt;
+&lt;p&gt;Yesterday&amp;rsquo;s Globe and Mail included two opinion pieces about the dispute between Australia and the social media giants Facebook and Google (henceforth FBG). Andrew Coyne sees it as a matter for the markets: unusually for a long-time journalist he says that newspapers need to deal with the fact that FBG &amp;ldquo;built a better mousetrap&amp;rdquo; and up their game. Taylor Owen sees it as an issue of democracy: FBG setting themselves up as global managers of speech, Chinese companies in the background.&lt;/p&gt;
+&lt;p&gt;Newspapers and social media get their revenue partly (or almost completely in the social media case) by delivering advertising. The advertising delivery industry is unusual in that its product is something nobody wants. There is a reason people speak of subscription models as &lt;em&gt;alternatives&lt;/em&gt; to advertising (pay a subscription, see fewer or no ads); there are no business models where we pay more to see more ads. We go to newspapers and social media for something else, and put up with advertisements in order to get it.&lt;/p&gt;
+&lt;p&gt;The companies make their money by delivering advertising, but you will not see this anywhere in their public mission statements. &lt;em&gt;Google:&lt;/em&gt; &amp;ldquo;Our company mission is to organize the world&amp;rsquo;s information and make it universally accessible and useful.&amp;rdquo; &amp;ldquo;Facebook&amp;rsquo;s mission is to give people the power to build community and bring the world closer together.&amp;rdquo; &lt;em&gt;The New York Times:&lt;/em&gt; &amp;ldquo;Our mission is simple: We seek the truth and help people understand the world.&amp;rdquo; &lt;em&gt;The Globe and Mail:&lt;/em&gt; &amp;ldquo;To inspire and inform Canadians through courageous, empathetic, and honest journalism.&amp;rdquo; &lt;em&gt;The Guardian:&lt;/em&gt; &amp;ldquo;Our values were set out by CP Scott in his centenary leader in 1921. They are: honesty, integrity, courage, fairness, and a sense of duty to the reader and the community.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Delivering advertising is in direct conflict with the stated mission of each of these companies, all of which appeal to integrity and independence from financial manipulation. They can only manage both if they can sustain a clear boundary between advertising and &amp;ldquo;mission&amp;rdquo;. We see this conflict play out in continual policing and redrawing of this boundary.&lt;/p&gt;
+&lt;h2 id=&#34;newspaper-boundaries&#34;&gt;Newspaper boundaries&lt;/h2&gt;
+&lt;p&gt;Keeping the boundary intact has been particularly important to newspapers, because (as Coyne and Owen&amp;rsquo;s articles make clear) journalism is both an industry and a democractic institution.&lt;/p&gt;
+&lt;p&gt;Journalists and the news industry get special consideration because of the importance of a free and independent press: protection of sources, access to government, some level of immunity from prosecution. To justify this special treatment they have responsibilities to present the news fairly.&lt;/p&gt;
+&lt;p&gt;Taking a look at the partial and flawed, but still important, ways in which the news industry / free press has struggled around these boundaries helps provide a perspective on the challenge facing social media.&lt;/p&gt;
+&lt;p&gt;There are regulators like the Independent Press Standards Organization in the UK or the National Newsmedia Council in Canada to provide some level of accountability. But a self-regulating body (Canada) is vulnerable to corruption in one direction, while a government body is vulnerable to state interests. IPSO is  an arms-length regulator, and this is where many countries have settled: an uneasy middle, being pressed from both sides.&lt;/p&gt;
+&lt;p&gt;Organizationally, newspapers have established a tradition of editorial independence from publishers, supposed to set up a boundary between the money side of the business separate and the integrity of the mission.&lt;/p&gt;
+&lt;p&gt;Many newspapers also employ an ombudsperson to act as a voice for the reader.&lt;/p&gt;
+&lt;p&gt;The boundaries are also built into the organization of the newspaper itself: news on the front pages, opinion near the back, further divided into editorials giving the &amp;ldquo;opinion of the newspaper&amp;rdquo; and op-eds giving independent columnists space to debate their views.&lt;/p&gt;
+&lt;p&gt;The tensions are dynamic and continue to be stressed. All these institutions are flawed and imperfect.&lt;/p&gt;
+&lt;p&gt;Sometimes a news story will call out for commentary, so &amp;ldquo;analysis&amp;rdquo; or &amp;ldquo;editorial opinion&amp;rdquo; encroaches into the news pages, the boundary being propped up by subheads (&amp;ldquo;Editorial Analysis&amp;rdquo;) and even distinct typesetting &amp;ndash; it has been common to typeset opinion with ragged right, and news as justified.&lt;/p&gt;
+&lt;p&gt;Newspapers have long taken on a mandate that goes far beyond &amp;ldquo;news&amp;rdquo; in order to bring in more revenue: arts, sports, lifestyle and other material, where the boundaries between advertising and independent content have been policed in a more relaxed fashion.&lt;/p&gt;
+&lt;p&gt;News organizations always want to stretch the boundaries of &amp;ldquo;news&amp;rdquo; to include material with wide appeal (and deliver more advertising), and will use and abuse the protections and traditions of journalism to accomplish their goals. So we get the phone hacking scandal at News International, in which journalists undertook illegal and corrupt practices in pursuit of celebrity stories (news?) and pursued those who were part of real news stories, including hacking the phone of murdered schoolgirl Milly Dowler.&lt;/p&gt;
+&lt;p&gt;These tensions at all levels have continued to play out in the context of physical newspapers, and are tied to that medium. The boundaries have been redrawn, walls put in place, and thedjsadlak
+en they get pushed and stretched.&lt;/p&gt;
+&lt;p&gt;The public has a role to play here too, by virtue of its support. The abandonement of the News Of The World in the face of the hacking scandal led to the collapse of the newspaper.&lt;/p&gt;
+&lt;p&gt;If there is a lesson here it is that we cannot trust &amp;ldquo;values&amp;rdquo; or &amp;ldquo;culture&amp;rdquo;, or by setting bad guys against good guys. The pressures of commerce are too great on one side, and the temptations of censorship too strong on the other. An uneasy peace is perhaps the best we can hope for.&lt;/p&gt;
+&lt;p&gt;News governance is like a house of cards: it&amp;rsquo;s not that any card is good or bad, but that there is a continual effort to keep them balancing each other as we built it higher and higher. Move one, and the other card will fall over. The existing landscapes of media governance in different countries are incomplete houses of cards, but we should not lose track of the fact that at least a layer or two is in place.&lt;/p&gt;
+&lt;h2 id=&#34;social-media-and-the-news&#34;&gt;Social media and the news&lt;/h2&gt;
+&lt;p&gt;The social media industries set out to demolish the old industries, confident that they could do a better job of providing what society wants while also making money. Get rid of the gatekeepers, democratize the public square. Move fast and break things.&lt;/p&gt;
+&lt;p&gt;The governance problems have appeared, as they do with traditional journalism, at every level. IThis is not surprising because the conflicts are the same. But the reason social media companies have succeeded at advertising is the same reason they are failing in other ways: they have ambitions that go far beyond those of the news media, even those of the Murdoch empire. They want to universalize content: one platform on which to access the world.&lt;/p&gt;
+&lt;p&gt;The problems start with the word &amp;ldquo;content&amp;rdquo;, as if there is a single set of problems that must be solved to deliver content properly. Different forms of &amp;ldquo;content&amp;rdquo; demand different balancing acts. No matter how sophisticated the machine learning behind them, the governance rules they are putting in place are crude and will fail (see below). They are based on statistical models that will fail at the edges, which introduce new incentives to shift boundaries and invalidate their own recommendations.&lt;/p&gt;
+&lt;p&gt;Beyond a certain point doesn&amp;rsquo;t help, when developing governance tools, to look more and more closely at the content: the context is important too. For newspapers, the rules are different for a given piece of text depending on whether it is intended for an op-ed page, for a news page, on whether it will be typeset justified or ragged right.&lt;/p&gt;
+&lt;p&gt;(It does not help that Mark Zuckerberg and others have a naive understanding of how language works: that we have a pre-verbal &amp;ldquo;thought&amp;rdquo; which we then express.)&lt;/p&gt;
+&lt;p&gt;If social media has built a better mousetrap, as Andrew Coyne suggests, it&amp;rsquo;s not because it has done a better job of giving us the news we want. It&amp;rsquo;s done a better job of making advertising tolerable. One of the ways that newspapers make a living is, as said above, by bundling lots of non-news content along with the straight news.&lt;/p&gt;
+&lt;h2 id=&#34;coyne-again&#34;&gt;Coyne again&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s go back to Coyne and Owen. The rules for journalism and news are different to those for other forms of speech. The press has rights and responsibilities that are peculiar to it, however imperfectly this system works. We must talk, not about &amp;ldquo;content&amp;rdquo; or &amp;ldquo;information&amp;rdquo;, but news and journalism and how this public good gets produced.&lt;/p&gt;
+&lt;p&gt;We should accept that journalism, and particularly news and the investigative journalism that is its archetype, is a specific activity that may need unique rules to protect it (while at the same time preventing abuses such as the hacking scandals). It&amp;rsquo;s not just &amp;ldquo;content&amp;rdquo; or &amp;ldquo;speech&amp;rdquo;. It&amp;rsquo;s probably different to sports journalism, or arts journalism, although there I admit my views are unclear.&lt;/p&gt;
+&lt;p&gt;Investigate journalism cannot capture enough of the value that it produces to make money by itself. Wherever we look, news needs to be subsidized, by advertising, by other parts of a newspaper, or by the patronage of a benefactor. And yet, to sustain its integrity, it must stay at arms length from each of these supports.&lt;/p&gt;
+&lt;p&gt;Coyne&amp;rsquo;s opening paragraph is misleading. Should taxi drivers pay a fee to restaurants for every passenger they drop at the door? he asks. Should agents pay actors when the bring them a script? Then why should social media pay newspapers when a link from Facebook takes someone to a news site?&lt;/p&gt;
+&lt;p&gt;The idea is that FPB are connectors, bringing people to the news. &amp;ldquo;Facebook and Google don&amp;rsquo;t use our content, they link to it&amp;hellip; Facebook and Google send millions of readers and billions of page views our way every year.&amp;rdquo; Also: &amp;ldquo;links to news sources are a tiny fraction of what gets posted on Facebook, perhaps 5%. Google doesn&amp;rsquo;t even bother to sell ads against news searches&amp;hellip; Facebook and Google dominate online advertising because they built a better mousetrap.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Everyone selling advertising needs something to sell it against. Google sells ads against YouTube, against search results, against email, and acts as a global online ad broker to sell against everyone else&amp;rsquo;s content too. Similarly with Facebook. No longer is advertising the place for Leopold Bloom, a famous fictional nobody, walking the streets of Dublin to make a living: now advertising runs the world.&lt;/p&gt;
+&lt;h2 id=&#34;what-would-social-media-governance-look-like&#34;&gt;What would social media governance look like?&lt;/h2&gt;
+&lt;p&gt;Once we get rid of the idea of &amp;ldquo;content&amp;rdquo; or &amp;ldquo;speech&amp;rdquo; we have to realise that we are dealing with many different governance problems, each of which demands its own intricate framework of opposing and constantly-shifting pressures to establish anything like a balance.&lt;/p&gt;
+&lt;p&gt;Governing news is different from governing children&amp;rsquo;s entertainment, is different from governing neighbourhoods and communities, special-interest communities, marketplaces, political speech, confessional conversations of troubled youth, protest speech, scientific discovery and consensus, banking, education, sexual and violent imagery, support groups for people in physical or mental pain, and on and on.&lt;/p&gt;
+&lt;p&gt;Each of these activities, scales, discussions, whatever is its own world. The hubris and naivete of social media platforms is to believe that they can govern them all - to replace the institutions in each of these worlds with a single umbrella.&lt;/p&gt;
+&lt;p&gt;(Of course, the major platforms use much more than a single algorithm or system. Each service has its own, and there are increasingly complex triage mechanisms, organizing and managing material at both the organization and filtering/promotion lveels that they carry out. But these are still scratching the surface of the complexity of &amp;ldquo;all the world&amp;rsquo;s information&amp;rdquo;.)&lt;/p&gt;
+&lt;p&gt;Nobody asked Facebook or Google to take on the task of making money by selling advertisements against each of these worlds. They proclaimed that they could. They have no right to now whine that they are damned if they do, damned if they don&amp;rsquo;t, that they are trying hard to solve a problem that nobody warned them of. They took on the job with supreme confidence, not even pausing to wonder what it might involve.&lt;/p&gt;
+&lt;p&gt;Not only do each of these activities create different problems, they each create new tensions when placed as an advertising market, a market that demands attention in order to function.&lt;/p&gt;
+&lt;p&gt;Advertising to children, to people in distress, to other vulnerable people, to people looking for housing, to people at life-changing junctions of their lives, comes with responsibilities.&lt;/p&gt;
+&lt;p&gt;(Here is something I don&amp;rsquo;t understand. When we notice bias in ads, it often seems unimportant. Displaying this advertisement or that probably does not qualify as a decision with significant impact on the individual, for example under GDPR information processing rules. Advertisements do not seem to have the weight to support the globally important companies and upheavals that are taking place.)&lt;/p&gt;
+&lt;h2 id=&#34;bundles-and-subsidies&#34;&gt;Bundles and subsidies&lt;/h2&gt;
+&lt;p&gt;Newspapers work by cross-subsidising the material they publish. By bundling different kinds of thing together, they can survive on a combination of subscriptions and ads. Maybe you throw out the lifestyle section and I throw out the sports, but they come together as part of the bundle. Pick that bundle apart and the whole enterprise fails. The scoops give the enterprise standing, but it is not enough to sustain the newspapers by themselves.&lt;/p&gt;
+&lt;p&gt;So now what? We&amp;rsquo;ve bought into the new bundle - the internet subscription and the platform. Facebook and Google organize it for us.&lt;/p&gt;
+&lt;p&gt;When Andrew Coyne says that Facebook and Google &amp;ldquo;built a better mousetrap&amp;rdquo;, he means that they created a bigger organizational and delivery tool alongside which they can sell advertisements. Advertisement scales.&lt;/p&gt;
+&lt;p&gt;Governance of the contexts in which ads are sold is itself a matter of balance, with different balances for each context.&lt;/p&gt;
+&lt;p&gt;(Ads are not only unwanted and unliked and trivial, they are also inefficient. The &amp;ldquo;relevance&amp;rdquo; doctrine is on flimsy grounds. Companies are forced to spend money to build fences around their brand names, protecting each from the other, in an arms race that generates no value for anyone but FBG.) It&amp;rsquo;s a wasteful and corrosive foundation on which to build the core institutions of societies around the world.&lt;/p&gt;
+&lt;p&gt;What we have learned over the last decade is that the &amp;ldquo;community governance&amp;rdquo; model fails and the reputation / gamification model fails. These methods are too coarse, too vulnerable to gaming in their turn. And they completely fail to address the different specific governance needs of the contexts in which they appear.&lt;/p&gt;
+&lt;p&gt;(The argument that things go wrong only rarely is no defence. When things go wrong badly, that&amp;rsquo;s enough, and the general corrosion of discourse is the other side of that coin.)&lt;/p&gt;
+&lt;p&gt;As we have seen with news, drawing eyeballs is not enough of a measure of success.&lt;/p&gt;
+&lt;h2 id=&#34;what-do-we-lose&#34;&gt;What do we lose?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What do we lose if we lose newspapers? We lose a fragile and imperfect but valuable house of cards. We don&amp;rsquo;t just lose a product to be replaced by another &amp;ndash; a BlackBerry to be replaced by an iPhone, an old mousetrap replaced by a better. What we lose is a system of governance, and the platforms have nothing with which to replace it.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There are many things that can be done better in other ways, but right now all the social media promises are monolithic, and that is in itself a failure.&lt;/p&gt;
+&lt;p&gt;The present/old-fashioned news world is a compromise. We (the public/government) give you permission to create a business around news, but under conditions that have responsibilities, to keep the news clean. To manage the tension between producing news and making money.&lt;/p&gt;
+&lt;p&gt;Somewhere here is a story about the need for a diverse news environment, because each organization&amp;rsquo;s incentives created different news decisions.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s get more specific about the problems with news.&lt;/p&gt;
+&lt;p&gt;We know there are problems with mainstream media, and the consensus it has represented. Some of the most valuable voices come from outside this realm: committed journalism with unconventional viewpoints or specialist points of view. THe mainstream media has been one distribution system among many. Alternative media has always been important, and not just as an irritant.&lt;/p&gt;
+&lt;p&gt;So now what has changed? Those institutions that restrain the corrupting effects of money and ulterior agendas are not present when Facebook and Google relay the news. There is nothing to restrain the interests of money. It&amp;rsquo;s not a matter of free speech, it&amp;rsquo;s a matter of accountability and what countervailing mechanisms exist.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Uber-Optimistic</title>
@@ -69,24 +173,6 @@
 &lt;li&gt;A year ago, on &lt;a href=&#34;https://www.reuters.com/article/us-uber-results/uber-sees-profit-by-end-of-2020-but-still-expects-full-year-loss-idINKBN2002UQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;February 6 2020&lt;/a&gt;, Uber said it had a target &amp;ldquo;to achieve a measure of profitability to the fourth quarter of 2020, but the ride-hailing company still expects to lose a total of more than $1 billion this year&amp;rdquo;. It lost $6.8B.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;So, still not profitable.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Site Setup</title>
-      <link>/post/2021-02-07-site-setup/</link>
-      <pubDate>Sun, 07 Feb 2021 00:00:00 -0500</pubDate>
-      <guid>/post/2021-02-07-site-setup/</guid>
-      <description>&lt;p&gt;Configuration and notes to do this again the next time I lose everything.&lt;/p&gt;
-&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
-&lt;p&gt;The site is set up with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Pages&lt;/a&gt;, to host the published static content and serve it.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;, to generate the published static content from source.&lt;/li&gt;
-&lt;li&gt;The &lt;a href=&#34;https://themes.gohugo.io/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic theme&lt;/a&gt;, even though I&amp;rsquo;m not an academic, to style the web site presentation.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://orgmode.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Org mode&lt;/a&gt;, with &lt;a href=&#34;https://ox-hugo.scripter.co/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ox-hugo&lt;/a&gt;, to write the material. Although some files, including this, are written directly in markdown using &lt;a href=&#34;https://www.vim.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vim&lt;/a&gt; or &lt;a href=&#34;https://code.visualstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft VS Code&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;I&amp;rsquo;m currently working on the content in an Ubuntu &lt;a href=&#34;https://docs.microsoft.com/en-us/windows/wsl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WSL2&lt;/a&gt; instance on Windows, and using &lt;a href=&#34;https://mobaxterm.mobatek.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXTerm&lt;/a&gt; and/or &lt;a href=&#34;https://github.com/microsoft/terminal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Windows Terminal&lt;/a&gt; to get at it.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -24215,7 +24301,7 @@ All posts here will have the category set to &lt;em&gt;uber&lt;/em&gt;.&lt;/p&gt
 &lt;/div&gt;
 &lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-2&#34;&gt;
-Uber earnings Q4 2020
+Uber earnings Q4 2020&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;span class=&#34;tags&#34;&gt;&lt;span&gt;@uber&lt;/span&gt;&lt;/span&gt;
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;
@@ -24284,25 +24370,201 @@ The company still says it&amp;#39;s going to be profitable by the end of 2021. W
       <guid>/post/github-pages/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
-Meta&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;span class=&#34;tags&#34;&gt;&lt;span&gt;@meta&lt;/span&gt;&lt;/span&gt;
+Technology &amp;amp; Society&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;span class=&#34;tags&#34;&gt;&lt;span&gt;@techsoc&lt;/span&gt;&lt;/span&gt;
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+Advertising, news, and houses of cards
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;
+State: very rough first draft.&lt;/p&gt;
+&lt;p&gt;
+Australia, journalism, social media, house-of-cards governance.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-3&#34;&gt;
+Advertising is everywhere and nowhere
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;
+Yesterday&amp;#39;s Globe and Mail included two opinion pieces about the dispute between Australia and the social media giants Facebook and Google (henceforth FBG). Andrew Coyne sees it as a matter for the markets: unusually for a long-time journalist he says that newspapers need to deal with the fact that FBG &amp;#34;built a better mousetrap&amp;#34; and up their game. Taylor Owen sees it as an issue of democracy: FBG setting themselves up as global managers of speech, Chinese companies in the background.&lt;/p&gt;
+&lt;p&gt;
+Newspapers and social media get their revenue partly (or almost completely in the social media case) by delivering advertising. The advertising delivery industry is unusual in that its product is something nobody wants. There is a reason people speak of subscription models as &lt;em&gt;alternatives&lt;/em&gt; to advertising (pay a subscription, see fewer or no ads); there are no business models where we pay more to see more ads. We go to newspapers and social media for something else, and put up with advertisements in order to get it.&lt;/p&gt;
+&lt;p&gt;
+The companies make their money by delivering advertising, but you will not see this anywhere in their public mission statements. &lt;em&gt;Google:&lt;/em&gt; &amp;#34;Our company mission is to organize the world&amp;#39;s information and make it universally accessible and useful.&amp;#34; &amp;#34;Facebook&amp;#39;s mission is to give people the power to build community and bring the world closer together.&amp;#34; &lt;em&gt;The New York Times:&lt;/em&gt; &amp;#34;Our mission is simple: We seek the truth and help people understand the world.&amp;#34; &lt;em&gt;The Globe and Mail:&lt;/em&gt; &amp;#34;To inspire and inform Canadians through courageous, empathetic, and honest journalism.&amp;#34; &lt;em&gt;The Guardian:&lt;/em&gt; &amp;#34;Our values were set out by CP Scott in his centenary leader in 1921. They are: honesty, integrity, courage, fairness, and a sense of duty to the reader and the community.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Delivering advertising is in direct conflict with the stated mission of each of these companies, all of which appeal to integrity and independence from financial manipulation. They can only manage both if they can sustain a clear boundary between advertising and &amp;#34;mission&amp;#34;. We see this conflict play out in continual policing and redrawing of this boundary.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-4&#34;&gt;
+Newspaper boundaries
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;
+Keeping the boundary intact has been particularly important to newspapers, because (as Coyne and Owen&amp;#39;s articles make clear) journalism is both an industry and a democractic institution.&lt;/p&gt;
+&lt;p&gt;
+Journalists and the news industry get special consideration because of the importance of a free and independent press: protection of sources, access to government, some level of immunity from prosecution. To justify this special treatment they have responsibilities to present the news fairly.&lt;/p&gt;
+&lt;p&gt;
+Taking a look at the partial and flawed, but still important, ways in which the news industry / free press has struggled around these boundaries helps provide a perspective on the challenge facing social media.&lt;/p&gt;
+&lt;p&gt;
+There are regulators like the Independent Press Standards Organization in the UK or the National Newsmedia Council in Canada to provide some level of accountability. But a self-regulating body (Canada) is vulnerable to corruption in one direction, while a government body is vulnerable to state interests. IPSO is  an arms-length regulator, and this is where many countries have settled: an uneasy middle, being pressed from both sides.&lt;/p&gt;
+&lt;p&gt;
+Organizationally, newspapers have established a tradition of editorial independence from publishers, supposed to set up a boundary between the money side of the business separate and the integrity of the mission.&lt;/p&gt;
+&lt;p&gt;
+Many newspapers also employ an ombudsperson to act as a voice for the reader.&lt;/p&gt;
+&lt;p&gt;
+The boundaries are also built into the organization of the newspaper itself: news on the front pages, opinion near the back, further divided into editorials giving the &amp;#34;opinion of the newspaper&amp;#34; and op-eds giving independent columnists space to debate their views.&lt;/p&gt;
+&lt;p&gt;
+The tensions are dynamic and continue to be stressed. All these institutions are flawed and imperfect.&lt;/p&gt;
+&lt;p&gt;
+Sometimes a news story will call out for commentary, so &amp;#34;analysis&amp;#34; or &amp;#34;editorial opinion&amp;#34; encroaches into the news pages, the boundary being propped up by subheads (&amp;#34;Editorial Analysis&amp;#34;) and even distinct typesetting – it has been common to typeset opinion with ragged right, and news as justified.&lt;/p&gt;
+&lt;p&gt;
+Newspapers have long taken on a mandate that goes far beyond &amp;#34;news&amp;#34; in order to bring in more revenue: arts, sports, lifestyle and other material, where the boundaries between advertising and independent content have been policed in a more relaxed fashion.&lt;/p&gt;
+&lt;p&gt;
+News organizations always want to stretch the boundaries of &amp;#34;news&amp;#34; to include material with wide appeal (and deliver more advertising), and will use and abuse the protections and traditions of journalism to accomplish their goals. So we get the phone hacking scandal at News International, in which journalists undertook illegal and corrupt practices in pursuit of celebrity stories (news?) and pursued those who were part of real news stories, including hacking the phone of murdered schoolgirl Milly Dowler.&lt;/p&gt;
+&lt;p&gt;
+These tensions at all levels have continued to play out in the context of physical newspapers, and are tied to that medium. The boundaries have been redrawn, walls put in place, and thedjsadlak
+en they get pushed and stretched.&lt;/p&gt;
+&lt;p&gt;
+The public has a role to play here too, by virtue of its support. The abandonement of the News Of The World in the face of the hacking scandal led to the collapse of the newspaper.&lt;/p&gt;
+&lt;p&gt;
+If there is a lesson here it is that we cannot trust &amp;#34;values&amp;#34; or &amp;#34;culture&amp;#34;, or by setting bad guys against good guys. The pressures of commerce are too great on one side, and the temptations of censorship too strong on the other. An uneasy peace is perhaps the best we can hope for.&lt;/p&gt;
+&lt;p&gt;
+News governance is like a house of cards: it&amp;#39;s not that any card is good or bad, but that there is a continual effort to keep them balancing each other as we built it higher and higher. Move one, and the other card will fall over. The existing landscapes of media governance in different countries are incomplete houses of cards, but we should not lose track of the fact that at least a layer or two is in place.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-5&#34;&gt;
+Social media and the news
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;
+The social media industries set out to demolish the old industries, confident that they could do a better job of providing what society wants while also making money. Get rid of the gatekeepers, democratize the public square. Move fast and break things.&lt;/p&gt;
+&lt;p&gt;
+The governance problems have appeared, as they do with traditional journalism, at every level. IThis is not surprising because the conflicts are the same. But the reason social media companies have succeeded at advertising is the same reason they are failing in other ways: they have ambitions that go far beyond those of the news media, even those of the Murdoch empire. They want to universalize content: one platform on which to access the world.&lt;/p&gt;
+&lt;p&gt;
+The problems start with the word &amp;#34;content&amp;#34;, as if there is a single set of problems that must be solved to deliver content properly. Different forms of &amp;#34;content&amp;#34; demand different balancing acts. No matter how sophisticated the machine learning behind them, the governance rules they are putting in place are crude and will fail (see below). They are based on statistical models that will fail at the edges, which introduce new incentives to shift boundaries and invalidate their own recommendations.&lt;/p&gt;
+&lt;p&gt;
+Beyond a certain point doesn&amp;#39;t help, when developing governance tools, to look more and more closely at the content: the context is important too. For newspapers, the rules are different for a given piece of text depending on whether it is intended for an op-ed page, for a news page, on whether it will be typeset justified or ragged right.&lt;/p&gt;
+&lt;p&gt;
+(It does not help that Mark Zuckerberg and others have a naive understanding of how language works: that we have a pre-verbal &amp;#34;thought&amp;#34; which we then express.)&lt;/p&gt;
+&lt;p&gt;
+If social media has built a better mousetrap, as Andrew Coyne suggests, it&amp;#39;s not because it has done a better job of giving us the news we want. It&amp;#39;s done a better job of making advertising tolerable. One of the ways that newspapers make a living is, as said above, by bundling lots of non-news content along with the straight news.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-6&#34;&gt;
+Coyne again
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;
+Let&amp;#39;s go back to Coyne and Owen. The rules for journalism and news are different to those for other forms of speech. The press has rights and responsibilities that are peculiar to it, however imperfectly this system works. We must talk, not about &amp;#34;content&amp;#34; or &amp;#34;information&amp;#34;, but news and journalism and how this public good gets produced.&lt;/p&gt;
+&lt;p&gt;
+We should accept that journalism, and particularly news and the investigative journalism that is its archetype, is a specific activity that may need unique rules to protect it (while at the same time preventing abuses such as the hacking scandals). It&amp;#39;s not just &amp;#34;content&amp;#34; or &amp;#34;speech&amp;#34;. It&amp;#39;s probably different to sports journalism, or arts journalism, although there I admit my views are unclear.&lt;/p&gt;
+&lt;p&gt;
+Investigate journalism cannot capture enough of the value that it produces to make money by itself. Wherever we look, news needs to be subsidized, by advertising, by other parts of a newspaper, or by the patronage of a benefactor. And yet, to sustain its integrity, it must stay at arms length from each of these supports.&lt;/p&gt;
+&lt;p&gt;
+Coyne&amp;#39;s opening paragraph is misleading. Should taxi drivers pay a fee to restaurants for every passenger they drop at the door? he asks. Should agents pay actors when the bring them a script? Then why should social media pay newspapers when a link from Facebook takes someone to a news site?&lt;/p&gt;
+&lt;p&gt;
+The idea is that FPB are connectors, bringing people to the news. &amp;#34;Facebook and Google don&amp;#39;t use our content, they link to it… Facebook and Google send millions of readers and billions of page views our way every year.&amp;#34; Also: &amp;#34;links to news sources are a tiny fraction of what gets posted on Facebook, perhaps 5%. Google doesn&amp;#39;t even bother to sell ads against news searches… Facebook and Google dominate online advertising because they built a better mousetrap.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Everyone selling advertising needs something to sell it against. Google sells ads against YouTube, against search results, against email, and acts as a global online ad broker to sell against everyone else&amp;#39;s content too. Similarly with Facebook. No longer is advertising the place for Leopold Bloom, a famous fictional nobody, walking the streets of Dublin to make a living: now advertising runs the world.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-7&#34;&gt;
+What would social media governance look like?
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-7&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;
+Once we get rid of the idea of &amp;#34;content&amp;#34; or &amp;#34;speech&amp;#34; we have to realise that we are dealing with many different governance problems, each of which demands its own intricate framework of opposing and constantly-shifting pressures to establish anything like a balance.&lt;/p&gt;
+&lt;p&gt;
+Governing news is different from governing children&amp;#39;s entertainment, is different from governing neighbourhoods and communities, special-interest communities, marketplaces, political speech, confessional conversations of troubled youth, protest speech, scientific discovery and consensus, banking, education, sexual and violent imagery, support groups for people in physical or mental pain, and on and on.&lt;/p&gt;
+&lt;p&gt;
+Each of these activities, scales, discussions, whatever is its own world. The hubris and naivete of social media platforms is to believe that they can govern them all - to replace the institutions in each of these worlds with a single umbrella.&lt;/p&gt;
+&lt;p&gt;
+(Of course, the major platforms use much more than a single algorithm or system. Each service has its own, and there are increasingly complex triage mechanisms, organizing and managing material at both the organization and filtering/promotion lveels that they carry out. But these are still scratching the surface of the complexity of &amp;#34;all the world&amp;#39;s information&amp;#34;.)&lt;/p&gt;
+&lt;p&gt;
+Nobody asked Facebook or Google to take on the task of making money by selling advertisements against each of these worlds. They proclaimed that they could. They have no right to now whine that they are damned if they do, damned if they don&amp;#39;t, that they are trying hard to solve a problem that nobody warned them of. They took on the job with supreme confidence, not even pausing to wonder what it might involve.&lt;/p&gt;
+&lt;p&gt;
+Not only do each of these activities create different problems, they each create new tensions when placed as an advertising market, a market that demands attention in order to function.&lt;/p&gt;
+&lt;p&gt;
+Advertising to children, to people in distress, to other vulnerable people, to people looking for housing, to people at life-changing junctions of their lives, comes with responsibilities.&lt;/p&gt;
+&lt;p&gt;
+(Here is something I don&amp;#39;t understand. When we notice bias in ads, it often seems unimportant. Displaying this advertisement or that probably does not qualify as a decision with significant impact on the individual, for example under GDPR information processing rules. Advertisements do not seem to have the weight to support the globally important companies and upheavals that are taking place.)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-8&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-8&#34;&gt;
+Bundles and subsidies
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-8&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;
+Newspapers work by cross-subsidising the material they publish. By bundling different kinds of thing together, they can survive on a combination of subscriptions and ads. Maybe you throw out the lifestyle section and I throw out the sports, but they come together as part of the bundle. Pick that bundle apart and the whole enterprise fails. The scoops give the enterprise standing, but it is not enough to sustain the newspapers by themselves.&lt;/p&gt;
+&lt;p&gt;
+So now what? We&amp;#39;ve bought into the new bundle - the internet subscription and the platform. Facebook and Google organize it for us.&lt;/p&gt;
+&lt;p&gt;
+When Andrew Coyne says that Facebook and Google &amp;#34;built a better mousetrap&amp;#34;, he means that they created a bigger organizational and delivery tool alongside which they can sell advertisements. Advertisement scales.&lt;/p&gt;
+&lt;p&gt;
+Governance of the contexts in which ads are sold is itself a matter of balance, with different balances for each context.&lt;/p&gt;
+&lt;p&gt;
+(Ads are not only unwanted and unliked and trivial, they are also inefficient. The &amp;#34;relevance&amp;#34; doctrine is on flimsy grounds. Companies are forced to spend money to build fences around their brand names, protecting each from the other, in an arms race that generates no value for anyone but FBG.) It&amp;#39;s a wasteful and corrosive foundation on which to build the core institutions of societies around the world.&lt;/p&gt;
+&lt;p&gt;
+What we have learned over the last decade is that the &amp;#34;community governance&amp;#34; model fails and the reputation / gamification model fails. These methods are too coarse, too vulnerable to gaming in their turn. And they completely fail to address the different specific governance needs of the contexts in which they appear.&lt;/p&gt;
+&lt;p&gt;
+(The argument that things go wrong only rarely is no defence. When things go wrong badly, that&amp;#39;s enough, and the general corrosion of discourse is the other side of that coin.)&lt;/p&gt;
+&lt;p&gt;
+As we have seen with news, drawing eyeballs is not enough of a measure of success.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-9&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-9&#34;&gt;
+What do we lose?
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-9&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;
+&lt;strong&gt;What do we lose if we lose newspapers? We lose a fragile and imperfect but valuable house of cards. We don&amp;#39;t just lose a product to be replaced by another – a BlackBerry to be replaced by an iPhone, an old mousetrap replaced by a better. What we lose is a system of governance, and the platforms have nothing with which to replace it.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+There are many things that can be done better in other ways, but right now all the social media promises are monolithic, and that is in itself a failure.&lt;/p&gt;
+&lt;p&gt;
+The present/old-fashioned news world is a compromise. We (the public/government) give you permission to create a business around news, but under conditions that have responsibilities, to keep the news clean. To manage the tension between producing news and making money.&lt;/p&gt;
+&lt;p&gt;
+Somewhere here is a story about the need for a diverse news environment, because each organization&amp;#39;s incentives created different news decisions.&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s get more specific about the problems with news.&lt;/p&gt;
+&lt;p&gt;
+We know there are problems with mainstream media, and the consensus it has represented. Some of the most valuable voices come from outside this realm: committed journalism with unconventional viewpoints or specialist points of view. THe mainstream media has been one distribution system among many. Alternative media has always been important, and not just as an irritant.&lt;/p&gt;
+&lt;p&gt;
+So now what has changed? Those institutions that restrain the corrupting effects of money and ulterior agendas are not present when Facebook and Google relay the news. There is nothing to restrain the interests of money. It&amp;#39;s not a matter of free speech, it&amp;#39;s a matter of accountability and what countervailing mechanisms exist.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-10&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-10&#34;&gt;
+Meta&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;span class=&#34;tags&#34;&gt;&lt;span&gt;@meta&lt;/span&gt;&lt;/span&gt;
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-10&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;
 All posts here will have the category set to &lt;em&gt;meta&lt;/em&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-2&#34;&gt;
+&lt;div id=&#34;outline-container-headline-11&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-11&#34;&gt;
 Site setup
 &lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;div id=&#34;outline-text-headline-11&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;
 Configuration and notes to do this again the next time I lose everything.&lt;/p&gt;
-&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-4&#34;&gt;
-&lt;h4 id=&#34;headline-3&#34;&gt;
+&lt;div id=&#34;outline-container-headline-12&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-12&#34;&gt;
 Configuration
 &lt;/h4&gt;
-&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;div id=&#34;outline-text-headline-12&#34; class=&#34;outline-text-4&#34;&gt;
 &lt;p&gt;
 The site is set up with:&lt;/p&gt;
 &lt;ul&gt;
@@ -24324,11 +24586,11 @@ The site is set up with:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-4&#34;&gt;
-&lt;h4 id=&#34;headline-4&#34;&gt;
+&lt;div id=&#34;outline-container-headline-13&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-13&#34;&gt;
 How to
 &lt;/h4&gt;
-&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;div id=&#34;outline-text-headline-13&#34; class=&#34;outline-text-4&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Install hugo (extended version), which may need you to install golang.&lt;/p&gt;
