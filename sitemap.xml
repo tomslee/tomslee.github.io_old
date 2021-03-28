@@ -3,52 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication/2021-03-29-ubertransit/</loc>
+    <lastmod>2021-03-28T08:17:10-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2021-02-07-site-setup/</loc>
     <lastmod>2021-02-07T11:57:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2021-02-28-houses-of-cards/</loc>
-    <lastmod>2021-02-28T13:36:39-05:00</lastmod>
+    <loc>/post/2021-02-10-uber-earnings/</loc>
+    <lastmod>2021-03-28T07:20:11-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2021-02-10-uber-earnings/</loc>
-    <lastmod>2021-02-28T11:44:13-05:00</lastmod>
+    <loc>/post/2021-02-28-houses-of-cards/</loc>
+    <lastmod>2021-03-19T11:45:04-04:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-02-28T13:36:39-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2021-02-28T13:36:39-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/techsoc/</loc>
-    <lastmod>2021-02-28T13:36:39-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2021-02-28T13:36:39-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/uber/</loc>
-    <lastmod>2021-02-28T11:44:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/workaround-medical/</loc>
-    <lastmod>2019-08-05T14:25:22-04:00</lastmod>
+    <lastmod>2021-03-28T08:17:10-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/</loc>
+    <lastmod>2021-03-28T08:17:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-03-28T08:17:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/uber/</loc>
+    <lastmod>2021-03-28T08:17:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2021-03-28T07:20:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/techsoc/</loc>
+    <lastmod>2021-03-19T11:45:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/workaround-medical/</loc>
     <lastmod>2019-08-05T14:25:22-04:00</lastmod>
   </url>
   
@@ -2587,6 +2592,10 @@
   
   <url>
     <loc>/post/github-pages/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/github-pages-uber/</loc>
   </url>
   
   <url>
